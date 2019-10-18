@@ -30,7 +30,6 @@ const About = (props: Props) => {
 	`);
 
 	const siteTitle = data.site.siteMetadata.title;
-	const posts = data.allMarkdownRemark.edges;
 
 	return (
 		<Layout location={props.location} title={siteTitle}>

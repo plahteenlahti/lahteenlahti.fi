@@ -1,6 +1,6 @@
 ---
-title: "Announcing Eduality"
-date: "2017-08-24"
+title: 'Announcing Eduality'
+date: '2017-08-24'
 ---
 
 ![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/50063-1cj-ky2ni68xlmlrrqnlk0a.png)
