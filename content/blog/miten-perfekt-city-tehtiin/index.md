@@ -1,0 +1,24 @@
+---
+title: "Miten Perfekt City tehtiin"
+date: "2017-09-12"
+---
+
+![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/fd63c-12hxdzhjnc5z5olvqbhi_3q.jpeg)
+
+#### Miten avoimen datan avulla luotiin työkalu kaupunkisuunnitteluun
+
+Viime Heinäkuussa törmäsimme sattumalta työkaverini Felixin kanssa Ultrahackin ja NASA:n yhdessä järjestämään NASA Europa Challenge -innovaatiokilpailuun. Kansainväliseen kilpailuun etsittiin ratkaisuja, jotka hyödyntäisivät satelliittidataa, NASA:n kehittämää kartta-alustaa ja avoimia datalähteitä. Voittajaksi kilpailussa selviytyisi ratkaisu, joka _parhaiten onnistuisi tekemään maapallosta ja kaupungeista asuttavampia_ juurikin avointa dataa hyödyntämällä. Päätimme Felixin kanssa tarttua haasteeseen, vaikka suoraan meiltä ei ratkaisua haasteeseen löytynytkään. Mahdollisuus päästä kehittämään avoimen datan avulla hyödyllinen sovellus NASA:lle oli riittävä motivaatio jo yksinään.
+
+Etsiessämme inspiraatiota erilaisista avoimista tietolähteistä huomasimme, että kaikkein eniten dataa oli löydettävissä pääkaupunkiseudulta. Keskustelu lähti tämän huomion seurauksena pyörimään kaupunkisuunnittelun ympärillä ja lopulta päädyimme miettimään millaista palvelua olisi miellyttävää käyttää kaupunkisuunnittelun apuna. Palvelu sopi todella hyvin innovaatiokilpailun aiheeseen — paras tapa tehdä maailmasta asuttavampi on tehdä kaupungeista parempia asumiseen. Palvelu sai nimekseen Perfekt City; sanaleikkinä yrityksemme nimestä.
+
+Kilpailun sääntöjen mukaisesti ratkaisussa olisi käytettävä NASA:n avoimen lähdekoodin Web World Wind -kirjastoa, joka on käytännössä avoimempi ja laajempi Google Earth. Erittäin hyvän dokumentaation avulla kirjaston päälle on helppo rakentaa erilaisia datakerroksia ja esittää niitä kolmiulotteisen maapallon pinnalla. Monet ominaisuudet, joita suunnittelimme palvelun osaksi, vaativat kuitenkin muuta kuin pelkkää datan esittämistä sillä emme halunneet vain räiskiä erilaisia datalähteitä kartalle. Halusimme työkalumme tulevan oikeaan käyttöön ja tuottavan arvoa useille eri käyttäjille. Meidän oli siis tutustuttava perinpohjaisesti sekä Web World Wind -kirjastoon että palvelumme potentiaaliseen käyttäjäryhmään.
+
+Siinä missä Felix tutustui Web World Wind -kirjaston saloihin, käytin omat kesäiset iltapäiväni soitellen kaupunkisuunnittelun päälle ymmärtävien tuttujeni perään ja haastatellen heitä. Monessa kohtaa esille nousi nykyisten työkalujen kankea käytettävyys sekä se, miten kaupunkisuunnittelussa onnistumisen edellytyksenä on QGIS-ohjelmiston taitaminen. Kehittämällemme työkalulle oli siis olemassa kilpailija, joten tehdäksemme palvelustamme parempi, oli meidän löydettävä ominaisuuksia joita kilpailijasta ei löytyisi. Johtuen kuitenkin QGIS-ohjelmiston yleisyydestä kaupunkisuunnittelupiireissä ymmärsimme, että palvelua piti orientoida enemmän laajan yleisön käyttöön, jottei se olisi vain QGIS-ohjelmiston kopio.
+
+Felixin vahva kiinnostus avoimeen dataan paljastui projektin menestysreseptiksi. Monessa tapauksessa oikeanlaisen datan löytäminen kävi yllättävän helposti, kun Felix haki ulkomuististaan mitä erikoisempien datasettien nimiä, joita työkalu voisi hyödyntää. Ei vienyt kauaa, kun meillä olikin kasassa ensimmäinen versio palvelusta, jolla visualisoimme rakennuksiin ja joukkoliikenteeseen liittyvää dataa.
+
+Pääsimme projektimme johdosta lopulta myös Nokian Executive Excellence centerissä järjestettävään finaaliin. Kilpailijoita oli kutsuttu ympäri maailmaa ja ratkaisut olivat hyvin erilaisia — maapallosta on mahdollista tehdä asuttavampi monella tapaa. Yhteensä 12:sta finalistista ainoastaan me olimme kuitenkin keskittyneet kaupunkeihin liittyvän datan esittämiseen ja keräsimmekin tapahtuman aikana runsaasti mielenkiintoa monilta tahoilta. Esille tulleet puutteet, toiveet ja kehitysehdotukset otimme kaikki ylös työkalun jatkokehitystä varten.
+
+Huolimatta siitä, että palvelun kehitys lähti kesäisenä sivuprojektina liikkeelle, ei Perfekt Cityn jatkokehitystä ole missään nimessä kuopattu. Seuraavaa versiota onkin kehitetty rauhallisella tahdilla muilta projekteilta ehdittäessä. Projektin aikana huomasimme myös miksi tällaisten avoimen lähdekoodin ja avoimen datan ohjelmistojen kehittäminen on tärkeää yrityksen itsensä kehittymisen kannalta. Monet tietolähteet, joita päädyimme käyttämään olivat muille yrityksemme työntekijöille aikaisemmin tuntemattomia. Projektin kulkua seuratessaan moni heistä kuitenkin kiinnostui tutkimaan asiaa ja eri avoimen datan rajapinnoista on tullut aikaisempaa huomattavasti yleisempi kahvihuonekeskustelu.
+
+Lisätietoa Perfekt City työkalusta on löydettävissä [www.perfekt.city](http://www.perfekt.city)
