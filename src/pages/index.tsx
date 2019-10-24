@@ -16,6 +16,11 @@ const Title = styled.h3`
 	margin-bottom: ${rhythm(1 / 4)};
 `;
 
+const ReadingTime = styled.div`
+	display: inline;
+	margin-left: ${rhythm(1 / 4)};
+`;
+
 type Props = PageRendererProps;
 
 const BlogIndex = (props: Props) => {
@@ -32,6 +37,9 @@ const BlogIndex = (props: Props) => {
 						excerpt
 						fields {
 							slug
+							readingTime {
+								text
+							}
 						}
 						frontmatter {
 							date(formatString: "MMMM DD, YYYY")
@@ -57,6 +65,7 @@ const BlogIndex = (props: Props) => {
 				const frontmatter = node!.frontmatter!;
 				const fields = node!.fields!;
 				const slug = fields.slug!;
+				const readingTime = fields.readingTime.text!;
 				const excerpt = node!.excerpt!;
 
 				const title = frontmatter.title || fields.slug;
@@ -65,7 +74,8 @@ const BlogIndex = (props: Props) => {
 						<Title>
 							<StyledLink to={slug}>{title}</StyledLink>
 						</Title>
-						<small>{frontmatter.date}</small>
+						<time>{frontmatter.date}</time>
+						<ReadingTime>{readingTime}</ReadingTime>
 						<p
 							dangerouslySetInnerHTML={{
 								__html: frontmatter.description || excerpt,

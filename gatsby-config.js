@@ -9,6 +9,8 @@ module.exports = {
 		},
 	},
 	plugins: [
+		`gatsby-remark-reading-time`,
+		`gatsby-plugin-dark-mode`,
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
@@ -57,8 +59,8 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: `Gatsby Starter Blog`,
-				short_name: `GatsbyJS`,
+				name: `Blog by Perttu Lähteenlahti`,
+				short_name: `Perttu`,
 				start_url: `/`,
 				background_color: `#ffffff`,
 				theme_color: `#663399`,
