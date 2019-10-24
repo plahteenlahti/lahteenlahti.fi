@@ -18,7 +18,9 @@ export const createPages: GatsbyCreatePages = async ({
 	const allMarkdown = await graphql(`
 		{
 			allMarkdownRemark(
-				filter: { frontmatter: { draft: { ne: true } } }
+				filter: {
+					frontmatter: { draft: { ne: true }, collection: { eq: "blog" } }
+				}
 				sort: { fields: [frontmatter___date], order: DESC }
 				limit: 1000
 			) {
@@ -51,6 +53,17 @@ export const createPages: GatsbyCreatePages = async ({
 			path: post.node.fields.slug,
 			// tslint:disable-next-line:object-literal-sort-keys
 			component: path.resolve(`./src/templates/blog-post.tsx`),
+			context: {
+				next,
+				previous,
+				slug: post.node.fields.slug
+			}
+		});
+
+		createPage({
+			path: post.node.fields.slug,
+			// tslint:disable-next-line:object-literal-sort-keys
+			component: path.resolve(`./src/templates/weekly.tsx`),
 			context: {
 				next,
 				previous,

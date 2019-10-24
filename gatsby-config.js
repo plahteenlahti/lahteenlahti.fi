@@ -26,6 +26,13 @@ module.exports = {
 			}
 		},
 		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				path: `${__dirname}/content/weeklies`,
+				name: `weeklies`
+			}
+		},
+		{
 			resolve: `gatsby-transformer-remark`,
 			options: {
 				plugins: [
@@ -52,7 +59,7 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
-				//trackingId: `ADD YOUR TRACKING ID HERE`,
+				trackingId: `UA-112021087-1`
 			}
 		},
 		`gatsby-plugin-feed`,

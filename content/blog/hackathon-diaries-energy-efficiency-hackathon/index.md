@@ -1,6 +1,6 @@
 ---
-title: "Hack Report: Energy Efficiency Hackathon"
-date: "2018-03-02"
+title: 'Hackathon Diaries: Energy Efficiency Hackathon'
+date: '2018-03-02'
 ---
 
 ![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/80ec4-19mpluf0virj4_6jhxecwfq.png)

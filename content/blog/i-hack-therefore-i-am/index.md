@@ -1,6 +1,6 @@
 ---
-title: "I hack, therefore I am?"
-date: "2017-08-24"
+title: 'I hack, therefore I am?'
+date: '2017-08-24'
 ---
 
 #### Some stories and thoughts from hackathons
@@ -25,7 +25,7 @@ But I did end up participating in that hackathon despite the fact my computer br
 
 In the end, I did not have to use that lie at all. I ended up joining a team which consisted of some peculiar computer scientist and for most of the weekend I looked in awe of how good one them was at coding up a webpage. One of them also tried to fix my computer (despite the good effort I eventually ended up walking to a 24/7 IT-kiosk in the middle of the night and buying a new one). Anyway, our team mostly talked shit, and ate pizza instead of some serious hacking. We had fun, and although we did not win, my competitive soul did not feel even slightly defeated.
 
-I continued running into my team members from time to time after the hackathon. About a year ago [we founded a company together](https://www.perfektio.fi/en).
+I continued running into my team members from time to time after the hackathon and once founded a company with them.
 
 ### The adverse effects of attending hackathons
 
@@ -34,8 +34,6 @@ Loss of sleep, arrhythmia (so many energy drinks), severe anxiety, broken heart,
 Besides to all the shitty things your body wants to go through during the hackathons there are some things you don’t see coming. About half a year ago, while I was participating in two hackathons at the same time, I got into an argument with my team. The argument was about, whether we should just quit because after continuous hours of working we were still no closer to solving the problem. At that exact same time, my then girlfriend was seeking comfort from another man, which I accidentally found out a day later. Oh and my team was right, we should have quit, as it turned out to be that we had actually reinvented the wheel and no one wants to award that.
 
 The most noticeable adverse effect of attending hackathons is the loss of free time. I’ve become decent at doing other things during hackathon weekends. For example in this years Ultrahack, I competed in three teams (which all ended up winning prizes) and also moved from my old apartment to a new one in a single weekend.
-
- 
 
 ##### But why even go then?
 

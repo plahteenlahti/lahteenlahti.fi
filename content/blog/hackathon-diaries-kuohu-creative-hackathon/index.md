@@ -1,6 +1,6 @@
 ---
-title: "Hack Report: Kuohu Creative hackathon"
-date: "2017-11-12"
+title: 'Hackathon Diaries: Kuohu Creative hackathon'
+date: '2017-11-12'
 ---
 
 ![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/9a7cd-1bcumzhx6qymnlyw3dac4bq.jpeg)
