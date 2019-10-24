@@ -1,7 +1,9 @@
 @media (prefers-color-scheme: dark) {
 	body {
+		transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 		--bg: white;
 		--textNormal: #222;
+		--textSecondary: #222;
 		--textTitle: #222;
 		--textLink: blue;
 		--hr: hsla(0, 0%, 0%, 0.2);
@@ -12,6 +14,7 @@
 		-webkit-font-smoothing: antialiased;
 		--bg: rgb(23, 26, 26);
 		--textNormal: rgba(255, 255, 255, 0.88);
+		--textSecondary: rgba(255, 255, 255, 0.5);
 		--textTitle: white;
 		--textLink: #4aefd5;
 		--hr: hsla(0, 0%, 100%, 0.2);
@@ -22,6 +25,7 @@
 	body {
 		--bg: white;
 		--textNormal: #222;
+		--textSecondary: #222;
 		--textTitle: #222;
 		--textLink: blue;
 		--hr: hsla(0, 0%, 0%, 0.2);
@@ -32,6 +36,7 @@
 		-webkit-font-smoothing: antialiased;
 		--bg: rgb(23, 26, 26);
 		--textNormal: rgba(255, 255, 255, 0.88);
+		--textSecondary: rgba(255, 255, 255, 0.5);
 		--textTitle: white;
 		--textLink: #4aefd5;
 		--hr: hsla(0, 0%, 100%, 0.2);
@@ -47,7 +52,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+footer,
+div,
+time {
 	color: var(--textNormal);
 	transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) color;
 }

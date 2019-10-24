@@ -1,13 +1,11 @@
 ---
-title: "Designing a winning hackathon concept"
-date: "2019-01-11"
+title: 'Designing a winning hackathon concept'
+date: '2019-01-11'
 ---
 
 #### Using a service design mindset to win hackathons
 
 The nature of hackathons has changed during the past years and hackathons are no longer pure 24h+ coding sprints. Of course, coding still plays a large role in hackathons, and nicely coded things are still highly regarded. But nowadays the service concept behind the hackathon project, design of the service, and business model also play a key role. Service designed solutions in hackathons are now more common than ever. **But what is service design and how do you design service in a hackathon?**
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/767b4-1oapdvgmdzcgyoch11a8v6a.png)
 
 I decided to put together a small guide on how to do successful service design in a hackathon and create a good concept (service idea). My method focuses heavily on the problem-solving aspect of it all because all good services and products always solve a customer’s problem. The following process is based on how I've done things in hackathons, and it has proved to be very successful in a variety of hackathons. By using these methods I won most over 40+ hackathons.
 

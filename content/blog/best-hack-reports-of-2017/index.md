@@ -1,6 +1,7 @@
 ---
-title: "Best Hack Reports of 2017"
-date: "2017-12-24"
+title: 'Best Hack Reports of 2017'
+date: '2017-12-24'
+draft: true
 ---
 
 ![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/e9cd9-1ygvmok7xr1kerqbhlzxtxg.png)
@@ -69,7 +70,7 @@ Most of the 2017 Hack Reports have been written either by me or [Olli Savisaari]
 
 In the year 2018 we plan to continue what we started with Hack Reports. However the focus is going to change a little, there’s going to be a lot more content, and hopefully a lot more writers. The experimentation however is not going to stop but instead become a even bigger part of our hackathon strategy.
 
-* * *
+---
 
 #### About Hack Report
 

@@ -1,6 +1,6 @@
 ---
-title: "Hack Report: Talking Plants with Fiskars"
-date: "2017-09-19"
+title: 'Hackathon Diaries: Talking Plants with Fiskars'
+date: '2017-09-19'
 ---
 
 ![](https://cdn-images-1.medium.com/max/2000/1*tpy57UFtPrsCEjMQHeT0jg.jpeg)

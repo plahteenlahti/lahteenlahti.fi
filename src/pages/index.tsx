@@ -16,9 +16,15 @@ const Title = styled.h3`
 	margin-bottom: ${rhythm(1 / 4)};
 `;
 
+const Time = styled.time`
+	display: inline;
+	color: var(--textSecondary);
+`;
+
 const ReadingTime = styled.div`
 	display: inline;
-	margin-left: ${rhythm(1 / 4)};
+	color: var(--textSecondary);
+	margin-left: ${rhythm(1 / 2)};
 `;
 
 type Props = PageRendererProps;
@@ -31,7 +37,10 @@ const BlogIndex = (props: Props) => {
 					title
 				}
 			}
-			allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+			allMarkdownRemark(
+				filter: { frontmatter: { draft: { ne: true } } }
+				sort: { fields: [frontmatter___date], order: DESC }
+			) {
 				edges {
 					node {
 						excerpt
@@ -74,11 +83,11 @@ const BlogIndex = (props: Props) => {
 						<Title>
 							<StyledLink to={slug}>{title}</StyledLink>
 						</Title>
-						<time>{frontmatter.date}</time>
+						<Time>{frontmatter.date}</Time>
 						<ReadingTime>{readingTime}</ReadingTime>
 						<p
 							dangerouslySetInnerHTML={{
-								__html: frontmatter.description || excerpt,
+								__html: frontmatter.description || excerpt
 							}}
 						/>
 					</div>

@@ -1,9 +1,7 @@
 ---
-title: "Hack Report: Royal Hackaway"
-date: "2018-01-24"
+title: 'Hackathon Diaries: Royal Hackaway'
+date: '2018-01-24'
 ---
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/a3d15-1mrnxseaukcb1mcni6hm7sa.png)
 
 #### First part in our series of trips to hackathons around the world
 
@@ -15,27 +13,15 @@ Early Saturday morning I stuffed one day’s worth of clothes and a borrowed sle
 
 Once I reached the campus of Royal Holloway (_”The most beautiful university in UK”_), I snapped a quick picture of the premises and composed a Facebook post (I got like 20 likes, baller yeah). After that I made my way to the building where the hackathon would take place, received my badge and lunch vouchers, and walked into the auditorium where the show was about to start.
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/26860-1u2sqa83jzqatag4m35fxja.png)
-
-Opening words for the hackathon. I can count the times Eduroam has worked on first try on one hand.
-
 Theme of the hackathon turned out to be open data, a relatively original theme⸮ Once the welcoming speeches ended, we moved to another room and started hacking. No team formation, no nothing. This is a thing I found a little stupid because it felt that organizers did not consider that there could be people running solo (like me for example). I was able to force myself into one team after bragging how many hackathons I’ve won (14, not that I’m counting or anything).
 
 Our team spent around two hours getting to know each other and coming up with an idea to build. We finally decided to build **a tool that would put all the hackathons around you on a map, show the prizes, and provide fare estimates for flights** (hey, [Major League Hacking](https://medium.com/u/173a584048a), the map part would be good addition to your site as well). After this it was time to decide who would work on what and what kind of stack we would use — we chose Vue.js, which was positive surprise.
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/922df-1bewxfesnucsewblmm7eg4g.jpeg)
-
-Our team working hard with the help of chicken sandwiches.
 
 > “…no offense but I thought you were shit!”
 
 What was my part in team? I started by reading a little Vue.js documentation in order to start building the frontend. After a rough start I was asked to build a HTML mockup instead. This I did for maybe 20 minutes, before I once again asked to do something else, this a photoshop mockup. Reason for constant pivots was my team’s distrust in achieving in these tasks; or at least achieving them in a way that would helps us win this thing.
 
 Once I was done with the mockup I showed it to my team mates, half expecting to get disappointed looks. To my surprise, I got a heart warming _“dude this is really cool; no offense but I though you were shit!”_ compliment on my mockup. After that our work together went really smoothly and we managed to build most of the app during Saturday. Sunday we spent fixing and rewriting everything we had written the day before.
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/5f90a-1wsgcpyvwctbq1ogeiex2jw.png)
-
-The war room
 
 ### Sunday
 
@@ -45,15 +31,7 @@ Submission deadline was at 12, after which it was time for presentations. Judgin
 
 When it was our time present, we got to stage and presented our project. We had actually created a two solutions: an API that gave us hackathons and webservice to used that API. We had to remove the fare estimates for flights because it turned out Google’s API and Skyscanner’s API aren’t open anymore. [You can find a more detailed explanation of the project here.](https://devpost.com/software/hackatrack-acdov4)
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/7e5a8-1idcejxxrqatksecatq3rpq.png)
-
-Mockup of our Hackatrack app
-
 Then came time for the prizes. I’m quite sure that the judges decided to give prices to other teams instead of giving all of them to us, to keep up the morale. After all, our hackathon submission was a masterpiece. [The first place went to a solution that converts video and audio files to text summaries, with the help of ML, making it easier to study.](https://devpost.com/software/alpaca-074ags) I’m a bit sad that my personal favorite, a web site which tells you if Trump thinks your country is a shithole, did not win. It had all the potential to be a disruptive tool in international politics.
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/edb83-1xqimqhtjg_tvsekhczj4ua.jpeg)
-
-Team Hackatrack sans prizes — Theodore, me and Aurel
 
 ### Conclusion
 

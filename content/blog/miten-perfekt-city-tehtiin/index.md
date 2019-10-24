@@ -1,9 +1,7 @@
 ---
-title: "Miten Perfekt City tehtiin"
-date: "2017-09-12"
+title: 'Miten Perfekt City tehtiin'
+date: '2017-09-12'
 ---
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/fd63c-12hxdzhjnc5z5olvqbhi_3q.jpeg)
 
 #### Miten avoimen datan avulla luotiin työkalu kaupunkisuunnitteluun
 
@@ -20,5 +18,3 @@ Felixin vahva kiinnostus avoimeen dataan paljastui projektin menestysreseptiksi.
 Pääsimme projektimme johdosta lopulta myös Nokian Executive Excellence centerissä järjestettävään finaaliin. Kilpailijoita oli kutsuttu ympäri maailmaa ja ratkaisut olivat hyvin erilaisia — maapallosta on mahdollista tehdä asuttavampi monella tapaa. Yhteensä 12:sta finalistista ainoastaan me olimme kuitenkin keskittyneet kaupunkeihin liittyvän datan esittämiseen ja keräsimmekin tapahtuman aikana runsaasti mielenkiintoa monilta tahoilta. Esille tulleet puutteet, toiveet ja kehitysehdotukset otimme kaikki ylös työkalun jatkokehitystä varten.
 
 Huolimatta siitä, että palvelun kehitys lähti kesäisenä sivuprojektina liikkeelle, ei Perfekt Cityn jatkokehitystä ole missään nimessä kuopattu. Seuraavaa versiota onkin kehitetty rauhallisella tahdilla muilta projekteilta ehdittäessä. Projektin aikana huomasimme myös miksi tällaisten avoimen lähdekoodin ja avoimen datan ohjelmistojen kehittäminen on tärkeää yrityksen itsensä kehittymisen kannalta. Monet tietolähteet, joita päädyimme käyttämään olivat muille yrityksemme työntekijöille aikaisemmin tuntemattomia. Projektin kulkua seuratessaan moni heistä kuitenkin kiinnostui tutkimaan asiaa ja eri avoimen datan rajapinnoista on tullut aikaisempaa huomattavasti yleisempi kahvihuonekeskustelu.
-
-Lisätietoa Perfekt City työkalusta on löydettävissä [www.perfekt.city](http://www.perfekt.city)

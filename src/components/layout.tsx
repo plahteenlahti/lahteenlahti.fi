@@ -42,6 +42,7 @@ const Menu = styled.ul`
 
 const MenuItem = styled.li`
 	list-style: none;
+	margin-right: ${rhythm(3 / 4)};
 `;
 
 export const Layout = (props: Props) => {
@@ -58,7 +59,7 @@ export const Layout = (props: Props) => {
 				</HeaderTitle>
 				<ToggleTheme />
 				<Menu>
-					<MenuItem>
+					{/* <MenuItem>
 						<StyledLink to={`/`}>Blog</StyledLink>
 					</MenuItem>
 					<MenuItem>
@@ -66,7 +67,7 @@ export const Layout = (props: Props) => {
 					</MenuItem>
 					<MenuItem>
 						<StyledLink to={`/about`}>About</StyledLink>
-					</MenuItem>
+					</MenuItem> */}
 				</Menu>
 			</header>
 			<main>{children}</main>

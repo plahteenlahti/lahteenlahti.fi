@@ -60,8 +60,10 @@ export const Bio = () => {
 				imgStyle={{ borderRadius: '50%' }}
 			/>
 			<p>
-				Personal blog of <strong>{author}</strong>.{` `}
-				<a href={`https://twitter.com/${social.twitter}`}>Here's my Twitter.</a>
+				Personal blog of{' '}
+				<a href={`https://twitter.com/${social.twitter}`}>
+					<strong>{author}</strong>
+				</a>
 			</p>
 		</Content>
 	);

@@ -1,6 +1,7 @@
 ---
 title: 'Kognitiotieteen sanastoa'
 date: '2019-10-20'
+draft: true
 ---
 
 Tämä sanasto on alunalkaen laadittu Cog101 Johdatus kognitiotieteeseen monisteeseen (laajennettu vähitellen)
