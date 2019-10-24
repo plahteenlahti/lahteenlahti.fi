@@ -1,5 +1,6 @@
 import path from 'path';
 import { GatsbyCreatePages } from '../types';
+const _ = require('lodash');
 
 interface Post {
 	node: {
@@ -18,9 +19,7 @@ export const createPages: GatsbyCreatePages = async ({
 	const allMarkdown = await graphql(`
 		{
 			allMarkdownRemark(
-				filter: {
-					frontmatter: { draft: { ne: true }, collection: { eq: "blog" } }
-				}
+				filter: { frontmatter: { draft: { ne: true } } }
 				sort: { fields: [frontmatter___date], order: DESC }
 				limit: 1000
 			) {
@@ -43,12 +42,13 @@ export const createPages: GatsbyCreatePages = async ({
 	}
 
 	// Create blog posts pages.
-	const posts = allMarkdown.data.allMarkdownRemark.edges;
+	const content = allMarkdown.data.allMarkdownRemark.edges;
 
-	posts.forEach((post: Post, index: number) => {
-		const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-		const next = index === 0 ? null : posts[index - 1].node;
+	content.forEach((post: Post, index: number) => {
+		const previous = index === content.length - 1 ? null : content[index + 1].node;
+		const next = index === 0 ? null : content[index - 1].node;
 
+    if (_.get(edge, 'node.frontmatter.template') === 'page') {
 		createPage({
 			path: post.node.fields.slug,
 			// tslint:disable-next-line:object-literal-sort-keys

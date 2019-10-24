@@ -66,8 +66,8 @@ const BlogIndex = (props: Props) => {
 	return (
 		<Layout location={props.location} title={siteTitle}>
 			<SEO
-				title='All posts'
-				keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+				title='Personal blog of Perttu Lähteenlahti'
+				keywords={[`blog`, `design`, `cognitive science`]}
 			/>
 			<Bio />
 			{posts.map(({ node }: { node: MarkdownRemark }) => {
