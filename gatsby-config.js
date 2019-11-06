@@ -9,6 +9,7 @@ module.exports = {
 		}
 	},
 	plugins: [
+		`gatsby-plugin-advanced-sitemap`,
 		`gatsby-remark-reading-time`,
 		`gatsby-plugin-dark-mode`,
 		{
