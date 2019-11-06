@@ -78,13 +78,22 @@ export const SEO = (props: Props) => {
 					property: `og:type`
 				},
 				{
+					content: `${siteMetadata.siteUrl}`,
+					property: `og:url`
+				},
+				{
 					content: 'summary_large_image',
 					name: 'twitter:card'
+				},
+				{
+					content: 'summary_large_image',
+					property: 'twitter:card'
 				},
 				{
 					content: socialCard,
 					property: 'og:image'
 				},
+
 				{
 					content: socialCard,
 					name: 'twitter:image'
