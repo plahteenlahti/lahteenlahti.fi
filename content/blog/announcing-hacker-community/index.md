@@ -4,8 +4,6 @@ date: '2018-03-20'
 draft: true
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/e5d90-15n0p8ufuawklysrsifuulw.jpeg)
-
 #### Join us in building a community of the most innovative people in the world 💚
 
 ### 👋 Hey, Friend!
@@ -16,19 +14,13 @@ Today we are going to announce something we’ve been planning for a long time n
 
 This community is for the hackers in all of us.
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/e5975-1cf9w0s7smtgbpsdyvknekq.gif)
-
 ### 🤔 But why?
 
 Yeah, I know what you’re thinking: “but you’re just a company, what do I care?” That is true, but that is not something we want to be. We want to be something bigger, we want to do things no one else is doing yet. One of those things is being something we call “the anti-startup”.
 
 You know how startups like to focus on things that scale (like mobile apps), while at the same time trying to get rid of things that don’t scale, such as people. We believe this is not enough. In order to foster creative thinking, you have to focus on human factors, and those rarely scale. We want to build things that actually elevate people to be better, and, to achieve that we need to focus on those things that don’t scale. Or, as they like to put it in the Silicon valley:
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/194b4-1y6od4gitesxf0vgo4lyemg.gif)
-
 ### 👩‍🚀 What do I get out of this?
-
-Well, for starters, you get a cool picture of yourself, [like the ones you can already find on our site.](https://www.perfektio.fi/en/company)
 
 Okay, but for real, we want to give you something that no other company or community is able to provide. This means transparency about how we solve problems and innovation solutions to companies and the public sector. Concrete examples of this are workshops, hackathons, retreats, meetups, and internal as well as external projects.
 

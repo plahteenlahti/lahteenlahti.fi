@@ -3,8 +3,6 @@ title: 'Hackathon Diaries: Energy Efficiency Hackathon'
 date: '2018-03-02'
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/80ec4-19mpluf0virj4_6jhxecwfq.png)
-
 #### One rather unusual hackathon about energy efficiency
 
 ### ⚡️ Premise
@@ -20,8 +18,6 @@ I had no idea of all the peculiar things waiting for me there.
 The program started with a short introduction to theme of the hackathon, and continued with a quick design thinking / get to know each other activity. We then moved to the rooms dedicated for the different challenges and had hour and half for forming the teams and asking questions from the challenge partners.
 
 [In total there were three challenges: **Danfoss**, **Schüco**, and **Evonik**](https://www.eehack.com/challenges/), from which we’re asked to pick when signing up. I had picked Danfoss, as hacking grocery store efficiency sounded fun.
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/752ce-1jlgxvzhnqx5yce7lwiujsq.jpeg)
 
 Danfoss engineers going through the challenge
 
@@ -47,8 +43,6 @@ We conducted pretty quick and definitely dirty user testing to test if our hypot
 
 Now before you start complaining that we didn’t actually code or build anything I’m going to stop you right there! We did. It was awesome, and took most of the time we had for hacking. We also had never done anything similar so it was a learning experience as well. So what did we build? This:
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/395ba-1k2kbrk8f5esl8evdtfbkpg.png)
-
 Yeah, we 3D printed a fish. Why? I’ll have to get back to you on that.
 
 **21:00** The final started with words from Germany’s minister for economic affairs and energy, and continued with pitching that ended almost as soon as it had started. Large teams and 2 minute maximum pitch made everything lighting fast. The pitches were also positively different from the startup pitches I’m used to seeing, having a lot of acting and humor in them.
@@ -56,8 +50,6 @@ Yeah, we 3D printed a fish. Why? I’ll have to get back to you on that.
 Then it came to announce the winners. Total of six prizes would be given, one for each of the three tracks, and for best design, best business case, and best overall concept.
 
 To my, and to my teams surprise we ended up receiving the main prize for our track and also the prize for best design. Taking up on a rather different idea had payed of, and Danfoss seemed quite impressed with the concept. Our quick and dirty user testing had also been a good idea, as it had been the reason for receiving the best in design award.
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/48efa-10ylaakvclm17al_aze0jdg.jpeg)
 
 You see kids, this is how you should look when accepting a prize.
 

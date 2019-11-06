@@ -4,8 +4,6 @@ date: '2017-12-24'
 draft: true
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/e9cd9-1ygvmok7xr1kerqbhlzxtxg.png)
-
 #### Our best stories from the crazy world of hackathons
 
 A bit over a year ago when we founded Perfektio, competing in hackathons was just something we did because of how fun it is. It’s hard to consider them as a goldmine for anything (expect for hoodies and other swag). Sure, sometimes new startups and products are born from hackathons, but building a viable business around them sounds quite ludicrous.
@@ -30,15 +28,11 @@ _This year’s best hackathon_
 
 We’re starting the list with this year’s best hackathon (in our opinion, sadly there are no official awards for hackathons. Yet). [Luova Aalto](https://medium.com/u/df9053afb132) really set the bar high with this hackathon, which was slightly different from the ones we’re used to seeing. If you’re organizing a hackathon, read this to understand how to do it well.
 
-\[embed\]https://medium.com/perfektio/hack-report-techcrunch-disrupt-berlin-hackathon-8b4e44288fe8\[/embed\]
-
 ### [Hack the Law](https://medium.com/perfektio/hack-report-hack-the-law-5edaaf294a64)
 
 _I hacked the law, and I won_
 
 In Hack the Law we worked together with law students and had a lot of fun tinkering with the accessibility of law services. This is also our first Hack Report which talks about team building, a subject we hope to talk more about in the future, as it’s something we’re finally starting to fully understand.
-
-\[embed\]https://medium.com/perfektio/hack-report-techcrunch-disrupt-berlin-hackathon-8b4e44288fe8\[/embed\]
 
 ### [Talking Plants with Fiskars](https://medium.com/perfektio/hack-report-talking-plants-with-fiskars-c71be389e6ea)
 
@@ -46,23 +40,17 @@ _Gardening is freakin’ cool_
 
 The first Industryhack hackathon we reported about was gardening, and event itself was nothing short of an amazing. In 2017 we actually took part in 9 Industryhack hacks and ended up winning 5 of them. Most of these hacks have lead to pilot projects and in the coming year you will get a taste of those projects and the Hack Reports concerning them. In the meantime, read have we hacked gardening.
 
-\[embed\]https://medium.com/perfektio/hack-report-techcrunch-disrupt-berlin-hackathon-8b4e44288fe8\[/embed\]
-
 ### [Oulu 5GFWD](https://medium.com/perfektio/hack-report-oulu-5gfwd-hackathon-510445e858e7)
 
 _Virtual classrooms, hospital experiences, and factories of tomorrow_
 
 Our first Hack Report was about Oulu 5GFWD and how we’re able to use dynamic teams to solve multiple problems simultaneously. Hack Reports were still taking their shape at this point as well as our way of working, so this report is also a good view on where we started from.
 
-\[embed\]https://medium.com/perfektio/hack-report-techcrunch-disrupt-berlin-hackathon-8b4e44288fe8\[/embed\]
-
 ### [I hack, therefore I am](https://medium.com/perfektio/i-hack-i-die-i-hack-again-de5ab6caf50a)
 
 _The adverse effects of attending hackathons_
 
 Now this here isn’t an official Hack Report nor a definitive look at any particular hackathon. Despite this I’ve decided to include it, as it reflects on the emotional and motivational context of hackathons quite a lot better than our other articles. Some parts of the text might feel a bit bitter, and to be honest, I poured a lot of my frustration of that time into this text, but it’s still a decent read on subjects not that often talked about in hackathon context.
-
-\[embed\]https://medium.com/perfektio/hack-report-techcrunch-disrupt-berlin-hackathon-8b4e44288fe8\[/embed\]
 
 ### Last words
 

@@ -18,8 +18,6 @@ During all those innovation challenges we had transformed into competent problem
 
 > Realizing this lead us to rethink our value proposition. We were not going to be a software company, but a company which specializes in solving problems through open innovation. This lead us to form a hypothesis: “innovation challenges are a viable method of selling software projects”. Next step was to to put this idea to test.
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/8e09b-1wi_cennzaio-kki95v2qzg.jpeg)
-
 Our first Industryhack event Hack The Living with YIT, January 2017
 
 Our first open innovation challenge as a company was Industryhack’s [Hack the Living with YIT](https://industryhack.com/challenges/hacktheliving/). Unfortunately we did not win this challenge, but it provided valuable learning in how to transform the innovative concepts into solid pilot project proposals. We continued participating in different innovation challenges and slowly build our framework for turning the ideas created in those into concrete projects.
