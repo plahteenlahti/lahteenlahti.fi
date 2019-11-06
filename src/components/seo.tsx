@@ -51,7 +51,7 @@ export const SEO = (props: Props) => {
 	const { siteMetadata } = site;
 
 	const url = `${siteMetadata.siteUrl}${props.slug}`;
-	const socialCard = `${url}seo.jpg`;
+	const socialCard = `${url}${props.slug}.jpg`;
 
 	return (
 		<Helmet

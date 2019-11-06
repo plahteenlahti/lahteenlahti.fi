@@ -3,7 +3,7 @@ const jimp = require('jimp');
 
 module.exports = ({ markdownNode }) => {
 	const { frontmatter, fields } = markdownNode;
-	const output = path.join('./public', fields.slug, 'seo.jpg');
+	const output = path.join('./public', fields.slug, `${fields.slug}.jpg`);
 
 	return Promise.all([
 		jimp.read(path.join(__dirname, 'base.jpg')),

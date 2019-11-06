@@ -1,6 +1,6 @@
 ---
-title: "Weekly 9/2018"
-date: "2018-02-26"
+title: 'Weekly 9/2018'
+date: '2018-02-26'
 ---
 
 ![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/ada0b-1nmsfw3to2lp0rtk1d1ucbw.png)
@@ -35,7 +35,7 @@ Pure CSS parallax effect. Simple and nice.
 
 If you’re unfamiliar with CSS variables, this handy guide should got you covered.
 
-* * *
+---
 
 ### 🍬 Candy for designers
 
@@ -55,11 +55,11 @@ Design does not exist in a vacuum. Therefore, understanding the users is more im
 
 First part of three part series around design visioning. Understand how setting a shared vision for a project leads to better results.
 
-#### [Complete Novice to Full-time Product Designer in 1–2 Years](http://davemart.in/90k/ "Permalink to Complete Novice to Full-time Product Designer in 1-2 Years")
+#### [Complete Novice to Full-time Product Designer in 1–2 Years](http://davemart.in/90k/ 'Permalink to Complete Novice to Full-time Product Designer in 1-2 Years')
 
 Practical look at how to transform from a novice to a well-payed product designer.
 
-* * *
+---
 
 ### 🙉 What’s up Perfektio?
 
@@ -71,11 +71,11 @@ romthe
 
 Besides that we released a new article on how we spent 2017 testing if you actually use open innovation challenges as a platform for finding interesting projects and clients. [**You can read more about here**](https://stories.industryhack.com/case-perfektio-how-to-build-a-company-around-open-innovation-55d034d838e5).
 
-* * *
+---
 
 ### ❤️ Hackathons and Something Else
 
-#### [A Dyson engineer explains why the company spent $71 million and four years developing a high-tech hair dryer](https://techcrunch.com/2016/04/28/dyson-supersonic/)
+#### [A Dyson engineer explains why the company spent \$71 million and four years developing a high-tech hair dryer](https://techcrunch.com/2016/04/28/dyson-supersonic/)
 
 Why design something that is already pretty well functioning? Read why Dyson spent 71 million dollars on developing a high-tech hair dryer.
 
@@ -95,10 +95,4 @@ Mornings are important. Read why.
 
 Education themed hackathon in Rome, which is also a part of a larger educational change. Looks rather interesting.
 
-* * *
-
-> Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 😍
+---
