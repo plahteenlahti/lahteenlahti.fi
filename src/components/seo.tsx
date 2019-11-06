@@ -5,95 +5,112 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import { graphql, useStaticQuery } from "gatsby"
-import React from "react"
-import Helmet from "react-helmet"
+import { graphql, useStaticQuery } from 'gatsby';
+import React from 'react';
+import Helmet from 'react-helmet';
 
 interface Meta {
-  name: string
-  content: string
+	name: string;
+	content: string;
 }
 
 interface Props {
-  title: string
-  lang?: string
-  meta?: Meta[]
-  keywords?: string[]
-  description?: string
+	slug: string;
+	title: string;
+	lang?: string;
+	meta?: Meta[];
+	keywords?: string[];
+	description?: string;
 }
 
 export const SEO = (props: Props) => {
-  const lang = props.lang || "en"
-  const meta = props.meta || []
-  const keywords = props.keywords || []
-  const description = props.description || ""
+	const lang = props.lang || 'en';
+	const meta = props.meta || [];
+	const keywords = props.keywords || [];
+	const description = props.description || '';
 
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
-        }
-      }
-    `
-  )
+	const { site } = useStaticQuery(
+		graphql`
+			query {
+				site {
+					siteMetadata {
+						title
+						description
+						author
+						siteUrl
+						social {
+							twitter
+						}
+					}
+				}
+			}
+		`
+	);
 
-  const metaDescription = description || site.siteMetadata.description
+	const metaDescription = description || site.siteMetadata.description;
+	const { siteMetadata } = site;
 
-  return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={props.title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
-      meta={[
-        {
-          content: metaDescription,
-          name: `description`,
-        },
-        {
-          content: props.title,
-          property: `og:title`,
-        },
-        {
-          content: metaDescription,
-          property: `og:description`,
-        },
-        {
-          content: `website`,
-          property: `og:type`,
-        },
-        {
-          content: `summary`,
-          name: `twitter:card`,
-        },
-        {
-          content: site.siteMetadata.author,
-          name: `twitter:creator`,
-        },
-        {
-          content: props.title,
-          name: `twitter:title`,
-        },
-        {
-          content: metaDescription,
-          name: `twitter:description`,
-        },
-      ]
-        .concat(
-          keywords.length > 0
-            ? {
-                content: keywords.join(`, `),
-                name: `keywords`,
-              }
-            : []
-        )
-        .concat(meta)}
-    />
-  )
-}
+	const url = `${siteMetadata.siteUrl}${props.slug}`;
+	const socialCard = `${url}seo.jpg`;
+
+	return (
+		<Helmet
+			htmlAttributes={{
+				lang
+			}}
+			title={props.title}
+			titleTemplate={`%s | ${site.siteMetadata.title}`}
+			meta={[
+				{
+					content: metaDescription,
+					name: `description`
+				},
+				{
+					content: props.title,
+					property: `og:title`
+				},
+				{
+					content: metaDescription,
+					property: `og:description`
+				},
+				{
+					content: `website`,
+					property: `og:type`
+				},
+				{
+					name: 'twitter:card',
+					content: 'summary_large_image'
+				},
+				{
+					property: 'og:image',
+					content: socialCard
+				},
+				{
+					name: 'twitter:image',
+					content: socialCard
+				},
+				{
+					content: site.siteMetadata.author,
+					name: `twitter:creator`
+				},
+				{
+					content: props.title,
+					name: `twitter:title`
+				},
+				{
+					content: metaDescription,
+					name: `twitter:description`
+				}
+			]
+				.concat(
+					keywords.length > 0
+						? {
+								content: keywords.join(`, `),
+								name: `keywords`
+						  }
+						: []
+				)
+				.concat(meta)}
+		/>
+	);
+};

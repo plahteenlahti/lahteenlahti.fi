@@ -25,13 +25,13 @@ module.exports = {
 				name: `assets`
 			}
 		},
-		{
-			resolve: `gatsby-source-filesystem`,
-			options: {
-				path: `${__dirname}/content/weeklies`,
-				name: `weeklies`
-			}
-		},
+		// {
+		// 	resolve: `gatsby-source-filesystem`,
+		// 	options: {
+		// 		path: `${__dirname}/content/weeklies`,
+		// 		name: `weeklies`
+		// 	}
+		// },
 		{
 			resolve: `gatsby-transformer-remark`,
 			options: {

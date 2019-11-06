@@ -9,6 +9,6 @@ module.exports = ({ markdownNode }) => {
 		jimp.read(path.join(__dirname, 'base.jpg')),
 		jimp.loadFont(jimp.FONT_SANS_32_BLACK)
 	]).then(([image, font]) => {
-		image.print(font, 50, 50, frontmatter.title).write(output);
+		image.print(font, 50, 50, frontmatter.title, 300).write(output);
 	});
 };

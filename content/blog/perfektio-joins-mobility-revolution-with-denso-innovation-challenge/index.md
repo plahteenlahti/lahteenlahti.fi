@@ -17,7 +17,3 @@ Perfektio will attend the Mobility Revolution innovation challenge (Helsinki, 21
 **Team Tethys** in turn will focus on solving the last mile problem in transportation of both humans and goods. Emphasis is placed on building seamless mobility services that allow easy use of multiple mobility and transportation services. Team Tethys consists of **Olli Savisaari**, **Jonne Huotari** and **Jonne Airaksinen**.
 
 Perfektio is more than thrilled to join Denso in building the future of mobility services.
-
-#### About Perfektio
-
-[**Perfektio**](https://www.perfektio.fi/en) is a digital agency specializing in open innovation based product and service development. With experience from over 200 innovation challenges Perfektio’s developers and designer are some of the most competent problem solvers in the world. HSY, Lassila & Tikanoja, and Onninen are some of the companies Perfektio has had the honour of working together with in open innovation.

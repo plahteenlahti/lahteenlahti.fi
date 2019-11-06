@@ -90,7 +90,7 @@ const BlogIndex = (props: Props) => {
 						</Title>
 						<Time>{frontmatter.date}</Time>
 						<ReadingTime>{readingTime}</ReadingTime>
-						<Language>🇫🇮</Language>
+						{/* <Language>🇫🇮</Language> */}
 						<p
 							dangerouslySetInnerHTML={{
 								__html: frontmatter.description || excerpt
