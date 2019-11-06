@@ -71,7 +71,12 @@ export const Layout = (props: Props) => {
 				</Menu>
 			</header>
 			<main>{children}</main>
-			<footer>© {new Date().getFullYear()} Perttu Lähteenlahti</footer>
+			<footer>
+				<div>
+					Medium - Perttu.dev - React Native Club - Nyxo - Intelligenzia
+				</div>
+				<div>© {new Date().getFullYear()} Perttu Lähteenlahti</div>
+			</footer>
 		</Content>
 	);
 };

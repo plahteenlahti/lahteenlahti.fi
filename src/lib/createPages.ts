@@ -1,6 +1,5 @@
 import path from 'path';
 import { GatsbyCreatePages } from '../types';
-const _ = require('lodash');
 
 interface Post {
 	node: {
@@ -45,10 +44,10 @@ export const createPages: GatsbyCreatePages = async ({
 	const content = allMarkdown.data.allMarkdownRemark.edges;
 
 	content.forEach((post: Post, index: number) => {
-		const previous = index === content.length - 1 ? null : content[index + 1].node;
+		const previous =
+			index === content.length - 1 ? null : content[index + 1].node;
 		const next = index === 0 ? null : content[index - 1].node;
 
-    if (_.get(edge, 'node.frontmatter.template') === 'page') {
 		createPage({
 			path: post.node.fields.slug,
 			// tslint:disable-next-line:object-literal-sort-keys

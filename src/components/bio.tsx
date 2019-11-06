@@ -63,7 +63,7 @@ export const Bio = () => {
 				Personal blog of{' '}
 				<a href={`https://twitter.com/${social.twitter}`}>
 					<strong>{author}</strong>
-				</a>
+				</a>. For more developer oriented posts checkout <a href="https://perttu.dev">perttu.dev</a>
 			</p>
 		</Content>
 	);

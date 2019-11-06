@@ -27,6 +27,11 @@ const ReadingTime = styled.div`
 	margin-left: ${rhythm(1 / 2)};
 `;
 
+const Language = styled.div`
+	display: inline;
+	margin-left: ${rhythm(1 / 2)};
+`;
+
 type Props = PageRendererProps;
 
 const BlogIndex = (props: Props) => {
@@ -85,6 +90,7 @@ const BlogIndex = (props: Props) => {
 						</Title>
 						<Time>{frontmatter.date}</Time>
 						<ReadingTime>{readingTime}</ReadingTime>
+						<Language>🇫🇮</Language>
 						<p
 							dangerouslySetInnerHTML={{
 								__html: frontmatter.description || excerpt
