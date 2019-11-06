@@ -1,6 +1,6 @@
 ---
-title: "Avoin Kirje Käyttäytymistieteellisen Tiedekunnan Dekaanille"
-date: "2015-09-21"
+title: 'Avoin Kirje Käyttäytymistieteellisen Tiedekunnan Dekaanille'
+date: '2015-09-21'
 ---
 
 #### Aloite kognitiotieteen oppiaineen ja tieteenalan jatkuvuuden takaamiseksi käynnissä olevassa tiedekuntamuutoksessa
@@ -22,7 +22,5 @@ Kunnioittaen,
 Perttu Lähteenlahti puheenjohtaja
 
 Iina Ala-Kurikka sihteeri,
-
-Olli Savisaari opintovastaava
 
 Intelligenzia ry

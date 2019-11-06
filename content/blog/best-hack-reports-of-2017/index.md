@@ -66,8 +66,6 @@ Now this here isn’t an official Hack Report nor a definitive look at any parti
 
 ### Last words
 
-Most of the 2017 Hack Reports have been written either by me or [Olli Savisaari](https://medium.com/u/1b1bb018d7f1), but like all of our hackathons they have all actually been team efforts. Therefore I would like to thank all the people who have contributed to the creation of these. You have been an immeasurable help in getting rid of those pesky typos, removing the crappy parts, and motivating us to write these.
-
 In the year 2018 we plan to continue what we started with Hack Reports. However the focus is going to change a little, there’s going to be a lot more content, and hopefully a lot more writers. The experimentation however is not going to stop but instead become a even bigger part of our hackathon strategy.
 
 ---
