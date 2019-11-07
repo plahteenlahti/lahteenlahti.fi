@@ -34,6 +34,7 @@ const About = (props: Props) => {
 	return (
 		<Layout location={props.location} title={siteTitle}>
 			<SEO
+				slug='work'
 				title='Work by Perttu Lähteenlahti'
 				keywords={[`work`, `portfolio`, `javascript`, `react`]}
 			/>

@@ -44,6 +44,7 @@ const WeeklyTemplate = (props: Props) => {
 	return (
 		<Layout location={props.location} title={siteTitle}>
 			<SEO
+				slug='weekly'
 				title={frontmatter.title!}
 				description={frontmatter.description || excerpt}
 			/>

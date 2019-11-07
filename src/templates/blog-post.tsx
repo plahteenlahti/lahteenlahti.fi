@@ -36,6 +36,7 @@ const BlogPostTemplate = (props: Props) => {
 	const data = props.data!;
 	const post = data.markdownRemark!;
 	const excerpt = post.excerpt!;
+	const slug = post.fields!.slug!;
 	const frontmatter = post.frontmatter!;
 	const html = post.html!;
 	const siteTitle = data.site!.siteMetadata!.title!;
@@ -44,7 +45,7 @@ const BlogPostTemplate = (props: Props) => {
 	return (
 		<Layout location={props.location} title={siteTitle}>
 			<SEO
-				slug={data.markdownRemark!.fields!.slug}
+				slug={slug}
 				title={frontmatter.title!}
 				description={frontmatter.description || excerpt}
 			/>
@@ -84,6 +85,9 @@ export const pageQuery = graphql`
 			}
 		}
 		markdownRemark(fields: { slug: { eq: $slug } }) {
+			fields {
+				slug
+			}
 			id
 			excerpt(pruneLength: 160)
 			html

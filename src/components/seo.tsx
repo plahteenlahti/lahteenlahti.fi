@@ -28,6 +28,7 @@ export const SEO = (props: Props) => {
 	const meta = props.meta || [];
 	const keywords = props.keywords || [];
 	const description = props.description || '';
+	const slug = props.slug;
 
 	const { site } = useStaticQuery(
 		graphql`
@@ -50,8 +51,8 @@ export const SEO = (props: Props) => {
 	const metaDescription = description || site.siteMetadata.description;
 	const { siteMetadata } = site;
 
-	const url = `${siteMetadata.siteUrl}${props.slug}`;
-	const socialCard = `${url}/seo.jpg`;
+	const url = `${siteMetadata.siteUrl}${slug}`;
+	const socialCard = `${url}seo.jpg`;
 
 	return (
 		<Helmet
