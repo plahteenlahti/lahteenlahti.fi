@@ -44,6 +44,7 @@ const BlogPostTemplate = (props: Props) => {
 	return (
 		<Layout location={props.location} title={siteTitle}>
 			<SEO
+				slug={data.markdownRemark!.fields!.slug}
 				title={frontmatter.title!}
 				description={frontmatter.description || excerpt}
 			/>

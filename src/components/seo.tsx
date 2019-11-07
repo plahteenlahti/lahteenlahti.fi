@@ -15,7 +15,7 @@ interface Meta {
 }
 
 interface Props {
-	slug: string;
+	slug: string | undefined | null;
 	title: string;
 	lang?: string;
 	meta?: Meta[];

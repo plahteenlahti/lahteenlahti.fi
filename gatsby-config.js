@@ -3,7 +3,7 @@ module.exports = {
 		author: `Perttu Lähteenlahti`,
 		title: `Perttu Lähteenlahti`,
 		description: `Personal blog of Perttu Lähteenlahti`,
-		siteUrl: `https://lahteenlahti.fi`,
+		siteUrl: `https://lahteenlahti.com`,
 		social: {
 			twitter: `plahteenlahti`
 		}
