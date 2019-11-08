@@ -79,7 +79,7 @@ const BlogIndex = (props: Props) => {
 					'programming',
 					`cognitive science`
 				]}
-				slug=''
+				slug='/'
 			/>
 			<Bio />
 			{posts.map(({ node }: { node: MarkdownRemark }) => {
