@@ -80,6 +80,12 @@ module.exports = {
 		`gatsby-plugin-offline`,
 		`gatsby-plugin-react-helmet`,
 		{
+			resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+			options: {
+				siteUrl: `https://www.lahteenlahti.com`
+			}
+		},
+		{
 			resolve: `gatsby-plugin-typography`,
 			options: {
 				pathToConfigModule: `src/utils/typography`

@@ -1,6 +1,6 @@
 ---
-title: "Key to Unlocking Creativity: Sleep"
-date: "2018-05-07"
+title: 'Key to Unlocking Creativity: Sleep'
+date: '2018-05-07'
 ---
 
 #### What you should know about sleep to boost your creativity
@@ -39,6 +39,6 @@ For example, reducing the disparity in when you go to sleep during the weekends 
 
 ### Further Reading
 
-Interested in learning more about sleep? First, to help you better understand your circadian rhythm, Anu is currently developing a new service for that set to launch in early 2019. [More about that here](https://www.sleepcircle.fi/).
+Interested in learning more about sleep? First, to help you better understand your circadian rhythm, Anu is currently developing a new service for that set to launch in early 2019. [More about that here](https://www.nyxo.fi/).
 
 Second, you might find a book by Matthew Walked, called _Why We Sleep: Unlocking the Power of Sleep and Dreams_ interesting. It covers the things mentioned here about sleep and more and is really easy to read.

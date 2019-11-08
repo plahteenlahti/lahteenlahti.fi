@@ -46,6 +46,7 @@ const BlogPostTemplate = (props: Props) => {
 		<Layout location={props.location} title={siteTitle}>
 			<SEO
 				slug={slug}
+				canonical={frontmatter.canonical}
 				title={frontmatter.title!}
 				description={frontmatter.description || excerpt}
 			/>
@@ -94,6 +95,7 @@ export const pageQuery = graphql`
 			frontmatter {
 				title
 				date(formatString: "MMMM DD, YYYY")
+				canonical
 			}
 		}
 	}

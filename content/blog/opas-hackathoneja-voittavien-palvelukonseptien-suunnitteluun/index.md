@@ -1,17 +1,13 @@
 ---
-title: "Opas hackathoneja voittavien palvelukonseptien suunnitteluun"
-date: "2018-01-11"
+title: 'Opas hackathoneja voittavien palvelukonseptien suunnitteluun'
+date: '2018-11-11'
 ---
 
 #### Palvelumuotoilun ajatusmaailmalla hackathonien voittoon
 
-[**_🇬🇧 Want to read this in English?_**](https://medium.com/perfektio/designing-a-winning-hackathon-concept-d352c99b8bfa)
-
 Hackathonien luonne on muuttunut viimeisten kolmen vuoden aikana. On päästy melko kauas tilanteesta, jossa hackathon merkitsi 24+ tunnin yhtäjaksoista ohjelmointirutistusta. Teknisesti loistavat hackathonratkaisut ovat edelleen toivottuja mutta myös konseptin idealla, tuotteen muotoilulla ja liikentoimintamallilla on nykyään paljon merkitystä. Joissakin hackathoneissa koodaminen on poistunut kokonaan ja parempi sana kuvaamaan näitä tapahtumia voisi olla “concepthon”. On päästy tilanteeseen, jossa holistininen ratkaisu esimerkiksi palvelumuotoilun keinoin toteutettuna, on enemmän sääntö kuin poikkeus. **Mutta mitä on palvelumuotoilu ja miten muotoillaan toimiva palvelu hackathon aikana?**
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/d4c80-1cdjuuhv7hv9wubvuvyzrkg.jpeg)
-
-Päädyin laatiman korkean tason ohjeistuksen siitä miten hackathoneja voittavia palvelumuotoilukonsepteja toteutetaan. Pohjana tässä toimii ongelmanratkaisu; jokainen hyvä palvelu ratkaisee jonkin käyttäjänsä ongelman. Seuraavaksi esiteltävää lähestymistapaa on käytetty Perfektiolla onnistuneesti useammassa eri tyyppisessä hackathonissa.
+Päädyin laatiman korkean tason ohjeistuksen siitä miten hackathoneja voittavia palvelumuotoilukonsepteja toteutetaan. Pohjana tässä toimii ongelmanratkaisu; jokainen hyvä palvelu ratkaisee jonkin käyttäjänsä ongelman.
 
 ### Valitse kenen ongelmaa olet ratkaisemassa
 
@@ -41,8 +37,6 @@ Kun ongelma on selvä, on aika keksiä ratkaisu siihen. Ratkaisun saavuttamiseen
 
 Tiivistä ongelmasi ratkaisu yhteen virkkeeseen, joka kuvailee ongelmasi, ketä ongelma koskee ja miten sinun palvelusi ratkaisee ongelman. Aikaisemmin mainittujen ikäihmisten joukkoliikkennematkustamisen ongelmat voitaisiin ratkaista esimerkiksi joukkoistetulla puhelinpalvelun avulla, missä soittamalla voi saada yksilöllistä ohjeistusta miten helpoiten pääsee liikkumaan eri paikkojen välillä. Eli yhdellä lauseella: “Aiomme tehdä joukkoistetun puhelinapupalvelun avulla joukkoliikenteellä matkustamisesta helpompaa ikäihmisille.”
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/093dd-1dpf8gkxk_-9tbxjevwowhq.jpeg)
-
 ### Miten palvelusi toimii?
 
 > Käyttäjät, käyttäjien ongelma, ratkaisu ongelmaan → suunnittelemamme palvelu joka toimii näin
@@ -54,5 +48,3 @@ Palvelupolun suunnittelu on hyvin laaja tehtävä, joka tuo hyvin esille monipuo
 ### Yhteenveto
 
 Näillä ohjeilla on mahdollista toteuttaa voittava hackathonkonsepti. Kannattaa kuitenkin ottaa huomioon, että pelkkä konsepti ei usein riitä vaan hackathonin aikana on usein tarpeellista toteuttaa myös palvelun toimintaa havainnollistava demo. Palvelun konsepti ja tekninen ratkaisu onkin kehitettävä hackathonin aikana rinnakkain, mikä tekee teknisesti ja konseptuaalisesti loistavista hackathonratkaisuista harvinaisempia mutta myös voitokkaampia.
-
-[_Teksti on aiemmin julkaistu Perfektion Blogissa_](https://www.perfektio.fi/blogi/palvelumuotoilun-ajatusmaailmalla-hackathonien-voittoon)_._

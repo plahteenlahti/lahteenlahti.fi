@@ -21,6 +21,7 @@ interface Props {
 	meta?: Meta[];
 	keywords?: string[];
 	description?: string;
+	canonical?: string | null | undefined;
 }
 
 export const SEO = (props: Props) => {
@@ -51,7 +52,9 @@ export const SEO = (props: Props) => {
 	const metaDescription = description || site.siteMetadata.description;
 	const { siteMetadata } = site;
 
-	const url = `${siteMetadata.siteUrl}${slug}`;
+	const url = slug
+		? `${siteMetadata.siteUrl}${slug}`
+		: `${siteMetadata.siteUrl}/`;
 	const socialCard = `${url}seo.jpg`;
 
 	return (
@@ -59,6 +62,11 @@ export const SEO = (props: Props) => {
 			htmlAttributes={{
 				lang
 			}}
+			link={
+				props.canonical
+					? [{ rel: 'canonical', key: props.canonical, href: props.canonical }]
+					: []
+			}
 			title={props.title}
 			titleTemplate={`%s | ${site.siteMetadata.title}`}
 			meta={[
