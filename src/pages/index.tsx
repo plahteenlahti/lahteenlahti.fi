@@ -71,7 +71,7 @@ const BlogIndex = (props: Props) => {
 	return (
 		<Layout location={props.location} title={siteTitle}>
 			<SEO
-				title='Personal blog of Perttu Lähteenlahti'
+				title='Perttu Lähteenlahti'
 				keywords={[
 					`blog`,
 					`design`,
