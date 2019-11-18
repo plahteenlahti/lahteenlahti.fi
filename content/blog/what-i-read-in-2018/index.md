@@ -3,9 +3,9 @@ title: "What I read in 2018"
 date: "2019-05-31"
 ---
 
-_\*disclaimer, this list was originally a list of tweets,_ [_you can find it here_](https://twitter.com/plahteenlahti/status/1080138434679840775?s=20)_._
+_disclaimer, this list was originally a list of tweets_
 
-Wondering what to read this year? Here’s a list of the 61 books I read last year with mini-reviews. The authors are also worth following in Twitter so that’s why I added their Twitter handles as well.
+https://twitter.com/plahteenlahti/status/1080138434679840775?s=20
 
 **The Accidental Billionaires: The Founding of Facebook, a Tale of Sex, Money, Genius, and Betrayal by [@benmezrich](https://twitter.com/benmezrich) ⭐️⭐️⭐️** Reads more like a fiction book, but is still a decent look at the founding of Facebook. If you've seen The Social Network movie, you might not get much out of this.
 
@@ -53,7 +53,7 @@ Wondering what to read this year? Here’s a list of the 61 books I read last ye
 
 **Made to Stick: Why Some Ideas Survive and Others Die by Chip Heath, Dan Heath ⭐️⭐️⭐️⭐** Guide to making ideas and things to stick. Changed the way I think about copywriting and pitching. Pair this with Contagious.
 
-**Nudge: Improving Decisions About Health, Wealth, and Happiness by [@R\_Thaler](https://twitter.com/R_Thaler), [@CassSunstein](https://twitter.com/CassSunstein) ⭐️⭐️⭐️** If you've read Thinking fast and slow, and like behavioral economic, you should read this book. Short book but filled with different cases of nudging.
+**Nudge: Improving Decisions About Health, Wealth, and Happiness by [@R_Thaler](https://twitter.com/R_Thaler), [@CassSunstein](https://twitter.com/CassSunstein) ⭐️⭐️⭐️** If you've read Thinking fast and slow, and like behavioral economic, you should read this book. Short book but filled with different cases of nudging.
 
 **Open Innovation: The New Imperative for Creating And Profiting from Technology by Henry William Chesbrough ⭐️⭐️⭐️** You should read this if you're working in a corporation and feel that you're not innovating enough. You should also read this if you're a technology startup.
 
@@ -81,7 +81,7 @@ Wondering what to read this year? Here’s a list of the 61 books I read last ye
 
 **Autonomous by [@Annaleen](https://twitter.com/Annaleen) ⭐️⭐️⭐️⭐** Hard to explain in a tweet but let's try. Scifi book about biotech, patents, and artificial intelligence, with a pharmaceutical pirate bringing cheap drugs to poor people.
 
-**Ask an Astronaut: My Guide to Life in Space by [@astro\_timpeake](https://twitter.com/astro_timpeake) ⭐️⭐️⭐️⭐️** Ever wondered how astronauts go to the toilet in space? The answer to this and many other questions can be found in this wonderful book. Super fun to read.
+**Ask an Astronaut: My Guide to Life in Space by [@astro_timpeake](https://twitter.com/astro_timpeake) ⭐️⭐️⭐️⭐️** Ever wondered how astronauts go to the toilet in space? The answer to this and many other questions can be found in this wonderful book. Super fun to read.
 
 **Creative Confidence: Unleashing the Creative Potential Within Us All by [@kelleybros](https://twitter.com/kelleybros)⭐️⭐️⭐️⭐️** A book about how everyone can be creative. Highly informative yet really fun to read. You should definitely read this if you don't see yourself as a creative person.
 
@@ -113,13 +113,13 @@ Wondering what to read this year? Here’s a list of the 61 books I read last ye
 
 **Man's Search for Meaning by Viktor E. Frankl ⭐️⭐️⭐️⭐** This book played a big role in finding my way through some hard times last year. Helped me to understand that you can't avoid suffering, but you can choose how to deal with it.
 
-**The $100 Startup: Reinvent the Way You Make a Living, Do What You Love, and Create a New Future by [@chrisguillebeau](https://twitter.com/chrisguillebeau) ⭐️⭐️⭐️⭐** Valuable lessons in turning your ideas into a viable business. Lowers barriers to entrepreneurship by focusing on small businesses.
+**The \$100 Startup: Reinvent the Way You Make a Living, Do What You Love, and Create a New Future by [@chrisguillebeau](https://twitter.com/chrisguillebeau) ⭐️⭐️⭐️⭐** Valuable lessons in turning your ideas into a viable business. Lowers barriers to entrepreneurship by focusing on small businesses.
 
 **The Devil in the White City: Murder, Magic, and Madness at the Fair That Changed America by [@exlarson](https://twitter.com/exlarson) ⭐️⭐️⭐️⭐** Tells the story of H.H. Holmes, one of the most terrifying serial killers in America. Read it as a physical book, the audiobook was harder to follow.
 
 **The Internet of Money by [@aantonop](https://twitter.com/aantonop) ⭐️⭐️⭐️** A good introduction to why cryptocurrencies that explains what makes this technology so significant to not just finance but also other things.
 
-**How to Shoot a Feature Film for Under $10,000: And Not Go To Jail by Bret Stern ⭐️⭐️⭐️⭐** Liked the style and subject of this book. The book is quite funny, although slightly bro-ey. The age of the book is starting to show a little.
+**How to Shoot a Feature Film for Under \$10,000: And Not Go To Jail by Bret Stern ⭐️⭐️⭐️⭐** Liked the style and subject of this book. The book is quite funny, although slightly bro-ey. The age of the book is starting to show a little.
 
 **Flash Boys: A Wall Street Revolt by Michael Lewis ⭐️⭐️⭐️⭐** Michael Lewis never let's down. Great book about high-frequency trading. You would expect a book about stock trading to be boring but this is far from it.
 

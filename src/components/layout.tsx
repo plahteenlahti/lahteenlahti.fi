@@ -72,11 +72,33 @@ export const Layout = (props: Props) => {
 			</header>
 			<main>{children}</main>
 			<footer>
-				<div>
-					Medium - Perttu.dev - React Native Club - Nyxo - Intelligenzia
-				</div>
+				<List>
+					<li>
+						<ListItem href='https://react-native.club'>Medium</ListItem>
+					</li>
+					<li>
+						<ListItem href='https://intelligenzia.fi'>Perttu.dev</ListItem>
+					</li>
+					<li>
+						<ListItem href='https://react-native.club'>Intelligenzia</ListItem>
+					</li>
+					<li>
+						<ListItem href='https://react-native.club'>Nyxo</ListItem>
+					</li>
+					<li>
+						<ListItem href='https://react-native.club'>
+							React Native Club
+						</ListItem>
+					</li>
+				</List>
+
 				<div>© {new Date().getFullYear()} Perttu Lähteenlahti</div>
 			</footer>
 		</Content>
 	);
 };
+
+const List = styled.ul`
+	list-style: none;
+`;
+const ListItem = styled.a``;

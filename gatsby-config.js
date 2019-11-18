@@ -1,98 +1,100 @@
 module.exports = {
-	siteMetadata: {
-		author: `Perttu Lähteenlahti`,
-		title: `Perttu Lähteenlahti`,
-		description: `Blog about design, development, cognitive science and startups.`,
-		siteUrl: `https://lahteenlahti.com`,
-		social: {
-			twitter: `plahteenlahti`
-		}
-	},
-	plugins: [
-		`gatsby-plugin-advanced-sitemap`,
-		`gatsby-remark-reading-time`,
-		`gatsby-plugin-dark-mode`,
-		{
-			resolve: `gatsby-source-filesystem`,
-			options: {
-				path: `${__dirname}/content/blog`,
-				name: `blog`
-			}
-		},
-		{
-			resolve: `gatsby-source-filesystem`,
-			options: {
-				path: `${__dirname}/content/assets`,
-				name: `assets`
-			}
-		},
-		// {
-		// 	resolve: `gatsby-source-filesystem`,
-		// 	options: {
-		// 		path: `${__dirname}/content/weeklies`,
-		// 		name: `weeklies`
-		// 	}
-		// },
-		{
-			resolve: `gatsby-transformer-remark`,
-			options: {
-				plugins: [
-					'gatsby-plugin-social-cards',
-					{
-						resolve: `gatsby-remark-images`,
-						options: {
-							maxWidth: 590
-						}
-					},
-					{
-						resolve: `gatsby-remark-responsive-iframe`,
-						options: {
-							wrapperStyle: `margin-bottom: 1.0725rem`
-						}
-					},
-					`gatsby-remark-prismjs`,
-					`gatsby-remark-copy-linked-files`,
-					`gatsby-remark-smartypants`
-				]
-			}
-		},
-		`gatsby-transformer-sharp`,
-		`gatsby-plugin-sharp`,
-		{
-			resolve: `gatsby-plugin-google-analytics`,
-			options: {
-				trackingId: `UA-112021087-1`
-			}
-		},
-		`gatsby-plugin-feed`,
-		{
-			resolve: `gatsby-plugin-manifest`,
-			options: {
-				name: `Blog by Perttu Lähteenlahti`,
-				short_name: `Perttu`,
-				start_url: `/`,
-				background_color: `#ffffff`,
-				theme_color: `#663399`,
-				display: `minimal-ui`,
-				icon: `src/favicon.jpg`
-			}
-		},
-		`gatsby-plugin-offline`,
-		`gatsby-plugin-react-helmet`,
-		{
-			resolve: `gatsby-plugin-react-helmet-canonical-urls`,
-			options: {
-				siteUrl: `https://www.lahteenlahti.com`
-			}
-		},
-		{
-			resolve: `gatsby-plugin-typography`,
-			options: {
-				pathToConfigModule: `src/utils/typography`
-			}
-		},
-		`gatsby-plugin-typescript`,
-		`gatsby-plugin-styled-components`,
-		`gatsby-plugin-transition-link`
-	]
+  siteMetadata: {
+    author: `Perttu Lähteenlahti`,
+    title: `Perttu Lähteenlahti`,
+    description: `Blog about design, development, cognitive science and startups.`,
+    siteUrl: `https://lahteenlahti.com`,
+    social: {
+      twitter: `plahteenlahti`
+    }
+  },
+  plugins: [
+    `gatsby-plugin-advanced-sitemap`,
+    `gatsby-remark-reading-time`,
+    `gatsby-plugin-dark-mode`,
+    `gatsby-plugin-twitter`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: `assets`
+      }
+    },
+    // {
+    // 	resolve: `gatsby-source-filesystem`,
+    // 	options: {
+    // 		path: `${__dirname}/content/weeklies`,
+    // 		name: `weeklies`
+    // 	}
+    // },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          "gatsby-plugin-social-cards",
+          `gatsby-remark-embedder`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590
+            }
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`
+            }
+          },
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`
+        ]
+      }
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-112021087-1`
+      }
+    },
+    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Blog by Perttu Lähteenlahti`,
+        short_name: `Perttu`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/favicon.jpg`
+      }
+    },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://www.lahteenlahti.com`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`
+      }
+    },
+    `gatsby-plugin-typescript`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-transition-link`
+  ]
 };
