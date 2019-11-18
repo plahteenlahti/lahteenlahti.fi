@@ -1,6 +1,7 @@
 ---
 title: "Psykologian siirtyminen lääketieteelliseen tiedekuntaan ja miten tämä vaikuttaa kognitiotieteeseen"
 date: "2015-06-04"
+canonical: "https://www.intelligenzia.fi/psykologia-ja-kognitiotiede/"
 ---
 
 _Tänään järjestetyssä psykologian oppiaineryhmän kokouksessa käytiin lävitse huhuja mahdollisesta psykologian oppiaineen siirtymisestä lääketieteellisen tiedekunnan alaisuuteen. Laitoksen henkilökunnan suhtautuminen olisi yleisesti ottaen positiivinen ja siirtyminen nähtiin mahdollisuutena vahvistaa psykologian oppiainetta sekä tarjota parempaa koulutusta lääketieteelliseen opetukseen ja tutkimukseen. Voidaan kuitenkin sanoa, että näin massiivinen muutos jättää jälkeensä myös suuren epätietoisuuden aallokon, josta esimerkiksi kognitiotiede voi tulevaisuudessa kärsiä._
@@ -26,3 +27,5 @@ Toinen vaihtoehto on seurata psykologiaa lääketieteelliseen tiedekuntaan, mit�
 Kolmas vaihtoehto on jättää psykologia ja Käyttäymistieteellinen tiedekunta taakse ja siirtyä toiseen tiedekuntaan. Vaihtoehtoina tähän ovat Humanistinen tiedekunta ja Matemaattis- luonnon tieteellinen tiedekunta. Humanistisen tiedekunnan kohdalla voidaan mainita tämän olleen kognitiotieteen alkuperäinen tiedekunta, josta kognitiotiede myöhemmin sulautettiin osaksi Käyttäymistieteellistä. Matemaattis-luonnontieteellisen tiedekunnan suuntaan mentäessä on taas mahdollista viedä kognitiotiedettä lähemmäksi muissa yliopistoissa vallalla olevaa mallia kohti (esimerkiksi Jyväskylässä kognitiotiede on osa tietojenkäsittelytiedettä).
 
 Riippumatta siitä mihin päätökseen kognitiotieteen kohdalla päädytään, on edessä mittavia muutoksia sekä hallinnon että identiteetin saralla. Tässä kohtaa on nostettava kuitenkin esiin vieläkin täyttämättä oleva professuuri. **Saarisen** kanssa keskusteltuani tilaisuuden jälkeen tämä painotti kognitiotieteen sijoituskohteen konkretisoimisen tärkeyttä professuurin kannalta. Ensisijaisesti olisi tiedettävä mihin kognitiotiede siirtyy tai jää, jotta professori voidaan valikoida onnistuvasti. Tämä tulee luultavimmin tarkoittamaan sitä, ettei kognitiotieteen professuuri tulekaan aikaisimmista lupauksista huolimatta edes hakuun vuoden 2015 puolella. Konnarit saavat siis viettää kohta neljännen vuotensa ilman professoria.
+
+[Intelligenzia ry](https://www.intelligenzia.fi)

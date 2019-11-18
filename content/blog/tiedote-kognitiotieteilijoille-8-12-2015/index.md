@@ -1,11 +1,12 @@
 ---
 title: "Tiedote kognitiotieteilijöille 8.12.2015"
 date: "2015-12-08"
+canonical: "https://www.intelligenzia.fi/tiedote-kognitiotieteilijoille/"
 ---
 
 #### Kognitiotiede osana tiedekuntamuutosta ja Isoa pyörää
 
-Helsingin yliopistossa liikkeellä oleva Iso pyörä sekä tiedekuntauudistukset saavat aikaan muutoksia, jotka vaikuttavat  osaan oppiaineista  erittäin merkittävästi. Kognitiotiede on yksi näistä aloista. Tällä hetkellä tilanne on vielä epävarma, mutta lupaavia askelia päätöksiä kohti on jo otettu.
+Helsingin yliopistossa liikkeellä oleva Iso pyörä sekä tiedekuntauudistukset saavat aikaan muutoksia, jotka vaikuttavat osaan oppiaineista erittäin merkittävästi. Kognitiotiede on yksi näistä aloista. Tällä hetkellä tilanne on vielä epävarma, mutta lupaavia askelia päätöksiä kohti on jo otettu.
 
 **Tausta**
 
@@ -26,4 +27,4 @@ Koko yliopistossa käynnissä oleva Iso pyörä -uudistus vaikuttaa myös luonno
 Seuraava askel on dekaanien tapaaminen ennen joulua tai heti alkuvuoden aikana. Sen jälkeen tiedämme toivottavasti enemmän aikataulusta ja vastaanottavan tiedekunnan sisäisistä muutoksista, jotka epäilemättä vaikuttavat myös kognitiotieteen sijoittumiseen tiedekunnassa.
 
 Terveisin,  
-_Intelligenzia_ ry:n hallitus
+[Intelligenzia ry](https://www.intelligenzia.fi)

@@ -1,6 +1,7 @@
 ---
-title: 'Avoin Kirje Käyttäytymistieteellisen Tiedekunnan Dekaanille'
-date: '2015-09-21'
+title: "Avoin Kirje Käyttäytymistieteellisen Tiedekunnan Dekaanille"
+date: "2015-09-21"
+canonical: "https://www.intelligenzia.fi/avoin-kirje-dekaanille/"
 ---
 
 #### Aloite kognitiotieteen oppiaineen ja tieteenalan jatkuvuuden takaamiseksi käynnissä olevassa tiedekuntamuutoksessa
@@ -23,4 +24,4 @@ Perttu Lähteenlahti puheenjohtaja
 
 Iina Ala-Kurikka sihteeri,
 
-Intelligenzia ry
+[Intelligenzia ry](https://www.intelligenzia.fi)
