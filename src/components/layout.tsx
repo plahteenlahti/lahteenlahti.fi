@@ -67,6 +67,8 @@ export const Layout = (props: Props) => {
 
 const List = styled.ul`
   list-style: none;
+  display: flex;
+  flex-direction: row;
 `;
 const ListItem = styled.a`
   font-size: 12px;
