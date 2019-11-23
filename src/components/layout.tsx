@@ -10,41 +10,6 @@ interface Props extends PageRendererProps {
   children: ReactNode;
 }
 
-const StyledH1 = styled.h1`
-  ${styledScale(1.5)};
-  margin-bottom: ${rhythm(1.5)};
-  margin-top: 0;
-`;
-
-const StyledH3 = styled.h3`
-  font-family: Montserrat, sans-serif;
-  margin-top: 0;
-`;
-
-const StyledLink = styled(FadeLink)`
-  box-shadow: none;
-  color: inherit;
-  text-decoration: none;
-`;
-
-const Content = styled.div`
-  margin-left: auto;
-  margin-right: auto;
-  max-width: ${rhythm(24)};
-  padding: ${`${rhythm(1.5)} ${rhythm(3 / 4)}`};
-`;
-
-const Menu = styled.ul`
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-`;
-
-const MenuItem = styled.li`
-  list-style: none;
-  margin-right: ${rhythm(3 / 4)};
-`;
-
 export const Layout = (props: Props) => {
   const { location, title, children } = props;
   const rootPath = `/`;
@@ -103,4 +68,42 @@ export const Layout = (props: Props) => {
 const List = styled.ul`
   list-style: none;
 `;
-const ListItem = styled.a``;
+const ListItem = styled.a`
+  font-size: 12px;
+`;
+
+const StyledH1 = styled.h1`
+  ${styledScale(1.5)};
+  margin-bottom: ${rhythm(1.5)};
+  margin-top: 0;
+`;
+
+const StyledH3 = styled.h3`
+  font-family: Montserrat, sans-serif;
+  margin-top: 0;
+`;
+
+const StyledLink = styled(FadeLink)`
+  box-shadow: none;
+  color: inherit;
+  text-decoration: none;
+`;
+
+const Content = styled.div`
+  background: red;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: ${rhythm(24)}rem;
+  padding: ${`${rhythm(1.5)} ${rhythm(3 / 4)}`};
+`;
+
+const Menu = styled.ul`
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+`;
+
+const MenuItem = styled.li`
+  list-style: none;
+  margin-right: ${rhythm(3 / 4)};
+`;
