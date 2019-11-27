@@ -1,10 +1,8 @@
 ---
-title: '🌹 Perks of Being in The Hacker Community'
-date: '2018-04-06'
+title: "🌹 Perks of Being in The Hacker Community"
+date: "2018-04-06"
 draft: true
 ---
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/81955-1hmkudsy3i7eecapwpwljcg.png)
 
 As previously mentioned, we are building a Hacker Community here at Perfektio. [The previous post hopefully gave you an idea about the vision](https://medium.com/perfektio/announcing-perfektio-community-5fd43baa278e) we have for this community, at least on an abstract level. This article, however, goes straight into the nitty gritty details of being a part of this community, and into concrete examples of what you get out this!
 

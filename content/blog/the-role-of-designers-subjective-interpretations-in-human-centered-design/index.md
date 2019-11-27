@@ -1,6 +1,6 @@
 ---
-title: 'The Role of Designers’ Subjective Interpretations in Human-centered Design'
-date: '2015-10-20'
+title: "The Role of Designers’ Subjective Interpretations in Human-centered Design"
+date: "2015-10-20"
 ---
 
 ##### Interpretation is the basis of radical innovation

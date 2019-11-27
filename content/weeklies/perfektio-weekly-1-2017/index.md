@@ -7,8 +7,6 @@ date: "2017-11-07"
 
 What are we up to this week? What happened last week? Perfektio Weeklies are a light collection of what is happening in our company, what our culture is like, and what types of design and development stuff you should read about this week!
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/9f46c-1yrys5qznio-tvrdlddvpkq.jpeg)
-
 Last week we build some predictive maintance services together with Siemens. Photo courtesy of Industryhack.
 
 ### What is Perfektio up to this week?
@@ -25,7 +23,7 @@ This weekend [Olli](https://medium.com/u/1b1bb018d7f1) and [Perttu](https://medi
 
 \[embed\]http://www.potentiaali.com/index.html\[/embed\]
 
-* * *
+---
 
 ### Newest dev stuff
 
@@ -33,13 +31,13 @@ This week’s dev stuff is all about css grid and flexbox. First article is a pr
 
 \[embed\]http://www.potentiaali.com/index.html\[/embed\] \[embed\]https://codepen.io/shshaw/pen/EbjvbQ\[/embed\] \[embed\]https://codepen.io/andybarefoot/pen/MERBPx\[/embed\]
 
-* * *
+---
 
 ### Our favorite bits about design
 
 \[embed\]http://www.potentiaali.com/index.html\[/embed\] \[embed\]http://www.potentiaali.com/index.html\[/embed\]
 
-* * *
+---
 
 ### Something to completely else
 
@@ -47,6 +45,6 @@ This week’s dev stuff is all about css grid and flexbox. First article is a pr
 
 \[embed\]https://twitter.com/duncanbirnie/status/927182730449899520\[/embed\]
 
-* * *
+---
 
 > Thanks to tuning into this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)

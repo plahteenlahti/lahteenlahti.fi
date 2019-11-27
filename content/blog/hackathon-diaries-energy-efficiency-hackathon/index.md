@@ -1,6 +1,6 @@
 ---
-title: 'Hackathon Diaries: Energy Efficiency Hackathon'
-date: '2018-03-02'
+title: "Hackathon Diaries: Energy Efficiency Hackathon"
+date: "2018-03-02"
 ---
 
 #### One rather unusual hackathon about energy efficiency
@@ -34,8 +34,6 @@ We settled on a idea of smart tags that would start out opaque and slowly change
 > We settled on a idea about smart tags that would start out opaque and slowly change color as the expiry date of product got nearer. Different colors would indicate different discounts.
 
 We then moved back to the auditorium to do our one minute pitch with all the other teams. This turned out be a little disappointing in our case. Not because we got negative feedback, but because we didn’t get any. The jury had been asked to give feedback after all the pitches were done, and had simply forgotten most of the teams at that point.
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/72ada-1bjujoy5u6qb9birfhhnxyg.jpeg)
 
 We conducted pretty quick and definitely dirty user testing to test if our hypothesis could actually work.
 

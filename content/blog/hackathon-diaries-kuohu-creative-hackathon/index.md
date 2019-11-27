@@ -1,11 +1,7 @@
 ---
-title: 'Hackathon Diaries: Kuohu Creative hackathon'
-date: '2017-11-12'
+title: "Hackathon Diaries: Kuohu Creative hackathon"
+date: "2017-11-12"
 ---
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/9a7cd-1bcumzhx6qymnlyw3dac4bq.jpeg)
-
-Intensive questioning 📷 by [Jessica Blechingberg](https://medium.com/u/6aee616ce7f0)
 
 #### Can you do creative business development in a hackathon?
 
@@ -16,10 +12,6 @@ Last weekend we participated in one of the most exciting hackathons in a long ti
 Seeing as Kuohu was first of its kind, we were slightly skeptic if it could live up to its promises and whether we could provide any meaningful solutions in our challenge by Fazer.
 
 Pssst. _If you are organizing a hackathon, this was something you might want to benchmark._
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/ce856-101eput0skjimdyudvd59mw.jpeg)
-
-Throw your hands up for Kuohu! Why does our team look like it’s getting arrested? 📷 by [Jessica Blechingberg](https://medium.com/u/6aee616ce7f0)
 
 ### Friday
 
@@ -37,12 +29,6 @@ Amidst rain and overcast skies, we jumped on a ferry to Suomenlinna, a place wel
 
 Unfortunately, we can not go into detail on what our proposal ended up being, as the service is not yet public. Let’s just say it involved free lunches. Here’s a couple of good pictures on how we worked on the solution!
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/25e98-1fh3akhkxqsailfiirc-6gq.jpeg)
-
-Some heavy questioning of choices 📷 by [Jessica Blechingberg](https://medium.com/u/6aee616ce7f0)
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/0b866-1q3d7-r7rmf_c-ukof9mxlg.png)
-
 Getting feedback for our business plan from D11's Tuomas Ylä-Kauttu. On the table, you can spot the best hackathon beverage ever, the Ginger Pepsi Max.
 
 When it was time to pitch, Olli climbed on stage and started going through our holistic approach that tied in the business model and the future of the service. Earlier on we had made some bold choices on the pricing, and our numbers raised some serious doubts in us and in the jury.
@@ -51,10 +37,6 @@ When it was time to pitch, Olli climbed on stage and started going through our h
 
 At the end of just one intensive day, Fazer had 5 different but viable revenue models in their hands. All the solutions were excellent and it was definitely not an easy task for the jury to pick only one winner. Our solution, however, ended up being the winning one, despite the hard questions it got from the jury. The jury actually thought that our solution was so simple that it irritated them greatly that they had not thought about it themselves.
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/68bbb-1q7fkdlbktbp-u9n1jlom4w.jpeg)
-
-“Your solution was so simple that we felt irritated for not having thought of it ourselves” 📷 by [Jessica Blechingberg](https://medium.com/u/6aee616ce7f0)
-
 ### Conclusion
 
 We had a blast in this hack and based on our conversation with Luova Aalto, so did everybody else. Unfortunately, we weren’t able to witness what the teams had created in other challenges, for Jenkki and Happy Joe, but based on the atmosphere of the finals teams had a lot of fun working on those solutions.
@@ -62,7 +44,3 @@ We had a blast in this hack and based on our conversation with Luova Aalto, so d
 At first, we were doubtful whether such a short hackathon could work in innovating a completely new business model for an existing service. But, this hackathon proved to be wildly successful in doing exactly that. This event serves as further proof for our view that a multidisciplinary team, design thinking, and constant questioning can solve basically any problem.
 
 I will conclude this Hack Report by saying that Kuohu Creative was one of the friendliest yet one of the most effective hackathons we have seen in a long time. Not to mention the level of production and attention to detail in the participant experience, which were truly stellar. I’ve personally witnessed only one hackathon having this high level of production before, and they had a god damn film crew on the venue.
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/d3d4d-1ygzyvrhc66yuxpmntcb7hg.jpeg)
-
-Chocolatey checks are the best checks! 📷 by [Jessica Blechingberg](https://medium.com/u/6aee616ce7f0)

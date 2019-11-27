@@ -5,8 +5,6 @@ date: "2018-04-08"
 
 #### A weekly digest of inspiring content
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/d41e2-1koqpmnkzak5kesavxeotbw.png)
-
 > This Week: Stupid Hack, Making Touchbar Useful, Good Git Commit Messages, and the Pitfalls Of Card UIs
 
 ### 🙉 What’s up Perfektio?
@@ -15,7 +13,7 @@ date: "2018-04-08"
 
 Last year we built a instant messaging app that allowed you to only use emojis. This year have something even stupider prepared. Come say hi to us!
 
-* * *
+---
 
 ### 🤓 For The Techies
 
@@ -35,7 +33,7 @@ Gmail has a feature, dubbed the “dots don’t matter’, that allows you to re
 
 How to succeed in open innovation projects? Earlier this year Industryhack conducted a study on 30 open innovation projects and the results are finally here.
 
-* * *
+---
 
 ### 💻 Treats for developers
 
@@ -67,7 +65,7 @@ A-Frame tutorial on how to build multi-user VR experiences using modern web tech
 
 How to do scooped corners in CSS
 
-* * *
+---
 
 ### 🍬 Candy for designers
 
@@ -95,7 +93,7 @@ Definite read for all the designers out that want to improve their product’s u
 
 Google Fonts has a lot of font combinations that are designed to look good. Learn how to use them in your designs.
 
-* * *
+---
 
 > If you like what you’re seeing, don’t be afraid to give it a clap or two!
 

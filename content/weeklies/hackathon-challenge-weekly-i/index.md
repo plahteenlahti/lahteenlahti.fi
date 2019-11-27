@@ -3,8 +3,6 @@ title: "Hackathon + Challenge Weekly I"
 date: "2018-04-17"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/672d2-12kc55vq-8yy4bl79rbmulw.jpeg)
-
 #### Hottest innovation challenges and hackathons of the week
 
 Checkout this weeks hottest new [**hackathons**](#efcc) and [**innovation challenges**](#4545)!
@@ -32,7 +30,7 @@ _**🏆 5000 €**
 
 \[embed\]https://ultrahack.org/ultrahack2018sprint1\[/embed\]
 
-* * *
+---
 
 ### Open Innovation Challenges
 
@@ -78,6 +76,6 @@ In AI Goes to Work, teams will co-develop AI-based solutions to provide Työmark
 
 \[embed\]https://ultrahack.org/ultrahack2018sprint1\[/embed\]
 
-* * *
+---
 
 Know a good hackathon we should put on our list? Let’s us know about in the comments down below.

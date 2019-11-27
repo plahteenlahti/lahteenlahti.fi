@@ -1,6 +1,6 @@
 ---
-title: 'Opas hackathoneja voittavien palvelukonseptien suunnitteluun'
-date: '2018-11-11'
+title: "Opas hackathoneja voittavien palvelukonseptien suunnitteluun"
+date: "2018-11-11"
 ---
 
 #### Palvelumuotoilun ajatusmaailmalla hackathonien voittoon
@@ -24,10 +24,6 @@ Keinot kohderyhmän valintaan ovat monet. Eräs helppo tapa on valita jokin ryhm
 Kohderyhmästä on helppo jalostaa palvelulla ratkaistava ongelma tutkimalla kohderyhmän ihmisten toimintaa eri tilanteissa. Minkä ongelman esimerkiksi itse kohtaat päivittäin? Onko kenties jotakin minkä kanssa käytät usein mielestäsi liikaa aikaa, rahaa tai muita resursseja? Missä kontekstissa ongelmaan useimmiten törmäät? Esimerkkinä kontekstista voisi olla esimerkiksi joukkoliikenteellä matkustaminen.
 
 Järkevintä on valita yksi, konkreettinen, tunnistettava ja hackathonin aikataulussa ratkaistava ongelma. Jos palvelusi kohderyhmä on esimerkiksi ikäihmiset ja ongelman kontekstina joukkoliikenteen käyttö, voisi ratkaistavana ongelmana olla ikäihmisten matkustamisen helpottaminen joukkoliikennevälineillä. Ongelmaksi muotoiltuna: “Miten helpottaa ikäihmisten liikkumista joukkoliikennevälineillä”.
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/c441c-1llcr48n7vk0t5hcczjnxrw.jpeg)
-
-📷 . by [Jessica Blechingberg](https://medium.com/u/6aee616ce7f0)
 
 ### Miten palvelusi ratkaisee ongelman?
 

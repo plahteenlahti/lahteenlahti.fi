@@ -9,19 +9,15 @@ date: "2018-04-19"
 
 Our favorite tech news and articles of the week.
 
-* * *
-
-[![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/248f2-1ovcrrkigzeyuabdtvc5qcg.png)](https://tympanus.net/codrops/2018/04/18/password-strength-visualization/)
+---
 
 [Password Strength Visualization](https://tympanus.net/codrops/2018/04/18/password-strength-visualization/)
 
 #### [Password Strength Visualization](https://tympanus.net/codrops/2018/04/18/password-strength-visualization/)
 
-Visual feedback for password strength on an image based on Colibro’s sign up form by Codrop_s._
+Visual feedback for password strength on an image based on Colibro’s sign up form by Codrop*s.*
 
 #### [Jeff Bezos’ Annual Shareholders Letter](https://www.sec.gov/Archives/edgar/data/1018724/000119312518121161/d456916dex991.htm)
-
-[![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/5b1a7-1myz7hzgfiezb8sid2sberw.png)](https://www.jeffgeerling.com/blog/2018/asus-tinker-board-compelling-upgrade-raspberry-pi-3-b)
 
 The ASUS Tinker Board is a compelling upgrade from a Raspberry Pi 3 B+
 
@@ -32,8 +28,6 @@ Detailed look at the capabilities of ASUS Tinker Board.
 #### [What You Can Expect From Node.js 10](https://nodesource.com/blog/what-you-can-expect-from-node-js-10/)
 
 _The release of Node.js v10 is just a week away, and will include a suite of new features including updates to errors and the formal addition of N-API._
-
-[![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/5317e-1etcong9-mjqcc4skkxdcrw.png)](https://freedom-to-tinker.com/2018/04/18/no-boundaries-for-facebook-data-third-party-trackers-abuse-facebook-login/)
 
 [https://freedom-to-tinker.com/2018/04/18/no-boundaries-for-facebook-data-third-party-trackers-abuse-facebook-login/](https://freedom-to-tinker.com/2018/04/18/no-boundaries-for-facebook-data-third-party-trackers-abuse-facebook-login/)
 
@@ -57,7 +51,7 @@ Very well done look at how the new page previews feature in Wikipedia was design
 
 \[embed\]https://medium.com/@NetflixTechBlog/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436\[/embed\]
 
-* * *
+---
 
 > Thank you for tuning in on this week’s Tech + Dev Weekly. If you like what you’re seeing, don’t be afraid to give it a clap or two!
 

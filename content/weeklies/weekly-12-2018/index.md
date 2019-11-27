@@ -27,7 +27,7 @@ A new MIT study shows that a new approach can help organizations scale their dat
 
 Why is the fruit company developing its own screens?
 
-* * *
+---
 
 ### 💻 Treats for developers
 
@@ -43,7 +43,7 @@ Images on web pages should aim to be high resolution, but this comes with a cost
 
 **Rough.js** is a light weight, [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) based library that lets you draw in a _sketchy_, _hand-drawn-like_, style.
 
-* * *
+---
 
 ### 🍬 Candy for designers
 
@@ -63,11 +63,9 @@ Nicely constructed and detailed case study of Blendle, a journalism service for 
 
 Just look at this beautiful interaction by [Minh Pham](https://dribbble.com/phamduyminh)!
 
-[![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/b499c-12ots6wfiuzmsb3gafnha0g.gif)](https://dribbble.com/shots/4361222-Card-Swipe-Interaction)
-
 Image copyright Minh Pham
 
-* * *
+---
 
 ### Book of the Week
 
@@ -75,7 +73,7 @@ Image copyright Minh Pham
 
 Everyone knows Doom and Wolfenstein 3D, but how about the two most talented game developers behind it? Must read for everyone interested in games, development and startups.
 
-* * *
+---
 
 ### ❤️ Something Else
 
@@ -87,7 +85,7 @@ How to build a smart bathroom mirror!
 
 Exercise that creativity muscle with these tricks, ranging from The “J.K. Rowling” Brainstorm to letter writing.
 
-* * *
+---
 
 > If you like what you’re seeing, don’t be afraid to give it a clap or two!
 
