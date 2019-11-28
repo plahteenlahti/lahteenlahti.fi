@@ -4,6 +4,7 @@ date: "2019-11-28"
 ---
 
 The word "deep tech" gets thrown around a lot these days.
+
 It feels every investor and their grandma is looking for deep tech companies to invest. Just sending an email with words "deep tech", "patent" and "biotech" or "sustainability" could probably net you a meeting with a venture capitalist (probably even faster than you could say "I'm a white male engineer", which is the second-best method for getting a meeting with an investor).
 
 In reality, most deep tech companies are pretty far from being real deep technology companies. Most of them are the [r/im14andthisisdeep](https://www.reddit.com/r/im14andthisisdeep/) version of research-based companies: buzzwords, rehashes of someone else's work, and something that makes you cringe the more you think about it.
