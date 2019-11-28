@@ -1,5 +1,5 @@
 ---
-title: "im14andthisisdeeptech"
+title: "VCs and Deep Tech: im14andthisisdeeptech"
 date: "2019-11-28"
 draft: false
 ---
