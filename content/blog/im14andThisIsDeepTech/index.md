@@ -1,6 +1,6 @@
-title: 'im14andthisisdeeptech'
-date: '2019-11-28'
-
+---
+title: "im14andthisisdeeptech"
+date: "2019-11-28"
 ---
 
 The word "deep tech" gets thrown around a lot these days.
