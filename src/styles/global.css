@@ -1,30 +1,50 @@
 @media (prefers-color-scheme: dark) {
   body {
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-    --bg: white;
-    --textNormal: #333;
+    /* //white; */
+    --bg: #e0e5ec;
+    --bgSecondary: rgb(240, 240, 240, 0.5);
+    --textPrimary: #333;
     --textSecondary: #444;
     --textTitle: #333;
     --textLink: #4a5aef;
     --hr: hsla(0, 0%, 0%, 0.2);
     background-color: var(--bg);
+    --lightShadow: rgba(255, 255, 255, 0.52);
+    --darkShadow: rgb(163, 177, 198, 0.5);
+
+    --shadow: 9px 9px 22px -2px var(--darkShadow),
+      -9px -9px 18px var(--lightShadow);
+
+    --inset: inset 9px 9px 22px -2px var(--darkShadow),
+      -9px -9px 18px var(--lightShadow);
   }
 
   body.dark {
     -webkit-font-smoothing: antialiased;
-    --bg: rgb(23, 26, 26);
-    --textNormal: rgba(255, 255, 255, 0.88);
+    --bg: rgba(35, 37, 37);
+    /* rgb(23, 26, 26); */
+    --bgSecondary: rgb(33, 37, 37);
+    --textPrimary: rgba(255, 255, 255, 0.88);
     --textSecondary: rgba(255, 255, 255, 0.5);
     --textTitle: white;
     --textLink: #4aefd5;
     --hr: hsla(0, 0%, 100%, 0.2);
+    --lightShadow: rgba(44, 44, 44, 0.52);
+    --darkShadow: rgb(10, 11, 11, 0.4);
+
+    --shadow: 9px 9px 22px -2px var(--darkShadow),
+      -9px -9px 18px var(--lightShadow);
+
+    --inset: inset 9px 9px 22px -2px var(--darkShadow),
+      -9px -9px 18px var(--lightShadow);
   }
 }
 
 @media (prefers-color-scheme: light) {
   body {
     --bg: white;
-    --textNormal: #333;
+    --textPrimary: #333;
     --textSecondary: #444;
     --textTitle: #333;
     --textLink: #4a5aef;
@@ -34,8 +54,9 @@
 
   body.dark {
     -webkit-font-smoothing: antialiased;
-    --bg: rgb(23, 26, 26);
-    --textNormal: rgba(255, 255, 255, 0.88);
+    /* --bg: rgb(23, 26, 26); */
+    --bg: #3d4343;
+    --textPrimary: rgba(255, 255, 255, 0.88);
     --textSecondary: rgba(255, 255, 255, 0.5);
     --textTitle: white;
     --textLink: #4aefd5;
@@ -44,7 +65,7 @@
 }
 
 p {
-  color: var(--textNormal);
+  color: var(--textPrimary);
   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) color;
 }
 h1,
@@ -56,13 +77,13 @@ h6,
 footer,
 div,
 time {
-  color: var(--textNormal);
+  color: var(--textPrimary);
   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1) color;
 }
 
 /* body {
 	--bg: white;
-	--textNormal: #222;
+	--textPrimary: #222;
 	--textTitle: #222;
 	--textLink: blue;
 	--hr: hsla(0, 0%, 0%, 0.2);
@@ -73,7 +94,7 @@ body.dark {
 	-webkit-font-smoothing: antialiased;
 
 	--bg: rgb(23, 26, 26);
-	--textNormal: rgba(255, 255, 255, 0.88);
+	--textPrimary: rgba(255, 255, 255, 0.88);
 	--textTitle: white;
 	--textLink: #4aefd5;
 	--hr: hsla(0, 0%, 100%, 0.2);

@@ -4,6 +4,8 @@ import styled from "styled-components";
 import { rhythm, styledScale } from "../utils/typography";
 import { FadeLink } from "./link";
 import ToggleTheme from "./themeToggler";
+import SignUp from "./signup";
+import Links from "./links";
 
 interface Props extends PageRendererProps {
   title: string;
@@ -22,7 +24,6 @@ export const Layout = (props: Props) => {
         <HeaderTitle>
           <StyledLink to={`/`}>{title}</StyledLink>
         </HeaderTitle>
-        <ToggleTheme />
         <Menu>
           {/* <MenuItem>
 						<StyledLink to={`/`}>Blog</StyledLink>
@@ -37,42 +38,14 @@ export const Layout = (props: Props) => {
       </header>
       <main>{children}</main>
       <footer>
-        <List>
-          <li>
-            <ListItem href="https://medium.com/l%C3%A4hteenlahti">
-              Medium
-            </ListItem>
-          </li>
-          <li>
-            <ListItem href="https://perttu.dev">Perttu.dev</ListItem>
-          </li>
-          <li>
-            <ListItem href="https://intelligenzia.fi">Intelligenzia</ListItem>
-          </li>
-          <li>
-            <ListItem href="https://nyxo.fi">Nyxo</ListItem>
-          </li>
-          <li>
-            <ListItem href="https://react-native.club">
-              React Native Club
-            </ListItem>
-          </li>
-        </List>
+        <SignUp />
 
+        <Links />
         <div>© {new Date().getFullYear()} Perttu Lähteenlahti</div>
       </footer>
     </Content>
   );
 };
-
-const List = styled.ul`
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-`;
-const ListItem = styled.a`
-  font-size: 12px;
-`;
 
 const StyledH1 = styled.h1`
   ${styledScale(1.5)};
