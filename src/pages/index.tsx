@@ -7,6 +7,12 @@ import { FadeLink } from "../components/link";
 import { SEO } from "../components/seo";
 import { MarkdownRemark } from "../graphql-types";
 import { rhythm } from "../utils/typography";
+import Search from "../components/search";
+import { HotKeys } from "react-hotkeys";
+
+const keyMap = {
+  OPEN_SEARCH: "z"
+};
 
 const StyledLink = styled(FadeLink)`
   box-shadow: none;
@@ -69,44 +75,49 @@ const BlogIndex = (props: Props) => {
   const posts = data.allMarkdownRemark.edges;
 
   return (
-    <Layout location={props.location} title={siteTitle}>
-      <SEO
-        title="Perttu Lähteenlahti"
-        keywords={[
-          `blog`,
-          `design`,
-          "technology",
-          "programming",
-          `cognitive science`
-        ]}
-        slug="/"
-      />
-      <Bio />
-      {posts.map(({ node }: { node: MarkdownRemark }) => {
-        const frontmatter = node!.frontmatter!;
-        const fields = node!.fields!;
-        const slug = fields.slug!;
-        const readingTime = fields.readingTime.text!;
-        const excerpt = node!.excerpt!;
+    <HotKeys keyMap={keyMap} root>
+      <Search>
+        <Layout location={props.location} title={siteTitle}>
+          <SEO
+            title="Perttu Lähteenlahti"
+            keywords={[
+              `blog`,
+              `design`,
+              "technology",
+              "programming",
+              `cognitive science`
+            ]}
+            slug="/"
+          />
 
-        const title = frontmatter.title || fields.slug;
-        return (
-          <div key={slug}>
-            <Title>
-              <StyledLink to={slug}>{title}</StyledLink>
-            </Title>
-            <Time>{frontmatter.date}</Time>
-            <ReadingTime>{readingTime}</ReadingTime>
-            {/* <Language>🇫🇮</Language> */}
-            <p
-              dangerouslySetInnerHTML={{
-                __html: frontmatter.description || excerpt
-              }}
-            />
-          </div>
-        );
-      })}
-    </Layout>
+          <Bio />
+          {posts.map(({ node }: { node: MarkdownRemark }) => {
+            const frontmatter = node!.frontmatter!;
+            const fields = node!.fields!;
+            const slug = fields.slug!;
+            const readingTime = fields.readingTime.text!;
+            const excerpt = node!.excerpt!;
+
+            const title = frontmatter.title || fields.slug;
+            return (
+              <div key={slug}>
+                <Title>
+                  <StyledLink to={slug}>{title}</StyledLink>
+                </Title>
+                <Time>{frontmatter.date}</Time>
+                <ReadingTime>{readingTime}</ReadingTime>
+                {/* <Language>🇫🇮</Language> */}
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: frontmatter.description || excerpt
+                  }}
+                />
+              </div>
+            );
+          })}
+        </Layout>
+      </Search>
+    </HotKeys>
   );
 };
 

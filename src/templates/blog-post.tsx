@@ -7,17 +7,30 @@ import { FadeLink } from "../components/link";
 import { SEO } from "../components/seo";
 import { Query, SitePageContext } from "../graphql-types";
 import { rhythm, styledScale } from "../utils/typography";
+import Share from "../components/share";
 
 interface Props extends PageRendererProps {
   pageContext: SitePageContext;
   data: Query;
 }
 
-const Date = styled.p`
+const Information = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
+
+const Date = styled.time`
   display: block;
   ${styledScale(-1 / 5)};
   margin-bottom: ${rhythm(1)};
   margin-top: ${rhythm(-1)};
+`;
+
+const ReadingTime = styled.p`
+  display: block;
+  ${styledScale(-1 / 5)};
+  margin: ${rhythm(-1)} ${rhythm(1)} ${rhythm(1)};
 `;
 
 const Divider = styled.hr`
@@ -41,6 +54,7 @@ const BlogPostTemplate = (props: Props) => {
   const html = post.html!;
   const siteTitle = data.site!.siteMetadata!.title!;
   const { previous, next } = props.pageContext;
+  const readingTime = post.fields!.readingTime.text!;
 
   return (
     <Layout location={props.location} title={siteTitle}>
@@ -51,10 +65,14 @@ const BlogPostTemplate = (props: Props) => {
         description={frontmatter.description || excerpt}
       />
       <h1>{post.frontmatter!.title}</h1>
-      <Date>{frontmatter.date}</Date>
+      <Information>
+        <Date>{frontmatter.date}</Date>
+        <ReadingTime>{readingTime}</ReadingTime>
+      </Information>
+
       <div dangerouslySetInnerHTML={{ __html: html }} />
       <Divider />
-      <Bio />
+      <Share />
       <PostNavigator>
         <li>
           {previous && (
@@ -88,6 +106,9 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       fields {
         slug
+        readingTime {
+          text
+        }
       }
       id
       excerpt(pruneLength: 160)

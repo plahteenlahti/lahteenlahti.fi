@@ -14,6 +14,14 @@ module.exports = {
     `gatsby-plugin-dark-mode`,
     `gatsby-plugin-twitter`,
     {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      }
+    },
+    {
       resolve: "gatsby-plugin-mailchimp",
       options: {
         endpoint:

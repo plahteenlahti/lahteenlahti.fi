@@ -16,9 +16,8 @@ import ToggleTheme from "./themeToggler";
 const Content = styled.div`
   display: flex;
   margin-bottom: ${rhythm(2.5)};
-
-  /* Basic styling and alignment */
   border-radius: 4px;
+  border: var(--shadowBorder);
   padding: 1rem;
   background-color: var(--bg);
   box-shadow: var(--shadow);

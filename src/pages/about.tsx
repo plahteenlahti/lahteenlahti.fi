@@ -36,7 +36,7 @@ const About = (props: Props) => {
       <SEO
         slug="about"
         title="Who is Perttu Lähteenlahti?"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        keywords={[`blog`, `javascript`, `react`]}
       />
       <h1>Who is Perttu Lähteenlahti?</h1>
       <div style={{ paddingBottom: 100 }}>
@@ -66,12 +66,13 @@ const About = (props: Props) => {
         carpenter. Partly due to my father's occupation I have worked as a
         carpenter myself as well, for five years. Four of those years I spent
         working for my father, in his company, which eventually went bankrupt
-        and bankrupted both of my parent's as well. Coming from a poor family, I
-        have worked my hardest to become as financially independent as possible.
-        This has partly been the catalyst for my interest in investing and
-        building companies. I am by no means rich, but throughout the years I've
-        accumulated enough wealth to buy apartments for both my parent's and
-        little sister, as well as pursue my dreams of University education.
+        and bankrupted both of my parent's as well.
+        <br /> <br /> Coming from a poor family, I have worked my hardest to
+        become as financially independent as possible. This has partly been the
+        catalyst for my interest in investing and building companies. I am by no
+        means rich, but throughout the years I've accumulated enough wealth to
+        buy apartments for both my parent's and little sister, as well as pursue
+        my dreams of University education.
         <br /> <br />
         This information should give you a good view of what has shaped my world
         view. What it does not necessarily state is what my writings tend to be

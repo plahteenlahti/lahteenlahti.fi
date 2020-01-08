@@ -54,6 +54,7 @@ const Newsletter = styled.div`
   margin: ${`${rhythm(3.5)} ${rhythm(0)}`};
   padding: ${`${rhythm(0.5)} ${rhythm(0.5)}`};
   box-shadow: var(--shadow);
+  border: var(--shadowBorder);
 `;
 
 const H3 = styled.h3`
