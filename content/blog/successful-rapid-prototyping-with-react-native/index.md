@@ -2,6 +2,7 @@
 title: "Successful Rapid Prototyping With React Native"
 date: "2019-12-29"
 excerpt: "Transcript of the lightning talk I gave at React Day Berlin 2019 titled: 'Successful Rapid Prototyping With React Native'"
+draft: true
 ---
 
 This is transcript of a lightning talk I gave at React Day Berlin in 2019. Originally it was supposed to be roughly seven minutes, but for some reason my talk timer started counting down from five minutes. You can watch the talk here, and download the presentation slides here. All the links are available at the end of this transcript.

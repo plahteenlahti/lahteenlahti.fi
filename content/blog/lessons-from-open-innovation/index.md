@@ -2,6 +2,7 @@
 title: "Lesson from Open Innovation"
 date: "2019-12-29"
 excerpt: "Transcript of the lightning talk I gave at React Day Berlin 2019 titled: 'Successful Rapid Prototyping With React Native'"
+draft: true
 ---
 
 so hi my name is Perla eternity I'm
