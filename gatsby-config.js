@@ -14,6 +14,14 @@ module.exports = {
     `gatsby-plugin-dark-mode`,
     `gatsby-plugin-twitter`,
     {
+      resolve: `@raae/gatsby-remark-oembed`,
+      options: {
+        // usePrefix defaults to false
+        // usePrefix: true is the same as ["oembed"]
+        usePrefix: ["oembed", "video", "embed"]
+      }
+    },
+    {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
