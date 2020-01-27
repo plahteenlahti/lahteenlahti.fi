@@ -77,7 +77,6 @@ export const Bio = () => {
           <a href="https://perttu.dev">perttu.dev</a>
         </p>
       </Content>
-      <p>Prefer to read in the dark? </p>
       <ToggleTheme />
     </>
   );

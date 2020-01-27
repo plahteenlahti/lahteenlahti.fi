@@ -47,6 +47,7 @@ const PostNavigator = styled.ul`
 
 const BlogPostTemplate = (props: Props) => {
   const data = props.data!;
+
   const post = data.markdownRemark!;
   const excerpt = post.excerpt!;
   const slug = post.fields!.slug!;
@@ -72,7 +73,7 @@ const BlogPostTemplate = (props: Props) => {
 
       <div dangerouslySetInnerHTML={{ __html: html }} />
       <Divider />
-      <Share />
+      <Share url={`https://lahteenlahti.com${slug}`} />
       <PostNavigator>
         <li>
           {previous && (
