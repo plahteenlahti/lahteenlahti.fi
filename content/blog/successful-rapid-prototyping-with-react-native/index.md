@@ -2,7 +2,7 @@
 title: "Successful Rapid Prototyping With React Native"
 date: "2019-12-29"
 excerpt: "Transcript of the lightning talk I gave at React Day Berlin 2019 titled: 'Successful Rapid Prototyping With React Native'"
-draft: false
+draft: true
 ---
 
 `embed: https://www.youtube.com/embed/QafikEOSUGA`

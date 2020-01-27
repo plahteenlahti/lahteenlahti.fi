@@ -12,24 +12,28 @@ import LinkedInSvg from "../../content/assets/icons/linkedin.inline.svg";
 import EmailSvg from "../../content/assets/icons/email.inline.svg";
 import { rhythm } from "../utils/typography";
 
-const Share = () => {
+interface Props {
+  url: string;
+}
+
+const Share = (props: Props) => {
+  const { url } = props;
   return (
     <ShareArticle>
       <Title>Share this post</Title>
       <ShareRow>
-        <FacebookButton url="">
+        <FacebookButton url={url}>
           <Facebook />
-          Share in Facebook
         </FacebookButton>
-        <LinkedInButton url="">
+        <LinkedInButton url={url}>
           <LinkedIn />
         </LinkedInButton>
-        <TwitterButton url="">
+        <TwitterButton url={url}>
           <Twitter />
         </TwitterButton>
-        <EmailShareButton url="">
+        <EmailButton url={url}>
           <Email />
-        </EmailShareButton>
+        </EmailButton>
       </ShareRow>
     </ShareArticle>
   );
@@ -101,10 +105,18 @@ const LinkedIn = styled(LinkedInSvg).attrs(() => ({
   stroke: currentColor;
 `;
 
+const EmailButton = styled(EmailShareButton)`
+  box-shadow: var(--shadow);
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--textLink);
+`;
+
 const Email = styled(EmailSvg).attrs(() => ({
   height: 25
 }))`
   stroke: currentColor;
 `;
-
-const Text = styled.span``;
