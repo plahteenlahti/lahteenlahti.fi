@@ -2,7 +2,7 @@
 title: "Successful Rapid Prototyping With React Native"
 date: "2019-12-29"
 excerpt: "Transcript of the lightning talk I gave at React Day Berlin 2019 titled: 'Successful Rapid Prototyping With React Native'"
-draft: true
+draft: false
 ---
 
 `embed: https://www.youtube.com/embed/QafikEOSUGA`
@@ -50,19 +50,15 @@ amplify analytics one aw yes good firebase analytics basically Google and it is 
 
 ![Screenshot of the presentation with a analytics hack ](hack.png "Analytics hack")
 
-This concludes my lightning talk on
+This concludes my lightning talk on Successful rapid prototyping.
 
 - Build fast with
-  - [React Native Paper]()
+  - [React Native Paper](https://reactnativepaper.com/)
 - Deliver fast
-  - Expo
-  - Codepush
-  - React native remote config
+  - [Expo](https://expo.io)
+  - [CodePush](https://github.com/Microsoft/code-push)
+  - [Remote Config](https://invertase.io/oss/react-native-firebase/v6/remote-config)
 - Measure everything.
-  - AWS Amplify
-  - Appcenter
-  - Firebase
-
-Links
-
-- AWS Amplify
+  - [AWS Amplify](https://aws-amplify.github.io/)
+  - [App Center](https://appcenter.m)
+  - [Firebase](https://rnfirebase.io/docs/v5.x.x/analytics/ios)
