@@ -1,7 +1,8 @@
 ---
-title: 'Too Old to Learn Code'
-date: '2019-05-18'
-canonical: 'https://perttu.dev/posts/too-old-to-learn-code/'
+title: "Too Old to Learn Code"
+date: "2019-05-18"
+tags: ["Programming"]
+canonical: "https://perttu.dev/posts/too-old-to-learn-code/"
 ---
 
 I wrote my first line of code in 2014 and a year later I founded my first software consultancy. Since that, I’ve founded two other technology companies. I’ve designed and built several digital products. I also competed in 70 hackathon/innovation challenges, winning around half of them. None of this almost happened, because I thought 23-year old was too old to learn to code.
