@@ -12,6 +12,7 @@ module.exports = {
     `gatsby-plugin-advanced-sitemap`,
     `gatsby-remark-reading-time`,
     `gatsby-plugin-dark-mode`,
+    `gatsby-remark-embed-video`,
     `gatsby-plugin-twitter`,
     {
       resolve: `@raae/gatsby-remark-oembed`,
@@ -27,6 +28,31 @@ module.exports = {
         rule: {
           include: /\.inline\.svg$/
         }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-amp`,
+      options: {
+        analytics: {
+          type: "gtag",
+          dataCredentials: "include",
+          config: {
+            vars: {
+              gtag_id: "UA-112021087-1",
+              config: {
+                "UA-112021087-1": {
+                  page_location: "{{pathname}}"
+                }
+              }
+            }
+          }
+        },
+        canonicalBaseUrl: "https://www.lahteenlahti.com/",
+        components: ["amp-form"],
+        excludedPaths: ["/404*", "/"],
+        pathIdentifier: "/amp/",
+        relAmpHtmlPattern: "{{canonicalBaseUrl}}{{pathname}}{{pathIdentifier}}",
+        useAmpClientIdApi: true
       }
     },
     {
