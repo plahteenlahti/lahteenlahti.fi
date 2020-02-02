@@ -5,9 +5,9 @@ excerpt: "Transcript of the lightning talk I gave at React Day Berlin 2019 title
 draft: false
 ---
 
-`embed: https://www.youtube.com/embed/QafikEOSUGA`
-
 ![Successful Rapid Prototyping With React Native](cover.jpg)
+
+`youtube:https://www.youtube.com/embed/QafikEOSUGA`
 
 This is a transcript of a lightning talk I gave at React Day Berlin in 2019. You can watch the talk [here](), and download the presentation slides [here](). All the links resources are available at the end of this transcript.
 
