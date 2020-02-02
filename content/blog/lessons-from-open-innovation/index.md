@@ -5,7 +5,7 @@ excerpt: "Transcript of the lightning talk I gave at React Day Berlin 2019 title
 draft: true
 ---
 
-so hi my name is Perla eternity I'm
+so hi my name is Perttu Lähteenlahti and I'm
 going to talk to you about open
 innovation and especially about the
 experiences we've had it with that in
