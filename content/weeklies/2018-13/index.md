@@ -3,8 +3,6 @@ title: "🌪 Weekly 13/2018"
 date: "2018-04-04"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/6c721-1zihe9ozkocwwdccdut61ma.png)
-
 #### This week: Grindr’s lousy security, Dark patterns, Detecting objects with Raspberry Pi, and sex parties of the rich and tech.
 
 **Perfektio Weekly is the collection of design, technology, music, culture and news to get your week started with a boom 💥**
@@ -27,7 +25,7 @@ We have a new community for hackathon hackers! Read this article to find out wha
 
 [Niilo](https://medium.com/u/6fe9dbe8b29f), one our newest hires decided to put it in writing how it feels to work at Perfektio.
 
-* * *
+---
 
 ### 🤓 For the techie kid in all of us
 
@@ -39,7 +37,7 @@ You though Facebook giving out your data to advertisers was bad? How about Grind
 
 The frontpage of internet is getting a redesign. Wired has an inside story how this process has played out.
 
-* * *
+---
 
 ### 💻 Treats for developers
 
@@ -55,7 +53,7 @@ A thorough look at building different object recognition stuff with machine lear
 
 Apple has silently added support for PWAs (Progressive web apps) in the newest developer release of iOS 11.
 
-* * *
+---
 
 ### 🍬 Candy for designers
 
@@ -71,9 +69,7 @@ Mobbin is a hand-picked collection of latest mobile design patterns. Personal fa
 
 Just look at [this beautiful interaction](https://dribbble.com/shots/4384948-Referrals-Invite-Interaction) by Johny Vino!
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/5f074-1gfxctpclcl5-ipqifktgpg.gif)
-
-* * *
+---
 
 ### 📖 Book of the Week
 
@@ -81,7 +77,7 @@ Just look at [this beautiful interaction](https://dribbble.com/shots/4384948-Ref
 
 Emily Chang dives into the gender discriminating culture of Silicon Valley, describing what it is like to be a female engineer in place where sex parties filled with high ranking VCs are the norm.
 
-* * *
+---
 
 ### ❤️ Something Else
 
@@ -89,7 +85,7 @@ Emily Chang dives into the gender discriminating culture of Silicon Valley, desc
 
 Tips for clearer mind. TLDR: get rid of clutter.
 
-* * *
+---
 
 > If you like what you’re seeing, don’t be afraid to give it a clap or two!
 

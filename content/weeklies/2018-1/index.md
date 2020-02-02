@@ -3,8 +3,6 @@ title: "Weekly 1/2018"
 date: "2018-01-03"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/be01e-1tayzagwe3gnfxcsporytuq.png)
-
 #### Case studies in progressive web apps, effective remote working, depression from phones, and hacking flatulence 💨
 
 In this week’s weekly we have some great content! Catch up on most important development links, design inspiration, hottest hackathons, and most useful events in Helsinki area.
@@ -18,7 +16,7 @@ Progressive web apps are the shit, at least if you believe Google. Tinder also m
 
 Distributed teams are not easy, but doing them well is extremely rewarding. [Here’s a good talk on this subject](http://Distributed).
 
-* * *
+---
 
 ### 🖌 Our favorite bits about design
 
@@ -28,7 +26,7 @@ Distributed teams are not easy, but doing them well is extremely rewarding. [Her
 
 For this week’s design links we picked the three most beneficial for all designers. Tired of looking at Sketch silver UI, which makes it look like you’re doing all your design work in Pages? [Download the Dark Theme](https://midnightsketch.com/). Learn to build [better design systems faster with Ether](https://ether.thescenery.co/). Getting frustrated how Medium makes it look like all design projects are like magic? [Ehsan Noursalehi](https://medium.com/u/afd9e3f6db8c) has some [well-weighted words for you](https://thisisehsan.com/xyzthings/).
 
-* * *
+---
 
 ### 🔥 Hottest hackathons
 
@@ -39,18 +37,18 @@ Do you want to solve the problems of inclusion in social media services? [**Kohd
 
 Innovative solutions to gathering cow farts? The application period for [Ultrahack’s latest hackathon is still open](https://ultrahack.org/milkfarmmethanehack), so hurry up! Selected teams get 1500€ for participating.
 
-* * *
+---
 
 ### ❄️ Coolest events
 
-1. [**Solita Dev Meetup Helsinki**](https://www.facebook.com/events/1196115160532843/)  18.01.
-2. [**HelsinkiJS January 2018**](https://meetabit.com/events/helsinkijs-january-2018)  18.01.
-3. [**React Helsinki**](https://meetabit.com/events/react-helsinki-january-2018)  25.01.
+1. [**Solita Dev Meetup Helsinki**](https://www.facebook.com/events/1196115160532843/) 18.01.
+2. [**HelsinkiJS January 2018**](https://meetabit.com/events/helsinkijs-january-2018) 18.01.
+3. [**React Helsinki**](https://meetabit.com/events/react-helsinki-january-2018) 25.01.
 4. [**AWS Dev Da**](https://aws.amazon.com/events/Devdays-Nordics/)**y** 25.01.
 
 Developer heavy events this month. It will be hard to pick which events to go, because all seem really interesting. Oh, and catch us in these events and come have a chat!
 
-* * *
+---
 
 ### 👻 Something completely else
 
@@ -65,12 +63,12 @@ This weeks Completely else is about understanding how smartphones are paving the
 
 Everyone knows that feeling of empowerment that self-help books generate. But building a better life for yourself isn’t just about making minor changes to your habits. Instead you should be more holistic and understand the highs and lows of life. This is where reading biographies comes into picture.
 
-* * *
+---
 
 > Thanks to tuning into this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 
 > If you like what you’re seeing, don’t be afraid to give it a clap or two!
 
-* * *
+---
 
 #### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 🤖

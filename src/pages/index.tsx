@@ -49,7 +49,10 @@ const BlogIndex = (props: Props) => {
         }
       }
       allMarkdownRemark(
-        filter: { frontmatter: { draft: { ne: true } } }
+        filter: {
+          frontmatter: { draft: { ne: true } }
+          fileAbsolutePath: { regex: "/(blog)/" }
+        }
         sort: { fields: [frontmatter___date], order: DESC }
       ) {
         edges {

@@ -3,10 +3,6 @@ title: "Perfektio Weekly 2/2017"
 date: "2017-11-12"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/618ee-1fh3akhkxqsailfiirc-6gq.jpeg)
-
-Some heavy questioning of choices at Kuohu Creative Hackathon 📷 by [Jessica Blechingberg](https://medium.com/u/6aee616ce7f0)
-
 #### Hackathon overdose, rapid business model design, and Swedes evading taxes.
 
 What are we up to this week? What happened last week? Perfektio Weeklies are a light collection of what is happening in our company, what our culture is like, and what types of design and development stuff you should read about this week!
@@ -33,7 +29,7 @@ Perfektio’s week concludes at Ultrahack Sprint II, where we have total of thre
 
 \[embed\]https://industryhack.com/challenges/lights-on/\[/embed\]
 
-* * *
+---
 
 ### ✌️ What happened last week?
 
@@ -45,7 +41,7 @@ Can you combine design thinking and business model development in a hackathon? W
 
 \[embed\]https://industryhack.com/challenges/lights-on/\[/embed\]
 
-* * *
+---
 
 ### ⌨️ Newest dev stuff
 
@@ -61,7 +57,7 @@ In what way is having a navigator next to you when you’re driving similar to d
 
 \[embed\]https://industryhack.com/challenges/lights-on/\[/embed\]
 
-* * *
+---
 
 ### 🖌 Our favorite bits about design
 
@@ -77,7 +73,7 @@ Surprisingly functional and elegant redesign of the Apple user interfaces. [http
 
 [https://www.behance.net/gallery/57309065/Apple-OS](https://www.behance.net/gallery/57309065/Apple-OS)
 
-* * *
+---
 
 ### 👻 Something completely else
 
@@ -93,8 +89,8 @@ Excellent article on basics of startup build order.
 
 \[embed\]https://industryhack.com/challenges/lights-on/\[/embed\]
 
-* * *
+---
 
 > Thanks to tuning into this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 
-#### **Follow Perfektio on** [**Facebook**](https://www.facebook.com/PerfektioOy/) **/** [**Twitter**](https://twitter.com/perfektio) **/** [**Instagram**](https://www.instagram.com/weareperfektio/)  🙂
+#### **Follow Perfektio on** [**Facebook**](https://www.facebook.com/PerfektioOy/) **/** [**Twitter**](https://twitter.com/perfektio) **/** [**Instagram**](https://www.instagram.com/weareperfektio/) 🙂

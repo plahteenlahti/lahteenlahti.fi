@@ -3,10 +3,6 @@ title: "Perfektio Weekly 7"
 date: "2017-12-19"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/86d7f-1472q7lwunmrk6jngizuehq.png)
-
-Sorry, that the cover image is so boring this time :( How about you take look this Twitter account [https://twitter.com/moonpie](https://twitter.com/moonpie), it’s savage.
-
 #### Man’s ass, millennials, open source projects, and how to contain cow farts.
 
 What are we up to this week? What happened last week? Perfektio Weeklies are a light collection of what is happening in our company, what our culture is like, and what types of design and development stuff you should read about this week!
@@ -31,7 +27,7 @@ Long story short: useful stuff in 30 seconds.
 
 \[embed\]https://tympanus.net/codrops/2017/12/05/creative-svg-strokes-animation/\[/embed\]
 
-* * *
+---
 
 ### 🖌 Our favorite bits about design
 
@@ -53,7 +49,7 @@ A real cool mobile app concept called InTheaters. I wish all movie theatre apps 
 
 \[embed\]https://tympanus.net/codrops/2017/12/05/creative-svg-strokes-animation/\[/embed\]
 
-* * *
+---
 
 ### Upcoming hackathons
 
@@ -75,7 +71,7 @@ Ready to hack a little in London? [Perttu](https://medium.com/u/aceecd637496) fr
 
 \[embed\]https://tympanus.net/codrops/2017/12/05/creative-svg-strokes-animation/\[/embed\]
 
-* * *
+---
 
 ### 👻 Something completely else
 
@@ -85,12 +81,12 @@ Amazing visualizations in this article about why millenials are facing the scari
 
 \[embed\]https://tympanus.net/codrops/2017/12/05/creative-svg-strokes-animation/\[/embed\]
 
-* * *
+---
 
 > Thanks to tuning into this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 
 > If you like what you’re seeing, don’t be afraid to give it a clap or two!
 
-* * *
+---
 
 #### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 🤖

@@ -1,9 +1,7 @@
 ---
-title: 'Weekly 9/2018'
-date: '2018-02-26'
+title: "Weekly 9/2018"
+date: "2018-02-26"
 ---
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/ada0b-1nmsfw3to2lp0rtk1d1ucbw.png)
 
 #### This week: Wireless charging, advice for novice designers, and checking git repos for secrets and keys.
 
@@ -55,7 +53,7 @@ Design does not exist in a vacuum. Therefore, understanding the users is more im
 
 First part of three part series around design visioning. Understand how setting a shared vision for a project leads to better results.
 
-#### [Complete Novice to Full-time Product Designer in 1–2 Years](http://davemart.in/90k/ 'Permalink to Complete Novice to Full-time Product Designer in 1-2 Years')
+#### [Complete Novice to Full-time Product Designer in 1–2 Years](http://davemart.in/90k/ "Permalink to Complete Novice to Full-time Product Designer in 1-2 Years")
 
 Practical look at how to transform from a novice to a well-payed product designer.
 
@@ -64,8 +62,6 @@ Practical look at how to transform from a novice to a well-payed product designe
 ### 🙉 What’s up Perfektio?
 
 Well last week we had a couple of things happening. First, we had Perttu taking part in Energy Efficiency hackathon in Berlin. And winning as well! There’s a Hack Report of this hackathon coming out later this week. Meanwhile you can admire this picture from the hackathon:
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/b1c74-10ylaakvclm17al_aze0jdg.jpeg)
 
 romthe
 

@@ -3,8 +3,6 @@ title: "React + React Native Weekly II"
 date: "2018-04-16"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/3a050-1jzvu3jjqo4zpz8sdacmtdw.jpeg)
-
 #### React, React Native and React VR links for developers
 
 We use React and React Native extensively here at Perfektio and absolutely love using it in variety of projects. That’s why we put together a list of some of the React resources we’ve come across recently. Hopefully you find it useful as well!
@@ -41,7 +39,7 @@ How to use Google Maps with React easily by [Morganne Gagne](https://medium.com/
 
 \[embed\]https://medium.com/@albinotonnina/magic-hat-technique-408a3fa590bb\[/embed\]
 
-* * *
+---
 
 ### React Native
 
@@ -61,7 +59,7 @@ Comparison of React Native and Flutter by [triyan arief wibowo](https://medium.c
 
 \[embed\]https://www.youtube.com/watch?v=zrYiQr6CBg8\[/embed\]
 
-* * *
+---
 
 ### React VR
 

@@ -3,13 +3,9 @@ title: "Weekly 8/2018"
 date: "2018-02-19"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/d382e-1-f7naemwfnlagmucxhz4ow.png)
-
 #### This week: Statistics for hackers, 3D engine made with MS Excel, designing a viral meme, and Chamillionaire’s amazing pitch.
 
 _Our weekly collection design and development resources for hackathon hackers is once again filled with some must reads and good-to-knows._
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/fca53-1m8p1jdysm1ha8z3bf6q4oa.png)
 
 ### 😺 What’s up Perfektio?
 
@@ -47,7 +43,7 @@ Another article about the capabilities of CSS as a way of stealing information. 
 
 Can you become professional software developer after 30? [Even though there seems to be a lot of ageism in Silicon valley](https://www.wired.com/story/surviving-as-an-old-in-the-tech-world/), you’re actually never too old to start coding. This article shows you concrete proof of that.
 
-* * *
+---
 
 ### 🍬 Candy for designers
 
@@ -67,7 +63,7 @@ A highly detailed article on how to design a font from scratch and submit it to 
 
 Really interesting UX case study about how to design a viral meme. Everyone should definitely read this even though it sounds a bit weird.
 
-* * *
+---
 
 ### ❤️ Hackathons and Something Else
 
@@ -87,11 +83,11 @@ Now here’s a unique opportunity to design and build prototypes to answer chall
 
 Having problems reaching you audience? Maybe this article can help you? :)
 
-#### [We just raised $7.25 million for Unsplash to build a new economy around photography](https://medium.com/unsplash/we-just-raised-7-25-million-for-unsplash-to-build-a-new-economy-around-photography-cedc8a999239)
+#### [We just raised \$7.25 million for Unsplash to build a new economy around photography](https://medium.com/unsplash/we-just-raised-7-25-million-for-unsplash-to-build-a-new-economy-around-photography-cedc8a999239)
 
 Unsplashed is a super cool site with a huge amount of free images. Now they’re going become even bigger by building a community around photography. Read this!
 
-* * *
+---
 
 > Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 

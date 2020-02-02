@@ -25,15 +25,15 @@ export const Layout = (props: Props) => {
           <StyledLink to={`/`}>{title}</StyledLink>
         </HeaderTitle>
         <Menu>
-          {/* <MenuItem>
-						<StyledLink to={`/`}>Blog</StyledLink>
-					</MenuItem>
-					<MenuItem>
-						<StyledLink to={`/weeklies`}>Weeklies</StyledLink>
-					</MenuItem>
-					<MenuItem>
-						<StyledLink to={`/about`}>About</StyledLink>
-					</MenuItem> */}
+          <MenuItem>
+            <StyledLink to={`/`}>Blog</StyledLink>
+          </MenuItem>
+          <MenuItem>
+            <StyledLink to={`/weeklies`}>Weeklies</StyledLink>
+          </MenuItem>
+          <MenuItem>
+            <StyledLink to={`/about`}>About</StyledLink>
+          </MenuItem>
         </Menu>
       </header>
       <main>{children}</main>
@@ -62,6 +62,7 @@ const StyledLink = styled(FadeLink)`
   box-shadow: none;
   color: inherit;
   text-decoration: none;
+  color: var(--textLink);
 `;
 
 const Content = styled.div`

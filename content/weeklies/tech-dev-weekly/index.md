@@ -3,8 +3,6 @@ title: "Tech + Dev Weekly"
 date: "2018-04-19"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/6e6f1-1jaat-jxw1al3ondvirml1a.jpeg)
-
 #### Weekly collection of technology and software development updates and articles
 
 Our favorite tech news and articles of the week.

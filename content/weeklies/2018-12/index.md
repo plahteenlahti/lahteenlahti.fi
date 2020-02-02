@@ -3,8 +3,6 @@ title: "🔥 Weekly 12/2018"
 date: "2018-03-19"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/d0f19-1qwrp812ewjgulymkwdlzbg.png)
-
 #### This week: Songs, Parties, Learning Bootstrap in 5 minutes, UI kits, and boosting up your creativity with some brainstorming methods.
 
 **Perfektio Weekly is the collection of design, technology, music, culture and news to get your week started with a boom 💥**

@@ -3,13 +3,11 @@ title: "Weekly 5/2018"
 date: "2018-01-30"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/2e6b8-16iq5p7sbcd9iydevq-vl0w.png)
-
 #### This week: new hackathons, Hack Reports, cool animations, web security, and tips for finding a co-founder.
 
 Weekly is back! This time we got some great articles on design, development, and something completely else. Additionally we have something to tell you on what we’ve been up to in the previous weeks and some new hackathons for you to attend.
 
-* * *
+---
 
 ### 🧐 What’s up Perfektio?
 
@@ -23,7 +21,7 @@ Perttu’s trip to the first student hackathon of Royal Holloway, in London was 
 
 Does competing in over 100 hackathons make you suitable for being a mentor in hackathon? We like to think so. If you’re interested in hearing is this is actually true, [you should read our Hack Report on Kohdataan-hack.](https://medium.com/perfektio/hack-report-kohdataan-hack-a127f5f26f8a)
 
-* * *
+---
 
 ### ⚡️Hackathons
 
@@ -35,7 +33,7 @@ This March 300 hackers are going to 🐝 the future in 32 hours in Hex hackathon
 
 Denmarks largest student hackathon is coming up again. 36 hours of prototyping and concept development in the lovely city of Aarhus and the chance to learn and win awesome prizes. [Do I need to say more](https://auhack.org/)?
 
-* * *
+---
 
 ### ⌨️ Dev dev developer
 
@@ -59,7 +57,7 @@ Tool from IBM helps teams to adopt CSS grid sooner. This is really good tool if 
 
 Free class for web security. Doesn’t matter if you’re a programmer with an interest in bug bounties ora seasoned security professional, Hacker101 has something to teach you.
 
-* * *
+---
 
 ### 🖌 Snacks for designers
 
@@ -73,13 +71,13 @@ Erik Kennedy writes on how improving your UI design skills by understanding the 
 
 #### [Freebie: Streamline UX](http://www.streamlineicons.com/ux/)
 
-This freebie is for everyone who wants to use lively illustrations to convey their message better on their website or mobile app. Freebie has 50 illustrations and the full pack (99$ at the moment) has over 3,000!
+This freebie is for everyone who wants to use lively illustrations to convey their message better on their website or mobile app. Freebie has 50 illustrations and the full pack (99\$ at the moment) has over 3,000!
 
 #### [How I got hired by Github](http://joelcalifa.com/blog/how-i-got-hired-by-github/)
 
 Joel Califa writes about Github’s homework assignment for designers. Read how making pull requests better got him a job at Github
 
-* * *
+---
 
 ### 👻 None of the above
 
@@ -91,7 +89,7 @@ Joel Califa writes about Github’s homework assignment for designers. Read how 
 
 [Andrew Askins](https://medium.com/u/25cc8a91da6b) writes about how co-founding a company is like getting married. If you’re rushing it, bad things will happen. Super good read for everyone.
 
-* * *
+---
 
 > Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 

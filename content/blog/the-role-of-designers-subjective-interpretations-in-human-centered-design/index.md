@@ -31,9 +31,9 @@ Donald Norman and Roberto Verganti have stated that HCD can provide incremental 
 
 How Norman and Verganti define incremental innovation is similar to Reimann’s narrower definition. According to Norman and Verganti, incremental innovation refers to all the small changes that end up improving its cost-effectiveness, performance, desirability, or result in a new release of the product \[4\]. Norman and Verganti also note that most successful product undergoes continual incremental innovation, a matter that can be addressed to businesses often trying to beat their competition through better products. Good examples of products that undergo incremental innovation are computers, which often go through periods in which no radical change happens in them but properties such as performance, size, and energy consumption are enhanced with every iteration.
 
-<!-- ![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/a4c35-12joad7avtlwgz0djk39sdq.png)
+![](images/figure.png)
 
-Figure 1. The diffusion of ideas, according to Everett Rogers. The blue line illustrates the successive groups of consumers adopting new technology. Yellow line illustrates the market share and its eventual saturation. Image CC-BY-ND Wikipedia.org -->
+Figure 1. The diffusion of ideas, according to Everett Rogers. The blue line illustrates the successive groups of consumers adopting new technology. Yellow line illustrates the market share and its eventual saturation. Image CC-BY-ND Wikipedia.org
 
 In addition to the earlier argument of incremental innovation being a driving force behind companies’ product differentiation process, it could also be argued that it is also behind the product adoption rate. Evidence to this can be formulated from the diffusion of innovations theory first introduced by Everett Rogers \[9\], which seeks to explain how and why new ideas and technology spread through cultures. The central concept of Rogers theory is that the potential users of a product can be categorized into 5 groups, whose sizes follow a normal distribution. Illustration of this can be found in figure one.
 

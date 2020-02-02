@@ -3,8 +3,6 @@ title: "Weekly 7/2018"
 date: "2018-02-12"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/cdcb4-1kdur37sqlue5tiz6fc1mcg.png)
-
 #### This week: world’s worst CEO, Airbnb for dinner, and nice corners you got there.
 
 _Our weekly collection design and development resources for hackathon hackers is once again filled with some must reads and good-to-knows._
@@ -31,7 +29,7 @@ Love Scala? There’s a new framework, Udash, that helps you build “beautiful 
 
 There is a huge security risk in sandboxed Mac apps. Read more on Felix Krause’s blog.
 
-* * *
+---
 
 ### 🍬 Candy for designers
 
@@ -51,7 +49,7 @@ Crash course on how to design for iPhone X by [Azhar Anwar](https://medium.com/u
 
 How cool are the iPhone X corners! 😍 I mean really!
 
-* * *
+---
 
 ### ❤️ Something Else
 
@@ -67,7 +65,7 @@ How cool are the iPhone X corners! 😍 I mean really!
 
 Is Slack bad for your organization? Abe Winter argues that it actually destroys teams’ ability think, plan and get complex out of the door.
 
-* * *
+---
 
 > Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 

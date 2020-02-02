@@ -3,8 +3,6 @@ title: "React + React Native Weekly I"
 date: "2018-04-10"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/3a050-1jzvu3jjqo4zpz8sdacmtdw.jpeg)
-
 We use React and React Native extensively here at Perfektio and absolutely love using it in variety of projects. That’s why we put together a list of some of the React resources we’ve found recently. Hopefully you find it useful as well!
 
 ### React
@@ -39,7 +37,7 @@ New animation library for React, looks rather promising.
 
 \[embed\]https://scotch.io/bar-talk/exciting-new-features-react-163-bye-componentwillreceiveprops-hello-new-context-api\[/embed\]
 
-* * *
+---
 
 ### React Native
 

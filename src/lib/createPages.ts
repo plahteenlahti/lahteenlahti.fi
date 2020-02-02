@@ -18,8 +18,11 @@ export const createPages: GatsbyCreatePages = async ({
 
   const allMarkdown = await graphql(`
     {
-      allMarkdownRemark(
-        filter: { frontmatter: { draft: { ne: true } } }
+      blog: allMarkdownRemark(
+        filter: {
+          frontmatter: { draft: { ne: true } }
+          fileAbsolutePath: { regex: "/(blog)/" }
+        }
         sort: { fields: [frontmatter___date], order: DESC }
         limit: 1000
       ) {
@@ -34,6 +37,27 @@ export const createPages: GatsbyCreatePages = async ({
           }
         }
       }
+
+      weekly: allMarkdownRemark(
+        filter: {
+          frontmatter: { draft: { ne: true } }
+          fileAbsolutePath: { regex: "/(weeklies)/" }
+        }
+        sort: { fields: [frontmatter___date], order: DESC }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
+
       tagsGroup: allMarkdownRemark(limit: 2000) {
         group(field: frontmatter___tags) {
           fieldValue
@@ -47,12 +71,13 @@ export const createPages: GatsbyCreatePages = async ({
   }
 
   // Create blog posts pages.
-  const content = allMarkdown.data.allMarkdownRemark.edges;
+  const blogPosts = allMarkdown.data.blog.edges;
+  const weeklies = allMarkdown.data.weekly.edges;
 
-  content.forEach((post: Post, index: number) => {
+  blogPosts.forEach((post: Post, index: number) => {
     const previous =
-      index === content.length - 1 ? null : content[index + 1].node;
-    const next = index === 0 ? null : content[index - 1].node;
+      index === blogPosts.length - 1 ? null : blogPosts[index + 1].node;
+    const next = index === 0 ? null : blogPosts[index - 1].node;
 
     createPage({
       path: post.node.fields.slug,
@@ -74,29 +99,34 @@ export const createPages: GatsbyCreatePages = async ({
         next
       }
     });
+  });
 
-    const tags = allMarkdown.data.tagsGroup.group;
+  const tags = allMarkdown.data.tagsGroup.group;
 
-    tags.forEach((tag: any) => {
-      createPage({
-        path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
-        component: path.resolve(`./src/templates/tag.tsx`),
-        context: {
-          tag: tag.fieldValue
-        }
-      });
+  tags.forEach((tag: any) => {
+    createPage({
+      path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
+      component: path.resolve(`./src/templates/tag.tsx`),
+      context: {
+        tag: tag.fieldValue
+      }
     });
+  });
 
-    // createPage({
-    // 	path: post.node.fields.slug,
-    // 	// tslint:disable-next-line:object-literal-sort-keys
-    // 	component: path.resolve(`./src/templates/weekly.tsx`),
-    // 	context: {
-    // 		next,
-    // 		previous,
-    // 		slug: post.node.fields.slug
-    // 	}
-    // });
+  weeklies.forEach((weekly: any, index: any) => {
+    const previous =
+      index === weeklies.length - 1 ? null : weeklies[index + 1].node;
+    const next = index === 0 ? null : weeklies[index - 1].node;
+
+    createPage({
+      path: `weekly${weekly.node.fields.slug}`,
+      component: path.resolve(`./src/templates/weekly.tsx`),
+      context: {
+        next,
+        previous,
+        slug: weekly.node.fields.slug
+      }
+    });
   });
 
   return null;

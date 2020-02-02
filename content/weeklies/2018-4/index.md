@@ -3,19 +3,15 @@ title: "Weekly 4/2018"
 date: "2018-01-22"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/caee7-1z4ixsicqiwjuwvy5zlj_4a.png)
-
 #### Elon Musk’s productivity tricks, using css to spy on users, making designers great again, and new office!
 
 Weekly is back! This time we got some great articles on design, development, and something completely else. Additionally we have something to tell you on what we’ve been up to in the previous weeks.
 
-* * *
+---
 
 ### 🤠 What’s up Perfektio?
 
 Lots of things have happened since last weekly. First, we’ve moved into our new office space which is five times bigger than the last one. Here’s a pretty bad picture of it:
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/a1536-14ehcteha4lfwftbzdywgnq.png)
 
 You get the idea
 
@@ -39,7 +35,7 @@ What if I told you that you can track user’s behavior on your site with just C
 
 Here’s one really cool project which uses a machine vision and whatnot to make it possible to write and execute code that is written on a piece of paper.
 
-* * *
+---
 
 ### 🖌 Useful and cool design thingies
 
@@ -73,7 +69,7 @@ Millennials are lazy, or that’s at least what the generations before them want
 
 How does the real life Tony Stark start his work day? Read this article and sooner or later you too could be building electrical cars and making a Mars-ready spacerockets.
 
-* * *
+---
 
 > Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 

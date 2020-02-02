@@ -3,8 +3,6 @@ title: "Weekly 10/2018"
 date: "2018-03-06"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/a70db-1g-8gb85ep192wadw-paebq.png)
-
 #### This week: mostly just some really cool links and resources, but also one party for everyone 🎉!
 
 _Our weekly collection design and development resources for hackers is once again filled with some must reads and good-to-knows._
@@ -31,7 +29,7 @@ Well, the title pretty much says everything.
 
 Now this is pretty cool use case for decentralized Blockstack technology.
 
-* * *
+---
 
 ### 🍬 Candy for designers
 
@@ -51,7 +49,7 @@ Designing a dashboard? Here’s the 30 most beautiful ones as picked by Muzli.
 
 Just another iOS wireframe kit, but a rather elegant one as well.
 
-* * *
+---
 
 ### 🙉 What’s up Perfektio?
 
@@ -63,7 +61,7 @@ Read about this one rather peculiar hackathon in Berlin. It has everything from 
 
 Join us in our celebration and come inaugurate our new office at the housewarming party! Be quick to register yourself to the guest list on Eventbrite as there is limited amount of tickets.
 
-* * *
+---
 
 ### ❤️ Hackathons and Something Else
 
@@ -83,7 +81,7 @@ Self help? Self help.
 
 Education themed hackathon in Rome, which is also a part of a larger educational change. Looks rather interesting.
 
-* * *
+---
 
 > Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 

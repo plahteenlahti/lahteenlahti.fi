@@ -3,8 +3,6 @@ title: "Weekly 2/2018"
 date: "2018-01-08"
 ---
 
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/fa04b-1hbmjnpahk4dpmnuw17jtkg.png)
-
 (I hope no one has noticed that we’re running out of placeholder photos….)
 
 #### Top JS libraries of 2018, 19 web design trends for 2018, and why is Last Jedi so god damn snarky?!
@@ -29,7 +27,7 @@ Number two on the list is an updated look on the key factors in front-end perfor
 
 [You should definitely take a look at lit](https://ajusa.github.io/lit/), damn this is one small css library!
 
-* * *
+---
 
 ### 🖌 Useful and cool design thingies
 
@@ -45,7 +43,7 @@ Working lean and iterating — we have all familiar with the words, but what
 
 Because January is the month of listicles, here’s a [listicle on 19 web design trends for 2018](https://webflow.com/blog/19-web-design-trends-for-2018). Good source for some inspiration if you’re short on that :)
 
-* * *
+---
 
 ### ❄️ Coolest events
 
@@ -57,7 +55,7 @@ Because January is the month of listicles, here’s a [listicle on 19 web design
 
 Women in Tech is organizing a breakfast with GE healthcare with the subject “**Why does AI play a significant role in healthcare?”** Interested? The event is held in GE’s Health Villa.
 
-* * *
+---
 
 ### 👻 Something completely else
 
@@ -65,12 +63,12 @@ Women in Tech is organizing a breakfast with GE healthcare with the subject “*
 
 Interesting read on the abundance of sarcasm in the new Star Wars movie. Beware, there’s a lot of spoilers ahead!
 
-* * *
+---
 
 > Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 
 > If you like what you’re seeing, don’t be afraid to give it a clap or two!
 
-* * *
+---
 
 #### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 🤖

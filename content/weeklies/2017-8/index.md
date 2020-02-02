@@ -1,9 +1,7 @@
 ---
-title: "Perfektio Weekly 8/2017"
+title: "Weekly 8/2017"
 date: "2017-12-25"
 ---
-
-![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/c1577-1aqv0pcr3gkdmkdqcljp0ew.jpeg)
 
 Merry Christmas and Harry New Year!
 
@@ -21,7 +19,7 @@ How did we hack gardening? What was this year’s best hackathon? We put togethe
 
 \[embed\]https://medium.com/perfektio/hack-reports-2017-35cd4fdade76\[/embed\]
 
-* * *
+---
 
 ### ⌨️ Newest dev stuff
 
@@ -43,7 +41,7 @@ Here’s a good little tutorial how to code animations in Swift Playground that 
 
 \[embed\]https://medium.com/perfektio/hack-reports-2017-35cd4fdade76\[/embed\]
 
-* * *
+---
 
 ### 🖌 Our favorite bits about design
 
@@ -65,7 +63,7 @@ No weekly is complete without a list of. Here’s Google’s most noteworthy des
 
 \[embed\]https://medium.com/perfektio/hack-reports-2017-35cd4fdade76\[/embed\]
 
-* * *
+---
 
 ### 👊 Upcoming hackathons
 
@@ -87,7 +85,7 @@ Ready to hack a little in London? [Perttu](https://medium.com/u/aceecd637496) fr
 
 \[embed\]https://medium.com/perfektio/hack-reports-2017-35cd4fdade76\[/embed\]
 
-* * *
+---
 
 ### 👻 Something completely else
 
@@ -97,12 +95,12 @@ Be brave and ask for things. That’s what this article is about. Super simple s
 
 \[embed\]https://medium.com/perfektio/hack-reports-2017-35cd4fdade76\[/embed\]
 
-* * *
+---
 
 > Thanks to tuning into this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 
 > If you like what you’re seeing, don’t be afraid to give it a clap or two!
 
-* * *
+---
 
 #### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 👀
