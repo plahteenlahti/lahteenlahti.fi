@@ -70,5 +70,3 @@ Everyone knows that feeling of empowerment that self-help books generate. But bu
 > If you like what you’re seeing, don’t be afraid to give it a clap or two!
 
 ---
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 🤖

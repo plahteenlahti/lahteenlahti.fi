@@ -86,5 +86,3 @@ Education themed hackathon in Rome, which is also a part of a larger educational
 > Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 
 > If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 😍

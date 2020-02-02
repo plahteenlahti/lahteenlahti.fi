@@ -82,11 +82,3 @@ How to build a smart bathroom mirror!
 #### [17 Creative Brainstorming Methods That (Might) Produce Brilliance](https://medium.com/personal-growth/17-creative-brainstorming-methods-that-might-produce-brilliance-2ace8b76cb6)
 
 Exercise that creativity muscle with these tricks, ranging from The “J.K. Rowling” Brainstorm to letter writing.
-
----
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 😍
-
-[](https://lcontacts.herokuapp.com/embed/button/writercta?userId=5aafc055ce3c95045ff78a62&mediumUserId=1ed59abf838237f020611717474b0600963d9c68ec2021b8984087585a5e390ac)

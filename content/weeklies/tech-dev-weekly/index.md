@@ -48,9 +48,3 @@ Very well done look at how the new page previews feature in Wikipedia was design
 #### [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018/)
 
 \[embed\]https://medium.com/@NetflixTechBlog/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436\[/embed\]
-
----
-
-> Thank you for tuning in on this week’s Tech + Dev Weekly. If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/)

@@ -88,5 +88,3 @@ Amazing visualizations in this article about why millenials are facing the scari
 > If you like what you’re seeing, don’t be afraid to give it a clap or two!
 
 ---
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 🤖

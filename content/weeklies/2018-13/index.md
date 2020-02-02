@@ -84,11 +84,3 @@ Emily Chang dives into the gender discriminating culture of Silicon Valley, desc
 #### [Want to Reduce Brain Fog And Improve Clear Thinking? Give up These Things Immediately](https://goo.gl/9toQ6p?originalUrl=https://medium.com/personal-growth/want-to-reduce-brain-fog-and-improve-clear-thinking-give-up-these-things-immediately-1bfee44f4dd7)
 
 Tips for clearer mind. TLDR: get rid of clutter.
-
----
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 😍
-
-[](https://lcontacts.herokuapp.com/embed/button/writercta?userId=5aafc055ce3c95045ff78a62&mediumUserId=1ed59abf838237f020611717474b0600963d9c68ec2021b8984087585a5e390ac)

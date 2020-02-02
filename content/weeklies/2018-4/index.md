@@ -68,11 +68,3 @@ Millennials are lazy, or that’s at least what the generations before them want
 #### [Elon Musk’s productivity tricks](https://medium.com/swlh/https-medium-com-dsilvestre-elon-musk-productivity-secrets-for-insane-success-7f033d98916b)
 
 How does the real life Tony Stark start his work day? Read this article and sooner or later you too could be building electrical cars and making a Mars-ready spacerockets.
-
----
-
-> Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 🦊

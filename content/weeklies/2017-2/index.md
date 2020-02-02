@@ -92,5 +92,3 @@ Excellent article on basics of startup build order.
 ---
 
 > Thanks to tuning into this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
-
-#### **Follow Perfektio on** [**Facebook**](https://www.facebook.com/PerfektioOy/) **/** [**Twitter**](https://twitter.com/perfektio) **/** [**Instagram**](https://www.instagram.com/weareperfektio/) 🙂

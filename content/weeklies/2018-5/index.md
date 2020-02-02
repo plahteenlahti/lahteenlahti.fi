@@ -88,11 +88,3 @@ Joel Califa writes about Github’s homework assignment for designers. Read how 
 #### [How to speak to geeks like me — a lesson in finding a co-founder](https://medium.com/swlh/how-to-find-a-technical-co-founder-dffea3954d2f)
 
 [Andrew Askins](https://medium.com/u/25cc8a91da6b) writes about how co-founding a company is like getting married. If you’re rushing it, bad things will happen. Super good read for everyone.
-
----
-
-> Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 😍

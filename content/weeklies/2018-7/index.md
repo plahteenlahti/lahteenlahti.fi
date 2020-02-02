@@ -64,11 +64,3 @@ How cool are the iPhone X corners! 😍 I mean really!
 #### [Slack is the opposite of organizational memory](https://abe-winter.github.io/plea%27s/help/2018/02/11/slack.html)
 
 Is Slack bad for your organization? Abe Winter argues that it actually destroys teams’ ability think, plan and get complex out of the door.
-
----
-
-> Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 😍

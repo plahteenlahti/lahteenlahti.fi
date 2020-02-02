@@ -45,7 +45,7 @@ Understanding human cognition is the key element of great UX. Here’s a good co
 
 \[embed\]https://github.com/hectahertz/react-native-typography\[/embed\]
 
-* * *
+---
 
 ### ✌️ What happened last week?
 
@@ -55,7 +55,7 @@ Last week we had our hackers innovating solutions for Fortum Sweden, on how to u
 
 ![](https://cdn-images-1.medium.com/max/800/0*AhurUX3BHzus2RkP.)
 
-* * *
+---
 
 ### 👻 Something completely else
 
@@ -71,12 +71,10 @@ The way we think is illogical AF. We make bad decisions but why? This short read
 
 \[embed\]https://github.com/hectahertz/react-native-typography\[/embed\]
 
-* * *
+---
 
 > Thanks to tuning into this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
 
 > If you like what you’re seeing, don’t be afraid to give it a clap or two!
 
-* * *
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 🤖
+---

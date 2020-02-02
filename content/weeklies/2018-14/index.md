@@ -92,9 +92,3 @@ Definite read for all the designers out that want to improve their product’s u
 #### [Low-hanging design fruit: why you should use Google Font Superfamilies](https://medium.freecodecamp.org/low-hanging-design-fruit-why-you-should-use-google-font-superfamilies-1dae04b2fc50)
 
 Google Fonts has a lot of font combinations that are designed to look good. Learn how to use them in your designs.
-
----
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/)

@@ -86,11 +86,3 @@ Having problems reaching you audience? Maybe this article can help you? :)
 #### [We just raised \$7.25 million for Unsplash to build a new economy around photography](https://medium.com/unsplash/we-just-raised-7-25-million-for-unsplash-to-build-a-new-economy-around-photography-cedc8a999239)
 
 Unsplashed is a super cool site with a huge amount of free images. Now they’re going become even bigger by building a community around photography. Read this!
-
----
-
-> Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
-#### Follow Perfektio on [Facebook](https://www.facebook.com/PerfektioOy/) / [Twitter](https://twitter.com/perfektio) / [Instagram](https://www.instagram.com/weareperfektio/) 😍
