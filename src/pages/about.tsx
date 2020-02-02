@@ -8,14 +8,6 @@ import { SEO } from "../components/seo";
 import { MarkdownRemark } from "../graphql-types";
 import { rhythm } from "../utils/typography";
 
-const StyledLink = styled(FadeLink)`
-  box-shadow: none;
-`;
-
-const Title = styled.h3`
-  margin-bottom: ${rhythm(1 / 4)};
-`;
-
 type Props = PageRendererProps;
 
 const About = (props: Props) => {

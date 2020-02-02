@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@raae/gatsby-remark-oembed": "^0.1.1",
+    "@types/lodash": "^4.14.149",
     "@types/react-share": "^3.0.3",
     "@types/react-toggle": "^4.0.2",
     "babel-plugin-styled-components": "^1.10.6",

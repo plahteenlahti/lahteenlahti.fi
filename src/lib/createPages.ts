@@ -1,5 +1,6 @@
 import path from "path";
 import { GatsbyCreatePages } from "../types";
+const _ = require("lodash");
 
 interface Post {
   node: {
@@ -33,6 +34,11 @@ export const createPages: GatsbyCreatePages = async ({
           }
         }
       }
+      tagsGroup: allMarkdownRemark(limit: 2000) {
+        group(field: frontmatter___tags) {
+          fieldValue
+        }
+      }
     }
   `);
 
@@ -60,13 +66,25 @@ export const createPages: GatsbyCreatePages = async ({
     });
 
     createPage({
-      path: `${post.node.fields.slug}/amp/`,
+      path: `${post.node.fields.slug}amp/`,
       component: path.resolve("./src/templates/blog-post.amp.tsx"),
       context: {
         slug: post.node.fields.slug,
         previous,
         next
       }
+    });
+
+    const tags = allMarkdown.data.tagsGroup.group;
+
+    tags.forEach((tag: any) => {
+      createPage({
+        path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
+        component: path.resolve(`./src/templates/tag.tsx`),
+        context: {
+          tag: tag.fieldValue
+        }
+      });
     });
 
     // createPage({
