@@ -7,19 +7,17 @@ draft: false
 
 ![Successful Rapid Prototyping With React Native](cover.jpg)
 
-`youtube:https://www.youtube.com/embed/QafikEOSUGA`
+This is a transcript of a lightning talk I gave at React Day Berlin in 2019. You can watch the talk [here](https://www.youtube.com/embed/QafikEOSUGA), and download the presentation slides [here](). All the links resources are available at the end of this transcript.
 
-This is a transcript of a lightning talk I gave at React Day Berlin in 2019. You can watch the talk [here](), and download the presentation slides [here](). All the links resources are available at the end of this transcript.
+But before we go into all that, I want to give a little introduction to myself. So the reason for my complicated name "Perttu Lähteenlahti" is because I'm from Finland, which is by the way celebrating its Independence Day today. I'm a developer/designer at a company called Nyxo, where we build personalized sleep coaching programs in a mobile app format.
 
-We're gonna talk about successful rapid prototyping, what that exactly is, and what it means in practice. We're going to go through why you should prototype, what are the
-reasons for doing that how do you succeed in that and why in order to succeed you should do that prototyping with react native. After that once you've kind of figured out that React Native is kind of the thing that you use we're gonna look at what tools use with it.
+The reason I know a lot about prototypes is because I've taken part in around 70 hackathons, which are, in a way, prototyping competitions. I've won about 40 of those, so I've been moderately successful.
 
-But before we go in to all that I want to give a little introduction to myself. So the reason for my really difficult name better to plat and lofty is because I'm from Finland,which is by the way celebrating its independence day today. I'm a developer slash designer at a company called Nyxo where we build personalized sleep coaching programs in a mobile app format.
-
-The reason why I know a lot about prototypes is because I've taken part in around 70 hackathons. I've won about 40 of those, so I've been also successful in these basically competitions of building prototypes. But let's get to the subject at hand so why prototype? Reasons with that are pretty simple: you're starting from scratch
-, want to maybe try a new technology, or you just don't know what is gonna happen next you might not have no idea what you're gonna do whether you're in a building for example a client project and then in total the path is not that clear on what you're trying to achieve and what direction you're trying to code through Wars
-
-That's exactly where I started about a year ago when I was hired by two university research to commercialize their sleep research. I went to the first meeting and the conversation went a little like this:
+But let's get to the subject at hand, so why prototype? Reasons for doing that could be simply that:
+You're starting from scratch
+You want to try out new technology
+You're unsure of the path the product is going to take
+Generally speaking, prototyping is something you do every time you're unsure what you're supposed to do. That's precisely the place where I started about a year ago when I was hired by two university research to commercialize their sleep research. I went to the first meeting, and the conversation went a little like this:
 
 **Researchers:** _"build us a product."_
 
@@ -27,26 +25,41 @@ That's exactly where I started about a year ago when I was hired by two universi
 
 **Researchers:** _"build as a product that is nice to use and makes money."_
 
-I was like that doesn't really make it any more clear. but then I decided that I might as well start by building a prototype. And actually I built these three prototypes. The one you see on the left we actually decided to experiment how people would like to see their sleep data and what what kind of presentation types work and what which do not. In the middle one we tested out how you should provide sleep coaching content, that means
-exercises and lessons leave that is actually engaging and
-interesting to use. And on the right one we actually tested that if you could make sleeping into a game so every night you would try to be sleep really well so you could compete against your friends who slept the best. really nice turned out
+I was like that doesn't make it any more apparent, but then I decided that I might as well start by building a prototype.
+
+I ended up building these three prototypes. In the one you see on the left of the picture, we decided to experiment with how people would like to see their sleep data. What kind of presentation types work and which do not.
 
 ![Three prototypes I build.](prototypes.png "Three prototypes I build ")
 
-When I was researching the technology what should I build this with that I'm really bad at developing mobile stuff with iOS and Android and react native was kind of a perfect solution for that not just for precursor for prototyping but also like building the eventual end product. because it really easy to built it's really fast to build it's even faster deliver and it makes really easy to measure everything.
+In the middle one, we tested out how you should provide sleep coaching content, which means, e.g., how to show exercises and lessons that are engaging and interesting to go through.
 
-but let's look at why it's so faster built. You can find kind of use any basically UI component library react native paper is pretty good I've heard. I actually like to build them myself because it's easier the time books everything when you know that okay it will take me this much time to build that but you can get pretty fast and do some pretty cool stuff really fast with react native just because you have already existing kills from react and
-JavaScript.
+And on the right one, we tested that if you could make sleeping into a game so every night you would try to sleep better than your friends and that way compete against your friends.
 
-maybe even cooler is actually delivering fast and this actually saved our butts and when we were testing one of our pilot products with the largest life insurance company in the Finland. One Friday I got an email that hey this feature doesn't work for me and it was like we didn't never agreed on that feature so during the weekend I actually built it and released on Monday without real native I would have been able to do that because the usual way you do it through App Store connect and Play Store is really painful it takes a lot of days for Apple to look at but using we use Codepush we were able to boost the code to the users didn't notice that the feature was missing and actually on Monday I got an email sorry it might have be my device that it didn't work
+When I was researching how to build these prototypes, I had one hard requirement: I have able to take part in the coding as well. Because I have a background in design and web development, native iOS or Android weren't a viable option. React Native turned out to be a kind of a perfect solution for that. But not just because it's suitable for prototyping but because I could also use it to build the end product. This transition is possible because building with React Native is relatively straightforward to build with it. It's also really fast to build with it, and it's even faster to deliver and measure everything.
 
-Expo is a pretty good solution also offering you the same capabilities of pushing code basically over-the-air. react native remote config that is part of react native firebase offers the
-remote config it doesn't allow as much as codepush an Expo but you can still make changes on the app on the fly which is pretty cool.
+## Building
 
-My background is in actually in I used to pick carpenters for seven years and a lot of things we used to talk about that measure always twice once I transitioned the technology turned into measure
-everything what the user is doing how long they are doing it and what they are doing so in prototyping see your programs is only as good as results and feedback you get you so you have to measure everything so in order to do that there's arts really good tools
+Let's look at why is building apps with React Native is so swift. For starters, the are many great UI kits such as react-native-paper. I like to build UIs myself. Mainly because I will then know how every component is built, and can then use them more effectively. In general, React Native allows you to build cool stuff fast just because you can employ your existing skills from React and JavaScript so much.
 
-amplify analytics one aw yes good firebase analytics basically Google and it is great as well and the App Center analytics that we used in our process was excellent in my opinion and there was actually a really nice hack that we used in order to kind of find this hidden information so we wrapped all the components that weren't supposed to be clickable or pressable with touchable fit without feedback and made them emit an analytics event to our back-end you see which parts of the app or UI users were pressing expecting them to do something so example here you can actually see there's a couple of things about your sleeve timing and stuff like that we had a lot of users pressing those others those who are supposed to be static which ended up that we realized that we have to build something that they can actually find more information about their sleep so that's a cool hack don't do it in production it actually it's really bad for accessibility but in prototyping it's fine.
+## Delivering
+
+What is maybe even cooler is delivering fast. React Native's capability to deliver fast actually saved our butts when we were testing one of our pilot products with the largest life insurance company in Finland. One Friday I got an email that said:
+
+"hey, this feature we agreed on doesn't work for me."
+
+Reading that email, I was like we never agreed on that feature. It was never supposed to be in this pilot. However, instead of arguing over email, I instead decided to try if I could fix things without anyone noticing. So during the weekend, I built the feature and released it before Monday. Without React Native that would not have been possible, because the usual way you do it through App Store connect and Play Store is really painful it takes many days for Apple to look at but using Codepush we were able to update the code. The users didn't even notice that the feature was missing. The following Monday I got an email saying "sorry it might have been my device that it didn't work."
+
+Expo is a pretty good solution, also offering you the same capabilities of pushing your code over-the-air as CodePush.
+
+Last but not least, there's also react-native-remote-config that is part of React Native Firebase. It isn't as powerful as Codepush or Expo, but still allows you to make changes on the fly, but only in the configuration as you can change the JavaScript bundle by using this. It is still worth considering, especially if you're already using Firebase in your project.
+
+## Analytics
+
+Before becoming a product designer/developer, I was a carpenter for seven years. We used the mantra "measure twice" a lot. Once I transitioned to technology world, this mantra turned into a "measure everything", that the user is doing how long they are doing it and what they are doing so in prototyping see your programs is only as good as results and feedback you get you so you have to measure everything so in order to do that there's arts really good tools
+
+Amplify analytics one aw yes good firebase analytics basically Google and it is great as well and the App Center analytics that we used in our process was excellent in my opinion and
+
+there was actually a really nice hack that we used in order to kind of find this hidden information so we wrapped all the components that weren't supposed to be clickable or pressable with touchable fit without feedback and made them emit an analytics event to our back-end you see which parts of the app or UI users were pressing expecting them to do something so example here you can actually see there's a couple of things about your sleeve timing and stuff like that we had a lot of users pressing those others those who are supposed to be static which ended up that we realized that we have to build something that they can actually find more information about their sleep so that's a cool hack don't do it in production it actually it's really bad for accessibility but in prototyping it's fine.
 
 ![Screenshot of the presentation with a analytics hack ](hack.png "Analytics hack")
 

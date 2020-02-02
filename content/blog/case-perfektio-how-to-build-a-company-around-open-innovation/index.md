@@ -1,6 +1,6 @@
 ---
-title: 'Case Perfektio: How to build a company around open innovation'
-date: '2018-02-20'
+title: "How to build a company around open innovation"
+date: "2018-02-20"
 draft: true
 ---
 
