@@ -11,7 +11,6 @@ import React, { ComponentProps, forwardRef, Ref } from "react";
 import styled from "styled-components";
 import { rhythm } from "../utils/typography";
 import SignUp from "./signup";
-import ToggleTheme from "./themeToggler";
 
 const Content = styled.div`
   display: flex;
@@ -77,7 +76,6 @@ export const Bio = () => {
           <a href="https://perttu.dev">perttu.dev</a>
         </p>
       </Content>
-      <ToggleTheme />
     </>
   );
 };

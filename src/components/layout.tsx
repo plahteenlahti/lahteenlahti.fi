@@ -20,6 +20,7 @@ export const Layout = (props: Props) => {
 
   return (
     <Content>
+      <ToggleTheme />
       <header>
         <HeaderTitle>
           <StyledLink to={`/`}>{title}</StyledLink>
@@ -48,13 +49,13 @@ export const Layout = (props: Props) => {
 };
 
 const StyledH1 = styled.h1`
-  ${styledScale(1.5)};
+  ${styledScale(1.2)};
   margin-bottom: ${rhythm(1.5)};
   margin-top: 0;
 `;
 
 const StyledH3 = styled.h3`
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 0;
 `;
 
