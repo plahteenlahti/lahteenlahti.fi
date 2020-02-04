@@ -1,6 +1,6 @@
 ---
-title: 'Designing a winning hackathon concept'
-date: '2019-01-11'
+title: "Designing a winning hackathon concept"
+date: "2019-01-11"
 ---
 
 #### Using a service design mindset to win hackathons
@@ -15,7 +15,7 @@ I decided to put together a small guide on how to do successful service design i
 
 Before rushing into the problem, it is best to choose whose problems your service is going to solve, the targeted customer group of the service. This helps in narrowing down problem and makes it easier to develop the service concept for the problem. It’s best to settle on a target group even if have already come up with a problem you are going to solve.
 
-The multiple ways of finding a suitable target group, and they could easily warrant for a separate article. One easy way to pick a target group is to pick up target group you yourself are part of, e.g. student, elderly person, etc, [and develop that into a persona](http://kehitt%C3%A4%C3%A4%20siit%C3%A4%20kohderyhm%C3%A4%C3%A4%20edustava%20persoona). Using yourself as model of a potential customer is heavily biasing, and can lead to false assumptions for example in the customer’s capabilities. In the context of hackathons, this is however not that critical. If you want to avoid this and do the things in a bit harder way, you can focus on a group of people you are not familiar with and do research on them. Pick for example city planners and interview them in order to understand their problems (this is what we did in one hackathon).
+The multiple ways of finding a suitable target group, and they could easily warrant for a separate article. One easy way to pick a target group is to pick up target group you yourself are part of, e.g. student, elderly person, etc, and develop that into a persona. Using yourself as model of a potential customer is heavily biasing, and can lead to false assumptions for example in the customer’s capabilities. In the context of hackathons, this is however not that critical. If you want to avoid this and do the things in a bit harder way, you can focus on a group of people you are not familiar with and do research on them. Pick for example city planners and interview them in order to understand their problems (this is what we did in one hackathon).
 
 ### Find a problem to solve
 

@@ -22,6 +22,7 @@ interface Props {
   keywords?: string[];
   description?: string;
   canonical?: string | null | undefined;
+  amp?: boolean;
 }
 
 export const SEO = (props: Props) => {
@@ -63,7 +64,7 @@ export const SEO = (props: Props) => {
         lang
       }}
       link={
-        props.canonical
+        !props.amp && props.canonical
           ? [{ rel: "canonical", key: props.canonical, href: props.canonical }]
           : []
       }

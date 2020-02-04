@@ -1,7 +1,7 @@
 ---
 title: "Too Old to Learn Code"
 date: "2019-05-18"
-tags: ["Programming"]
+tags: ["Programming", "Life"]
 canonical: "https://perttu.dev/posts/too-old-to-learn-code/"
 ---
 

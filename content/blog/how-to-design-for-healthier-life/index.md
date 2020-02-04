@@ -1,6 +1,7 @@
 ---
 title: "Designing for Healthier Life"
 date: "2019-03-01"
+tags: ["Design"]
 ---
 
 Four approaches to designing digital services that persuade your user to live a healthier life

@@ -35,6 +35,9 @@ export const Layout = (props: Props) => {
           <MenuItem>
             <StyledLink to={`/about`}>About</StyledLink>
           </MenuItem>
+          <MenuItem>
+            <StyledLink to={`/tags`}>Tags</StyledLink>
+          </MenuItem>
         </Menu>
       </header>
       <main>{children}</main>

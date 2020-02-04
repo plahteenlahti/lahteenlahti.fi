@@ -19,7 +19,7 @@ To be exact, a plan is always a part of a strategy, but it is not enough by its
 2. **A diagnosis** of the current situation
 3. **An actionable plan** that explains how we will get from the diagnosed current situation to the desired situation, the goal.
 
-These three are the fundamental building blocks of a _good strategy_, but having all these parts is rarely enough for a good strategy. Most strategies you hear are what Richard Rummelt would describe as_ **bad strategy**_.
+These three are the fundamental building blocks of a _good strategy_, but having all these parts is rarely enough for a good strategy. Most strategies you hear are what Richard Rummelt would describe as\* **bad strategy\***.
 
 Luckily bad strategy is easy to notice because it skips over the problem details, doesn’t take into consideration the current situation, or is just simply lacking everything but a grandiose vision.
 
@@ -38,6 +38,6 @@ If you fail to understand what is being said, or what to do next, you are most l
 
 ### Continue With These
 
-Go read [**Richard Rummelt’s book, Good Strategy Bad Strategy**](https://www.amazon.com/Good-Strategy-Bad-Difference-Matters/dp/0307886239)**.** It is a great introduction to strategy and strategic thinking, and also has one of the best analyses of how Nvidia planned and executed a strategy to
+Go read [**Richard Rummelt’s book, Good Strategy Bad Strategy**](https://www.amazon.com/Good-Strategy-Bad-Difference-Matters/dp/0307886239)**.** It is a great introduction to strategy and strategic thinking, and also has one of the best analyses of how Nvidia planned and executed a strategy to take over the graphics card market.
 
-If you’re interested in strategy in a business setting, the best books about it are about something else than strategy. For example books such as [**How to Turn Down a Billion Dollars: The Snapchat Story**](http://How%20to%20Turn%20Down%20a%20Billion%20Dollars:%20The%20Snapchat%C2%A0Story) and **[Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration](https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012)**, focus
+If you’re interested in strategy in a business setting, the best books about it are about something else than strategy. For example books such as **[How to Turn Down a Billion Dollars: The Snapchat Story](https://www.amazon.com/How-Turn-Down-Billion-Dollars/dp/1250108616)** and **[Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration](https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012)**.

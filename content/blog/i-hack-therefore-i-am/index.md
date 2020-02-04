@@ -1,6 +1,7 @@
 ---
-title: 'I hack, therefore I am?'
-date: '2017-08-24'
+title: "I hack, therefore I am?"
+date: "2017-08-24"
+tags: ["Hackathons", "Rants", "Life"]
 ---
 
 #### Some stories and thoughts from hackathons
