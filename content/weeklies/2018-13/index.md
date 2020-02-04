@@ -5,27 +5,9 @@ date: "2018-04-04"
 
 #### This week: Grindr’s lousy security, Dark patterns, Detecting objects with Raspberry Pi, and sex parties of the rich and tech.
 
-**Perfektio Weekly is the collection of design, technology, music, culture and news to get your week started with a boom 💥**
-
 ### 💯 Listen to this
 
 \[embed\]https://soundcloud.com/flosstradamus/run-the-jewels-oh-my-darling-flosstradamus-remix\[/embed\]
-
-### 🙉 What’s up Perfektio?
-
-#### [The Space Hack — A Pretty Good Prank](http://thespacehack.com/)
-
-Our this year’s April fools prank was about a hackathon in space, that we would be organizing together with SpaceX and Elon Musk. Check it out, we had a lot of fun building it.
-
-#### [Hacker Community](https://goo.gl/2zdrBh?originalUrl=https://medium.com/perfektio/announcing-perfektio-community-5fd43baa278e)
-
-We have a new community for hackathon hackers! Read this article to find out what that means and how to be part of it.
-
-#### [Embracing Change or: How I Learned to Stop Worrying and Love the Job](https://goo.gl/hC9fTq?originalUrl=https://medium.com/perfektio/embracing-change-or-how-i-learned-to-stop-worrying-and-love-the-job-9256eba5ee6f)
-
-[Niilo](https://medium.com/u/6fe9dbe8b29f), one our newest hires decided to put it in writing how it feels to work at Perfektio.
-
----
 
 ### 🤓 For the techie kid in all of us
 

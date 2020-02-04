@@ -5,15 +5,9 @@ date: "2018-03-19"
 
 #### This week: Songs, Parties, Learning Bootstrap in 5 minutes, UI kits, and boosting up your creativity with some brainstorming methods.
 
-**Perfektio Weekly is the collection of design, technology, music, culture and news to get your week started with a boom 💥**
-
 ### 💯 Listen to this
 
 \[embed\]https://soundcloud.com/swoope/hall-of-fame\[/embed\]
-
-### 🙉 What’s up Perfektio?
-
-\[embed\]https://www.facebook.com/events/142338676586211/\[/embed\]
 
 ### 🤓 For the techie kid in all of us
 

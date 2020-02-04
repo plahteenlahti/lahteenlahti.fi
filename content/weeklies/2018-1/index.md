@@ -62,11 +62,3 @@ This weeks Completely else is about understanding how smartphones are paving the
 #### [**Stop reading self-help books**](https://medium.com/the-post-grad-survival-guide/why-you-should-read-biographies-to-become-the-greatest-version-of-yourself-not-self-help-books-6373c74475bd)
 
 Everyone knows that feeling of empowerment that self-help books generate. But building a better life for yourself isn’t just about making minor changes to your habits. Instead you should be more holistic and understand the highs and lows of life. This is where reading biographies comes into picture.
-
----
-
-> Thanks to tuning into this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
----

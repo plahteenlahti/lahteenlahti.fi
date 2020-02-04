@@ -1,33 +1,7 @@
 ---
-title: "Perfektio Weekly 2/2017"
+title: "Weekly 2/2017"
 date: "2017-11-12"
 ---
-
-#### Hackathon overdose, rapid business model design, and Swedes evading taxes.
-
-What are we up to this week? What happened last week? Perfektio Weeklies are a light collection of what is happening in our company, what our culture is like, and what types of design and development stuff you should read about this week!
-
-### 🗓 What is Perfektio up to this week?
-
-This week is full of hackathons!
-
-#### Industryhack — Lights on
-
-How to hack the energy grid? That’s what we are going to find out on Tuesday!
-
-\[embed\]https://industryhack.com/challenges/lights-on/\[/embed\]
-
-#### Industryhack — Creating more time for work
-
-On Thursday and Friday we are creating more time for work in a hackathon for K-group.
-
-\[embed\]https://industryhack.com/challenges/lights-on/\[/embed\]
-
-#### Ultrahack 2017 Sprint II
-
-Perfektio’s week concludes at Ultrahack Sprint II, where we have total of three teams building the future of finance, artificial intelligence in media, and space! Come say hi to our hackers and catch the final pitches on Sunday 👋
-
-\[embed\]https://industryhack.com/challenges/lights-on/\[/embed\]
 
 ---
 
@@ -90,5 +64,3 @@ Excellent article on basics of startup build order.
 \[embed\]https://industryhack.com/challenges/lights-on/\[/embed\]
 
 ---
-
-> Thanks to tuning into this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)

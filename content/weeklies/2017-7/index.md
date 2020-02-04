@@ -1,11 +1,9 @@
 ---
-title: "Perfektio Weekly 7"
+title: "Weekly 7"
 date: "2017-12-19"
 ---
 
 #### Man’s ass, millennials, open source projects, and how to contain cow farts.
-
-What are we up to this week? What happened last week? Perfektio Weeklies are a light collection of what is happening in our company, what our culture is like, and what types of design and development stuff you should read about this week!
 
 ### ⌨️ Newest dev stuff
 
@@ -80,11 +78,3 @@ Ready to hack a little in London? [Perttu](https://medium.com/u/aceecd637496) fr
 Amazing visualizations in this article about why millenials are facing the scariest financial future any generation before us. Trust us, this in definitely an article
 
 \[embed\]https://tympanus.net/codrops/2017/12/05/creative-svg-strokes-animation/\[/embed\]
-
----
-
-> Thanks to tuning into this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
----

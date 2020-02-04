@@ -1,5 +1,5 @@
 ---
-title: "⚡️ Perfektio Weekly 14/2018"
+title: "Weekly 14/2018"
 date: "2018-04-08"
 ---
 
