@@ -17,6 +17,13 @@ module.exports = {
     `gatsby-remark-embed-video`,
     `gatsby-plugin-twitter`,
     {
+      resolve: "gatsby-plugin-html2amp",
+      options: {
+        files: ["**/*.html"],
+        dist: "public/amp"
+      }
+    },
+    {
       resolve: `@raae/gatsby-remark-oembed`,
       options: {
         // usePrefix defaults to false
@@ -32,31 +39,31 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-plugin-amp`,
-      options: {
-        analytics: {
-          type: "gtag",
-          dataCredentials: "include",
-          config: {
-            vars: {
-              gtag_id: "UA-112021087-1",
-              config: {
-                "UA-112021087-1": {
-                  page_location: "{{pathname}}"
-                }
-              }
-            }
-          }
-        },
-        canonicalBaseUrl: "https://www.lahteenlahti.com/",
-        components: ["amp-form"],
-        excludedPaths: ["/404*", "/"],
-        pathIdentifier: "/amp/",
-        relAmpHtmlPattern: "{{canonicalBaseUrl}}{{pathname}}{{pathIdentifier}}",
-        useAmpClientIdApi: true
-      }
-    },
+    // {
+    //   resolve: `gatsby-plugin-amp`,
+    //   options: {
+    //     analytics: {
+    //       type: "gtag",
+    //       dataCredentials: "include",
+    //       config: {
+    //         vars: {
+    //           gtag_id: "UA-112021087-1",
+    //           config: {
+    //             "UA-112021087-1": {
+    //               page_location: "{{pathname}}"
+    //             }
+    //           }
+    //         }
+    //       }
+    //     },
+    //     canonicalBaseUrl: "https://www.lahteenlahti.com/",
+    //     components: ["amp-form"],
+    //     excludedPaths: ["/404*", "/"],
+    //     pathIdentifier: "/amp/",
+    //     relAmpHtmlPattern: "{{canonicalBaseUrl}}{{pathname}}{{pathIdentifier}}",
+    //     useAmpClientIdApi: true
+    //   }
+    // },
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
