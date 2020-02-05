@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-html2amp",
       options: {
-        files: ["**/*.html"],
+        files: ["public/*.html"],
         dist: "public/amp"
       }
     },
