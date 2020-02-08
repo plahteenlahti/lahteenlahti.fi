@@ -80,9 +80,3 @@ Self help? Self help.
 #### [Education Hackathon 26–27 May, Rome](http://eduhack.innolympics.com/)
 
 Education themed hackathon in Rome, which is also a part of a larger educational change. Looks rather interesting.
-
----
-
-> Thanks for tuning in on this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!

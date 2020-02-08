@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
     author: `Perttu Lähteenlahti`,
-    title: `Perttu Lähteenlahti`,
-    description: `Blog about design, development, cognitive science and startups.`,
+    title: `The Personal Blog of Perttu Lähteenlahti`,
+    description: `Personal blog of Perttu Lähteenlahti. Blogging about design, development, cognitive science and startups. `,
     siteUrl: `https://lahteenlahti.com`,
     social: {
-      twitter: `plahteenlahti`
+      twitter: `plahteenlahti`,
+      linkedIn: `plahteenlahti`,
+      github: `plahteenlahti`
     }
   },
   plugins: [
@@ -14,6 +16,13 @@ module.exports = {
     `gatsby-plugin-dark-mode`,
     `gatsby-remark-embed-video`,
     `gatsby-plugin-twitter`,
+    {
+      resolve: "gatsby-plugin-html2amp",
+      options: {
+        files: ["public/*.html"],
+        dist: "public/amp"
+      }
+    },
     {
       resolve: `@raae/gatsby-remark-oembed`,
       options: {
@@ -30,31 +39,31 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-plugin-amp`,
-      options: {
-        analytics: {
-          type: "gtag",
-          dataCredentials: "include",
-          config: {
-            vars: {
-              gtag_id: "UA-112021087-1",
-              config: {
-                "UA-112021087-1": {
-                  page_location: "{{pathname}}"
-                }
-              }
-            }
-          }
-        },
-        canonicalBaseUrl: "https://www.lahteenlahti.com/",
-        components: ["amp-form"],
-        excludedPaths: ["/404*", "/"],
-        pathIdentifier: "/amp/",
-        relAmpHtmlPattern: "{{canonicalBaseUrl}}{{pathname}}{{pathIdentifier}}",
-        useAmpClientIdApi: true
-      }
-    },
+    // {
+    //   resolve: `gatsby-plugin-amp`,
+    //   options: {
+    //     analytics: {
+    //       type: "gtag",
+    //       dataCredentials: "include",
+    //       config: {
+    //         vars: {
+    //           gtag_id: "UA-112021087-1",
+    //           config: {
+    //             "UA-112021087-1": {
+    //               page_location: "{{pathname}}"
+    //             }
+    //           }
+    //         }
+    //       }
+    //     },
+    //     canonicalBaseUrl: "https://www.lahteenlahti.com/",
+    //     components: ["amp-form"],
+    //     excludedPaths: ["/404*", "/"],
+    //     pathIdentifier: "/amp/",
+    //     relAmpHtmlPattern: "{{canonicalBaseUrl}}{{pathname}}{{pathIdentifier}}",
+    //     useAmpClientIdApi: true
+    //   }
+    // },
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {

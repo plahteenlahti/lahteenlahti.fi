@@ -90,15 +90,15 @@ export const createPages: GatsbyCreatePages = async ({
       }
     });
 
-    createPage({
-      path: `${post.node.fields.slug}amp/`,
-      component: path.resolve("./src/templates/blog-post.amp.tsx"),
-      context: {
-        slug: post.node.fields.slug,
-        previous,
-        next
-      }
-    });
+    // createPage({
+    //   path: `${post.node.fields.slug}amp/`,
+    //   component: path.resolve("./src/templates/blog-post.amp.tsx"),
+    //   context: {
+    //     slug: post.node.fields.slug,
+    //     previous,
+    //     next
+    //   }
+    // });
   });
 
   const tags = allMarkdown.data.tagsGroup.group;

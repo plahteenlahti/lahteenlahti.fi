@@ -62,6 +62,7 @@ const BlogPostTemplate = (props: Props) => {
       <SEO
         slug={slug}
         canonical={frontmatter.canonical}
+        amp={true}
         title={frontmatter.title!}
         description={frontmatter.description || excerpt}
       />

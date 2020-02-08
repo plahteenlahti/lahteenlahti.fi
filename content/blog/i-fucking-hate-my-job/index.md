@@ -1,6 +1,7 @@
 ---
 title: "I Fucking Hate My Job"
 date: "2018-06-29"
+tags: ["Rants", "Life"]
 ---
 
 #### Dear manager, this goes to both you and me.

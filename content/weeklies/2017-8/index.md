@@ -7,20 +7,6 @@ Merry Christmas and Harry New Year!
 
 #### Don’t they know it’s Christmas? Who cares when these links are so good 😍
 
-What are we up to this week? What happened last week? Perfektio Weeklies are a light collection of what is happening in our company, what our culture is like, and what types of design and development stuff you should read about this week!
-
-### What is Perfektio up to this week?
-
-Nothing dummy, it’s Christmas. But the article below is pretty solid, so take a look at it!
-
-#### Read the best Hack Reports of the year 2017
-
-How did we hack gardening? What was this year’s best hackathon? We put together a small list of great hackathon stories for you :)
-
-\[embed\]https://medium.com/perfektio/hack-reports-2017-35cd4fdade76\[/embed\]
-
----
-
 ### ⌨️ Newest dev stuff
 
 #### Example of creative responsive design
@@ -92,13 +78,3 @@ Ready to hack a little in London? [Perttu](https://medium.com/u/aceecd637496) fr
 #### Don’t be afraid to ask
 
 Be brave and ask for things. That’s what this article is about. Super simple stuff, but you should still read it. Trust me stupid.
-
-\[embed\]https://medium.com/perfektio/hack-reports-2017-35cd4fdade76\[/embed\]
-
----
-
-> Thanks to tuning into this week’s Perfektio Weekly! If you have any questions or suggestions how we could improve these shoot us a message :)
-
-> If you like what you’re seeing, don’t be afraid to give it a clap or two!
-
----
