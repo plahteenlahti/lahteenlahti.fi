@@ -8,6 +8,7 @@ import { SEO } from "../components/seo";
 import { Query, SitePageContext } from "../graphql-types";
 import { rhythm, styledScale } from "../utils/typography";
 import Share from "../components/share";
+import CanonicalBox from "../components/CanonicalBox";
 
 interface Props extends PageRendererProps {
   pageContext: SitePageContext;
@@ -15,6 +16,7 @@ interface Props extends PageRendererProps {
 }
 
 const Information = styled.div`
+  margin-top: ${rhythm(2)};
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -71,9 +73,13 @@ const BlogPostTemplate = (props: Props) => {
         <ReadingTime>{readingTime}</ReadingTime>
       </Information>
 
+      <CanonicalBox canonical={frontmatter.canonical} />
+
       <div dangerouslySetInnerHTML={{ __html: html }} />
       <Divider />
+
       <Share url={`https://lahteenlahti.com${slug}`} />
+
       <PostNavigator>
         <li>
           {previous && (

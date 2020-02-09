@@ -1,6 +1,7 @@
 ---
 title: "What is Strategy?"
 date: "2019-04-10"
+tags: ["Strategy", "Building companies"]
 ---
 
 **_“We gotta have a strategy. Let’s have a weekend for planning a strategy!”_**

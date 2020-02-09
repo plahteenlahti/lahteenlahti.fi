@@ -16,6 +16,8 @@ module.exports = {
     `gatsby-plugin-dark-mode`,
     `gatsby-remark-embed-video`,
     `gatsby-plugin-twitter`,
+    `gatsby-remark-numbered-footnotes`,
+    `gatsby-plugin-mdx`,
     {
       resolve: "gatsby-plugin-html2amp",
       options: {
@@ -98,6 +100,9 @@ module.exports = {
         plugins: [
           "gatsby-plugin-social-cards",
           `gatsby-remark-embedder`,
+          `gatsby-remark-autolink-headers`,
+          `gatsby-remark-check-links`,
+          `gatsby-remark-smartypants`,
           {
             resolve: `gatsby-remark-images`,
             options: {
