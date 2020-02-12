@@ -1,6 +1,7 @@
 ---
 title: "How to Fix 'VirtualizedLists should never be nested inside plain ScrollViews'"
 date: "2020-02-02"
+draft: true
 tags: ["React Native", "Mobile Development"]
 ---
 
