@@ -1,5 +1,5 @@
 ---
-title: "UX + UI Design Weekly"
+title: "Weekly 17/2018"
 date: "2018-04-18"
 ---
 
@@ -7,7 +7,7 @@ date: "2018-04-18"
 
 #### Weekly collection of inspiration and articles for designers
 
-[![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/aa4ea-1rdiqmieyriaiop5kf_foaw.gif)](https://dribbble.com/shots/4460706-Drag-Drop-upload-concept)
+[![05d90-1kgxbnuichyz2wxhgkk6u-w](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/aa4ea-1rdiqmieyriaiop5kf_foaw.gif)](https://dribbble.com/shots/4460706-Drag-Drop-upload-concept)
 
 by [Jakub Antalík](https://dribbble.com/antalik) for [Frame.io](https://dribbble.com/frameio)
 

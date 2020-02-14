@@ -1,5 +1,5 @@
 ---
-title: "🔥 Weekly 12/2018"
+title: "Weekly 12/2018"
 date: "2018-03-19"
 ---
 

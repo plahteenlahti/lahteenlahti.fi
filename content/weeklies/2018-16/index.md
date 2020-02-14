@@ -1,11 +1,7 @@
 ---
-title: "React + React Native Weekly II"
+title: "Weekly 16/2018"
 date: "2018-04-16"
 ---
-
-#### React, React Native and React VR links for developers
-
-We use React and React Native extensively here at Perfektio and absolutely love using it in variety of projects. That’s why we put together a list of some of the React resources we’ve come across recently. Hopefully you find it useful as well!
 
 ### React
 

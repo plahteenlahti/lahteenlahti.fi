@@ -70,9 +70,15 @@ const WeeklyIndex = (props: Props) => {
       <SEO
         slug="weeklies"
         title="All weeklies by Perttu Lähteenlahti"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        keywords={[`weekly`, `react`, `react native`, `design`]}
       />
-      <Bio />
+      <h1>Weeklies</h1>
+      <p>
+        All the weekly collections that I've written. Most consist of design,
+        development and technology stuff with some personal insights and updates
+        thrown in the mix (don't theres very little of those).
+      </p>
+
       {posts.map(({ node }: { node: MarkdownRemark }) => {
         const frontmatter = node!.frontmatter!;
         const fields = node!.fields!;
@@ -84,7 +90,7 @@ const WeeklyIndex = (props: Props) => {
         return (
           <div key={slug}>
             <Title>
-              <StyledLink to={`weekly/${slug}`}>{title}</StyledLink>
+              <StyledLink to={`weekly${slug}`}>{title}</StyledLink>
             </Title>
             <Time>{frontmatter.date}</Time>
             <ReadingTime>{readingTime}</ReadingTime>

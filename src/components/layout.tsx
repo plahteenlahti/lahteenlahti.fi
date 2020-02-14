@@ -12,6 +12,29 @@ interface Props extends PageRendererProps {
   children: ReactNode;
 }
 
+const menuItems = [
+  {
+    name: "Blog",
+    link: "/"
+  },
+  {
+    name: "Weeklies",
+    link: "/weeklies"
+  },
+  {
+    name: "About",
+    link: "/about"
+  },
+  {
+    name: "Books",
+    link: "/books"
+  },
+  {
+    name: "Tags",
+    link: "/tags"
+  }
+];
+
 export const Layout = (props: Props) => {
   const { location, title, children } = props;
   const rootPath = `/`;
@@ -26,24 +49,16 @@ export const Layout = (props: Props) => {
           <StyledLink to={`/`}>{title}</StyledLink>
         </HeaderTitle>
         <Menu>
-          <MenuItem>
-            <StyledLink to={`/`}>Blog</StyledLink>
-          </MenuItem>
-          <MenuItem>
-            <StyledLink to={`/weeklies`}>Weeklies</StyledLink>
-          </MenuItem>
-          <MenuItem>
-            <StyledLink to={`/about`}>About</StyledLink>
-          </MenuItem>
-          <MenuItem>
-            <StyledLink to={`/tags`}>Tags</StyledLink>
-          </MenuItem>
+          {menuItems.map(item => (
+            <MenuItem key={item.name}>
+              <StyledLink to={item.link}>{item.name}</StyledLink>
+            </MenuItem>
+          ))}
         </Menu>
       </header>
       <main>{children}</main>
       <footer>
         <SignUp />
-
         <Links />
         <div>© {new Date().getFullYear()} Perttu Lähteenlahti</div>
       </footer>

@@ -1,5 +1,5 @@
 ---
-title: "🌪 Weekly 13/2018"
+title: "Weekly 13/2018"
 date: "2018-04-04"
 ---
 

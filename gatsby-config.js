@@ -26,6 +26,14 @@ module.exports = {
       }
     },
     {
+      resolve: "gatsby-source-goodreads",
+      options: {
+        developerKey: "lJeTjb5OfssYdNfuW24qcA",
+        goodReadsUserId: "32613066",
+        userShelf: "read"
+      }
+    },
+    {
       resolve: `@raae/gatsby-remark-oembed`,
       options: {
         // usePrefix defaults to false
