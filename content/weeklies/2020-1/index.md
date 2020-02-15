@@ -1,11 +1,12 @@
 ---
 title: "Weekly 1/2020"
 date: "2020-02-12"
+excerpt: React Native inside notifications, neumorphism and new investment apartments
 ---
 
-_**My personal weekly collection of links, resources and updates about my life, the company I'm building and my investments as well.**_
+_**Weekly collection of links, resources and updates about my life, the company I'm building and my investments as well.**_
 
-### Interesting development stuff
+### Interesting tech stuff
 
 **[18-year-old FrontPage website](http://www.fmboschetto.it/)**  
 This site is still being maintained after 18 years, and it's made with FrontPage
@@ -31,16 +32,15 @@ Going to implement a similar type of statistics view for Nyxo soon.
 ### Personal insights
 
 **Third investment apartment**  
-I've been calling the bank a lot this week in order to be able to purchase my third investment apartment. It's a lot of work the first buy an apartment from another city without ever having seen it in person. Other thing that might be making this harder is that I'm going to only use bank's money to purchase it, and I'm going to go sign the papers myself, but will instead ask my dad to go sign the sales deed. But, hey why do it the easy way when you can do it the hard way!-
+I've been calling the bank a lot this week to be able to purchase my third investment apartment. It's a lot of work to buy an apartment from another city without ever having seen it in person. Another thing that might be making this harder is that I'm going to only use bank's money to purchase it, and I'm going to sign the papers myself but will instead ask my dad to do instead of me. But hey, why do it the easy way when you can do it the hard way!
 
 **Nyxo – wish there was more time to fix everything**  
-Finding it hard to balance everything atm. The current pilot we are running is taking a major chunk of our time. This week I also introduced a new Kanban based project management and daily updates, which has improved communication a little. At least I now have a better idea what everyone is working on, hopefully others do to.
+I am finding it hard to balance everything atm. The current pilot we are running is taking a significant chunk of our time. This week I also introduced a new Kanban based project management and daily updates, which has improved communication a little. At least I now have a better idea of what everyone is working on; hopefully, others do too.
 
-Last week we made quite a lot of progress on all of the products. This week has been a tad slower, mainly due to some of the complex bugs that have surfaced on the mobile app. Hopefully next week is more productive and we can get some new features out and grow the user count.
+Last week we made quite a lot of progress on all of the products. This week has been a tad slower, mainly due to some of the complex bugs that have surfaced on the mobile app. Hopefully, next week is more productive, and we can get some new features out and grow the user count.
 
 We need to start making more sales.
 
-I also interviewed two candidates for React / React Native developer position. Both were really promising. Hopefully we can soon fill the position.
-
+I also interviewed two candidates for React / React Native developer position. Both were promising. Hopefully, we can soon fill the position.
 **Bye Apple, hello McDonald's**  
-I decided to sell 25% of my holdings in Apple, and invest that and extra in McDonald's. Main reason for selling Apple was that in short time it has become the largest single stock in my portfolio. Why McDonald's then? They've increasing dividend every year, I need more US companies in ny portfolio, and believe that they will soon start catching up to other fast food chains on providing non-meat based products.
+I decided to sell 25% of my holdings in Apple, and invest that and extra in McDonald's. The main reason for selling Apple was that in a short time it had become the largest single stock in my portfolio. Why McDonald's, then? 1) They've been increasing their dividend every year, 2) I need more US companies in my portfolio, and 3) I believe that they will soon start catching up to other fast-food chains on providing non-meat based products.

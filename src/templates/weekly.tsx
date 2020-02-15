@@ -36,6 +36,7 @@ const WeeklyTemplate = (props: Props) => {
   const data = props.data!;
   const post = data.markdownRemark!;
   const excerpt = post.excerpt!;
+  const slug = post.fields!.slug!;
   const frontmatter = post.frontmatter!;
   const html = post.html!;
   const siteTitle = data.site!.siteMetadata!.title!;
@@ -44,8 +45,8 @@ const WeeklyTemplate = (props: Props) => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
-        slug="weekly"
-        title={frontmatter.title!}
+        slug={slug}
+        title={`${frontmatter.title!} – Perttu Lähteenlahti`}
         description={frontmatter.description || excerpt}
       />
       <h1>{post.frontmatter!.title}</h1>
