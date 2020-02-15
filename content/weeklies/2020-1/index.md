@@ -1,7 +1,7 @@
 ---
 title: "Weekly 1/2020"
 date: "2020-02-12"
-excerpt: React Native inside notifications, neumorphism and new investment apartments
+description: React Native inside notifications, neumorphism and new investment apartments
 ---
 
 _**Weekly collection of links, resources and updates about my life, the company I'm building and my investments as well.**_
