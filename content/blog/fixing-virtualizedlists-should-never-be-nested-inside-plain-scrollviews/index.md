@@ -15,7 +15,11 @@ This warning pretty much tells what is about. What is doesn't tell is why this i
 
 ### Why nesting VirtualizedList inside a plain ScrollView is bad?
 
-In the early days of React Native,
+Virtualized lists, that means <SectionList> and <FlatList> are performance optimized which massively improves memory consumption and performance when using them to render large lists of content. The way this optimization works, is that it only renders the content that is currently visible in the window, usually meaning the container / screen of your device. It also replaces all the other list items same sized blank space, and renders them based on your scrollinb
+
+Now If you put these two list inside inside a ScrollView they fail to calculate the size
+
+finite render window of active items and replacing all items outside of the render window with appropriately sized blank space. The window adapts to scrolling behavior, and items are rendered incrementally with low-pri (after any running interactions) if they are far from the visible area, or with hi-pri otherwise to minimize the potential of seeing blank space.
 
 ### How fix this error the right way
 

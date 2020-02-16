@@ -13,7 +13,7 @@ I had no idea of all the peculiar things waiting for me there.
 
 ### ✋ Sunday
 
-**15:00** After a short flight I arrived in Berlin and made by way to the venue. The hackathon would take place at [**BetaHaus**](https://www.betahaus.com/), a co-working space eerily familiar. I walked in and received my swag: t-shirt, back bag, and notepad. I tried to argue against XL-sized t-shirt, but the helper convinced me that it would be right size. It wasn’t.
+**15:00** After a short flight I arrived in Berlin and made by way to the venue. The hackathon would take place at **[BetaHaus**](https://www.betahaus.com/), a co-working space eerily familiar. I walked in and received my swag: t-shirt, back bag, and notepad. I tried to argue against XL-sized t-shirt, but the helper convinced me that it would be right size. It wasn’t.
 
 The program started with a short introduction to theme of the hackathon, and continued with a quick design thinking / get to know each other activity. We then moved to the rooms dedicated for the different challenges and had hour and half for forming the teams and asking questions from the challenge partners.
 

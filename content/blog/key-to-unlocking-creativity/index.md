@@ -1,6 +1,6 @@
 ---
-title: 'Key to Unlocking Creativity: Sleep'
-date: '2018-05-07'
+title: "Key to Unlocking Creativity: Sleep"
+date: "2018-05-07"
 ---
 
 #### What you should know about sleep to boost your creativity
@@ -15,7 +15,7 @@ Everyone has some kind of an idea what creativity means, but how about the scien
 
 First, we have **_convergent thinking_**, meaning the ability to give a “correct answer” to a question, like for example in tests! But creativity is defined by a completely different type of thinking, which scientists call **_divergent thinking_**. Divergent thinking is measurable too, by using tests that don’t have a single answer. In the workshop this was demonstrated by thinking of uses cases for a brick, e.g. using it as a hammer, breaking it and using it as paint, etc.
 
-Now in order to measure your creativity, you could just count the different use cases for a brick, that you came up with. That, however, tells you rather little. Instead, your best bet would be to use [**Torrence's test of creativity**](https://en.wikipedia.org/wiki/Torrance_Tests_of_Creative_Thinking), which measures four things: **fluency**, the total number of solutions generated; **flexibility**, number different categories of solutions; **originality**, the statistical rarity of the solutions; **elaboration**, amount of detail in solutions.
+Now in order to measure your creativity, you could just count the different use cases for a brick, that you came up with. That, however, tells you rather little. Instead, your best bet would be to use **[Torrence's test of creativity**](https://en.wikipedia.org/wiki/Torrance_Tests_of_Creative_Thinking), which measures four things: **fluency**, the total number of solutions generated; **flexibility**, number different categories of solutions; **originality**, the statistical rarity of the solutions; **elaboration**, amount of detail in solutions.
 
 As might you have already thought, measuring creativity is a bit of a wild goose chase because the subject is so fuzzy, and the mentioned measuring method is just one many. More important is to understand the process of studying creativity, for it helps to understand how something is considered to correlate with creativity.
 

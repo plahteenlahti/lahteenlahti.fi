@@ -39,6 +39,6 @@ If you fail to understand what is being said, or what to do next, you are most l
 
 ### Continue With These
 
-Go read [**Richard Rummelt’s book, Good Strategy Bad Strategy**](https://www.amazon.com/Good-Strategy-Bad-Difference-Matters/dp/0307886239)**.** It is a great introduction to strategy and strategic thinking, and also has one of the best analyses of how Nvidia planned and executed a strategy to take over the graphics card market.
+Go read **[Richard Rummelt’s book, Good Strategy Bad Strategy**](https://www.amazon.com/Good-Strategy-Bad-Difference-Matters/dp/0307886239)**.** It is a great introduction to strategy and strategic thinking, and also has one of the best analyses of how Nvidia planned and executed a strategy to take over the graphics card market.
 
 If you’re interested in strategy in a business setting, the best books about it are about something else than strategy. For example books such as **[How to Turn Down a Billion Dollars: The Snapchat Story](https://www.amazon.com/How-Turn-Down-Billion-Dollars/dp/1250108616)** and **[Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration](https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012)**.

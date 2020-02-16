@@ -37,7 +37,7 @@ You should try to fit your service solution into one sentence, which should desc
 
 > Customers, customers’ problem, solution to the problem _→ the service built around these that works like this._
 
-Service is always a combination of multiple different pieces, where the problem and the solution are forces tying everything together. In hackathons, you rarely have time to think about the whole service structure but you do have enough time to make a light [**customer journey.**](https://www.smashingmagazine.com/2015/01/all-about-customer-journey-mapping/) The customer journey, in this case, means a description of how the customer finds the service, how the service solves the problem the customer is facing, what is the role of the service after this, and how is the service different from other for example.
+Service is always a combination of multiple different pieces, where the problem and the solution are forces tying everything together. In hackathons, you rarely have time to think about the whole service structure but you do have enough time to make a light **[customer journey.**](https://www.smashingmagazine.com/2015/01/all-about-customer-journey-mapping/) The customer journey, in this case, means a description of how the customer finds the service, how the service solves the problem the customer is facing, what is the role of the service after this, and how is the service different from other for example.
 
 Creating a customer journey is a rather broad task which brings out the benefits of a multidisciplinary team. Creating a simple but easily understandable customer journey is a lot easier with a versatile team.
 

@@ -3,7 +3,7 @@ title: "Weekly 18/2018"
 date: "2018-04-19"
 ---
 
-#### Weekly collection of technology and software development updates and articles
+_**Weekly collection of links, resources and updates about my life, the company I'm building and my investments as well.**_
 
 ---
 

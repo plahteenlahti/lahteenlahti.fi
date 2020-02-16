@@ -59,6 +59,6 @@ Women in Tech is organizing a breakfast with GE healthcare with the subject “*
 
 ### 👻 Something completely else
 
-#### [**The Last Jedi’s snark problem**](https://medium.com/@harrisonblackman/the-last-jedis-snark-problem-eb73bdc8ecf5)
+#### **[The Last Jedi’s snark problem**](https://medium.com/@harrisonblackman/the-last-jedis-snark-problem-eb73bdc8ecf5)
 
 Interesting read on the abundance of sarcasm in the new Star Wars movie. Beware, there’s a lot of spoilers ahead!

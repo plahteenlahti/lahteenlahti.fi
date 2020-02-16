@@ -6,7 +6,7 @@ draft: true
 
 #### How one company gets majority of its clients through open innovation challenges
 
-_Can you imagine a successful IT company without a single sales person, that spends less than 500 euros yearly on advertising, yet works with some of the biggest industry leaders in the world? I can, as I have witnessed that type of an approach work despite all the odds for year and half now at Perfektio. Our secret sauce is_ [**_open innovation challenges_**](https://en.wikipedia.org/wiki/Open_innovation) _and here’s how it works._
+_Can you imagine a successful IT company without a single sales person, that spends less than 500 euros yearly on advertising, yet works with some of the biggest industry leaders in the world? I can, as I have witnessed that type of an approach work despite all the odds for year and half now at Perfektio. Our secret sauce is_ **[_open innovation challenges_**](https://en.wikipedia.org/wiki/Open_innovation) _and here’s how it works._
 
 ### Hackers make the best problem solvers
 

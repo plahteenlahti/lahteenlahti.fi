@@ -21,7 +21,7 @@ Tool for easily finding repositories with secrets and keys. Wakeup call for the 
 
 Free resource that covers ECMAScript 2018 and ECMAScript 2019.
 
-#### [**Animated SVG Avatar**](https://codepen.io/dsenneff/pen/QajVxO?editors=1010)**.**
+#### **[Animated SVG Avatar**](https://codepen.io/dsenneff/pen/QajVxO?editors=1010)**.**
 
 Take a look at this codepen, hot damn that is some cool login screen animation.
 
@@ -65,7 +65,7 @@ Well last week we had a couple of things happening. First, we had Perttu taking 
 
 romthe
 
-Besides that we released a new article on how we spent 2017 testing if you actually use open innovation challenges as a platform for finding interesting projects and clients. [**You can read more about here**](https://stories.industryhack.com/case-perfektio-how-to-build-a-company-around-open-innovation-55d034d838e5).
+Besides that we released a new article on how we spent 2017 testing if you actually use open innovation challenges as a platform for finding interesting projects and clients. **[You can read more about here**](https://stories.industryhack.com/case-perfektio-how-to-build-a-company-around-open-innovation-55d034d838e5).
 
 ---
 

@@ -37,7 +37,7 @@ Tiivistä ongelmasi ratkaisu yhteen virkkeeseen, joka kuvailee ongelmasi, ketä 
 
 > Käyttäjät, käyttäjien ongelma, ratkaisu ongelmaan → suunnittelemamme palvelu joka toimii näin
 
-Palvelu on aina kokonaisuus, jossa ongelma ja sen ratkaisu ovat vain rakennuspalikoita muiden palvelun osien joukossa. Hackathonissa on usein liian vähän aikaa miettiä kaikkia palvelun vaiheita mutta kevyt [**palvelupolku**](https://www.smashingmagazine.com/2015/01/all-about-customer-journey-mapping/) on mahdollinen. Palvelupolulla tarkoitetaan tässä tapauksessa kuvausta siitä miten käyttäjä löytää palvelun, miten palvelu ratkaisee käyttäjän ongelman, mikä rooli palvelulla on käyttäjän ongelman ratkeamisen jälkeen, ja mitä palvelu esimerkiksi tekee eri tavalla kuin muut.
+Palvelu on aina kokonaisuus, jossa ongelma ja sen ratkaisu ovat vain rakennuspalikoita muiden palvelun osien joukossa. Hackathonissa on usein liian vähän aikaa miettiä kaikkia palvelun vaiheita mutta kevyt **[palvelupolku**](https://www.smashingmagazine.com/2015/01/all-about-customer-journey-mapping/) on mahdollinen. Palvelupolulla tarkoitetaan tässä tapauksessa kuvausta siitä miten käyttäjä löytää palvelun, miten palvelu ratkaisee käyttäjän ongelman, mikä rooli palvelulla on käyttäjän ongelman ratkeamisen jälkeen, ja mitä palvelu esimerkiksi tekee eri tavalla kuin muut.
 
 Palvelupolun suunnittelu on hyvin laaja tehtävä, joka tuo hyvin esille monipuolisen tiimin vahvuudet. Monipuolisen osaamisen avulla riittävän yksinkertaisen ja helposti ymmärretävän palvelupolun suunnittelu on huomattavasti helpompaa. Palvelupolun lisäksi kannattaa miettiä myös esimerkiksi liiketoimintamallia, joka usein on yksi tapa arvioida tiimin idean toteuttamiskelpoisuutta.
 

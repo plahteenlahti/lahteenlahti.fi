@@ -45,7 +45,7 @@ Heard about Fitt’s law? How about the law of proximity? These are all basic ru
 
 #### [Introduction to color theory](https://medium.freecodecamp.org/an-intro-to-color-theory-how-to-combine-colors-and-set-the-mood-of-your-designs-79bf5a45b3d)
 
-No weekly is complete without a little color theory. What makes this so good? Well despite being an introduction, it’s actually a really comprehensive look at how to pick colors for your project. [**Link here**](https://medium.freecodecamp.org/an-intro-to-color-theory-how-to-combine-colors-and-set-the-mood-of-your-designs-79bf5a45b3d)**.**
+No weekly is complete without a little color theory. What makes this so good? Well despite being an introduction, it’s actually a really comprehensive look at how to pick colors for your project. **[Link here**](https://medium.freecodecamp.org/an-intro-to-color-theory-how-to-combine-colors-and-set-the-mood-of-your-designs-79bf5a45b3d)**.**
 
 #### [Design principles for accessible experiences](https://medium.com/swlh/design-principles-for-accessible-experiences-a0063a126934)
 
