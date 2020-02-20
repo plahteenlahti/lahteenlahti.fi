@@ -5,26 +5,26 @@ draft: false
 tags: ["React Native", "Mobile Development"]
 ---
 
-When developing with React Native using FlatList or SectionList component inside a plain ScrollView your debugger might display the following warning:
+When developing with React Native and nesting FlatList or SectionList component inside a plain ScrollView your debugger might display the following warning:
 
 ```bash
 VirtualizedLists should never be nested inside plain ScrollViews with the same orientation
 - use another VirtualizedList-backed container instead.
 ```
 
-This warning pretty much tells what is about. What is doesn't tell is why this is bad and how to fix error (other than changing the orientation of the nested VirtualizedList but that is not always possible). Let's look how why this happens and how to fix it.
+This warning pretty much tells what is about. What is doesn't tell, is why this is bad and how to fix warning (other than changing the orientation of the nested VirtualizedList but that is not always possible). Let's look at how why this happens and how to fix it.
 
 ### Why nesting VirtualizedList inside a plain ScrollView is bad?
 
-Virtualized lists, that means <SectionList> and <FlatList> are performance optimized which massively improves memory consumption and performance when using them to render large lists of content. The way this optimization works, is that it only renders the content that is currently visible in the window, usually meaning the container / screen of your device. It also replaces all the other list items same sized blank space and renders them based on your scrolling position.
+Virtualized lists, which means <SectionList> and <FlatList> are performance-optimized which massively improves memory consumption and performance when using them to render large lists of content. The way this optimization works is that it only renders the content that is currently visible in the window, usually meaning the container/screen of your device. It also replaces all the other list items same sized blank space and renders them based on your scrolling position.
 
-Now If you put these two list inside inside a ScrollView they fail to calculate the size of the current window and will instead try to render everything, possibly causing performance problems, and it will of course also give you the warning mentioned before.
+Now If you put either of these two lists inside a ScrollView they fail to calculate the size of the current window and will instead try to render everything, possibly causing performance problems, and it will of course also give you the warning mentioned before.
 
-### How fix this error the right way
+### How to fix this warning the right way
 
 The fix to this warning is simpler than you think: get rid of the ScrollView, and places all the components that surround the FlatList inside ListFooterComponent and ListHeaderComponent.
 
-Let's see how this works in practice. In this example we have an app where user can scroll through a different recipes. The main view consists of a ScrollView and inside that view we have collection of components such as a header, a footer, some text, and a cover photo. It looks something like this:
+Let's see how this works in practice. In this example, we have an app where the user can scroll through different recipes. The main view consists of a ScrollView and inside that view, we have a collection of components such as a header, a footer, some text, and a cover photo. It looks something like this:
 
 ```tsx
 const Main = () => {
