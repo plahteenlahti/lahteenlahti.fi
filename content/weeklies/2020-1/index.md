@@ -44,5 +44,6 @@ Last week we made quite a lot of progress on all of the products. This week has 
 We need to start making more sales.
 
 I also interviewed two candidates for React / React Native developer position. Both were promising. Hopefully, we can soon fill the position.
+
 **Bye Apple, hello McDonald's**  
 I decided to sell 25% of my holdings in Apple, and invest that and extra in McDonald's. The main reason for selling Apple was that in a short time it had become the largest single stock in my portfolio. Why McDonald's, then? 1) They've been increasing their dividend every year, 2) I need more US companies in my portfolio, and 3) I believe that they will soon start catching up to other fast-food chains on providing non-meat based products.

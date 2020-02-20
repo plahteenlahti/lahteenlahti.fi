@@ -45,6 +45,7 @@ const WeeklyTemplate = (props: Props) => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
+        weekly
         slug={slug}
         title={`${frontmatter.title!} – Perttu Lähteenlahti`}
         description={frontmatter.description || excerpt}
@@ -57,14 +58,14 @@ const WeeklyTemplate = (props: Props) => {
       <PostNavigator>
         <li>
           {previous && (
-            <FadeLink to={`weekly/${previous.fields!.slug!}`} rel="prev">
+            <FadeLink to={`weekly${previous.fields!.slug!}`} rel="prev">
               ← {previous.frontmatter!.title}
             </FadeLink>
           )}
         </li>
         <li>
           {next && (
-            <FadeLink to={`weekly/${next.fields!.slug!}`} rel="next">
+            <FadeLink to={`weekly${next.fields!.slug!}`} rel="next">
               {next.frontmatter!.title} →
             </FadeLink>
           )}

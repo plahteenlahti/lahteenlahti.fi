@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog-typescript",
+  "name": "lahteenlaht.com",
   "private": true,
-  "description": "A starter gatsby blog using typescript",
-  "version": "0.1.0",
-  "author": "Greg Perlman <gperlman27@gmail.com>",
+  "description": "Personal website of Perttu Lähteenlahti",
+  "version": "0.6.9",
+  "author": "Perttu Lähteenlahti <perttu@lahteenlahti.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -94,7 +94,7 @@
     "tslint-react": "^4.1.0",
     "typescript": "^3.7.2"
   },
-  "homepage": "https://github.com/gperl27/Gatsby-Starter-Blog-Typescript#readme",
+  "homepage": "https://lahteenlahti.com",
   "keywords": [
     "gatsby"
   ],

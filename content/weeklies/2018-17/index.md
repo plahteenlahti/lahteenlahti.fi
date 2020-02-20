@@ -1,8 +1,7 @@
 ---
-
 title: "Weekly 17/2018"
 date: "2018-04-18"
----![](http://www.xn--lhteenlahti-l8a.fi/wp-content/uploads/2018/09/87f14-1-plqi_nirnebu1c94zt7ag.jpeg)
+---
 
 #### Weekly collection of inspiration and articles for designers
 

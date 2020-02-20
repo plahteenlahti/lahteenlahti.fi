@@ -23,6 +23,7 @@ interface Props {
   description?: string;
   canonical?: string | null | undefined;
   amp?: boolean;
+  weekly?: boolean;
 }
 
 export const SEO = (props: Props) => {
@@ -31,6 +32,7 @@ export const SEO = (props: Props) => {
   const keywords = props.keywords || [];
   const description = props.description || "";
   const slug = props.slug;
+  const { weekly } = props;
 
   const { site } = useStaticQuery(
     graphql`
@@ -56,7 +58,7 @@ export const SEO = (props: Props) => {
   const url = slug
     ? `${siteMetadata.siteUrl}${slug}`
     : `${siteMetadata.siteUrl}/`;
-  const socialCard = `${url}seo.jpg`;
+  const socialCard = weekly ? `${url}weekly/seo.jpg` : `${url}seo.jpg`;
 
   return (
     <Helmet
