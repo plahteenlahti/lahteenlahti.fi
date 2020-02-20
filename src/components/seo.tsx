@@ -105,6 +105,10 @@ export const SEO = (props: Props) => {
         },
         {
           content: socialCard,
+          name: "og:image:secure_url"
+        },
+        {
+          content: socialCard,
           property: "og:image"
         },
 

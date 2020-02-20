@@ -33,10 +33,7 @@ const SignUp = () => {
   return (
     <Newsletter>
       <H3>Want more articles like this?</H3>
-      <P>
-        I also run a semi-weekly newsletter that goes in more in depth on the
-        articles
-      </P>
+      <P>I also run a semi-weekly newsletter. Try it.</P>
       <form onSubmit={handleSubmit}>
         <Email onChange={handleChange} />
         <Button type="submit" value="Submit" />
