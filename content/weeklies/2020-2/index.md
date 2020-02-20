@@ -2,7 +2,7 @@
 title: "Weekly 2/2020"
 date: "2020-02-19"
 draft: false
-description: React Native inside notifications, neumorphism and new investment apartments
+description: Rest in peace father of cut-copy-paste, measuring UX design skills, and poems about Silicon valley
 ---
 
 _**Weekly collection of links, resources and updates about my life, the company I'm building and my investments as well.**_
