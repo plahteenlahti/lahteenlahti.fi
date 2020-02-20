@@ -1,6 +1,7 @@
 ---
 title: "Weekly 1/2017"
 date: "2017-11-07"
+draft: true
 ---
 
 ### Newest dev stuff

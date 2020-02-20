@@ -5,13 +5,7 @@ date: "2018-02-19"
 
 #### This week: Statistics for hackers, 3D engine made with MS Excel, designing a viral meme, and Chamillionaire’s amazing pitch.
 
-_Our weekly collection design and development resources for hackathon hackers is once again filled with some must reads and good-to-knows._
-
-### 😺 What’s up Perfektio?
-
-Perttu is in Berlin, participating in Europe’s biggest energy efficiency hackathon, [DENEFF energy efficiency hackathon](https://www.eehack.com/).
-
-← The logo is pretty wacky, but the problems the hackathon is solving are far from that. Perttu for example is solving how to reduce energy consumption of a supermarket and detect products that are reaching their best before date.
+_weekly collection design and development resources for hackathon hackers is once again filled with some must reads and good-to-knows._
 
 ### 💻 Treats for developers
 

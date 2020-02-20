@@ -9,14 +9,6 @@ Weekly is back! This time we got some great articles on design, development, and
 
 ---
 
-### 🤠 What’s up Perfektio?
-
-Lots of things have happened since last weekly. First, we’ve moved into our new office space which is five times bigger than the last one. Here’s a pretty bad picture of it:
-
-You get the idea
-
-Besides that, we also recruited Jussi Maristo a little time ago. Jussi joined us as a developer, and is currently developing React native applications in two of our projects. We’re also looking into hiring more people in the coming weeks, more info about that later.
-
 ### ⌨️ Newest and best dev stuff
 
 #### [Freebie for all the open source developers out there](https://tympanus.net/codrops/2018/01/12/freebie-scribbler-website-template-html-sketch/)
@@ -50,10 +42,6 @@ No weekly is complete without a little color theory. What makes this so good? We
 #### [Design principles for accessible experiences](https://medium.com/swlh/design-principles-for-accessible-experiences-a0063a126934)
 
 Despite the title, this article is actually more about usability and user experience design than about accessibility. Major takeaway of this article for you should be the concept of affordances. Once you know about affordances, you start to notice them everywhere!
-
-#### [Designing a winning hackathon concept](https://medium.com/perfektio/designing-a-winning-hackathon-concept-d352c99b8bfa)
-
-One our own articles made it to the list this week also. We are probably the most qualified people to talk about service design in hackathons. That’s why be put up this [short guide to help you in changing your hacker mindset to that of a service designer](https://medium.com/perfektio/designing-a-winning-hackathon-concept-d352c99b8bfa).
 
 #### [Subverted design](http://joelcalifa.com/blog/subverted-design/)
 

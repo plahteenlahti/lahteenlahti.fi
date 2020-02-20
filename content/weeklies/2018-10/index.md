@@ -51,13 +51,9 @@ Just another iOS wireframe kit, but a rather elegant one as well.
 
 ---
 
-#### [Hack Report: Energy Efficiency Hackathon](https://medium.com/perfektio/hack-report-energy-efficiency-hackathon-cd51a56ccc55)
+#### [Hack Report: Energy Efficiency Hackathon]()
 
 Read about this one rather peculiar hackathon in Berlin. It has everything from 3D printed fishes to quick and dirty user testing.
-
-#### [Perfektio’s housewarming party 23rd of March](https://www.facebook.com/events/142338676586211/)
-
-Join us in our celebration and come inaugurate our new office at the housewarming party! Be quick to register yourself to the guest list on Eventbrite as there is limited amount of tickets.
 
 ---
 

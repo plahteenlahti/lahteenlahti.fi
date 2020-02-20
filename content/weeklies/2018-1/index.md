@@ -28,14 +28,11 @@ For this week’s design links we picked the three most beneficial for all desig
 
 ---
 
-### 🔥 Hottest hackathons
+**🔥 Hottest hackathons**
 
 1. [Kohdataan-hac](http://kohdataan.fi/)k
-2. [Milk Farm Methane Hack](https://ultrahack.org/milkfarmmethanehack) 🐄 🐄 🐄
 
 Do you want to solve the problems of inclusion in social media services? **[Kohdataan-hack**](http://kohdataan.fi/) is looking to talented people to create the next generation of accessible social media services to combat problems such as loneliness. Applications close this Friday!
-
-Innovative solutions to gathering cow farts? The application period for [Ultrahack’s latest hackathon is still open](https://ultrahack.org/milkfarmmethanehack), so hurry up! Selected teams get 1500€ for participating.
 
 ---
 

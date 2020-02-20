@@ -1,6 +1,7 @@
 ---
 title: "Weekly 6"
 date: "2017-12-11"
+draft: true
 ---
 
 ![](https://cdn-images-1.medium.com/max/800/0*EFLFMEKHCWcLGh-1.)
@@ -57,11 +58,10 @@ Last week we had our hackers innovating solutions for Fortum Sweden, on how to u
 
 ### 👻 Something completely else
 
-#### CryptoKitties?
+**CryptoKitties?**
 
 Finally something that makes cryptocurrencies fun. Get on the CryptoKitty hype train nooow!
-
-\[embed\]https://github.com/hectahertz/react-native-typography\[/embed\]
+https://github.com/hectahertz/react-native-typography\[/embed\]
 
 #### Errors in thinking
 

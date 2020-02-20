@@ -59,16 +59,6 @@ Practical look at how to transform from a novice to a well-payed product designe
 
 ---
 
-### 🙉 What’s up Perfektio?
-
-Well last week we had a couple of things happening. First, we had Perttu taking part in Energy Efficiency hackathon in Berlin. And winning as well! There’s a Hack Report of this hackathon coming out later this week. Meanwhile you can admire this picture from the hackathon:
-
-romthe
-
-Besides that we released a new article on how we spent 2017 testing if you actually use open innovation challenges as a platform for finding interesting projects and clients. **[You can read more about here**](https://stories.industryhack.com/case-perfektio-how-to-build-a-company-around-open-innovation-55d034d838e5).
-
----
-
 ### ❤️ Hackathons and Something Else
 
 #### [A Dyson engineer explains why the company spent \$71 million and four years developing a high-tech hair dryer](https://techcrunch.com/2016/04/28/dyson-supersonic/)

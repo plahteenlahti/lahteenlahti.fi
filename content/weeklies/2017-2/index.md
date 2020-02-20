@@ -1,6 +1,7 @@
 ---
 title: "Weekly 2/2017"
 date: "2017-11-12"
+draft: true
 ---
 
 ---

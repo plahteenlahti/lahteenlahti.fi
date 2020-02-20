@@ -1,15 +1,9 @@
 ---
 title: "Weekly 7/2018"
 date: "2018-02-12"
----
-
-#### This week: world’s worst CEO, Airbnb for dinner, and nice corners you got there.
+---#### This week: world’s worst CEO, Airbnb for dinner, and nice corners you got there.
 
 _Our weekly collection design and development resources for hackathon hackers is once again filled with some must reads and good-to-knows._
-
-### 😺 What’s up Perfektio?
-
-We’ve started building a community for hackathon hackers, that aims to spread our way of turning hackathon concepts into real products. More about this later this week 😘
 
 ### 💻 Treats for developers
 

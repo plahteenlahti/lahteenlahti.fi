@@ -1,25 +1,12 @@
 ---
 title: "Weekly 5/2018"
 date: "2018-01-30"
+draft: true
 ---
 
 #### This week: new hackathons, Hack Reports, cool animations, web security, and tips for finding a co-founder.
 
 Weekly is back! This time we got some great articles on design, development, and something completely else. Additionally we have something to tell you on what we’ve been up to in the previous weeks and some new hackathons for you to attend.
-
----
-
-### 🧐 What’s up Perfektio?
-
-Last week we published two new Hack Reports. That’s pretty much all we did. Ok, Perttu also took part in Nordea’s Hackathon, so there’s a Hack Report about that coming out soon.
-
-#### [Hack Report: Royal Hackaway](https://medium.com/perfektio/hack-report-royal-hackaway-ac7f55211458)
-
-Perttu’s trip to the first student hackathon of Royal Holloway, in London was full of events. Read this Hack Report if you’re interested in hearing [how hackathon differ in the UK, why Perttu’s team mates though he was shitty coder, and how things got bloody!](https://medium.com/perfektio/hack-report-royal-hackaway-ac7f55211458)
-
-#### [Hack Report: Kohdataan-hack](https://medium.com/perfektio/hack-report-kohdataan-hack-a127f5f26f8a)
-
-Does competing in over 100 hackathons make you suitable for being a mentor in hackathon? We like to think so. If you’re interested in hearing is this is actually true, [you should read our Hack Report on Kohdataan-hack.](https://medium.com/perfektio/hack-report-kohdataan-hack-a127f5f26f8a)
 
 ---
 

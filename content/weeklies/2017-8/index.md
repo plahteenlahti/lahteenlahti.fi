@@ -1,6 +1,7 @@
 ---
 title: "Weekly 8/2017"
 date: "2017-12-25"
+draft: true
 ---
 
 Merry Christmas and Harry New Year!
