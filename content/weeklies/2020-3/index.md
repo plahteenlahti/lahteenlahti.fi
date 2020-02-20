@@ -1,7 +1,7 @@
 ---
 title: "Weekly 3/2020"
 date: "2020-02-25"
-draft: false
+draft: true
 description: React Native inside notifications, neumorphism and new investment apartments
 ---
 
