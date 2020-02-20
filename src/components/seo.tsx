@@ -58,7 +58,7 @@ export const SEO = (props: Props) => {
   const url = slug
     ? `${siteMetadata.siteUrl}${slug}`
     : `${siteMetadata.siteUrl}/`;
-  const socialCard = weekly ? `${url}weekly/seo.jpg` : `${url}seo.jpg`;
+  const socialCard = weekly ? `/weekly${url}seo.jpg` : `${url}seo.jpg`;
 
   return (
     <Helmet

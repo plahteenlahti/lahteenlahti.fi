@@ -1,6 +1,7 @@
 ---
 title: "Weekly 7"
 date: "2017-12-19"
+draft: true
 ---
 
 #### Man’s ass, millennials, open source projects, and how to contain cow farts.
@@ -60,12 +61,6 @@ Now this hackathon is all about solving some real problems! How to be more inclu
 #### Milk Farm Methane Hack 07.-09.02.2018
 
 Ultrahack’s organizing a rather unconventional hackathon this time. When was the last time you innovated methods for controlling cow farts? Best part: all accepted teams get 1500€ just for participating.
-
-\[embed\]https://tympanus.net/codrops/2017/12/05/creative-svg-strokes-animation/\[/embed\]
-
-#### Royal Hackaway 13.-14.01.2018
-
-Ready to hack a little in London? [Perttu](https://medium.com/u/aceecd637496) from Perfektio is taking part in this cool little hackathon, so hit him up if you’re interested in going too!
 
 \[embed\]https://tympanus.net/codrops/2017/12/05/creative-svg-strokes-animation/\[/embed\]
 
