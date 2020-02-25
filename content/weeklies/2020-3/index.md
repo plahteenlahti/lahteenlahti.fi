@@ -1,6 +1,6 @@
 ---
 title: "Weekly 3/2020"
-date: "2020-02-25"
+date: "2020-02-26"
 draft: true
 description: React Native inside notifications, neumorphism and new investment apartments
 ---
@@ -9,39 +9,12 @@ _**Weekly collection of links, resources and updates about my life, the company 
 
 ---
 
-### Interesting tech stuff
+### Tech
 
-**[Father of cut-copy-paste, has died at](https://thenextweb.com/apple/2020/02/20/larry-tesler-father-of-cut-copy-paste-died-age-74/)**
+**Setting up a Raspberry PI 4 Home Server**  
+In depth tutorial on setting up a Raspberry PI 4 server.
 
-**[What 8 years of side projects has taught me](https://www.junglecoder.com/blog/idea-chain-themes)**
-
-**[Optimizing React Native APK size](https://medium.com/engineering-housing/optimising-react-native-apk-size-c88ef39ab7a0)**  
-The one about persisting the app was completely new.
-
-**[When to use useMemo](https://medium.com/javascript-in-plain-english/react-usememo-and-when-you-should-use-it-e69a106bbb02)**  
-Improving React Native performance with memoized function calls.
-
-**[4 performance optimization tips for React Native you're probably not familiar with](https://medium.com/better-programming/4-lesser-known-performance-tips-to-improve-user-experience-in-react-native-apps-6f2dc8c45623)**
-
----
-
-### Eye caching design & design in general
-
-[![](https://cdn.dribbble.com/users/443226/screenshots/10130655/media/8310bed9ad6e95155de3f501c25b4204.png)](https://dribbble.com/shots/10130655-Health-Care-Dashboard-Design)
-**[Health Care Dashboard Design by Masudur Rahman](https://dribbble.com/shots/10130655-Health-Care-Dashboard-Design/attachments/2103399?mode=media)**
-
-**[Creating Fitness Application: UX/UI Design Case Study](https://hackernoon.com/creating-fitness-application-uxui-design-case-study-wa5i33h5)**  
-The content block analysis is interesting.
-
-**[Designing accessible color systems](https://stripe.com/blog/accessible-color-systems)**
-How Stripe designed its color system with accessibility in mind.
-
-**[How To Measure Your UX Design Skills?](https://medium.muz.li/how-to-measure-your-ux-design-skills-d77482939ead)**  
-Everyone can be UX designer, but how do you if you're great at it?
-
-[![](https://cdn.dribbble.com/users/702789/screenshots/10145259/media/af25e495dbba6699fe372deca7e102db.png)](https://dribbble.com/shots/10145259-Mobile-App-BikeMap)
-**[Mobile App - BikeMap by Outcrowd](https://dribbble.com/shots/10145259-Mobile-App-BikeMap)**  
-I like the card stack effect
+### Design
 
 ---
 
@@ -49,15 +22,6 @@ I like the card stack effect
 
 **[Startup pitch decks](https://airtable.com/universe/expHzpGe2PKOJcsJ6/startup-pitch-decks?explore=true)**  
 Who doesn't like reading how wework renamed real estate business as high tech business.
-
-**[How you should think about progress](https://krit.com/you-might-have-progress-totally-backward)**  
-Is your product's scope allowed to change when building an MVP? Should it change? The answer is yes, but scope should only change if it brings more value.
-
-**[Poem about Silicon Valley assembled from Quora questions](https://splinternews.com/a-poem-about-silicon-valley-assembled-from-quora-quest-1793856489)**  
-Why are successful entrepreneurs stereotypically jerks?  
-Which Silicon Valley company has the best intern perks?  
-What looks easy until you actually try it?  
-How did your excretions change under a full Soylent diet?
 
 ---
 
