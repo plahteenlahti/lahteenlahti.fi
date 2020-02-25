@@ -121,7 +121,11 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`
             }
           },
-          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            showLineNumbers: false,
+            inlineCodeMarker: { typescript: "tsx" }
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`
         ]
@@ -143,7 +147,7 @@ module.exports = {
         short_name: `Perttu`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#373737`,
         display: `minimal-ui`,
         icon: `src/favicon.jpg`
       }
