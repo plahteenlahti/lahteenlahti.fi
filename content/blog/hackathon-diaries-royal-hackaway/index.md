@@ -1,6 +1,7 @@
 ---
-title: 'Hackathon Diaries: Royal Hackaway'
-date: '2018-01-24'
+title: "Hackathon Diaries: Royal Hackaway"
+date: "2018-01-24"
+tags: ["Hackathons"]
 ---
 
 #### First part in our series of trips to hackathons around the world

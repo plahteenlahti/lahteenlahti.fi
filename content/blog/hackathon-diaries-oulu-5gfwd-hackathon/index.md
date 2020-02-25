@@ -1,6 +1,7 @@
 ---
-title: 'Hackathon Diaries: Oulu 5GFWD hackathon'
-date: '2017-06-26'
+title: "Hackathon Diaries: Oulu 5GFWD hackathon"
+date: "2017-06-26"
+tags: ["Hackathons"]
 ---
 
 #### Virtual classrooms, hospital experiences, and factories of tomorrow

@@ -1,6 +1,7 @@
 ---
 title: "Hackathon Diaries: Talking Plants with Fiskars"
 date: "2017-09-19"
+tags: ["Hackathons"]
 ---
 
 #### Circular economy and the future of gardening

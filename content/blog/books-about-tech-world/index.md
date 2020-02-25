@@ -2,6 +2,7 @@
 title: "Best Books About the Tech World"
 date: "2019-10-23"
 excerpt: "List of books that will help you to understand the tech scene better."
+tags: ["Books", "Book lists"]
 ---
 
 Getting into the tech scene, the world of startups, investors, and technology; is challenging if you didn’t study engineering or business. I know, I was there myself four years ago. Acronyms and weird words get thrown around, and lot and in people seem to live in a completely different world, where, for example, Airbnb is not just a web service, but one of the many companies which’s founders you should know by name.

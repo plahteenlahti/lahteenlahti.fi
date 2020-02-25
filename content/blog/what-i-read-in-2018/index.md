@@ -1,11 +1,8 @@
 ---
 title: "What I read in 2018"
 date: "2019-05-31"
+tags: ["Books", "Book lists"]
 ---
-
-_disclaimer, this list was originally a list of tweets_
-
-https://twitter.com/plahteenlahti/status/1080138434679840775?s=20
 
 **The Accidental Billionaires: The Founding of Facebook, a Tale of Sex, Money, Genius, and Betrayal by [@benmezrich](https://twitter.com/benmezrich) ⭐️⭐️⭐️** Reads more like a fiction book, but is still a decent look at the founding of Facebook. If you've seen The Social Network movie, you might not get much out of this.
 
