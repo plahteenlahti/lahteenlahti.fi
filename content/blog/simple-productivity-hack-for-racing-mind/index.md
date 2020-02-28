@@ -2,6 +2,7 @@
 title: "How to Get More Done in a Day"
 date: "2017-09-19"
 tags: ["Productivity"]
+draft: true
 ---
 
 ## Accepting limits

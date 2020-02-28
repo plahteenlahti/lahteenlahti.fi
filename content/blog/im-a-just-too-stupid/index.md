@@ -1,7 +1,7 @@
 ---
 title: ""
 date: "2020-02-24"
-draft: false
+draft: true
 tags: ["Me", "Hard things to write about", ""]
 ---
 
