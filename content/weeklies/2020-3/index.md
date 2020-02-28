@@ -1,7 +1,7 @@
 ---
 title: "Weekly 3/2020"
 date: "2020-02-26"
-draft: true
+draft: false
 description: Raspberry Pi media server, new Disney CEO, React-query 1.0, and why LinkedIn sucks.
 ---
 
@@ -38,7 +38,7 @@ Understand the primary principles for Call to Actions that stand out.
 **[How a Hot \$100 Million Home Design Startup Collapsed Overnight](https://marker.medium.com/how-homepolishs-extremely-instagrammable-house-of-cards-came-tumbling-down-d7a7d1780ddc)**
 
 **[Bob Iger to step down as Disney CEO, effective immediately](https://www.cnbc.com/2020/02/25/disney-names-bob-chapek-next-ceo.html)**
-These news generatted some waves, but then it turned out that this has actually been the plan for some time now. Iger is to be superseded by, the guy who every Disney park goer hates, Bob Chapek. Why they hate him? Because his "value engineering" has increased the prices of the Disney park rides while at the same time made every feel the same as the last one.
+These news generated some waves, but then it turned out that this has actually been the plan for some time now. Iger is to be superseded by, the guy who every Disney park goer hates, Bob Chapek. Why they hate him? Because his "value engineering" has increased the prices of the Disney park rides while at the same time made every feel the same as the last one.
 
 **[Listle’s (YC S19) zero to 7000+ Users Strategy in <1 year](<https://aflo.io/blog-post?title=Listle%E2%80%99s_(YC_S19)_zero_to_7000%2B_Users_Strategy_in_%3C1_year>)**  
 Very good read about building a user base.
