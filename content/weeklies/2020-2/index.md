@@ -64,7 +64,7 @@ How did your excretions change under a full Soylent diet?
 ### Personal insights
 
 **Two new blog posts**  
-I released two new blog posts this week. One is the transcript of my talk at React Day Berlin last December, which I actually wrote already a month ago, but didn't have time to review. There's just something about listening yourself talk and noticing all the tiny mistakes. Using Yotube's auto subtitles (and the export feature) really helped in making this transcript.
+I released two new blog posts this week. One is the transcript of my talk at React Day Berlin last December, which I actually wrote already a month ago, but didn't have time to review. There's just something about listening yourself talk and noticing all the tiny mistakes. Using Youtube's auto subtitles (and the export feature) really helped in making this transcript.
 
 Second I wrote a small article about fixing a common warning you get when you nest a virtualized list inside a ScrollView in React Native. I made a test post about it last week and from Google alone that article brought 5% increase in visitors. Seems that I'm not the only one with this problem.
 

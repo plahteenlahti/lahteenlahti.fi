@@ -1,6 +1,7 @@
 ---
 title: "Hackathon Diaries: Kuohu Creative hackathon"
 date: "2017-11-12"
+tags: ["Hackathons"]
 ---
 
 #### Can you do creative business development in a hackathon?

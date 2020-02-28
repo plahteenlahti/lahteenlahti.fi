@@ -2,6 +2,7 @@
 title: "Avoin Kirje Käyttäytymistieteellisen Tiedekunnan Dekaanille"
 date: "2015-09-21"
 canonical: "https://www.intelligenzia.fi/avoin-kirje-dekaanille/"
+tags: ["Kognitiotiede"]
 ---
 
 #### Aloite kognitiotieteen oppiaineen ja tieteenalan jatkuvuuden takaamiseksi käynnissä olevassa tiedekuntamuutoksessa

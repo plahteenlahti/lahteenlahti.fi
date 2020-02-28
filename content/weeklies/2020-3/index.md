@@ -1,77 +1,61 @@
 ---
 title: "Weekly 3/2020"
-date: "2020-02-25"
+date: "2020-02-26"
 draft: true
-description: React Native inside notifications, neumorphism and new investment apartments
+description: Raspberry Pi media server, new Disney CEO, React-query 1.0, and why LinkedIn sucks.
 ---
 
-_**Weekly collection of links, resources and updates about my life, the company I'm building and my investments as well.**_
-
----
-
-### Interesting tech stuff
-
-**[Father of cut-copy-paste, has died at](https://thenextweb.com/apple/2020/02/20/larry-tesler-father-of-cut-copy-paste-died-age-74/)**
-
-**[What 8 years of side projects has taught me](https://www.junglecoder.com/blog/idea-chain-themes)**
-
-**[Optimizing React Native APK size](https://medium.com/engineering-housing/optimising-react-native-apk-size-c88ef39ab7a0)**  
-The one about persisting the app was completely new.
-
-**[When to use useMemo](https://medium.com/javascript-in-plain-english/react-usememo-and-when-you-should-use-it-e69a106bbb02)**  
-Improving React Native performance with memoized function calls.
-
-**[4 performance optimization tips for React Native you're probably not familiar with](https://medium.com/better-programming/4-lesser-known-performance-tips-to-improve-user-experience-in-react-native-apps-6f2dc8c45623)**
+_**Weekly collection of links and resources resources I've come across this week. Also some updates about my life, the company I'm building and my investments as well.**_
 
 ---
 
-### Eye caching design & design in general
+### Tech
 
-[![](https://cdn.dribbble.com/users/443226/screenshots/10130655/media/8310bed9ad6e95155de3f501c25b4204.png)](https://dribbble.com/shots/10130655-Health-Care-Dashboard-Design)
-**[Health Care Dashboard Design by Masudur Rahman](https://dribbble.com/shots/10130655-Health-Care-Dashboard-Design/attachments/2103399?mode=media)**
+**[React-query 1.0](https://github.com/tannerlinsley/react-query)**
+Hooks for fetching, caching and updating asynchronous data in React
 
-**[Creating Fitness Application: UX/UI Design Case Study](https://hackernoon.com/creating-fitness-application-uxui-design-case-study-wa5i33h5)**  
-The content block analysis is interesting.
+**[Setting up a Raspberry PI 4 Home Server](https://smalldata.tech/blog/2019/07/12/setting-up-a-raspberry-pi-4-home-server)**
+Tutorial on setting up a Raspberry PI 4 server which also runs ad Jenkins CI and a cloud file server.
 
-**[Designing accessible color systems](https://stripe.com/blog/accessible-color-systems)**
-How Stripe designed its color system with accessibility in mind.
+**[From Idea to App Store: Building My First iOS App With React Native](https://uxdesign.cc/from-idea-to-app-store-building-my-first-ios-app-with-react-native-c64f1ed76fca)**
+Detailed look at how to turn idea into an app, starting from pen and paper mockups to App store submitted app.
 
-**[How To Measure Your UX Design Skills?](https://medium.muz.li/how-to-measure-your-ux-design-skills-d77482939ead)**  
-Everyone can be UX designer, but how do you if you're great at it?
+**[Dreams](https://advances.realtimerendering.com/s2015/AlexEvans_SIGGRAPH-2015-sml.pdf)**
+If you haven't heard about Dreams, a PS4 by the creators of Little Big Planet, you should definitely go and look at some of the reviews. This game is something really different. Here's an interesting look at some of their failures when building the game.
 
-[![](https://cdn.dribbble.com/users/702789/screenshots/10145259/media/af25e495dbba6699fe372deca7e102db.png)](https://dribbble.com/shots/10145259-Mobile-App-BikeMap)
-**[Mobile App - BikeMap by Outcrowd](https://dribbble.com/shots/10145259-Mobile-App-BikeMap)**  
-I like the card stack effect
+### Design
 
----
+**[Store Previewer](https://www.storepreviewer.com)**
+Preview how you App store texts and screenshots will look like. Instant favorite tool of the week.
 
-### Startups, startups, startups
-
-**[Startup pitch decks](https://airtable.com/universe/expHzpGe2PKOJcsJ6/startup-pitch-decks?explore=true)**  
-Who doesn't like reading how wework renamed real estate business as high tech business.
-
-**[How you should think about progress](https://krit.com/you-might-have-progress-totally-backward)**  
-Is your product's scope allowed to change when building an MVP? Should it change? The answer is yes, but scope should only change if it brings more value.
-
-**[Poem about Silicon Valley assembled from Quora questions](https://splinternews.com/a-poem-about-silicon-valley-assembled-from-quora-quest-1793856489)**  
-Why are successful entrepreneurs stereotypically jerks?  
-Which Silicon Valley company has the best intern perks?  
-What looks easy until you actually try it?  
-How did your excretions change under a full Soylent diet?
+**[Call to Action: The Ultimate Survival guide](https://medium.muz.li/call-to-action-an-extensive-guide-140fef523b08)**
+Understand the primary principles for Call to Actions that stand out.
 
 ---
 
-### Personal insights
+### Business, business, business
 
-**Two new blog posts**  
-I released two new blog posts this week. One is the transcript of my talk at React Day Berlin last December, which I actually wrote already a month ago, but didn't have time to review. There's just something about listening yourself talk and noticing all the tiny mistakes. Using Yotube's auto subtitles (and the export feature) really helped in making this transcript.
+**[Bob Iger to step down as Disney CEO, effective immediately](https://www.cnbc.com/2020/02/25/disney-names-bob-chapek-next-ceo.html)**
+These news generatted some waves, but then it turned out that this has actually been the plan for some time now. Iger is to be superseded by, the guy who every Disney park goer hates, Bob Chapek. Why they hate him? Because his "value engineering" has increased the prices of the Disney park rides while at the same time made every feel the same as the last one.
 
-Second I wrote a small article about fixing a common warning you get when you nest a virtualized list inside a ScrollView in React Native. I made a test post about it last week and from Google alone that article brought 5% increase in visitors. Seems that I'm not the only one with this problem.
+**[Listle’s (YC S19) zero to 7000+ Users Strategy in <1 year](<https://aflo.io/blog-post?title=Listle%E2%80%99s_(YC_S19)_zero_to_7000%2B_Users_Strategy_in_%3C1_year>)**  
+Very good read about building a user base.
 
-**What's up Nyxo?**  
-I've been building an improved subscription view so buying the coaching should get easier in the future. Also I'm planning on a major rewrite of the way we store sleep data. Our teams has also been working on bringing the coaching material freely available on [nyxo.app](https://nyxo.app). We are hopefully releasing this feature on friday.
+**[Easy Privacy Policies and Terms of Service templates](https://www.avodocs.com/)**
+If you're struggling in writing these this tool could help.
 
-Also, I'm hoping to open source the mobile app in three months, blog post about this coming soon.
+---
 
-**Compounding drama**  
-I've recently noticed that everyone but me seems to be living that high-drama life that gets a lot of likes and retweets. What is more interesting is that engaging in drama works like compound interest. Posting one good tweet about how you grew up poor will possibly net you a decent amount of followers who will in the future engage with your future content and net you more followers. Similar thing happens with quality content, but the requires one to invest more time in creating that.
+### Other stuff0
+
+**Stocks don´t like the taste of corona**
+Corona virus swiftly erased 8% of of stock portfolio. With a little waiting it might also open up possibilities in strengthening
+I´m considering getting rid of my LinkedIn account. The value it gives has never been great, and as you get more connections it seems to diminish. Due to it mimicking the dopamine hooks of Facebook: notifications, infinite feed, stalking, you always more time there than you intended.
+
+**What's up Nyxo?**
+Eeva (COO) just shipped out to San Francisco and will be staying there for a month, with the goal of meeting other entrepreneurs, potential clients, users and learn about the market in general. Meanwhile we just signed a new mobile developer who will be starting from next week. We are now six strong (+ technically also Anu and Liisa). Diversity number are so that 2/6 are women, there are 3 different nationalities, and we have people aged between 21 to 35.
+
+We also got an email from YC that we should apply again because "You were in the top 10% of startups we saw". This doesn't mean much, we've already applied four times before and our changes no better this than the last time: we still aren't from Stanford (or from any other American college), we are not child prodigies, and we don't know any of the YC partners before.
+
+**LinkedIn is an HR Cesspool**
+I hate LinkedIn. I hate it because I never remember to answer the messages I get there. I hate it because strangers are constantly sending me connection request. But what I hate most about LinkedIn is the "Feed", it's filled with HR and employee branding people one-upping each others, telling personal anecdotes and in generally using it like Facebook. Overall the quality of content in LinkedIn is low, and what I hate the most is that I can't mute the people who spew that shit before connecting with them. For some reason LinkedIn only allows you to connect or block people so lately I've been blocking a lot of people because I can't mute them. What a great design.

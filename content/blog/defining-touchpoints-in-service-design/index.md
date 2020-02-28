@@ -1,6 +1,7 @@
 ---
 title: "Defining Touchpoints in Service Design"
 date: "2015-10-17"
+tags: ["Design", "Service design", "Touchpoints"]
 ---
 
 _Services are by nature intangible, which can be seen as the defining concept that distinguishes them from products. Despite their nature, it is essential for services to include tangible properties such as artifacts. Touchpoints are one of the service properties that can be seen as precise providers of tangibility to services. The definition of touch-point depends on the literature at hand but can generally be said to include all the interfaces the services stakeholders use to interact during and after a transaction._

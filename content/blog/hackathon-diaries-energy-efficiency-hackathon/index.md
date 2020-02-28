@@ -1,6 +1,7 @@
 ---
 title: "Hackathon Diaries: Energy Efficiency Hackathon"
 date: "2018-03-02"
+tags: ["Hackathons"]
 ---
 
 #### One rather unusual hackathon about energy efficiency

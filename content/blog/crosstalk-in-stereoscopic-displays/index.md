@@ -1,6 +1,7 @@
 ---
 title: "Crosstalk in Stereoscopic Displays – Why 3D Movies Look Weird"
 date: "2019-06-12"
+tags: ["Cognitive science", "Perception", "Psychology"]
 ---
 
 Remember 3D TVs? Remember how the TV manufacturers tried to ship the idea of wearing goggles at home while watching TV, so you could experience that Avatar-style novelty from the comfort of your own couch? Although the idea 3D television is pretty much dead now, and everyone is more focused on the possibilities of AR and VR, I would not call 3D a dead technology yet. After all, cinemas are still pushing 3D movies and if we eventually crack the method for building glassless 3D televisions we could maybe even see the second coming of 3D at home. 3D has just been forgotten, a faith it has endured once before as well.
@@ -25,15 +26,9 @@ To be used as a metric, crosstalk has to be defined mathematically. Woods et al.
 
 Woods et al. define crosstalk in its simplest form as a function of leakage divided by signal multiplied by hundred ([Woods 2011](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7863/78630Z/How-are-crosstalk-and-ghosting-defined-in-the-stereoscopic-literature/10.1117/12.877045.short?SSO=1)), illustrated in the formula below.
 
- 
-
 In this formula, leakage means the maximum luminance of light that leaks from the unintended channel to the intended channel, and signal means the maximum luminance of the intended channel. The measurements for luminance are achieved by measuring the level of black in the intended channel and the white in the unintended channel, which corresponds with leakage. In the same manner, signal correspondence is achieved by measuring the level of white in the intended channel and the level of black in the unintended channel.
 
 Woods et al. also point out two other mathematical definitions, which agree with this basic definition; however, for the sake of this paper’ scope, those definitions are not presented here. These two definitions can be found from articles by Chu et al. and Hong et al. (Chu 2005, Hong 2010). However because the earlier mathematical description of does not take into consideration the effect of black level, Woods et al. introduce another mathematical definition where the non-zero black level is taken into account by subtracting the black level luminance, all illustrated below.
-
- 
-
- 
 
 #### Technological Factors Affecting Crosstalk
 
@@ -74,7 +69,7 @@ While the optical sensor method is not necessarily a slow measuring method, a qu
 
 #### Counteracting Crosstalk
 
-The complete elimination of crosstalk is difficult, and methods that are close to succeeding in this are rarely compact (see Wheatstone & Helmholtz method) (Daly 2011). The methods for counteracting crosstalk are many, starting from enhancing the quality and build of 3D viewing hardware and ending in software-based compensation algorithms. This is a consequence of crosstalk being a sum of many factors. However, it must also be taken into consideration every cost and benefit trade-offs have to be done in order to reduce crosstalk with this method (Woods 2010). 
+The complete elimination of crosstalk is difficult, and methods that are close to succeeding in this are rarely compact (see Wheatstone & Helmholtz method) (Daly 2011). The methods for counteracting crosstalk are many, starting from enhancing the quality and build of 3D viewing hardware and ending in software-based compensation algorithms. This is a consequence of crosstalk being a sum of many factors. However, it must also be taken into consideration every cost and benefit trade-offs have to be done in order to reduce crosstalk with this method (Woods 2010).
 
 Various signal-processing techniques are being developed, and have proven particularly valuable in hardware approaches using synchronized, alternating viewpoints (Daly 2011). Methods using liquid crystal displays, for example, can be improved with overdrive algorithms. Another algorithm method is known as L-R matrix compensation, which aims to anticipate and remove the ghost images from the images sent to the screen. This way the unwanted crosstalk signal, which is a result of the display process, is pre-subtracted from the digital image. Former method does not, however, work well when crosstalk is caused by high enough contrast. This will cause the subtraction to go negative, which will be impossible for the physical display to achieve, resulting in incomplete crosstalk correction.
 
