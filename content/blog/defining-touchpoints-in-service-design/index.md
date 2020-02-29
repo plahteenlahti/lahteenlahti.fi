@@ -1,6 +1,7 @@
 ---
 title: "Defining Touchpoints in Service Design"
 date: "2015-10-17"
+updated: "2020-02-29"
 tags: ["Design", "Service design", "Touchpoints"]
 ---
 
@@ -30,9 +31,11 @@ Overall there are several different areas that make use of touchpoint term or it
 
 The most suitable way to approach this problem of inconsistent definition is not by looking at the overlapping array of literary focusing mainly on different aspects than the definition of touchpoints. Another thing to consider it that, as stated earlier there are several different fields that all have different approaches to touchpoints, a complex multidisciplinary literature review would most likely construct a definition that shares this complexity and broadness. Also, in the end, this would be conducting an inspection that brings no answer to how service design defines touchpoints. Instead of focusing on service design research and studies has the possibility to reveal not only a general definition for the term touchpoint but also reveal what kind of effects a lack unifying one may have on research. This is done next by inspection of touchpoint definitions in service design literature.
 
-**AT-ONE and cross-disciplinarity** One particularly fitting research project is AT-ONE, which is developing process support, and tools for cross-functional teams during the first stages of new service development process (Clatworthy 2011). Touchpoints are a central part of the project and the letter T in AT-ONE stands for “Orchestration and development of TOUCH-POINTS to provide innovative services. One part of the project has been touchpoint workshops. As a part of these workshops, examples of touchpoints were used with both mapping and analysis before the workshops and as an idea generation aid during the workshops. These workshops with the addition of previous literature on touchpoints were used to create a card-based tool with a focus of defining touchpoints and aiding in designing them and around them. A more thorough view of the tools functions:
+**AT-ONE and cross-disciplinary** One particularly fitting research project is AT-ONE, which is developing process support, and tools for cross-functional teams during the first stages of new service development process (Clatworthy 2011). Touchpoints are a central part of the project and the letter T in AT-ONE stands for “Orchestration and development of TOUCH-POINTS to provide innovative services. One part of the project has been touchpoint workshops. As a part of these workshops, examples of touchpoints were used with both mapping and analysis before the workshops and as an idea generation aid during the workshops. These workshops with the addition of previous literature on touchpoints were used to create a card-based tool with a focus of defining touchpoints and aiding in designing them and around them. A more thorough view of the tools functions:
 
-**A. Team building for cross-functional teams** _1\. To build a common understanding of touch-points and their role as part of a holistic service design 2. To assist with team cohesiveness and mutual respect within the team for different disciplines and views_
+**A.
+Team building for cross-functional teams** \_1\.
+To build a common understanding of touch-points and their role as part of a holistic service design 2. To assist with team cohesiveness and mutual respect within the team for different disciplines and views\_
 
 **B. Analysis and mapping:** _1\. To gain an overview of the multiple touch-points used during the customer journey 2. To identify critical touch-points during the customer journey 3. To understand the limitations and possibilities of each touch-point that the company utilized 4. To identify who is responsible for the design, development, and maintenance of each touchpoint_
 
@@ -53,3 +56,28 @@ Evidencing according to Stickdorn is the act of bringing tangibility to services
 Neither a concrete set of examples nor a unifying definition can be found from the literature that makes references to touchpoints. This is not that surprising as the service design could still be considered to be an emerging area of design, especially in research. Most likely these concepts that service design has will take form over time and eventually settle on generally acknowledged definitions. Also despite its roots in marketing and other sciences that include services as their area, service design has not blindly adopted concepts from them but instead developed on top of them. This is a case on touchpoints at least.
 
 Several overlapping definitions for touchpoint were found from the literature and service design research cases. To put it simply much of literature forms the definition of touchpoints to suit it's needed, a remark that is not overly surprising. It may even be that touchpoints are concept, which cannot fully be formatted have a defined set of characteristics. There are however certain characteristics that arise over the others in these cases, such as materiality and interactivity. Interactivity has a large role in the design of the service interface, which perhaps more than anything else, is the design of the service itself. And what comes materiality and tangibility are that immaterial experiences are largely constructed from material objects and touchpoints are something revolving around this concept.
+
+#### References:
+
+Bitner, M. J., Booms, B. H., & Tetreault, M. S. (1990). The service encounter: diagnosing favorable and unfavorable incidents. The Journal of Marketing, 71-84.
+
+Bitner, M. J., Ostrom, A. L., & Morgan, F. N. (2008). Service blueprinting: A practical technique for service innovation. California management review, 50(3), 66.
+
+Clatworthy, S. (2011). Service innovation through touch-points: Development of an innovation toolkit for the first stages of new service development.
+Hogan, S., Almquist, E., & Glynn, S. E. (2005). Brand-building: finding the touchpoints that count. Journal of Business Strategy, 26(2), 11-18.
+
+Howard J. 2007. On the origin of touchpoints. http://designforservice.wordpress.com/2007/11/07/on-the-origin-of-touchpoints/ Accessed 20th June 2010
+
+Patrício, L., Fisk, R. P., & Constantine, L. (2011). Multilevel service design: from customer value constellation to service experience blueprinting. Journal of Service Research, 1094670511401901.
+
+Risdon, C. (2013, December 2). Unsucking the touchpoint. Retrieved February 18, 2015, from http://www.adaptivepath.com/ideas/un-sucking-the-touchpoint/
+
+Risdon, C. (2013, January 4). There is No Spoon: The Construct of Channels. Retrieved February 18, 2015, from http://www.adaptivepath.com/ideas/there-is-no-spoon-the-construct-of-channels/
+
+Secomandi, F., & Snelders, D. (2011). The object of service design. Design Issues, 27(3), 20-34.
+
+Stickdorn, M., & Schneider, J. (2011). This is service design thinking: Basics, tools, cases. Wiley.
+
+Shostack, G. L. (1977). Breaking free from product marketing. The Journal of Marketing, 73-80.
+
+Söderlund, M., & Julander, C. R. (2009). Physical attractiveness of the service worker in the moment of truth and its effects on customer satisfaction. Journal of Retailing and Consumer Services, 16(3), 216-226.

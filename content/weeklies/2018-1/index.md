@@ -12,9 +12,7 @@ In this week’s weekly we have some great content! Catch up on most important d
 1. **[Turning Tinder into a progressive web app**](https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0)
 2. **[How to be an effective remote developer**](https://www.youtube.com/watch?v=7AFjtuANfeM&feature=youtu.be)
 
-Progressive web apps are the shit, at least if you believe Google. Tinder also made swiped right on PWAs recently and there’s [now a great case study on how this actually done.](https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0)
-
-Distributed teams are not easy, but doing them well is extremely rewarding. [Here’s a good talk on this subject](http://Distributed).
+Progressive web apps are the shit, at least if you believe Google. Tinder also made swiped right on PWAs recently and there’s [now a great case study on how this was actually done.](https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0)
 
 ---
 
@@ -30,7 +28,7 @@ For this week’s design links we picked the three most beneficial for all desig
 
 **🔥 Hottest hackathons**
 
-1. [Kohdataan-hac](http://kohdataan.fi/)k
+1. [Kohdataan-hack](http://kohdataan.fi/)k
 
 Do you want to solve the problems of inclusion in social media services? **[Kohdataan-hack**](http://kohdataan.fi/) is looking to talented people to create the next generation of accessible social media services to combat problems such as loneliness. Applications close this Friday!
 

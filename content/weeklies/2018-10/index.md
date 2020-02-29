@@ -33,10 +33,6 @@ Now this is pretty cool use case for decentralized Blockstack technology.
 
 ### 🍬 Candy for designers
 
-#### [How to Design for Healthier Life](https://uxplanet.org/how-to-design-for-healthier-life-7294be2269d4)
-
-I wrote a small article about designing digital products that persuade your users to change their habits and attitudes towards more healthier life.
-
 #### [2018 Design Trends](https://www.behance.net/gallery/60273889/2018-Design-Trends)
 
 Need some inspiration for your designs? Check out the hottest trends for 2018!
@@ -70,7 +66,3 @@ Can we go back to the pre-internet frame of mind by reading books? Have you forg
 #### [What I Learned In My 20’s: The Advice That Will Give You Massive Success.](https://medium.com/swlh/what-i-learned-in-my-20s-the-advice-that-will-give-you-massive-success-6c69f69e26d1)
 
 Self help? Self help.
-
-#### [Education Hackathon 26–27 May, Rome](http://eduhack.innolympics.com/)
-
-Education themed hackathon in Rome, which is also a part of a larger educational change. Looks rather interesting.

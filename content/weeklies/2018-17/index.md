@@ -31,9 +31,6 @@ by [Jakub Antalík](https://dribbble.com/antalik) for [Frame.io](https://dribbb
 [![](images/67ead-1g_sb1vbtuzf_orluj7v5ig.gif)](https://dribbble.com/shots/4453140-Car-dashboard-motion-exploration)
 by [Alex Sol](https://dribbble.com/alexsol)
 
-[![](images/ed90c-1-yuszdpbxbbjgbdvni4vma.gif)](https://dribbble.com/shots/4482172-Yoga-App-Menu-Concept)
-by [Dannniel](https://dribbble.com/dannniel) for [Norde](https://dribbble.com/norde)
-
 [![](images/05d90-1kgxbnuichyz2wxhgkk6u-w.gif)](https://dribbble.com/shots/4460793-10C-Books-Animation)
 by [Aga Ciurysek](https://dribbble.com/agaciurysek) for [10Clouds](https://dribbble.com/10Clouds)
 

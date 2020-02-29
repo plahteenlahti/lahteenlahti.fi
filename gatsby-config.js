@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     author: `Perttu Lähteenlahti`,
-    title: `The Personal Blog of Perttu Lähteenlahti`,
+    title: `The Blog`,
     description: `Personal blog of Perttu Lähteenlahti. Blogging about design, development, cognitive science and startups. `,
-    siteUrl: `https://lahteenlahti.com`,
+    siteUrl: `https://www.lahteenlahti.com`,
     social: {
       twitter: `plahteenlahti`,
       linkedIn: `plahteenlahti`,

@@ -25,7 +25,7 @@ New animation library for React, looks rather promising.
 **[How to Add Touch ID to Your React Native App](https://blog.theodo.fr/2018/04/add-touch-id-react-native-app/)**  
 Easy to follow tutorial on how add Touch ID to your React Native app. You should be able to use this for Face ID as well.
 
-**[5 React Native Open Source Projects To Learn From](https://blog.codeinfuse.com/5-open-source-react-native-projects-to-learn-from-fb7e5cfe29f2)**  
+**[5 React Native Open Source Projects To Learn From](https://blog.kiprosh.com/5-open-source-react-native-projects-to-learn-from-fb7e5cfe29f2/)**  
 A slightly older article but still rather relevant for learning.
 
 **[Filtering Images with Expo](https://blog.expo.io/filtering-images-with-expo-ffd8f053bc85)**  

@@ -73,12 +73,6 @@ Wired article on the latest breakthrough in wireless charging: lasers.
 
 Although charging with lasers is not yet here, wireless charging by other means is. Here’s a pretty detailed look at how to this now-soon-to-be-in-every-phone technology actually works.
 
-#### [You Make Or Break Your Life Between 5–7 AM](https://journal.thriveglobal.com/you-make-or-break-your-life-between-5-7-am-70e2717f9e67)
+#### [You Make Or Break Your Life Between 5–7 AM](https://medium.com/thrive-global/you-make-or-break-your-life-between-5-7-am-a7f4125e1326)
 
 Mornings are important. Read why.
-
-#### [Education Hackathon 26–27 May, Rome](http://eduhack.innolympics.com/)
-
-Education themed hackathon in Rome, which is also a part of a larger educational change. Looks rather interesting.
-
----

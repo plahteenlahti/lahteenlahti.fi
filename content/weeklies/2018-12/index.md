@@ -5,10 +5,6 @@ date: "2018-03-19"
 
 #### This week: Songs, Parties, Learning Bootstrap in 5 minutes, UI kits, and boosting up your creativity with some brainstorming methods.
 
-### 💯 Listen to this
-
-\[embed\]https://soundcloud.com/swoope/hall-of-fame\[/embed\]
-
 ### 🤓 For the techie kid in all of us
 
 #### [Artificial data give the same results as real data — without compromising privacy](http://news.mit.edu/2017/artificial-data-give-same-results-as-real-data-0303)
@@ -73,6 +69,6 @@ Everyone knows Doom and Wolfenstein 3D, but how about the two most talented game
 
 How to build a smart bathroom mirror!
 
-#### [17 Creative Brainstorming Methods That (Might) Produce Brilliance](https://medium.com/personal-growth/17-creative-brainstorming-methods-that-might-produce-brilliance-2ace8b76cb6)
+#### [17 Creative Brainstorming Methods That (Might) Produce Brilliance](https://www.inc.com/nicolas-cole/17-creative-brainstorming-methods-that-will-produce-brilliance.html)
 
 Exercise that creativity muscle with these tricks, ranging from The “J.K. Rowling” Brainstorm to letter writing.

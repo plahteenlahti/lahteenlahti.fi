@@ -5,10 +5,6 @@ date: "2018-04-04"
 
 #### This week: Grindr’s lousy security, Dark patterns, Detecting objects with Raspberry Pi, and sex parties of the rich and tech.
 
-### 💯 Listen to this
-
-\[embed\]https://soundcloud.com/flosstradamus/run-the-jewels-oh-my-darling-flosstradamus-remix\[/embed\]
-
 ### 🤓 For the techie kid in all of us
 
 #### [Grindr Privacy Leaks](https://github.com/SINTEF-9012/grindr-privacy-leaks)
