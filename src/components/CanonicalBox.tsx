@@ -14,8 +14,7 @@ const CanonicalBox = (props: Props) => {
         dangerouslySetInnerHTML={{ __html: "<!--googleoff: snippet-->" }}
       />
       <Text>
-        This article originally appeared on{" "}
-        <a href={props.canonical}>{props.canonical}</a>
+        Also appears on <a href={props.canonical}>{props.canonical}</a>
       </Text>
       <GoogleOff dangerouslySetInnerHTML={{ __html: "<!--googleon: all-->" }} />
     </Container>

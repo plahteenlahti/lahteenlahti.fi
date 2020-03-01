@@ -9,43 +9,12 @@ import { Query, SitePageContext } from "../graphql-types";
 import { rhythm, styledScale } from "../utils/typography";
 import Share from "../components/share";
 import CanonicalBox from "../components/CanonicalBox";
+import { JsonLd } from "../components/JsonLD";
 
 interface Props extends PageRendererProps {
   pageContext: SitePageContext;
   data: Query;
 }
-
-const Information = styled.div`
-  margin-top: ${rhythm(2)};
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-`;
-
-const Date = styled.time`
-  display: block;
-  ${styledScale(-1 / 5)};
-  margin-bottom: ${rhythm(1)};
-  margin-top: ${rhythm(-1)};
-`;
-
-const ReadingTime = styled.p`
-  display: block;
-  ${styledScale(-1 / 5)};
-  margin: ${rhythm(-1)} ${rhythm(1)} ${rhythm(1)};
-`;
-
-const Divider = styled.hr`
-  margin-bottom: ${rhythm(1)};
-`;
-
-const PostNavigator = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0;
-`;
 
 const BlogPostTemplate = (props: Props) => {
   const data = props.data!;
@@ -59,6 +28,13 @@ const BlogPostTemplate = (props: Props) => {
   const { previous, next } = props.pageContext;
   const readingTime = post.fields!.readingTime.text!;
 
+  const {
+    canonical,
+    lang,
+    date: creationDate,
+    updated: dateModified
+  } = frontmatter;
+
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
@@ -66,10 +42,38 @@ const BlogPostTemplate = (props: Props) => {
         canonical={frontmatter.canonical}
         title={frontmatter.title!}
         description={frontmatter.description || excerpt}
+        lang={lang}
+        jsonLd={
+          <JsonLd>
+            {{
+              "@context": "https://schema.org",
+              "@type": "BlogPosting",
+              url: `https://lahteenlahti.com${slug}`,
+              headline: frontmatter.title!,
+              dateCreated: creationDate,
+              datePublished: creationDate,
+              dateModified: dateModified,
+              accountablePerson: {
+                "@type": "Person",
+                name: "Perttu Lähteenlahti",
+                url: "https://www.lahteenlahti.com"
+              },
+              author: {
+                "@type": "Person",
+                name: "Perttu Lähteenlahti",
+                url: "https://www.lahteenlahti.com"
+              }
+            }}
+          </JsonLd>
+        }
       />
       <h1>{post.frontmatter!.title}</h1>
       <Information>
-        <Date>{frontmatter.date}</Date>
+        {dateModified && (
+          <Date dateTime={dateModified}>Updated: {dateModified}</Date>
+        )}
+        <Date dateTime={creationDate}>Originally Posted: {creationDate}</Date>
+
         <ReadingTime>{readingTime}</ReadingTime>
       </Information>
 
@@ -122,9 +126,36 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        lang
+        updated(formatString: "MMMM DD, YYYY")
         date(formatString: "MMMM DD, YYYY")
         canonical
       }
     }
   }
+`;
+
+const Information = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const Date = styled.time`
+  ${styledScale(-1 / 5)};
+`;
+
+const ReadingTime = styled.p`
+  ${styledScale(-1 / 5)};
+`;
+
+const Divider = styled.hr`
+  margin-bottom: ${rhythm(1)};
+`;
+
+const PostNavigator = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
 `;

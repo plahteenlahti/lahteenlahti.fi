@@ -1,6 +1,7 @@
 ---
 title: "That's How I Got to Memphis"
 date: "2019-05-24"
+tags: ["Music", "Interpretations"]
 ---
 
 _If you love somebody enough You'll follow wherever they go That's how I got to Memphis_

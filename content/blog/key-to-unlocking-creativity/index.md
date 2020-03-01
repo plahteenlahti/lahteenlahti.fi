@@ -1,6 +1,7 @@
 ---
 title: "Key to Unlocking Creativity: Sleep"
 date: "2018-05-07"
+tags: ["Cognitive science", "Sleep", "Psychology"]
 ---
 
 #### What you should know about sleep to boost your creativity

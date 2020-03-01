@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Am I Just Too Stupid?"
 date: "2020-02-24"
 draft: true
 tags: ["Me", "Hard things to write about", ""]

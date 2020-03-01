@@ -1,6 +1,7 @@
 ---
 title: "Designing a winning hackathon concept"
 date: "2019-01-11"
+tags: ["Design", "Service design", "Hackathons"]
 ---
 
 #### Using a service design mindset to win hackathons

@@ -76,5 +76,5 @@ This concludes my lightning talk on Successful rapid prototyping.
   - [Remote Config](https://invertase.io/oss/react-native-firebase/v6/remote-config)
 - Measure everything.
   - [AWS Amplify](https://aws-amplify.github.io/)
-  - [App Center](https://appcenter.m)
+  - [App Center](https://appcenter.ms)
   - [Firebase](https://rnfirebase.io/docs/v5.x.x/analytics/ios)

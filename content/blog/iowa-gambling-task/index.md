@@ -1,6 +1,7 @@
 ---
 title: "Iowa Gambling Task – Simulating real-life decision-making with card games"
 date: "2019-06-20"
+tags: ["Cognitive science", "Decision-making", "Psychology"]
 ---
 
 Decision-making is perhaps one of the most exciting capabilities of human cognition. At the same time, it also one of the most difficult ones to study as despite that our reasoning is often considered to be rational, the real-world decision-making is usually at least outwardly less so. To truly understand the cognitive processes behind decision-making, we need to be able to test and measure decision-making some way. One method for studying decision-making by simulating it is the so-called Iowa Gambling Task.

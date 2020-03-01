@@ -4,7 +4,6 @@ date: "2019-10-15T00:00:00.0000"
 draft: false
 tags: ["React Native", "iOS", "Mobile Development"]
 canonical: "https://perttu.dev/posts/checklist-for-releasing-apps/"
-
 description: "Checklist for publishing React Native app to Apple App store successfully."
 ---
 

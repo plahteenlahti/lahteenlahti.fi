@@ -1,6 +1,8 @@
 ---
-title: 'Miten Perfekt City tehtiin'
-date: '2017-09-12'
+title: "Miten Perfekt City tehtiin"
+date: "2017-09-12"
+tags: ["Hackathons"]
+lang: "fi"
 ---
 
 #### Miten avoimen datan avulla luotiin työkalu kaupunkisuunnitteluun

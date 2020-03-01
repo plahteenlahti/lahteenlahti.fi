@@ -16,7 +16,6 @@ module.exports = {
     `gatsby-plugin-dark-mode`,
     `gatsby-remark-embed-video`,
     `gatsby-plugin-twitter`,
-    `gatsby-remark-numbered-footnotes`,
     `gatsby-plugin-mdx`,
     {
       resolve: "gatsby-plugin-html2amp",
@@ -31,12 +30,6 @@ module.exports = {
         developerKey: "lJeTjb5OfssYdNfuW24qcA",
         goodReadsUserId: "32613066",
         userShelf: "read"
-      }
-    },
-    {
-      resolve: `@raae/gatsby-remark-oembed`,
-      options: {
-        usePrefix: ["oembed", "video", "embed"]
       }
     },
     {
@@ -105,7 +98,6 @@ module.exports = {
       options: {
         plugins: [
           "gatsby-plugin-social-cards",
-          `gatsby-remark-embedder`,
           `gatsby-remark-autolink-headers`,
           `gatsby-remark-check-links`,
           `gatsby-remark-smartypants`,
@@ -113,6 +105,19 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590
+            }
+          },
+          `gatsby-remark-numbered-footnotes`,
+          {
+            resolve: `gatsby-remark-footnotes`,
+            options: {
+              footnoteBackRefPreviousElementDisplay: "inline",
+              footnoteBackRefDisplay: "inline",
+              //use if you want the Wikipedia style ^ link without an underline beneath it
+              footnoteBackRefAnchorStyle: `text-decoration: none;`,
+              //use "front" for Wikipedia style ^ links
+              footnoteBackRefInnerTextStartPosition: "front",
+              useFootnoteMarkerText: false // Defaults to false
             }
           },
           {

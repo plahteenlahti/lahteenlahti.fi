@@ -1,4 +1,4 @@
-import { graphql, PageRendererProps, useStaticQuery } from "gatsby";
+import { graphql, PageRendererProps, useStaticQuery, Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../components/bio";
@@ -73,15 +73,20 @@ const About = (props: Props) => {
         <ul>
           <li>Technology</li>
           <li>
-            Programming (currently that means React and React Native mostly)
+            <Link to="tags/programming/">Programming</Link> (currently that
+            means React and React Native mostly)
           </li>
-          <li>Design, of UIs and products</li>
+          <li>
+            <Link to="tags/design/">Design</Link>, of UIs and products
+          </li>
           <li>Diversity, especially in technology</li>
           <li>
             Innovation (the fact that I've competed in over 70 different
             innovation challenges provides me with a unique view on this)
           </li>
-          <li>Building companies</li>
+          <li>
+            <Link to="tags/building-companies/">Building companies</Link>
+          </li>
         </ul>
         You can reach me through email, [first name]@lahteenlahti.fi and from{" "}
         <a href="https://www.linkedin.com/in/plahteenlahti/">LinkedIn</a> and{" "}

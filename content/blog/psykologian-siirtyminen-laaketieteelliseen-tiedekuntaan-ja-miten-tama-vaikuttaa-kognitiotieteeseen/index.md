@@ -1,6 +1,9 @@
 ---
 title: "Psykologian siirtyminen lääketieteelliseen tiedekuntaan ja miten tämä vaikuttaa kognitiotieteeseen"
 date: "2015-06-04"
+lang: "fi"
+tags: ["Kognitiotiede"]
+
 canonical: "https://www.intelligenzia.fi/psykologia-ja-kognitiotiede/"
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "Opas hackathoneja voittavien palvelukonseptien suunnitteluun"
 date: "2018-11-11"
+tags: ["Hackathons"]
+lang: "fi"
 ---
 
 #### Palvelumuotoilun ajatusmaailmalla hackathonien voittoon

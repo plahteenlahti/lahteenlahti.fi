@@ -1,7 +1,8 @@
 ---
 title: "List of Quotes I like"
 date: "2015-12-29"
-excerpt: "List of some of my favourite quotes"
+excerpt: "List of some of my favorite quotes"
+tags: ["Quotes", "Lists"]
 ---
 
 “There are all these people bragging about how they’re survivors, as though that’s something very special. But the only kind of person who can’t say that is a corpse.” – Kurt Vonnegut, Galápagos
