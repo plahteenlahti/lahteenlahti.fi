@@ -20,3 +20,5 @@ Being productive is a hard thing to master especially when working in front of a
 Never be always accessible
 
 ### Push new ideas to the side
+
+https://en.wikipedia.org/wiki/Implementation_intention
