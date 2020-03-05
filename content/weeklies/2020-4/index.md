@@ -23,7 +23,7 @@ Learn Rust on your lunch break by reading snippets and their explanations.
 **[Distorted Button Effects with SVG Filters](https://tympanus.net/codrops/2016/05/11/distorted-button-effects-with-svg-filters/)**  
 These are cool, but I'm having hard time coming up with a good design to make use of them. Worth reading to learn more about combing CSS filters with SVg filters.
 
-**[Styled-components and display name](https://medium.com/javascript-in-plain-english/youre-missing-a-trick-with-your-styled-components-in-react-e3dfcd586f75)**
+**[Styled-components and display name](https://medium.com/javascript-in-plain-english/youre-missing-a-trick-with-your-styled-components-in-react-e3dfcd586f75)**  
 Add a display name to your components to help identify them
 
 ### Design

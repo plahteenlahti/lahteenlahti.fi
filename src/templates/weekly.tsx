@@ -7,6 +7,7 @@ import { FadeLink } from "../components/link";
 import { SEO } from "../components/seo";
 import { Query, SitePageContext } from "../graphql-types";
 import { rhythm, styledScale } from "../utils/typography";
+import { JsonLd } from "../components/JsonLD";
 
 interface Props extends PageRendererProps {
   pageContext: SitePageContext;
@@ -46,6 +47,7 @@ const WeeklyTemplate = (props: Props) => {
     <Layout location={props.location} title={siteTitle}>
       <SEO
         weekly
+        url={`https://www.lahteenlahti.com/weekly${slug}`}
         slug={slug}
         title={`${frontmatter.title!} – Perttu Lähteenlahti`}
         description={frontmatter.description || excerpt}

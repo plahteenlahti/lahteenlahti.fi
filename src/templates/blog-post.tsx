@@ -38,6 +38,7 @@ const BlogPostTemplate = (props: Props) => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
+        url={`https://lahteenlahti.com${slug}`}
         slug={slug}
         canonical={frontmatter.canonical}
         title={frontmatter.title!}

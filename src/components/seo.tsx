@@ -8,7 +8,6 @@
 import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
-import { JsonLd } from "./JsonLD";
 
 interface Meta {
   name: string;
@@ -19,13 +18,14 @@ interface Props {
   slug: string | undefined | null;
   title: string;
   lang?: string;
+  url?: string;
   meta?: Meta[];
   keywords?: string[];
   description?: string;
   canonical?: string | null | undefined;
   amp?: boolean;
   weekly?: boolean;
-  jsonLd: any;
+  jsonLd?: any;
 }
 
 export const SEO = (props: Props) => {
@@ -34,7 +34,7 @@ export const SEO = (props: Props) => {
   const keywords = props.keywords || [];
   const description = props.description || "";
   const slug = props.slug;
-  const { weekly, jsonLd } = props;
+  const { weekly, jsonLd, url } = props;
 
   const { site } = useStaticQuery(
     graphql`
@@ -57,12 +57,12 @@ export const SEO = (props: Props) => {
   const metaDescription = description || site.siteMetadata.description;
   const { siteMetadata } = site;
 
-  const url = slug
+  const urlToUse = slug
     ? `${siteMetadata.siteUrl}${slug}`
     : `${siteMetadata.siteUrl}/`;
   const socialCard = weekly
-    ? `https://www.lahteenlahti.com/weekly${slug}seo.jpg`
-    : `${url}seo.jpg`;
+    ? `https://www.lahteenlahti.com/weekly${urlToUse}seo.jpg`
+    : `${urlToUse}seo.jpg`;
 
   return (
     <>
@@ -101,7 +101,7 @@ export const SEO = (props: Props) => {
             property: `og:type`
           },
           {
-            content: `${siteMetadata.siteUrl}`,
+            content: url ? url : `${siteMetadata.siteUrl}`,
             property: `og:url`
           },
           {
