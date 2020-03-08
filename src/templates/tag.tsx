@@ -6,13 +6,15 @@ import styled from "styled-components";
 
 const Tags = ({ pageContext, data, location }: any) => {
   const { tag } = pageContext;
+  const siteTitle = data.site!.siteMetadata!.title!;
+
   const { edges, totalCount } = data.allMarkdownRemark;
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
   } tagged with "${tag}"`;
 
   return (
-    <Layout location={location} title={tagHeader}>
+    <Layout location={location} title={siteTitle}>
       <SEO
         slug={`tags/${tag}`}
         title={`Blog posts tagged with "${tag}"`}
@@ -48,6 +50,12 @@ export default Tags;
 
 export const pageQuery = graphql`
   query($tag: String) {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
