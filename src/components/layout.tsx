@@ -1,8 +1,7 @@
-import { PageRendererProps } from "gatsby";
+import { PageRendererProps, Link } from "gatsby";
 import React, { ReactNode } from "react";
 import styled from "styled-components";
 import { rhythm, styledScale } from "../utils/typography";
-import { FadeLink } from "./link";
 import ToggleTheme from "./themeToggler";
 import SignUp from "./signup";
 import Links from "./links";
@@ -77,7 +76,7 @@ const StyledH3 = styled.h3`
   margin-top: 0;
 `;
 
-const StyledLink = styled(FadeLink)`
+const StyledLink = styled(Link)`
   box-shadow: none;
   color: inherit;
   text-decoration: none;
