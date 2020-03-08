@@ -3,6 +3,7 @@ import * as _ from "lodash";
 import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import { Layout } from "../components/layout";
+import { SEO } from "../components/seo";
 
 const TagsPage = ({
   location,
@@ -15,7 +16,9 @@ const TagsPage = ({
 }: any) => (
   <Layout title={title} location={location}>
     <div>
+      <SEO slug="tags" title="Tags" description="Explore posts by tags." />
       <h1>Tags</h1>
+      <p>Explore posts by tags.</p>
       <ul>
         {group.map((tag: any) => (
           <li key={tag.fieldValue}>
