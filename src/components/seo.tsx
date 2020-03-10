@@ -61,7 +61,7 @@ export const SEO = (props: Props) => {
     ? `${siteMetadata.siteUrl}${slug}`
     : `${siteMetadata.siteUrl}/`;
   const socialCard = weekly
-    ? `https://www.lahteenlahti.com/weekly${urlToUse}seo.jpg`
+    ? `https://www.lahteenlahti.com/weekly${slug}seo.jpg`
     : `${urlToUse}seo.jpg`;
 
   return (
