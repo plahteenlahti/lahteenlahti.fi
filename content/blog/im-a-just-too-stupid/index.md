@@ -2,7 +2,7 @@
 title: "Am I Just Too Stupid?"
 date: "2020-02-24"
 draft: true
-tags: ["Me", "Hard things to write about", ""]
+tags: ["Me", "Hard things to write about"]
 ---
 
 I'm filled with negative emotions. Emotions that I hide under the pretense of being busy and overworked. Pushing over 80 working hours a week, living at the office, and
