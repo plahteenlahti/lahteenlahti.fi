@@ -73,7 +73,8 @@ export const Bio = () => {
             <strong>{author}</strong>
           </a>
           . For more developer oriented posts checkout{" "}
-          <a href="https://perttu.dev">perttu.dev</a>
+          <a href="https://perttu.dev">perttu.dev</a> and if you want to sleep
+          better check <a href="https://nyxo.app">nyxo.app</a>
         </p>
       </Content>
     </>
