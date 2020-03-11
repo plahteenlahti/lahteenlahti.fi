@@ -5,7 +5,7 @@ draft: false
 description: A half-hour to learn Rust, Tokyo animated Pictograms, Weirdest shit to come out of Silicon Valley in February, and BMW's new logo
 ---
 
-_**Weekly collection of links and resources resources I've come across this week. Also some updates about my life, the company I'm building and my investments as well.**_
+_**Weekly collection of links and resources I've come across this week. Also some updates about my life, the company I'm building and my investments as well.**_
 
 ---
 
