@@ -5,7 +5,7 @@ draft: false
 description: All the launched YC W20 startups, react-table v7, Cool custom-branded laptop stands, and easy annotation of data with Universal Data Tool.
 ---
 
-_**Weekly collection of links and resources resources I've come across this week. Also some updates about my life, the company I'm building and my investments as well.**_
+_**Weekly collection of links and resources I've come across this week. Also some updates about my life, the company I'm building and my investments as well.**_
 
 ---
 
