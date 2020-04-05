@@ -7,8 +7,8 @@ module.exports = {
     social: {
       twitter: `plahteenlahti`,
       linkedIn: `plahteenlahti`,
-      github: `plahteenlahti`
-    }
+      github: `plahteenlahti`,
+    },
   },
   plugins: [
     `gatsby-plugin-advanced-sitemap`,
@@ -21,24 +21,24 @@ module.exports = {
       resolve: "gatsby-plugin-html2amp",
       options: {
         files: ["public/*.html"],
-        dist: "public/amp"
-      }
+        dist: "public/amp",
+      },
     },
     {
       resolve: "gatsby-source-goodreads",
       options: {
         developerKey: "lJeTjb5OfssYdNfuW24qcA",
         goodReadsUserId: "32613066",
-        userShelf: "read"
-      }
+        userShelf: "read",
+      },
     },
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /\.inline\.svg$/
-        }
-      }
+          include: /\.inline\.svg$/,
+        },
+      },
     },
     // {
     //   resolve: `gatsby-plugin-amp`,
@@ -69,29 +69,29 @@ module.exports = {
       resolve: "gatsby-plugin-mailchimp",
       options: {
         endpoint:
-          "https://lahteenlahti.us4.list-manage.com/subscribe/post?u=e5fc085e3ff83b00d093a8c65&amp;id=6b47e4b337"
-      }
+          "https://lahteenlahti.us4.list-manage.com/subscribe/post?u=e5fc085e3ff83b00d093a8c65&amp;id=6b47e4b337",
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
-        name: `blog`
-      }
+        name: `blog`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
-        name: `assets`
-      }
+        name: `assets`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/weeklies`,
-        name: `weeklies`
-      }
+        name: `weeklies`,
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -104,8 +104,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590
-            }
+              maxWidth: 590,
+            },
           },
           `gatsby-remark-numbered-footnotes`,
           {
@@ -117,32 +117,32 @@ module.exports = {
               footnoteBackRefAnchorStyle: `text-decoration: none;`,
               //use "front" for Wikipedia style ^ links
               footnoteBackRefInnerTextStartPosition: "front",
-              useFootnoteMarkerText: false // Defaults to false
-            }
+              useFootnoteMarkerText: false, // Defaults to false
+            },
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`
-            }
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
           },
           {
             resolve: `gatsby-remark-prismjs`,
             showLineNumbers: false,
-            inlineCodeMarker: { typescript: "tsx" }
+            inlineCodeMarker: { typescript: "tsx" },
           },
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`
-        ]
-      }
+          `gatsby-remark-smartypants`,
+        ],
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-112021087-1`
-      }
+        trackingId: `UA-112021087-1`,
+      },
     },
     `gatsby-plugin-feed`,
     {
@@ -154,25 +154,33 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#373737`,
         display: `minimal-ui`,
-        icon: `src/favicon.jpg`
-      }
+        icon: `src/favicon.jpg`,
+      },
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://www.lahteenlahti.com`
-      }
+        siteUrl: `https://www.lahteenlahti.com`,
+      },
     },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography`
-      }
+        pathToConfigModule: `src/utils/typography`,
+      },
     },
     `gatsby-plugin-typescript`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-transition-link`
-  ]
+    `gatsby-plugin-transition-link`,
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-TJCVSJ7",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+      },
+    },
+  ],
 };
