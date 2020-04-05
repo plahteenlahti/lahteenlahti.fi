@@ -9,6 +9,7 @@ import { rhythm, styledScale } from "../utils/typography";
 import Share from "../components/share";
 import CanonicalBox from "../components/CanonicalBox";
 import { JsonLd } from "../components/JsonLD";
+import moment from "moment";
 
 interface Props extends PageRendererProps {
   pageContext: SitePageContext;
@@ -31,7 +32,7 @@ const BlogPostTemplate = (props: Props) => {
     canonical,
     lang,
     date: creationDate,
-    updated: dateModified
+    updated: dateModified,
   } = frontmatter;
 
   return (
@@ -42,37 +43,20 @@ const BlogPostTemplate = (props: Props) => {
         canonical={frontmatter.canonical}
         title={frontmatter.title!}
         description={frontmatter.description || excerpt}
+        published={creationDate}
+        updated={dateModified}
         lang={lang}
-        jsonLd={
-          <JsonLd>
-            {{
-              "@context": "https://schema.org",
-              "@type": "BlogPosting",
-              url: `https://lahteenlahti.com${slug}`,
-              headline: frontmatter.title!,
-              dateCreated: creationDate,
-              datePublished: creationDate,
-              dateModified: dateModified,
-              accountablePerson: {
-                "@type": "Person",
-                name: "Perttu Lähteenlahti",
-                url: "https://www.lahteenlahti.com"
-              },
-              author: {
-                "@type": "Person",
-                name: "Perttu Lähteenlahti",
-                url: "https://www.lahteenlahti.com"
-              }
-            }}
-          </JsonLd>
-        }
       />
       <h1>{post.frontmatter!.title}</h1>
       <Information>
         {dateModified && (
-          <Date dateTime={dateModified}>Updated: {dateModified}</Date>
+          <Date dateTime={dateModified}>
+            Last updated: {moment(dateModified).format("DD.MM.YYYY")}
+          </Date>
         )}
-        <Date dateTime={creationDate}>Originally Posted: {creationDate}</Date>
+        <Date dateTime={creationDate}>
+          Published: {moment(creationDate).format("DD.MM.YYYY")}
+        </Date>
 
         <ReadingTime>{readingTime}</ReadingTime>
       </Information>
@@ -87,14 +71,14 @@ const BlogPostTemplate = (props: Props) => {
       <PostNavigator>
         <li>
           {previous && (
-            <Link to={previous.fields!.slug!} rel="prev">
+            <Link to={previous.fields!.slug!} rel='prev'>
               ← {previous.frontmatter!.title}
             </Link>
           )}
         </li>
         <li>
           {next && (
-            <Link to={next.fields!.slug!} rel="next">
+            <Link to={next.fields!.slug!} rel='next'>
               {next.frontmatter!.title} →
             </Link>
           )}
@@ -127,8 +111,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         lang
-        updated(formatString: "MMMM DD, YYYY")
-        date(formatString: "MMMM DD, YYYY")
+        updated(formatString: "")
+        date(formatString: "")
         canonical
       }
     }

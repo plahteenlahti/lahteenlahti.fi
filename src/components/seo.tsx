@@ -26,6 +26,8 @@ interface Props {
   amp?: boolean;
   weekly?: boolean;
   jsonLd?: any;
+  published?: string;
+  updated?: string;
 }
 
 export const SEO = (props: Props) => {
@@ -68,7 +70,7 @@ export const SEO = (props: Props) => {
     <>
       <Helmet
         htmlAttributes={{
-          lang
+          lang,
         }}
         link={
           !props.amp && props.canonical
@@ -76,8 +78,8 @@ export const SEO = (props: Props) => {
                 {
                   rel: "canonical",
                   key: props.canonical,
-                  href: props.canonical
-                }
+                  href: props.canonical,
+                },
               ]
             : []
         }
@@ -86,69 +88,104 @@ export const SEO = (props: Props) => {
         meta={[
           {
             content: metaDescription,
-            name: `description`
+            name: `description`,
           },
           {
             content: props.title,
-            property: `og:title`
+            property: `og:title`,
           },
           {
             content: metaDescription,
-            property: `og:description`
+            property: `og:description`,
           },
           {
             content: `website`,
-            property: `og:type`
+            property: `og:type`,
           },
           {
             content: url ? url : `${siteMetadata.siteUrl}`,
-            property: `og:url`
+            property: `og:url`,
           },
           {
             content: "summary_large_image",
-            name: "twitter:card"
+            name: "twitter:card",
           },
           {
             content: "summary_large_image",
-            property: "twitter:card"
+            property: "twitter:card",
           },
           {
             content: socialCard,
-            name: "og:image:secure_url"
+            name: "og:image:secure_url",
           },
           {
             content: socialCard,
-            property: "og:image"
+            property: "og:image",
           },
 
           {
             content: socialCard,
-            name: "twitter:image"
+            name: "twitter:image",
           },
           {
             content: site.siteMetadata.author,
-            name: `twitter:creator`
+            name: `twitter:creator`,
           },
           {
             content: props.title,
-            name: `twitter:title`
+            name: `twitter:title`,
           },
           {
             content: metaDescription,
-            name: `twitter:description`
-          }
+            name: `twitter:description`,
+          },
         ]
           .concat(
             keywords.length > 0
               ? {
                   content: keywords.join(`, `),
-                  name: `keywords`
+                  name: `keywords`,
                 }
               : []
           )
           .concat(meta)}>
-        {jsonLd}
+        <script type='application/ld+json'>
+          {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "${addHttps(url)}"
+        },
+        "headline": "${props.title}",
+        "image": "${addHttps(url)}",
+        "datePublished": "${props.published}",
+        "dateModified": "${props.updated ? props.updated : props.published}",
+        "author": {
+          "@type": "Person",
+          "name": "Perttu Lähteenlahti"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Perttu Lähteenlahti"
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${seoURL("/perttu.jpg")}"
+          }
+        },
+        "description": "${description.replace(/"/g, '\\"')}"
+      }
+    `}
+        </script>
       </Helmet>
     </>
   );
 };
+
+const addHttps = (path: string | undefined) => {
+  if (path?.substring(0, 5) === "https") return path;
+  return `https:${path}`;
+};
+
+const seoURL = (path?: string) => `https://www.lahteenlahti.com${path}`;
