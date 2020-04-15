@@ -2,7 +2,7 @@
 title: "Weekly 6/2020"
 date: "2020-04-15"
 draft: false
-description: How to recover $300k of Bitcoin, every party in San Francisco,
+description: How to recover $300k of Bitcoin, every party in San Francisco, and Spatial interfaces
 ---
 
 _**Weekly collection of links and resources I've come across this week. Also some updates about my life, the company I'm building and my investments as well.**_
