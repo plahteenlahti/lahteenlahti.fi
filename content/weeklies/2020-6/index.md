@@ -48,7 +48,7 @@ New findings on retrosplenial cortex and how it exactly provides us with the abi
 
 **[every single party in San Francisco](https://twitter.com/yayalexisgay/status/1249057146051821568)**
 
-**[](https://nyxo.app/can-sleep-debt-be-paid-off)**  
+**[Can Sleep Debt Be Paid Off?](https://nyxo.app/can-sleep-debt-be-paid-off)**  
 The economics of sleep debt by Anu-Katriina Pesonen
 
 **Favorite quote of the week**
