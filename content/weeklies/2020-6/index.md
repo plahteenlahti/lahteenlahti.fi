@@ -51,5 +51,5 @@ New findings on retrosplenial cortex and how it exactly provides us with the abi
 **[Can Sleep Debt Be Paid Off?](https://nyxo.app/can-sleep-debt-be-paid-off)**  
 The economics of sleep debt by Anu-Katriina Pesonen
 
-**Favorite quote of the week**
+**Favorite quote of the week**  
 _“We conclude that romantic love is one further cause for short or poor quality sleep in girls and may relate to symptoms of depression and anxiety in both sexes. However, feelings of infatuation contain important developmental lessons.”_
