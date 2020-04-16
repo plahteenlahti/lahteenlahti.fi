@@ -8,12 +8,14 @@ tags: ["Design"]
 TLDR:
 What is user research and what is user-centred design. Overview of common user-research methods such as contextual inquiry, roundtables, workshops and design probes. How to combine user research methods through triangulation.
 
-Introduction
+## Introduction
+
 Digital products have the tendency to become more and more complex with every iteration. Mainly this is caused by the rapid development of technology, which creates possibilities for products that combine features from previously separate products. Added features lead to added complexity, which in many cases, leads to products that are harder to use, can cause more errors. They can even make the original features of the product perform worse. The result is bad user experience. To battle this, the products should be designed with the users in mind. This design process that bases itself on understanding the users and their needs hold the name user-centered design or, more preferably, human-centered design.
 
 According to Hudson, "Many usability issues arise because developers assume the users are similar to themselves." [2] For this reason, user research is required to gather data about the users. User research is not just one method but a collection of many being both quantitative and qualitative. Methods in user research may vary from research conducted in the field to research conducted in laboratories. The goal between different methods, however, is still the same – knowing the users and how they are using the product [3]. In this paper, I will summarize some of the most common methods used in user research. Combining different techniques and measures in an approach called triangulation will also be covered. Lastly, I will cover how the gathered data could be used as an aid for developers and designers.
 
-From Contextual Inquiry to Usability Roundtables
+## From Contextual Inquiry to Usability Roundtables
+
 The word research is most often connected to studies done in laboratories. This is the case in many sciences that aim to produce generalizable, reliable, and valid results needed to strengthen theories further. Most often, these laboratory studies are also highly controlled, and the amount of variable is reduced to a minimum. Although this approach suits the needs of basic sciences very well, it is, however, not the best one for user research. In user research, it is essential to include the real world to the process as users' interactions often vary depending on the context [4]. This is why many user research methods are ethnographic. Ethnographic research is based on the idea that the researcher observes society from the point of view of the subject of the study. Examples of this are observations done in the field where the focus is on understanding how things work in the real context. This kind of approach may result in significant increases in time frames and higher costs.
 
 The answer to time and cost problems came in the form of Contextual inquiry, first developed by Karen Holtzblatt in 1986 [2]. As the name suggests, the main emphasis is in the context, as contextual inquiry provides the researchers' methods for getting data about the user in context and more holistically. According to Holtzblatt and Beyer, this approach aims to tackle the problem of users not being able to articulate detailed information of how they work [2]. In contextual inquiry, the researcher observes the user at work while the subject uses the product. The researcher is allowed to interrupt the user and ask questions concerning the use: "Why did you do it like that?" "Was that expected?" "What is the next step?" This way, the observer can get information about the previously implicitly in the users mind [2]. Holtzblatt and Beyer point out that Contextual inquiry should take about two to three hours and should be conducted by the product's designers, as "Great product ideas are derived from a marriage of detailed understanding of a customer need with an in-depth understanding of technology." [2]
@@ -21,7 +23,8 @@ Although widely used, Contextual inquiry has it's problems as listed by Butler [
 
 Butler describes a possible workaround to these problems. A method called usability roundtables first conducted in usability laboratories, which was later changed to more welcoming and pleasant conference room environment as the former was redeemed as to constraining [4]. The basic setting of a usability roundtable is that the user is asked to bring some examples from everyday work. Anybody from the design team wanting to ask questions from the user was then able to gather around the table and do so. This kind of approach is more like a meeting than testing [4]. According to Butler, this made users more willing to participate in the design process, the method was less time and resource-demanding than, for example, Contextual inquiry and results could be gathered more efficiently from specific issues. There are however, also limitations to usability roundtables. First of all, the approach requires a skillful operator to maximize the session's benefit and to discourage team members from offering fixes for the user during the session. In addition to this, the users need to be selected so that they're able to explain their work clearly. The biggest problem, however, lies in the loss of context. As stated by Butler, there may be additional information in the context that usability roundtables fail to adduce [4].
 
-Involving the user – a different kind of an approach
+## Involving the user – a different kind of an approach
+
 Interviews, observation, and methods like Contextual inquiry and usability roundtables may help uncover issues in usability and introduce possible future additions to the design of the product. They, however, fail to truly grasp some of the users' characteristics such as creativity besides being time-consuming [5]. Workshops and other similar means of involving the user might provide answers to this and are in heavy use these days [5,6].
 One such method is design probes. Defining what design probes are is quite hard as there are no restrictions on this. The main focus of these probes is to work as tools for design and understanding [6]. As such, they can be objects, pieces of material, or pictures that relate to the design at hand in some way. They pose questions that inspire the user to answer and provide solutions that the designers can use as an aid.
 
@@ -29,7 +32,8 @@ Another similar way of involving users is drawing as Fleury mentions. It states 
 
 Both design probes and drawings have their shortcomings. Responses received from both vary according to personal and situational characteristics and may be hard to control [5,6]. Researcher's own interpretations, especially from drawings, may also create differing results. Both methods, however, provide data triangulation when used to complement other tools.
 
-Combining research methods
+## Combining research methods
+
 Data gathered with only one research tool will not most likely reveal all the aspects of users and their issues with the product. Using a single research method may also cause "inappropriate certainty" [3]. These problems can at least partially be avoided with triangulation, which means using multiple measures, methods and approaches in the research process. Wilson lists different kinds of triangulation methods and divides them to between-method and within-method triangulation. I have gathered the triangulation methods listed into figure 1.
 
 There often many sources of data available that can be triangulated right from the start. The researcher can use bug reports, user group discussions, and articles combining them with findings from Contextual inquiry to find points where data converge [3]. Wilson also states that the researcher should not favor any method over others and engage in methodolatry (viewing one method as superior to others). Instead, the researcher should combine different methods with different strengths and biases and look for patterns.
@@ -43,5 +47,22 @@ Another common method that is often used as a way to represent data is a method 
 
 Hudson rejects this kind of bloated representation of persona, instead placing weight on creating models of users that easier to communicate, faster to develop and better able to create focus for the developers [8]. These so-called minimum collaborative personas should be short in the description and collaboratively created by the core team. This approach should allow a better sense of empathy from the team towards the personas with the help of persona stories instead of user stories. These persona stories describe common tasks, and goals users want to achieve. Hudson believes this will result in scenarios and visual designs that are more descriptive than prescriptive [8].
 
-Conclusion
+## Conclusion
+
 User research is vital for the user-centered design process [2,3,4,5]. Although it is not exact by nature, it still provides methods for constructing aids for the product development process. This is caused by the user research methods qualitative nature, which, if used correctly, will reveal real information about the users' that quantitative methods would not. User research works best if the whole development team is part of it, as this may help uncover surprising points [2,3,4]. Data gathered, and users should also be employed through the entire development process and re-employed every time new the product is to be improved [2].
+
+Works Cited
+
+1. Holtzblatt, K. and Beyer, H. (1993). Making customer-centered design work for teams. Communications of the ACM, 36(10), pp. 92-103
+
+2. Wilson, C.E. (2006) Triangulation: the explicit use of multiple methods, measures, and approaches for determining core issues in product development. Interactions, 13(6), 46-47, 63. ISSN: 1072- 5520, DOI= 10.1145/1167948.1167980.
+
+3. Butler, M. B. (1996). Getting to know your users: Usability roundtables at Lotus development. Interactions, 3(1), pp. 23-30. ISSN: 1072-5520
+
+4. Fleury, A. (2012). Drawing and Acting as User Experience Research Tools, APCHI, Proceedings of the 10th asia pacific conference on Computer human interaction
+
+5. Wallace, J., McCarthy, J., Wright, P.C. and Olivier, P. (2013) Making design probes work. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI ’13). ACM, New York, USA, pp. 3441-3450. DOI= 10.1145/2470654.2466473.
+
+6. Pruitt, J. and Grudin, J. (2003) Personas: practice and theory. In Proceedings of the 2003 conference on Designing for user experiences (CHI ’03). ACM, New York, USA, pp. 1-15. DOI= 10.1145/997078.997089
+
+7. Hudson, W. (2013) User stories don't help users: introducing persona stories. interactions, 20(6), pp. 50-53. ISSN: 1072-5520, DOI= 10.1145/2517668.
