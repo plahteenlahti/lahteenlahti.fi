@@ -102,6 +102,16 @@ module.exports = {
           `gatsby-remark-check-links`,
           `gatsby-remark-smartypants`,
           {
+            resolve: "gatsby-remark-audio",
+            options: {
+              preload: "auto",
+              loop: false,
+              controls: true,
+              muted: false,
+              autoplay: false,
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
