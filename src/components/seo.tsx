@@ -26,6 +26,8 @@ interface Props {
   amp?: boolean;
   weekly?: boolean;
   jsonLd?: any;
+  published?: string;
+  updated?: string;
 }
 
 export const SEO = (props: Props) => {
@@ -147,8 +149,43 @@ export const SEO = (props: Props) => {
               : []
           )
           .concat(meta)}>
-        {jsonLd}
+        <script type='application/ld+json'>
+          {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "${addHttps(url)}"
+        },
+        "headline": "${props.title}",
+        "image": "${addHttps(url)}",
+        "datePublished": "${props.published}",
+        "dateModified": "${props.updated ? props.updated : props.published}",
+        "author": {
+          "@type": "Person",
+          "name": "Perttu Lähteenlahti"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Perttu Lähteenlahti",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${seoURL("/perttu.jpg")}"
+          }
+        },
+        "description": "${description.replace(/"/g, '\\"')}"
+      }
+    `}
+        </script>
       </Helmet>
     </>
   );
 };
+
+const addHttps = (path: string | undefined) => {
+  if (path?.substring(0, 5) === "https") return path;
+  return `https:${path}`;
+};
+
+const seoURL = (path?: string) => `https://www.lahteenlahti.com${path}`;
