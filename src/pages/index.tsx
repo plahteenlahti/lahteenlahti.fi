@@ -8,9 +8,11 @@ import { MarkdownRemark } from "../graphql-types";
 import { rhythm } from "../utils/typography";
 import Search from "../components/search";
 import { HotKeys } from "react-hotkeys";
+import { SmallText } from "../components/Primitives";
+import WritingStats from "../components/Stats/WritingStats";
 
 const keyMap = {
-  OPEN_SEARCH: "z"
+  OPEN_SEARCH: "z",
 };
 
 const StyledLink = styled(Link)`
@@ -56,6 +58,10 @@ const BlogIndex = (props: Props) => {
       ) {
         edges {
           node {
+            timeToRead
+            wordCount {
+              words
+            }
             excerpt
             fields {
               slug
@@ -81,19 +87,20 @@ const BlogIndex = (props: Props) => {
       <Search>
         <Layout location={props.location} title={siteTitle}>
           <SEO
-            title="Perttu Lähteenlahti"
-            description=""
+            title='Perttu Lähteenlahti'
+            description=''
             keywords={[
               `blog`,
               `design`,
               "technology",
               "programming",
-              `cognitive science`
+              `cognitive science`,
             ]}
-            slug="/"
+            slug='/'
           />
 
           <Bio />
+          <WritingStats />
           {posts.map(({ node }: { node: MarkdownRemark }) => {
             const frontmatter = node!.frontmatter!;
             const fields = node!.fields!;
@@ -112,7 +119,7 @@ const BlogIndex = (props: Props) => {
                 {/* <Language>🇫🇮</Language> */}
                 <p
                   dangerouslySetInnerHTML={{
-                    __html: frontmatter.description || excerpt
+                    __html: frontmatter.description || excerpt,
                   }}
                 />
               </div>
