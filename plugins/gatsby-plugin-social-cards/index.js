@@ -10,8 +10,13 @@ module.exports = ({ markdownNode }) => {
 
   return Promise.all([
     jimp.read(path.join(__dirname, "base.jpg")),
-    jimp.loadFont(path.join(__dirname, "Montserrat.fnt"))
+    jimp.loadFont(path.join(__dirname, "Montserrat.fnt")),
   ]).then(([image, font]) => {
-    image.print(font, 50, 120, frontmatter.title, 1100).write(output);
+    const title = frontmatter.title.replace(
+      /([\uE000-\uF8FF]|\uD83C[\uDF00-\uDFFF]|\uD83D[\uDC00-\uDDFF])/g,
+      ""
+    );
+
+    image.print(font, 50, 120, title, 1100).write(output);
   });
 };

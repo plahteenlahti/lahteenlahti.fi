@@ -1,5 +1,5 @@
 ---
-title: "🚀 Product Ideas: Democratizing Relaxing Content With ASMR"
+title: "🚀Product Ideas: Democratizing Relaxing Content With ASMR"
 date: "2020-04-26"
 tags: ["Product Ideas", "Startups", "Strategy"]
 draft: false
@@ -56,7 +56,7 @@ I think ASMR focused content platform poses an exciting business potential. Thro
 
 - Tiny technological moat to other players, as anybody can host waste amounts of content and build a mobile app.
 - Features that currently make Youtube suck in terms of ASMR could easily be implemented by them, which is why one should look at offering a business model Youtube will be unable to match
-- It is hard to match the size of the audience of Youtube
+- It is hard to match the size of the audience creator can achieve on Youtube
 
 If you're already building something like this, or possibly considering making something like this, I would like to hear it, and maybe I can even help.
 
