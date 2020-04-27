@@ -2,7 +2,7 @@ const path = require("path");
 const jimp = require("jimp");
 
 module.exports = async ({ markdownNode }) => {
-  const { frontmatter, fields, fileAbsolutePath, timeToRead } = markdownNode;
+  const { frontmatter, fields, fileAbsolutePath } = markdownNode;
   const isWeekly = fileAbsolutePath.includes("weeklies");
   const slug = isWeekly ? `/weekly${fields.slug}` : fields.slug;
   const output = path.join("./public", slug, "seo.jpg");
@@ -11,7 +11,9 @@ module.exports = async ({ markdownNode }) => {
       ? frontmatter.tags[0]
       : "Article";
   const tag = isWeekly ? "Weekly" : hasTags;
-  const time = timeToRead ? `${timeToRead}m` : "3m";
+  const time = fields.readingTime
+    ? `${Math.ceil(fields.readingTime.minutes)}m`
+    : "3m";
 
   const titleFont = await jimp.loadFont(path.join(__dirname, "Title.fnt"));
   const detailFont = await jimp.loadFont(

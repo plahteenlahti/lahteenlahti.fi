@@ -97,10 +97,10 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          "gatsby-plugin-social-cards",
           `gatsby-remark-autolink-headers`,
           `gatsby-remark-check-links`,
           `gatsby-remark-smartypants`,
+          "gatsby-plugin-social-cards",
           {
             resolve: "gatsby-remark-audio",
             options: {
