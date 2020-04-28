@@ -33,6 +33,7 @@ const BlogPostTemplate = (props: Props) => {
     lang,
     date: creationDate,
     updated: dateModified,
+    tags,
   } = frontmatter;
 
   return (
@@ -48,6 +49,7 @@ const BlogPostTemplate = (props: Props) => {
         lang={lang}
       />
       <h1>{post.frontmatter!.title}</h1>
+      <p>{JSON.stringify(tags)}</p>
       <Information>
         {dateModified && (
           <Date dateTime={dateModified}>
