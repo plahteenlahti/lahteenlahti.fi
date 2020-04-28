@@ -1,6 +1,5 @@
 ---
 title: "The 6 Things You Need for Good Sleep"
-draft: true
 date: "2020-04-28"
 tags: ["Wellbeing", "Sleep", "Lists"]
 ---
