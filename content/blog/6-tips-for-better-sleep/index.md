@@ -4,7 +4,7 @@ date: "2020-04-28"
 tags: ["Wellbeing", "Sleep", "Lists"]
 ---
 
-I've been working on getting people to sleep better for a bit over two years now by building [Nyxo – Mobile Sleep Coaching App](https://nyxo.app). I'm doing because I think sleep is the single most important thing for your wellbeing. Often when hear that I'm building a product that helps people to sleep better, the first thing they ask is what most important things you should do to sleep better. This list is written to answer those questions. It is in no way an extensive list, and if you're having problems with your sleep (e.g., your eating melatonin every night to fall asleep), you should definitely take a look at the materials we have at Nyxo. They cover these points and more and developed together with the leading sleep researchers.
+I've been working on getting people to sleep better for a bit over two years now by building [Nyxo – Mobile Sleep Coaching App](https://nyxo.app). I'm doing this because I think sleep is the single most important thing for your wellbeing. Often when hear that I'm building a product that helps people to sleep better, the first thing they ask is what most important things you should do to sleep better. This list is written to answer those questions. It is in no way an extensive list, and if you're having problems with your sleep (e.g., your eating melatonin every night to fall asleep), you should definitely take a look at the materials we have at Nyxo. They cover these points and more and developed together with the leading sleep researchers.
 
 ## 1. Your Bedtime Should Be Set in Stone
 
