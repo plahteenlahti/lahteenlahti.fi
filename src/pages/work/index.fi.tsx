@@ -1,9 +1,9 @@
 import { graphql, PageRendererProps, useStaticQuery, Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
-import { Layout } from "../components/layout";
-import { SEO } from "../components/seo";
-import { rhythm } from "../utils/typography";
+import { Layout } from "../../components/layout";
+import { SEO } from "../../components/seo";
+import { rhythm } from "../../utils/typography";
 
 const StyledLink = styled(Link)`
   box-shadow: none;
@@ -31,8 +31,8 @@ const About = (props: Props) => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
-        slug="work"
-        title="Work by Perttu Lähteenlahti"
+        slug='work'
+        title='Work by Perttu Lähteenlahti'
         keywords={[`work`, `portfolio`, `javascript`, `react`]}
       />
       <h1>What I've worked on</h1>

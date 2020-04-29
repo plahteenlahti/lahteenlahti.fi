@@ -4,6 +4,10 @@ module.exports = {
     title: `The Blog`,
     description: `Personal blog of Perttu Lähteenlahti. Blogging about design, development, cognitive science and startups. `,
     siteUrl: `https://www.lahteenlahti.com`,
+    languages: {
+      defaultLangKey: "en",
+      langs: ["en", "fi"],
+    },
     social: {
       twitter: `plahteenlahti`,
       linkedIn: `plahteenlahti`,
@@ -40,31 +44,31 @@ module.exports = {
         },
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-amp`,
-    //   options: {
-    //     analytics: {
-    //       type: "gtag",
-    //       dataCredentials: "include",
-    //       config: {
-    //         vars: {
-    //           gtag_id: "UA-112021087-1",
-    //           config: {
-    //             "UA-112021087-1": {
-    //               page_location: "{{pathname}}"
-    //             }
-    //           }
-    //         }
-    //       }
-    //     },
-    //     canonicalBaseUrl: "https://www.lahteenlahti.com/",
-    //     components: ["amp-form"],
-    //     excludedPaths: ["/404*", "/"],
-    //     pathIdentifier: "/amp/",
-    //     relAmpHtmlPattern: "{{canonicalBaseUrl}}{{pathname}}{{pathIdentifier}}",
-    //     useAmpClientIdApi: true
-    //   }
-    // },
+    {
+      resolve: "gatsby-plugin-i18n",
+      options: {
+        langKeyDefault: "en",
+        useLangKeyLayout: false,
+        markdownRemark: {
+          postPage: "src/templates/blog-post.js",
+          query: `
+            {
+              allMarkdownRemark {
+                edges {
+                  node {
+                    fields {
+                      slug,
+                      langKey
+                    }
+                  }
+                }
+              }
+            }
+          `,
+        },
+      },
+    },
+
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {

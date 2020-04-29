@@ -1,9 +1,8 @@
-import React from "react";
+import { graphql, Link } from "gatsby";
 import * as _ from "lodash";
-import { Helmet } from "react-helmet";
-import { Link, graphql } from "gatsby";
-import { Layout } from "../components/layout";
-import { SEO } from "../components/seo";
+import React from "react";
+import Layout from "../../components/Layout/layout.fi";
+import { SEO } from "../../components/seo";
 
 const TagsPage = ({
   location,

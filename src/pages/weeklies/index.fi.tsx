@@ -1,10 +1,10 @@
 import { graphql, PageRendererProps, useStaticQuery, Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
-import { Layout } from "../components/layout";
-import { SEO } from "../components/seo";
-import { MarkdownRemark } from "../graphql-types";
-import { rhythm } from "../utils/typography";
+import Layout from "../../components/Layout/layout.fi";
+import { SEO } from "../../components/seo";
+import { MarkdownRemark } from "../../graphql-types";
+import { rhythm } from "../../utils/typography";
 
 const StyledLink = styled(Link)`
   box-shadow: none;
@@ -66,8 +66,8 @@ const WeeklyIndex = (props: Props) => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
-        slug="weeklies"
-        title="All weeklies by Perttu Lähteenlahti"
+        slug='weeklies'
+        title='All weeklies by Perttu Lähteenlahti'
         keywords={[`weekly`, `react`, `react native`, `design`]}
       />
       <h1>Weeklies</h1>
@@ -94,7 +94,7 @@ const WeeklyIndex = (props: Props) => {
             <ReadingTime>{readingTime}</ReadingTime>
             <p
               dangerouslySetInnerHTML={{
-                __html: frontmatter.description || excerpt
+                __html: frontmatter.description || excerpt,
               }}
             />
           </div>
