@@ -1,8 +1,7 @@
 ---
 title: "Weekly 8/2020"
 date: "2020-04-29"
-draft: false
-description: Why perfect UX is impossible, your charging your macbook from the wrong side, all your hashtags belong to Disney, and machine learning libraries for JavaScript.
+description: "Why perfect UX is impossible, your charging your macbook from the wrong side, all your hashtags belong to Disney, and machine learning libraries for JavaScript."
 ---
 
 _**Weekly collection of links and resources I've come across this week. Also some updates about my life, the company I'm building and my investments as well.**_
