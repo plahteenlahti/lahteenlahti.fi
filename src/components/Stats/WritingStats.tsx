@@ -5,6 +5,15 @@ import { useStaticQuery, graphql } from "gatsby";
 const WritingStats = () => {
   const data = useStaticQuery(graphql`
     query {
+      drafts: allMarkdownRemark(
+        filter: { frontmatter: { draft: { eq: true } } }
+      ) {
+        edges {
+          node {
+            id
+          }
+        }
+      }
       blog: allMarkdownRemark(
         filter: {
           frontmatter: { draft: { ne: true } }
@@ -36,6 +45,7 @@ const WritingStats = () => {
   `);
 
   const posts = data.blog.edges;
+  const drafts = data.drafts.edges;
   const weeklies = data.weekly.edges;
   const totalWordCount = posts.reduce((a, b) => {
     return a + b.node.wordCount.words;
@@ -56,7 +66,8 @@ const WritingStats = () => {
         {totalWordCount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")} words
         in them, and it would take you approximately {totalHours} hours{" "}
         {totalMinutes > 0 && `and ${totalMinutes} minutes`} to read all of the
-        them.
+        them. There's also {drafts.length} posts in draft state (huh, that's a
+        lot, better get back to work).
       </b>
     </SmallText>
   );
