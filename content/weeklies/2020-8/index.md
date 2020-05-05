@@ -17,7 +17,7 @@ Why perfect UX is impossible, you're charging your macbook from the wrong side, 
 **[Perfect UX is impossible](https://erik.itland.no/perfect-ux-is-impossible)**  
 There's no perfect UX
 
-**[How to make a variable width progress bar in Figma](https://www.youtube.com/watch?v=I-79DTuhkHs&feature=youtu.be)**
+**[How to make a variable width progress bar in Figma](https://www.youtube.com/watch?v=I-79DTuhkHs)**
 
 **[Mobile Layouts & Grids](https://design.infinum.com/case/mobile-layouts-and-grids)**
 
