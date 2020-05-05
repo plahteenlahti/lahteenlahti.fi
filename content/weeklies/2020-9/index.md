@@ -1,6 +1,6 @@
 ---
 title: "Weekly 9/2020"
-date: "2020-04-29"
+date: "2020-05-05"
 draft: true
 description: "How to identify a Disney princess, don't call yourself a programmer and other career advice, Kurt Vonnegut on shape of stories, and cross-cultural design"
 ---
