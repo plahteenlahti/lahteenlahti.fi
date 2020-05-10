@@ -14,7 +14,7 @@ const Text = styled.Text`
 
 Then you wouldn't have to remember if whether the primary color was written as `primaryColor` or `primary_color`, Instead your editor tells you what theme variables stored inside the theme object you've created.
 
-Well good news, you can easily achieve this by using the Typescript interface mergin to override the default theme that comes with styled-components (more info how declaration mergin works can be found [here](https://www.typescriptlang.org/docs/handbook/declaration-merging.html), and [here](https://styled-components.com/docs/api#create-a-declarations-file)). Here's how to achieve that:
+Well good news, you can easily achieve this by using the Typescript interface merging to override the default theme that comes with styled-components (more info how declaration merging works can be found [here](https://www.typescriptlang.org/docs/handbook/declaration-merging.html), and [here](https://styled-components.com/docs/api#create-a-declarations-file)). Here's how to achieve that:
 
 1. To access the theme in our app, we need to first setup ThemeProvider and the pass down our custom theme inside it.
 
@@ -61,4 +61,4 @@ export const darkTheme: DefaultTheme = {
 
 ## That's it
 
-Now everytime you use the theme variables it comes equipped with TypeScript's typing powers. Even better, if you're using for example VS Code, it automatically provides you with auto-completetion for the theme variables.
+Now every time you use the theme variables it comes equipped with TypeScript's typing powers. Even better, if you're using for example VS Code, it automatically provides you with auto-completion for the theme variables.
