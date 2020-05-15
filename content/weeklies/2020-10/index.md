@@ -24,7 +24,7 @@ Awk is a small programming language that you can use for example to do log parsi
 **[Single line JavaScript utilities](https://1loc.dev/)**
 
 **[The 10-min React Native Wallet Animation](https://www.youtube.com/watch?v=i2HRRFEmmqI)**  
-Fresh from the oven. Willian Candillon builds the wallet animation from Meng To's (tweet](https://twitter.com/MengTo/status/1260300550953934853]
+Fresh from the oven. Willian Candillon builds the wallet animation from Meng To's [tweet](https://twitter.com/MengTo/status/1260300550953934853)
 
 **[How to get more views to your tech blog (Twitter)](https://twitter.com/monicalent/status/1258750975021588483)**
 
