@@ -1,6 +1,6 @@
 ---
 title: "Static Sites in Swift: Getting Started With Publish"
-date: "2020-05-21"
+date: "2020-05-22"
 draft: false
 tags: ["Swift", "Netlify", "Publish"]
 description: "How to publish as a static blog with Publish and Netlify"
