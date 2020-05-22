@@ -10,9 +10,9 @@ A few days ago, I accidentally stumbled upon [Publish](https://github.com/JohnSu
 
 ### Why Use Swift and Publish?
 
-Just because something is cool, does mean it's worth doing, and the same applies to building static websites with random languages. Now Swift is hardly a random language, but most people are only familiar with it as the "Apple's programming language", and building iOS and macOS as certainly what is most use it for. However, a lot more has been accomplished with Swift in recent years, which I think might be something that happened after open sourced the language. One of these areas where there's quite a lot of Swift usage is server-side, and a lot of cool [server-side projects have already been built with Swift](https://github.com/Awesome-Server-Side-Swift/TheList).
+Just because something is cool, does mean it's worth doing, and the same applies to building static websites with random languages. Now Swift is hardly a random language. Most people might know it as the "Apple's programming language", and building iOS and macOS apps is what it's mostly used for. However, a lot more has been accomplished with Swift in recent years, after Apple open sourced the language. One of these areas where there's quite a lot of Swift usage is server-side, and a lot of cool [server-side projects have already been built with Swift](https://github.com/Awesome-Server-Side-Swift/TheList).
 
-Now being a mostly React and React Native engineer, I'm not the best person to talk about why use Swift for stuff, having used it so little myself and not knowing the pros and cons of the language. But let's just say that even from an outsider's perspective, Swift is a pretty good programming language. It has the usual perks of being a modern language, meaning that it borrows a lot of concepts from existing languages which makes it easier to pick up. On top of that, it also seems to be quite a performant language ([based on this slightly old, slightly arbitrary benchmark](http://www.marcinkliks.pl/2015/02/22/swift-vs-others/))
+Being a mostly React and React Native engineer, I'm not the best person to talk about why use Swift to build stuff, having used it so little myself and not knowing all the pros and cons of the language. But let's just say that even from an outsider's perspective, Swift is a pretty good programming language. It has the usual perks of being a modern language, meaning that it borrows a lot of concepts from existing languages which makes it easier to pick up. On top of that, it also seems to be quite a performant language ([based on this slightly old, slightly arbitrary benchmark](http://www.marcinkliks.pl/2015/02/22/swift-vs-others/))
 
 What about Publish then? What makes it good? Looking at the repo and some of the examples sites built with it, it seems that Publish really excels in being quick to get started with, but still allowing you to tweak many things. The basic Publish setup for example comes with RSS, Markdown support, and sitemap, which the most important parts for building a static site. It also supports themes, which you write in Swift using something called [Plot](https://github.com/johnsundell/plot), an HTML theming engine from the same author as Publish.
 
@@ -29,7 +29,7 @@ $ make
 If you're not that familiar with the `make` command, it's a part of Make build automation tool that automatically builds programs and libraries from the source code. In order to use make command you need to have Apple developer tools installed. You can install them by running :
 
 ```bash
-xcode-select --install
+$ xcode-select --install
 ```
 
 You should now have the Publish command line tools installed.
@@ -44,13 +44,13 @@ $ cd swift.lahteenlahti.com
 $ publish new
 ```
 
-After this a new Publish project will be initialized for you. You can open the Package.swift file in Xcode if you want to use that for development, or you can use something VS code. Let's look at makes up our new static website:
+After this a new Publish project will be initialized for you. You can open the Package.swift file in Xcode if you want to use that for development, or you can use something VS code. Let's look at what makes up our new static website:
 
 ```
 |-- swift.lahteenlahti.com
 |   |-- Content
-|	|–– posts
-|	|–– index.md
+|			|–– posts
+|			|–– index.md
 |   |-- Resources
 |   |-- Sources
 ```
