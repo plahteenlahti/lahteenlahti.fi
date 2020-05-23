@@ -1,15 +1,14 @@
-import { graphql, PageRendererProps, useStaticQuery, Link } from "gatsby";
+import { graphql, Link, PageRendererProps, useStaticQuery } from "gatsby";
 import React from "react";
+import { HotKeys } from "react-hotkeys";
 import styled from "styled-components";
 import { Bio } from "../components/bio";
 import { Layout } from "../components/layout";
+import Search from "../components/search";
 import { SEO } from "../components/seo";
+import WritingStats from "../components/Stats/WritingStats";
 import { MarkdownRemark } from "../graphql-types";
 import { rhythm } from "../utils/typography";
-import Search from "../components/search";
-import { HotKeys } from "react-hotkeys";
-import { SmallText } from "../components/Primitives";
-import WritingStats from "../components/Stats/WritingStats";
 
 const keyMap = {
   OPEN_SEARCH: "z",
@@ -87,6 +86,8 @@ const BlogIndex = (props: Props) => {
       <Search>
         <Layout location={props.location} title={siteTitle}>
           <SEO
+            published={moment().format("DD.MM.YYYY")}
+            edited={moment().format("DD.MM.YYYY")}
             url={`https://lahteenlahti.com`}
             title='Perttu Lähteenlahti'
             description=''
