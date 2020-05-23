@@ -87,6 +87,7 @@ const BlogIndex = (props: Props) => {
       <Search>
         <Layout location={props.location} title={siteTitle}>
           <SEO
+            url={`https://lahteenlahti.com`}
             title='Perttu Lähteenlahti'
             description=''
             keywords={[
