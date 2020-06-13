@@ -1,6 +1,7 @@
 ---
 title: "How to Fix 'VirtualizedLists should never be nested inside plain ScrollViews' Warning"
 date: "2020-02-20"
+updated: "2020-06-13"
 draft: false
 tags: ["React Native", "Mobile Development"]
 ---
@@ -12,11 +13,11 @@ VirtualizedLists should never be nested inside plain ScrollViews with the same o
 - use another VirtualizedList-backed container instead.
 ```
 
-This warning pretty much tells what is about. What is doesn't tell, is why this is bad and how to fix warning (other than changing the orientation of the nested VirtualizedList but that is not always possible). Let's look at how why this happens and how to fix it.
+This warning pretty much tells what is about. What is doesn't tell, is why this is bad and how to fix the warning (other than changing the orientation of the nested VirtualizedList but that is not always possible). Let's look at how why this happens and how to fix it.
 
 ### Why nesting VirtualizedList inside a plain ScrollView is bad?
 
-Virtualized lists, which means <SectionList> and <FlatList> are performance-optimized which massively improves memory consumption and performance when using them to render large lists of content. The way this optimization works is that it only renders the content that is currently visible in the window, usually meaning the container/screen of your device. It also replaces all the other list items same sized blank space and renders them based on your scrolling position.
+Virtualized lists, that means `<SectionList>` and `<FlatList>` for example, are performance-optimized meaning they massively improve memory consumption and performance when using them to render large lists of content. The way this optimization works is that it only renders the content that is currently visible in the window, usually meaning the container/screen of your device. It also replaces all the other list items same sized blank space and renders them based on your scrolling position.
 
 Now If you put either of these two lists inside a ScrollView they fail to calculate the size of the current window and will instead try to render everything, possibly causing performance problems, and it will of course also give you the warning mentioned before.
 

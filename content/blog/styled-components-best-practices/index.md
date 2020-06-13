@@ -1,13 +1,13 @@
 ---
 title: "Styled-components best practices"
-date: "2020-04-13"
+date: "2020-06-13"
 draft: true
 excerpt: "Highly opinionated take on how to write better styled-components in React and React Native "
 ---
 
 ## Theme First, Components Second
 
-Styled-components provides theming out of the box.
+Styled-components provides theming out of the box using the `ThemeProvider` component. Just wrap your application with that
 
 ## No String Values
 

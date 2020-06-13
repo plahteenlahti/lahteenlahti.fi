@@ -9,6 +9,7 @@ import { SEO } from "../components/seo";
 import WritingStats from "../components/Stats/WritingStats";
 import { MarkdownRemark } from "../graphql-types";
 import { rhythm } from "../utils/typography";
+import moment from "moment";
 
 const keyMap = {
   OPEN_SEARCH: "z",
