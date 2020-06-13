@@ -178,6 +178,7 @@ export const SEO = (props: Props) => {
       }
     `}
         </script>
+        <meta name='monetization' content='$ilp.uphold.com/nrDbfNBy4rEZ' />
       </Helmet>
     </>
   );
