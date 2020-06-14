@@ -21,15 +21,15 @@ const About = (props: Props) => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
-        slug="about"
-        title="Who is Perttu Lähteenlahti?"
+        slug='about'
+        title='Who is Perttu Lähteenlahti?'
         keywords={[`blog`, `javascript`, `react`]}
       />
       <h1>Who is Perttu Lähteenlahti?</h1>
       <div style={{ paddingBottom: 100 }}>
         Here's a little backstory of the person your website you're viewing: I'm
         a developer &amp; designer. Currently, I'm doing that in a company I
-        started called <a href="https://nyxo.fi">Nyxo</a>, our main product is a
+        started called <a href='https://nyxo.fi'>Nyxo</a>, our main product is a
         mobile app providing personalized sleep coaching. This is my third
         company so far and the first one that can be considered to be a startup.
         The two previous ones were software consultancies.
@@ -63,16 +63,21 @@ const About = (props: Props) => {
         <br /> <br />
         This information should give you a good view of what has shaped my world
         view. What it does not necessarily state is what my writings tend to be
-        about, so I'm going to end this about section by mentioning those. I
-        like talking and writing about:
+        about, so I'm going to end this about section by mentioning those. Most
+        of my writings can be found from this blog, but I've also written for:
+        <a href='https://medium.muz.li/'>Muzli</a>,
+        <a href='https://medium.com/dailyjs'>DailyJS</a>,
+        <a href='https://codeburst.io/'>codeburst</a>, and{" "}
+        <a href='https://hackernoon.com/'>Hackernoon</a>. I like talking and
+        writing about:
         <ul>
           <li>Technology</li>
           <li>
-            <Link to="tags/programming/">Programming</Link> (currently that
+            <Link to='tags/programming/'>Programming</Link> (currently that
             means React and React Native mostly)
           </li>
           <li>
-            <Link to="tags/design/">Design</Link>, of UIs and products
+            <Link to='tags/design/'>Design</Link>, of UIs and products
           </li>
           <li>Diversity, especially in technology</li>
           <li>
@@ -80,19 +85,19 @@ const About = (props: Props) => {
             innovation challenges provides me with a unique view on this)
           </li>
           <li>
-            <Link to="tags/building-companies/">Building companies</Link>
+            <Link to='tags/building-companies/'>Building companies</Link>
           </li>
         </ul>
         You can reach me through email, [first name]@lahteenlahti.fi and from{" "}
-        <a href="https://www.linkedin.com/in/plahteenlahti/">LinkedIn</a> and{" "}
-        <a href="https://twitter.com/plahteenlahti">Twitter.</a>
+        <a href='https://www.linkedin.com/in/plahteenlahti/'>LinkedIn</a> and{" "}
+        <a href='https://twitter.com/plahteenlahti'>Twitter.</a>
         <br /> <br />
         In addition to this blog, I also have{" "}
-        <a href="https://perttu.dev">
+        <a href='https://perttu.dev'>
           separate one focusing on programming
         </a>{" "}
         and a side project one focusing on{" "}
-        <a href="https://react-native.club">React Native development.</a>
+        <a href='https://react-native.club'>React Native development.</a>
         <br></br>
         <em>Perttu Lähteenlahti</em>
       </div>
