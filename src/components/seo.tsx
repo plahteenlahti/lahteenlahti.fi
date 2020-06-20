@@ -22,7 +22,7 @@ interface Props {
   meta?: Meta[];
   keywords?: string[];
   description?: string;
-  canonical?: string | null | undefined;
+  canonical?: string | undefined;
   amp?: boolean;
   weekly?: boolean;
   jsonLd?: any;
@@ -31,12 +31,21 @@ interface Props {
 }
 
 export const SEO = (props: Props) => {
-  const lang = props.lang || "en";
-  const meta = props.meta || [];
-  const keywords = props.keywords || [];
-  const description = props.description || "";
-  const slug = props.slug;
-  const { weekly, jsonLd, url } = props;
+  const {
+    slug,
+    title,
+    lang = "en",
+    url,
+    meta = [],
+    keywords = [],
+    description = "",
+    canonical = "",
+    amp,
+    weekly,
+    jsonLd,
+    published,
+    updated,
+  } = props;
 
   const { site } = useStaticQuery(
     graphql`
@@ -149,6 +158,33 @@ export const SEO = (props: Props) => {
               : []
           )
           .concat(meta)}>
+        <link rel='canonical' href={canonical} />
+        <meta charset='utf-8' />
+        <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
+        <meta name='description' content={description} />
+        <meta name='twitter:card' content='summary_large_image' />
+        <meta name='twitter:site' content='Lahteenlahti.com' />
+        <meta name='twitter:title' content={`${title} – Perttu Lähteenlahti`} />
+        <meta name='twitter:description' content={description} />
+        <meta name='twitter:creator' content={"Perttu Lähteenlahti"} />
+
+        <meta name='twitter:image' content={socialCard} />
+
+        {published && (
+          <meta name='article:published_time' content={published} />
+        )}
+        {updated && <meta name='article:modified_time' content={updated} />}
+        <meta property='og:title' content={`${title} – Nyxo`} />
+        <meta property='og:type' content={"website"} />
+        <meta property='og:url' content={canonical} />
+        <meta property='og:author' content={"Perttu Lähteenlahti"} />
+        <meta property='og:image' content={socialCard} />
+        <meta property='og:description' content={description} />
+        <meta property='og:site_name' content='Nyxo' />
+
+        <meta itemProp='name' content={`${title} – Nyxo`} />
+        <meta itemProp='description' content={description} />
+        <meta itemProp='image' content={socialCard} />
         <script type='application/ld+json'>
           {`
       {
