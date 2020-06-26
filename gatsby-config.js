@@ -94,6 +94,20 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-dev",
+      options: {
+        // This is your username on Dev.to
+        username: "plahteenlahti",
+      },
+    },
+    {
+      resolve: "gatsby-source-medium-feed",
+      options: {
+        userName: "@plahteenlahti", // Medium user name
+        name: "MediumFeed", // GraphQL query AllMediumFeed
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
