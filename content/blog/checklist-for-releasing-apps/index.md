@@ -1,9 +1,9 @@
 ---
-title: App Store release checklist
+title: "App Store Release Checklist"
 date: "2019-10-15T00:00:00.0000"
+updated: "2020-04-28"
 draft: false
 tags: ["React Native", "iOS", "Mobile Development"]
-canonical: "https://perttu.dev/posts/checklist-for-releasing-apps/"
 description: "Checklist for publishing React Native app to Apple App store successfully."
 ---
 
@@ -22,7 +22,7 @@ Because archiving the app takes some time, it's better to check this every time 
   - If you're linking to content outside of your app, check that those links also work as Apple rarely checks them as well.
 - Remove placeholder content
 - Check that your app doesn't mention 'beta' or any other words that could signal that the app is incomplete
-  - Apple is very strict about this. Remember to also check everything
+  - Apple is very strict about this.
 - Check permissions
   - Check that your info.plist includes all the permissions your app requires.
 - Check localizations and translations
@@ -53,4 +53,4 @@ Because archiving the app takes some time, it's better to check this every time 
 - Prepare for next the release
   - Ship early, ship often
 
-These are the main things I check with every release. If you feel something should be included, leave a comment. You can also make you use of the checklist tool I've built for this, which allows you to actually check all the items on the list. You can find that [here](https://perttu.dev/checklist). I will write a similar checklist for the Google Play Store, as well. However, I will first need to get to know it better.
+something should be included, leave a comment. You can also make use of the checklist tool I've built for this, which allows you actually to check all the items on the list. You can find that [here](https://perttu.dev/checklist).

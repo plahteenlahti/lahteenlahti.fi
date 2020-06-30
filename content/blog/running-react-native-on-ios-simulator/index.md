@@ -3,7 +3,6 @@ title: Running React Native apps on specific iOS simulators
 date: "2019-10-31T00:00:00.0000"
 draft: false
 tags: ["React Native", "iOS"]
-canonical: "https://perttu.dev/posts/running-react-native-on-specific-ios-simulator/"
 description: "There is no need to start Xcode to test on different React Native apps on different device simulators. You can do that easily with the simulator flag."
 ---
 

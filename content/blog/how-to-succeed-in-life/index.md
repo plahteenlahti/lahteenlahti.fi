@@ -1,7 +1,7 @@
 ---
-title: "How to succeed in life"
+title: "How to Succeed in Life"
 date: "2019-11-29"
-excerpt: "How to succeed in life based on my personal experience."
+excerpt: "How to succeed in ife based on my personal experience."
 tags: ["Joke"]
 ---
 

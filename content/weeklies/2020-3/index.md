@@ -5,7 +5,7 @@ draft: false
 description: Raspberry Pi media server, new Disney CEO, React-query 1.0, and why LinkedIn sucks.
 ---
 
-_**Weekly collection of links and resources resources I've come across this week. Also some updates about my life, the company I'm building and my investments as well.**_
+_**Weekly collection of links and resources I've come across this week. Also some updates about my life, the company I'm building and my investments as well.**_
 
 ---
 

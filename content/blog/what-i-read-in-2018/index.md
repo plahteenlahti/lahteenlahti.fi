@@ -1,5 +1,5 @@
 ---
-title: "What I read in 2018"
+title: "What I Read in 2018"
 date: "2019-05-31"
 tags: ["Books", "Book lists", "Lists"]
 ---

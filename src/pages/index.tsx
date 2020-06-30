@@ -1,20 +1,21 @@
-import { graphql, PageRendererProps, useStaticQuery } from "gatsby";
+import { graphql, Link, PageRendererProps, useStaticQuery } from "gatsby";
 import React from "react";
+import { HotKeys } from "react-hotkeys";
 import styled from "styled-components";
 import { Bio } from "../components/bio";
 import { Layout } from "../components/layout";
-import { FadeLink } from "../components/link";
+import Search from "../components/search";
 import { SEO } from "../components/seo";
+import WritingStats from "../components/Stats/WritingStats";
 import { MarkdownRemark } from "../graphql-types";
 import { rhythm } from "../utils/typography";
-import Search from "../components/search";
-import { HotKeys } from "react-hotkeys";
+import moment from "moment";
 
 const keyMap = {
-  OPEN_SEARCH: "z"
+  OPEN_SEARCH: "z",
 };
 
-const StyledLink = styled(FadeLink)`
+const StyledLink = styled(Link)`
   box-shadow: none;
 `;
 
@@ -57,6 +58,10 @@ const BlogIndex = (props: Props) => {
       ) {
         edges {
           node {
+            timeToRead
+            wordCount {
+              words
+            }
             excerpt
             fields {
               slug
@@ -82,19 +87,23 @@ const BlogIndex = (props: Props) => {
       <Search>
         <Layout location={props.location} title={siteTitle}>
           <SEO
-            title="Perttu Lähteenlahti"
-            description=""
+            published={moment().format("DD.MM.YYYY")}
+            edited={moment().format("DD.MM.YYYY")}
+            url={`https://lahteenlahti.com`}
+            title='Perttu Lähteenlahti'
+            description=''
             keywords={[
               `blog`,
               `design`,
               "technology",
               "programming",
-              `cognitive science`
+              `cognitive science`,
             ]}
-            slug="/"
+            slug='/'
           />
 
           <Bio />
+          <WritingStats />
           {posts.map(({ node }: { node: MarkdownRemark }) => {
             const frontmatter = node!.frontmatter!;
             const fields = node!.fields!;
@@ -113,7 +122,7 @@ const BlogIndex = (props: Props) => {
                 {/* <Language>🇫🇮</Language> */}
                 <p
                   dangerouslySetInnerHTML={{
-                    __html: frontmatter.description || excerpt
+                    __html: frontmatter.description || excerpt,
                   }}
                 />
               </div>

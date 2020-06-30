@@ -1,15 +1,15 @@
-import { graphql, PageRendererProps } from "gatsby";
+import { graphql, PageRendererProps, Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../components/bio";
 import { Layout } from "../components/layout";
-import { FadeLink } from "../components/link";
 import { SEO } from "../components/seo";
 import { Query, SitePageContext } from "../graphql-types";
 import { rhythm, styledScale } from "../utils/typography";
 import Share from "../components/share";
 import CanonicalBox from "../components/CanonicalBox";
 import { JsonLd } from "../components/JsonLD";
+import moment from "moment";
 
 interface Props extends PageRendererProps {
   pageContext: SitePageContext;
@@ -32,47 +32,33 @@ const BlogPostTemplate = (props: Props) => {
     canonical,
     lang,
     date: creationDate,
-    updated: dateModified
+    updated: dateModified,
+    tags,
   } = frontmatter;
 
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
+        url={`https://lahteenlahti.com${slug}`}
         slug={slug}
         canonical={frontmatter.canonical}
         title={frontmatter.title!}
         description={frontmatter.description || excerpt}
+        published={creationDate}
+        updated={dateModified}
         lang={lang}
-        jsonLd={
-          <JsonLd>
-            {{
-              "@context": "https://schema.org",
-              "@type": "BlogPosting",
-              url: `https://lahteenlahti.com${slug}`,
-              headline: frontmatter.title!,
-              dateCreated: creationDate,
-              datePublished: creationDate,
-              dateModified: dateModified,
-              accountablePerson: {
-                "@type": "Person",
-                name: "Perttu Lähteenlahti",
-                url: "https://www.lahteenlahti.com"
-              },
-              author: {
-                "@type": "Person",
-                name: "Perttu Lähteenlahti",
-                url: "https://www.lahteenlahti.com"
-              }
-            }}
-          </JsonLd>
-        }
       />
       <h1>{post.frontmatter!.title}</h1>
+      <p>{JSON.stringify(tags)}</p>
       <Information>
         {dateModified && (
-          <Date dateTime={dateModified}>Updated: {dateModified}</Date>
+          <Date dateTime={dateModified}>
+            Last updated: {moment(dateModified).format("DD.MM.YYYY")}
+          </Date>
         )}
-        <Date dateTime={creationDate}>Originally Posted: {creationDate}</Date>
+        <Date dateTime={creationDate}>
+          Published: {moment(creationDate).format("DD.MM.YYYY")}
+        </Date>
 
         <ReadingTime>{readingTime}</ReadingTime>
       </Information>
@@ -87,16 +73,16 @@ const BlogPostTemplate = (props: Props) => {
       <PostNavigator>
         <li>
           {previous && (
-            <FadeLink to={previous.fields!.slug!} rel="prev">
+            <Link to={previous.fields!.slug!} rel='prev'>
               ← {previous.frontmatter!.title}
-            </FadeLink>
+            </Link>
           )}
         </li>
         <li>
           {next && (
-            <FadeLink to={next.fields!.slug!} rel="next">
+            <Link to={next.fields!.slug!} rel='next'>
               {next.frontmatter!.title} →
-            </FadeLink>
+            </Link>
           )}
         </li>
       </PostNavigator>
@@ -127,8 +113,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         lang
-        updated(formatString: "MMMM DD, YYYY")
-        date(formatString: "MMMM DD, YYYY")
+        updated(formatString: "")
+        date(formatString: "")
         canonical
       }
     }

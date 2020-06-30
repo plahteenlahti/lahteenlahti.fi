@@ -3,19 +3,22 @@ import * as _ from "lodash";
 import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import { Layout } from "../components/layout";
+import { SEO } from "../components/seo";
 
 const TagsPage = ({
   location,
   data: {
     allMarkdownRemark: { group },
     site: {
-      siteMetadata: { title }
-    }
-  }
+      siteMetadata: { title },
+    },
+  },
 }: any) => (
   <Layout title={title} location={location}>
     <div>
+      <SEO slug='tags' title='Tags' description='Explore posts by tags.' />
       <h1>Tags</h1>
+      <p>Explore posts by tags.</p>
       <ul>
         {group.map((tag: any) => (
           <li key={tag.fieldValue}>
@@ -38,7 +41,13 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(limit: 2000) {
+    allMarkdownRemark(
+      limit: 2000
+      filter: {
+        frontmatter: { draft: { ne: true } }
+        fileAbsolutePath: { regex: "/(blog)/" }
+      }
+    ) {
       group(field: frontmatter___tags) {
         fieldValue
         totalCount

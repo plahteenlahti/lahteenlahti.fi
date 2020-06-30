@@ -1,9 +1,8 @@
-import { graphql, PageRendererProps } from "gatsby";
+import { graphql, PageRendererProps, Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../components/bio";
 import { Layout } from "../components/layout";
-import { FadeLink } from "../components/link";
 import { SEO } from "../components/seo";
 import { Query, SitePageContext } from "../graphql-types";
 import { rhythm, styledScale } from "../utils/typography";
@@ -46,6 +45,7 @@ const WeeklyTemplate = (props: Props) => {
     <Layout location={props.location} title={siteTitle}>
       <SEO
         weekly
+        url={`https://www.lahteenlahti.com/weekly${slug}`}
         slug={slug}
         title={`${frontmatter.title!} – Perttu Lähteenlahti`}
         description={frontmatter.description || excerpt}
@@ -58,16 +58,16 @@ const WeeklyTemplate = (props: Props) => {
       <PostNavigator>
         <li>
           {previous && (
-            <FadeLink to={`weekly${previous.fields!.slug!}`} rel="prev">
+            <Link to={`weekly${previous.fields!.slug!}`} rel="prev">
               ← {previous.frontmatter!.title}
-            </FadeLink>
+            </Link>
           )}
         </li>
         <li>
           {next && (
-            <FadeLink to={`weekly${next.fields!.slug!}`} rel="next">
+            <Link to={`weekly${next.fields!.slug!}`} rel="next">
               {next.frontmatter!.title} →
-            </FadeLink>
+            </Link>
           )}
         </li>
       </PostNavigator>

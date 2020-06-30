@@ -1,14 +1,12 @@
-import { graphql, PageRendererProps, useStaticQuery } from "gatsby";
+import { graphql, PageRendererProps, useStaticQuery, Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
-import { Bio } from "../components/bio";
 import { Layout } from "../components/layout";
-import { FadeLink } from "../components/link";
 import { SEO } from "../components/seo";
 import { MarkdownRemark } from "../graphql-types";
 import { rhythm } from "../utils/typography";
 
-const StyledLink = styled(FadeLink)`
+const StyledLink = styled(Link)`
   box-shadow: none;
 `;
 
@@ -68,15 +66,15 @@ const WeeklyIndex = (props: Props) => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
-        slug="weeklies"
-        title="All weeklies by Perttu Lähteenlahti"
+        slug='weeklies'
+        title='All weeklies by Perttu Lähteenlahti'
         keywords={[`weekly`, `react`, `react native`, `design`]}
       />
       <h1>Weeklies</h1>
       <p>
         All the weekly collections that I've written. Most consist of design,
         development and technology stuff with some personal insights and updates
-        thrown in the mix (don't theres very little of those).
+        thrown in the mix (don't worry there´s very little of those).
       </p>
 
       {posts.map(({ node }: { node: MarkdownRemark }) => {
@@ -96,7 +94,7 @@ const WeeklyIndex = (props: Props) => {
             <ReadingTime>{readingTime}</ReadingTime>
             <p
               dangerouslySetInnerHTML={{
-                __html: frontmatter.description || excerpt
+                __html: frontmatter.description || excerpt,
               }}
             />
           </div>

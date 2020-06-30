@@ -1,17 +1,19 @@
 ---
 title: "Too Old to Learn Code"
 date: "2019-05-18"
+updated: "2020-04-19"
 tags: ["Programming", "Life"]
-canonical: "https://perttu.dev/posts/too-old-to-learn-code/"
 ---
 
-I wrote my first line of code in 2014 and a year later I founded my first software consultancy. Since that, I’ve founded two other technology companies. I’ve designed and built several digital products. I also competed in 70 hackathon/innovation challenges, winning around half of them. None of this almost happened, because I thought 23-year old was too old to learn to code.
+I wrote my first line of code in 2014 and a year later I founded my first software consultancy. Since that, I have founded two other technology companies. I have designed and built several digital products. I have also competed in over 70 hackathons, winning around half of them. None of this almost happened, because I thought 23-year old was too old to learn to code.
 
-I never wanted to be a coder because I thought I was too old to be one. I certainly did not fit the image of a coder. Before I got into university to study cognitive science, I was a carpenter. I graduated from college with awful grades, and I was one point away from flunking mathematics. I’d gotten into university by a combination of luck, sweat, and tears. In my mind coder/developer was someone who was good at math and was constantly tinkering with computers.
+I never wanted to be a coder, because as soon as I learned that one could tell computers what to do through code, I considered myself too old to be one. I certainly did not fit the image of a coder I had in my mind. In my mind, a coder was someone who was good at math and was always tinkering with computers.
 
-Partly because of that idea, I actually wanted to be a designer. The reason why I got into coding was the realization that design without functionality is useless. Static designs never have a function. After realizing that, I signed into an introductory course in Java. I was adamant that I was too old to code, and that I would never call myself a developer, but having at least some idea of how it all worked, shouldn't hurt.
+In university, I studied cognitive science. Before that, I was a carpenter, like my father. I was a lousy student in college and graduated with awful grades. My grades did not get me into university. Instead, it was the entrance exam and quite a lot of luck that got me into university. However, it ended up being the university that eventually got me into coding.
 
-## Call yourself a developer from day one
+Because I could not be coder, I thought maybe I could be a designer. The reason why I got into coding was the realization that design without functionality is useless. Static designs never have a function. After realizing that, I signed into an introductory course in Java. I was adamant that I was too old to code, and that I would never call myself a developer, but having at least some idea of how it all worked, shouldn't hurt.
+
+## Call Yourself a Developer From Day One
 
 Many people, especially when starting out are afraid to call themselves developers. I have been afraid to call myself a developer. Even though I’ve written production code used by 3000 bank analysts every week. That’s how it is, but the feeling goes away.
 
