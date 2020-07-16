@@ -9,6 +9,7 @@ import Links from "./links";
 interface Props extends PageRendererProps {
   title: string;
   children: ReactNode;
+  isAmp?: boolean;
 }
 
 const menuItems = [
@@ -35,7 +36,7 @@ const menuItems = [
 ];
 
 export const Layout = (props: Props) => {
-  const { location, title, children } = props;
+  const { location, title, children, isAmp } = props;
   const rootPath = `/`;
 
   const HeaderTitle = location.pathname === rootPath ? StyledH1 : StyledH3;
@@ -57,7 +58,7 @@ export const Layout = (props: Props) => {
       </header>
       <main>{children}</main>
       <footer>
-        <SignUp />
+        {!isAmp && <SignUp />}
         <Links />
         <div>© {new Date().getFullYear()} Perttu Lähteenlahti</div>
       </footer>

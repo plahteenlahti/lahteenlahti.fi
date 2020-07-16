@@ -56,10 +56,10 @@ const BlogPostTemplate = (props: Props) => {
   const readingTime = post.fields!.readingTime.text!;
 
   return (
-    <Layout location={props.location} title={siteTitle}>
+    <Layout location={props.location} isAmp={true} title={siteTitle}>
       <SEO
         slug={slug}
-        canonical={frontmatter.canonical}
+        canonical={frontmatter.canonical as string}
         amp={true}
         title={frontmatter.title!}
         description={frontmatter.description || excerpt}
