@@ -54,6 +54,7 @@
     "gatsby-remark-reading-time": "^1.1.0",
     "gatsby-remark-responsive-iframe": "^2.2.32",
     "gatsby-remark-smartypants": "^2.1.21",
+    "gatsby-source-app-store": "^1.0.1",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-source-goodreads": "git+https://github.com/plahteenlahti/gatsby-source-goodreads.git",
     "gatsby-transformer-remark": "^2.6.53",

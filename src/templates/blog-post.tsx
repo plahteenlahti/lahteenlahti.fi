@@ -2,7 +2,7 @@ import { graphql, PageRendererProps, Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../components/bio";
-import { Layout } from "../components/layout";
+import { Layout, TextContent } from "../components/layout";
 import { SEO } from "../components/seo";
 import { Query, SitePageContext } from "../graphql-types";
 import { rhythm, styledScale } from "../utils/typography";
@@ -48,44 +48,46 @@ const BlogPostTemplate = (props: Props) => {
         updated={dateModified}
         lang={lang}
       />
-      <h1>{post.frontmatter!.title}</h1>
-      <p>{JSON.stringify(tags)}</p>
-      <Information>
-        {dateModified && (
-          <Date dateTime={dateModified}>
-            Last updated: {moment(dateModified).format("DD.MM.YYYY")}
+      <TextContent>
+        <h1>{post.frontmatter!.title}</h1>
+        <p>{JSON.stringify(tags)}</p>
+        <Information>
+          {dateModified && (
+            <Date dateTime={dateModified}>
+              Last updated: {moment(dateModified).format("DD.MM.YYYY")}
+            </Date>
+          )}
+          <Date dateTime={creationDate}>
+            Published: {moment(creationDate).format("DD.MM.YYYY")}
           </Date>
-        )}
-        <Date dateTime={creationDate}>
-          Published: {moment(creationDate).format("DD.MM.YYYY")}
-        </Date>
 
-        <ReadingTime>{readingTime}</ReadingTime>
-      </Information>
+          <ReadingTime>{readingTime}</ReadingTime>
+        </Information>
 
-      <CanonicalBox canonical={frontmatter.canonical} />
+        <CanonicalBox canonical={frontmatter.canonical} />
 
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-      <Divider />
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <Divider />
 
-      <Share url={`https://lahteenlahti.com${slug}`} />
+        <Share url={`https://lahteenlahti.com${slug}`} />
 
-      <PostNavigator>
-        <li>
-          {previous && (
-            <Link to={previous.fields!.slug!} rel='prev'>
-              ← {previous.frontmatter!.title}
-            </Link>
-          )}
-        </li>
-        <li>
-          {next && (
-            <Link to={next.fields!.slug!} rel='next'>
-              {next.frontmatter!.title} →
-            </Link>
-          )}
-        </li>
-      </PostNavigator>
+        <PostNavigator>
+          <li>
+            {previous && (
+              <Link to={previous.fields!.slug!} rel="prev">
+                ← {previous.frontmatter!.title}
+              </Link>
+            )}
+          </li>
+          <li>
+            {next && (
+              <Link to={next.fields!.slug!} rel="next">
+                {next.frontmatter!.title} →
+              </Link>
+            )}
+          </li>
+        </PostNavigator>
+      </TextContent>
     </Layout>
   );
 };

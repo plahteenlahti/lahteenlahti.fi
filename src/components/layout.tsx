@@ -5,34 +5,12 @@ import { rhythm, styledScale } from "../utils/typography";
 import ToggleTheme from "./themeToggler";
 import SignUp from "./signup";
 import Links from "./links";
+import { Header } from "./Header";
 
 interface Props extends PageRendererProps {
   title: string;
   children: ReactNode;
 }
-
-const menuItems = [
-  {
-    name: "Blog",
-    link: "/"
-  },
-  {
-    name: "Weeklies",
-    link: "/weeklies"
-  },
-  {
-    name: "About",
-    link: "/about"
-  },
-  {
-    name: "Books",
-    link: "/books"
-  },
-  {
-    name: "Tags",
-    link: "/tags"
-  }
-];
 
 export const Layout = (props: Props) => {
   const { location, title, children } = props;
@@ -41,27 +19,17 @@ export const Layout = (props: Props) => {
   const HeaderTitle = location.pathname === rootPath ? StyledH1 : StyledH3;
 
   return (
-    <Content>
-      <ToggleTheme />
-      <header>
-        <HeaderTitle>
-          <StyledLink to={`/`}>{title}</StyledLink>
-        </HeaderTitle>
-        <Menu>
-          {menuItems.map(item => (
-            <MenuItem key={item.name}>
-              <StyledLink to={item.link}>{item.name}</StyledLink>
-            </MenuItem>
-          ))}
-        </Menu>
-      </header>
+    <>
+      <Header title={title} />
       <main>{children}</main>
-      <footer>
-        <SignUp />
-        <Links />
-        <div>© {new Date().getFullYear()} Perttu Lähteenlahti</div>
-      </footer>
-    </Content>
+      <Content>
+        <footer>
+          <SignUp />
+          <Links />
+          <div>© {new Date().getFullYear()} Perttu Lähteenlahti</div>
+        </footer>
+      </Content>
+    </>
   );
 };
 
@@ -76,27 +44,16 @@ const StyledH3 = styled.h3`
   margin-top: 0;
 `;
 
-const StyledLink = styled(Link)`
-  box-shadow: none;
-  color: inherit;
-  text-decoration: none;
-  color: var(--textLink);
+export const Content = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px;
+  padding: ${`${rhythm(1.5)} ${rhythm(3 / 4)}`};
 `;
 
-const Content = styled.div`
+export const TextContent = styled.div`
   margin-left: auto;
   margin-right: auto;
   max-width: ${rhythm(25)};
   padding: ${`${rhythm(1.5)} ${rhythm(3 / 4)}`};
-`;
-
-const Menu = styled.ul`
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-`;
-
-const MenuItem = styled.li`
-  list-style: none;
-  margin-right: ${rhythm(3 / 4)};
 `;

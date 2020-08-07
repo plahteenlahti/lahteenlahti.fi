@@ -13,10 +13,10 @@ const ToggleTheme = () => {
             <Toggle
               icons={{
                 checked: <Moon />,
-                unchecked: <Sun />
+                unchecked: <Sun />,
               }}
               defaultChecked={theme === "dark"}
-              onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
+              onChange={(e) => toggleTheme(e.target.checked ? "dark" : "light")}
             />
           </label>
         )}
@@ -28,9 +28,11 @@ const ToggleTheme = () => {
 export default ToggleTheme;
 
 const Container = styled.div`
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  position: relative;
+  label {
+    display: block;
+    height: 0px;
+  }
 `;
 
 const Moon = (props: any) => (

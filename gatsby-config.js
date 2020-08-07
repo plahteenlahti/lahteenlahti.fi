@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     author: `Perttu Lähteenlahti`,
-    title: `The Blog`,
-    description: `Personal blog of Perttu Lähteenlahti. Blogging about design, development, cognitive science and startups. `,
+    title: `Lähteenlahti`,
+    description: `Personal blog of Perttu Lähteenlahti. Blogging about design, development, cognitive science and startups.`,
     siteUrl: `https://www.lahteenlahti.com`,
     social: {
       twitter: `plahteenlahti`,
@@ -17,6 +17,13 @@ module.exports = {
     `gatsby-remark-embed-video`,
     `gatsby-plugin-twitter`,
     `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-source-app-store`,
+      options: {
+        apps: ["fi.yle.ylefiapp"],
+        country: "fi",
+      },
+    },
     {
       resolve: "gatsby-plugin-html2amp",
       options: {

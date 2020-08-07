@@ -4,8 +4,9 @@
     /* //white; */
     --bg: #e0e5ec;
     --bgSecondary: rgb(240, 240, 240, 0.5);
+    --bgBanner: #d1dcea;
     --textPrimary: #333;
-    --textSecondary: #444;
+    --textSecondary: #696969;
     --textTitle: #333;
     --textLink: #4a5aef;
     --hr: hsla(0, 0%, 0%, 0.2);
@@ -26,6 +27,7 @@
     --bg: rgba(35, 37, 37);
     /* rgb(23, 26, 26); */
     --bgSecondary: rgb(33, 37, 37);
+    --bgBanner: #161717;
     --textPrimary: rgba(255, 255, 255, 0.88);
     --textSecondary: rgba(255, 255, 255, 0.5);
     --textTitle: white;
