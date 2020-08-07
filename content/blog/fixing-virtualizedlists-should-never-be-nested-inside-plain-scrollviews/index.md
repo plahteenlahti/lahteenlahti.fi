@@ -4,6 +4,7 @@ date: "2020-02-20"
 updated: "2020-06-13"
 draft: false
 tags: ["React Native", "Mobile Development"]
+canonical: "https://nyxo.app/fixing-virtualizedlists-should-never-be-nested-inside-plain-scrollviews"
 ---
 
 When developing with React Native and nesting FlatList or SectionList component inside a plain ScrollView your debugger might display the following warning:
