@@ -13,10 +13,10 @@ const ToggleTheme = () => {
             <Toggle
               icons={{
                 checked: <Moon />,
-                unchecked: <Sun />
+                unchecked: <Sun />,
               }}
               defaultChecked={theme === "dark"}
-              onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
+              onChange={(e) => toggleTheme(e.target.checked ? "dark" : "light")}
             />
           </label>
         )}
@@ -33,7 +33,7 @@ const Container = styled.div`
   right: 20px;
 `;
 
-const Moon = (props: any) => (
+const Moon = () => (
   <svg version="1.1" viewBox="0 0 24 24">
     <g>
       <path
