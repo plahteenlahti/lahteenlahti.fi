@@ -48,6 +48,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-chatwoot`,
+      options: {
+        baseUrl: "https://app.chatwoot.com",
+        websiteToken: "LoDPm8AKvVDCtT9kxoWBCKPV",
+        includeInDevelopment: false,
+        chatwootSettings: {},
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,

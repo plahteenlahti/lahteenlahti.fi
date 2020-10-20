@@ -35,7 +35,7 @@ const Container = styled.div`
   }
 `;
 
-const Moon = (props: any) => (
+const Moon = () => (
   <svg version="1.1" viewBox="0 0 24 24">
     <g>
       <path
