@@ -1,11 +1,11 @@
-import { PageRendererProps, Link } from "gatsby";
+import { PageRendererProps } from "gatsby";
 import React, { ReactNode } from "react";
-import styled from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
+import { lightTheme } from "../styles/themes";
 import { rhythm, styledScale } from "../utils/typography";
-import ToggleTheme from "./themeToggler";
-import SignUp from "./signup";
-import Links from "./links";
 import { Header } from "./Header";
+import Links from "./links";
+import SignUp from "./signup";
 
 interface Props extends PageRendererProps {
   title: string;
@@ -19,7 +19,7 @@ export const Layout = (props: Props) => {
   const HeaderTitle = location.pathname === rootPath ? StyledH1 : StyledH3;
 
   return (
-    <>
+    <ThemeProvider theme={lightTheme}>
       <Header title={title} />
       <main>{children}</main>
       <Content>
@@ -29,7 +29,7 @@ export const Layout = (props: Props) => {
           <div>© {new Date().getFullYear()} Perttu Lähteenlahti</div>
         </footer>
       </Content>
-    </>
+    </ThemeProvider>
   );
 };
 

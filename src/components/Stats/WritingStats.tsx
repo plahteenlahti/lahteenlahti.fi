@@ -1,16 +1,21 @@
-import React from "react";
+import React, { FC } from "react";
 import { SmallText } from "../Primitives";
 import { useStaticQuery, graphql } from "gatsby";
+import { prettifyNumber } from "../../helpers/string";
 
-const WritingStats = () => {
+const WritingStats: FC = () => {
   const data = useStaticQuery(graphql`
     query {
       drafts: allMarkdownRemark(
-        filter: { frontmatter: { draft: { eq: true } } }
+        filter: {
+          frontmatter: { draft: { eq: true } }
+          fileAbsolutePath: { regex: "/(blog)/" }
+        }
       ) {
-        edges {
-          node {
-            id
+        nodes {
+          timeToRead
+          wordCount {
+            words
           }
         }
       }
@@ -20,12 +25,10 @@ const WritingStats = () => {
           fileAbsolutePath: { regex: "/(blog)/" }
         }
       ) {
-        edges {
-          node {
-            timeToRead
-            wordCount {
-              words
-            }
+        nodes {
+          timeToRead
+          wordCount {
+            words
           }
         }
       }
@@ -35,24 +38,26 @@ const WritingStats = () => {
           fileAbsolutePath: { regex: "/(weeklies)/" }
         }
       ) {
-        edges {
-          node {
-            timeToRead
-          }
+        nodes {
+          timeToRead
         }
       }
     }
   `);
 
-  const posts = data.blog.edges;
-  const drafts = data.drafts.edges;
-  const weeklies = data.weekly.edges;
-  const totalWordCount = posts.reduce((a, b) => {
-    return a + b.node.wordCount.words;
+  const posts = data.blog.nodes;
+  const drafts = data.drafts.nodes;
+  const weeklies = data.weekly.nodes;
+  const totalWordCount = posts.reduce((a: number, b: any) => {
+    return a + b.wordCount?.words;
   }, 0);
 
-  const totalReadingTime = posts.reduce((a, b) => {
-    return a + b.node.timeToRead;
+  const draftsTotalWordCount = drafts.reduce((a: number, b: any) => {
+    return a + b?.wordCount?.words;
+  }, 0);
+
+  const totalReadingTime = posts.reduce((a: number, b: any) => {
+    return a + b.timeToRead;
   }, 0);
 
   const totalHours = Math.floor(totalReadingTime / 60);
@@ -63,11 +68,12 @@ const WritingStats = () => {
       <b>
         This site has total of {posts.length} articles and {weeklies.length}{" "}
         Weeklies. The articles I've written have a total of{" "}
-        {totalWordCount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")} words
-        in them, and it would take you approximately {totalHours} hours{" "}
+        {prettifyNumber(totalWordCount)} words in them, and it would take you
+        approximately {totalHours} hours{" "}
         {totalMinutes > 0 && `and ${totalMinutes} minutes`} to read all of the
-        them. There's also {drafts.length} posts in draft state (huh, that's a
-        lot, better get back to work).
+        them. There are also {drafts.length} posts in draft state totaling to{" "}
+        {prettifyNumber(draftsTotalWordCount)} words (huh, that's a lot, better
+        get back to work).
       </b>
     </SmallText>
   );

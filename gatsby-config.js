@@ -20,15 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-source-app-store`,
       options: {
-        apps: ["fi.yle.ylefiapp"],
+        apps: ["fi.yle.ylefiapp", "app.sleepcircle.application"],
         country: "fi",
-      },
-    },
-    {
-      resolve: "gatsby-plugin-html2amp",
-      options: {
-        files: ["public/*.html"],
-        dist: "public/amp",
       },
     },
     {
@@ -47,31 +40,6 @@ module.exports = {
         },
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-amp`,
-    //   options: {
-    //     analytics: {
-    //       type: "gtag",
-    //       dataCredentials: "include",
-    //       config: {
-    //         vars: {
-    //           gtag_id: "UA-112021087-1",
-    //           config: {
-    //             "UA-112021087-1": {
-    //               page_location: "{{pathname}}"
-    //             }
-    //           }
-    //         }
-    //       }
-    //     },
-    //     canonicalBaseUrl: "https://www.lahteenlahti.com/",
-    //     components: ["amp-form"],
-    //     excludedPaths: ["/404*", "/"],
-    //     pathIdentifier: "/amp/",
-    //     relAmpHtmlPattern: "{{canonicalBaseUrl}}{{pathname}}{{pathIdentifier}}",
-    //     useAmpClientIdApi: true
-    //   }
-    // },
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
@@ -130,11 +98,9 @@ module.exports = {
             options: {
               footnoteBackRefPreviousElementDisplay: "inline",
               footnoteBackRefDisplay: "inline",
-              //use if you want the Wikipedia style ^ link without an underline beneath it
               footnoteBackRefAnchorStyle: `text-decoration: none;`,
-              //use "front" for Wikipedia style ^ links
               footnoteBackRefInnerTextStartPosition: "front",
-              useFootnoteMarkerText: false, // Defaults to false
+              useFootnoteMarkerText: false,
             },
           },
           {

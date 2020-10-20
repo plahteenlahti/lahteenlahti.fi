@@ -1,15 +1,16 @@
-import { graphql, Link, PageRendererProps, useStaticQuery } from "gatsby";
-import React from "react";
+import { graphql, Link, PageProps, useStaticQuery } from "gatsby";
+import React, { FC } from "react";
 import { Layout, Content } from "../components/layout";
 import { SEO } from "../components/seo";
 import styled from "styled-components";
-import moment from "moment";
-type Props = PageRendererProps;
+import { parse, format, isDate } from "date-fns";
+import { useMetaData } from "../hooks/useMetaData";
+import { device } from "../components/Primitives";
 
 const positions = [
   {
     period: {
-      start: moment().format("MMM YYYY"),
+      start: "01-01-2019",
       end: null,
     },
     position: "CEO & Founder",
@@ -19,18 +20,17 @@ const positions = [
   },
   {
     period: {
-      start: moment().format("MMM YYYY"),
-      end: moment().format("MMM YYYY"),
+      start: "30-09-2016",
+      end: "30-10-2018",
     },
     position: "Co-Founder",
     company: "Perfektio",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur excepturi voluptatibus laborum omnis velit doloremque, rerum possimus molestias sed maxime amet accusantium eius ea rem incidunt error cumque alias vero!",
+    description: "Hard to find a company with shittier people.",
   },
   {
     period: {
-      start: moment().format("MMM YYYY"),
-      end: moment().format("MMM YYYY"),
+      start: "30-09-2017",
+      end: "30-10-2018",
     },
     position: "Project Lead",
     company: "University Of Helsinki",
@@ -39,8 +39,8 @@ const positions = [
   },
   {
     period: {
-      start: moment().format("MMM YYYY"),
-      end: moment().format("MMM YYYY"),
+      start: "01-06-2016",
+      end: "30-10-2018",
     },
     position: "Analyst",
     company: "Nordea",
@@ -49,21 +49,17 @@ const positions = [
   },
 ];
 
-const About = (props: Props) => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
+const getDateOrPresent = (date: string | undefined | null): string => {
+  if (!date) return "Present";
 
-  const siteTitle = data.site.siteMetadata.title;
+  return format(parse(date, "dd-mm-yyyy", new Date()), "MMM yyyy");
+};
+
+const About: FC<PageProps> = ({ location }) => {
+  const { title } = useMetaData();
 
   return (
-    <Layout location={props.location} title={siteTitle}>
+    <Layout location={location} title={title}>
       <SEO
         slug="about"
         title="Who is Perttu Lähteenlahti?"
@@ -77,7 +73,8 @@ const About = (props: Props) => {
             <Work key={`${work.position}-${work.company}`}>
               <Column>
                 <Period>
-                  {work.period.start} – {work.period.end ?? "Present"}
+                  {getDateOrPresent(work.period.start)} –{" "}
+                  {getDateOrPresent(work.period.end)}
                 </Period>
                 <Company>{work.company}</Company>
                 <Position>{work.position}</Position>
@@ -170,21 +167,27 @@ const About = (props: Props) => {
 
 export default About;
 
-const ExperienceSection = styled.div``;
+const ExperienceSection = styled.div`
+  margin-bottom: 1rem;
+`;
 
 const Work = styled.div`
   border-left: 1px solid var(--textLink);
   padding: 1rem;
   position: relative;
   display: flex;
-  flex-direction: row;
+
+  @media ${device.tablet} {
+    flex-direction: column;
+  }
 `;
 
 const Period = styled.div`
   font-size: 0.7rem;
   line-height: 0.7rem;
   padding: 0.3rem 0.6rem;
-  border: 1px solid black;
+  box-sizing: border-box;
+  border: 1px solid ${({ theme }) => theme.textSecondary};
   display: inline-block;
   border-radius: 5rem;
 
@@ -215,5 +218,12 @@ const Column = styled.div`
 `;
 
 const Description = styled.p`
+  @media ${device.tablet} {
+    flex: 1;
+    padding: 1rem 0rem 0rem;
+  }
+
   flex: 4;
+  font-size: 0.9rem;
+  padding: 0rem 1rem;
 `;

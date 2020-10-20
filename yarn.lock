@@ -4891,6 +4891,11 @@ date-fns@^2.14.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.15.0.tgz#424de6b3778e4e69d3ff27046ec136af58ae5d5f"
   integrity sha512-ZCPzAMJZn3rNUvvQIMlXhDr4A+Ar07eLeGsGREoWU19a3Pqf5oYa+ccd+B3F6XVtQY6HANMFdOQ8A+ipFnvJdQ==
 
+date-fns@^2.16.1:
+  version "2.16.1"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.16.1.tgz#05775792c3f3331da812af253e1a935851d3834b"
+  integrity sha512-sAJVKx/FqrLYHAQeN7VpJrPhagZc9R4ImZIWYRFZaaohR3KzmuK88touwsSwSVT8Qcbd4zoDsnGfX4GFB4imyQ==
+
 de-indent@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
@@ -7406,10 +7411,10 @@ gatsby-remark-smartypants@^2.1.21:
     retext-smartypants "^3.0.3"
     unist-util-visit "^1.4.1"
 
-gatsby-source-app-store@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-source-app-store/-/gatsby-source-app-store-1.0.1.tgz#11707fc0dcc46608cffc307be87104c8ecb72737"
-  integrity sha512-hJqsd9P2l8X7A8C7fnqWYbj8csXCHXb/mOF++aBPHr2cu2vt2NK70gpri4ShRrhc0rYSAZ1RRHSmvKGqGLaFbQ==
+gatsby-source-app-store@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/gatsby-source-app-store/-/gatsby-source-app-store-1.0.7.tgz#737e8ade186b9c0d5f716d8efe282ff4e6e785c4"
+  integrity sha512-8kM0aG0JkddsHv0EPfNSiufF1epjDhmUORXRrGFReAM5pGTH1NlvLt+i7lKBX6n5iTFvuUhzZJwxyRzjFlfEWQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     app-store-scraper "^0.16.3"
