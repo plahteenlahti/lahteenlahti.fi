@@ -1,36 +1,55 @@
-import React from "react";
-import * as _ from "lodash";
-import { Helmet } from "react-helmet";
-import { Link, graphql } from "gatsby";
+import { graphql, PageProps } from "gatsby";
+import { kebabCase } from "lodash";
+import React, { FC } from "react";
 import { Layout } from "../components/layout";
 import { SEO } from "../components/seo";
+import { Link, useTranslation } from "gatsby-plugin-react-i18next";
 
-const TagsPage = ({
+type Props = {
+  allMarkdownRemark: {
+    group: Array<{ fieldValue: string; totalCount: number }>;
+  };
+  site: {
+    siteMetadata: {
+      title: string;
+    };
+  };
+};
+
+const TagsPage: FC<PageProps<Props>> = ({
   location,
   data: {
-    allMarkdownRemark: { group },
+    allMarkdownRemark: { group: tags },
     site: {
       siteMetadata: { title },
     },
   },
-}: any) => (
-  <Layout title={title} location={location}>
-    <div>
-      <SEO slug='tags' title='Tags' description='Explore posts by tags.' />
-      <h1>Tags</h1>
-      <p>Explore posts by tags.</p>
-      <ul>
-        {group.map((tag: any) => (
-          <li key={tag.fieldValue}>
-            <Link to={`/tags/${_.kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </Layout>
-);
+}) => {
+  const { t } = useTranslation();
+
+  return (
+    <Layout title={title} location={location}>
+      <div>
+        <SEO
+          slug="tags"
+          title={t("TAGS.TITLE")}
+          description={t("TAGS.DESCRIPTION")}
+        />
+        <h1>{t("TAGS.TITLE")}</h1>
+        <p>{t("TAGS.DESCRIPTION")}</p>
+        <ul>
+          {tags.map((tag) => (
+            <li key={tag.fieldValue}>
+              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                {tag.fieldValue} ({tag.totalCount})
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </Layout>
+  );
+};
 
 export default TagsPage;
 

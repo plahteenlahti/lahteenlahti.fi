@@ -1,55 +1,61 @@
-import { graphql, PageRendererProps, Link } from "gatsby";
-import React from "react";
+import { graphql, PageRendererProps, Link, PageProps } from "gatsby";
+import React, { FC } from "react";
 import styled from "styled-components";
-import { Bio } from "../components/bio";
 import { Layout } from "../components/layout";
 import { SEO } from "../components/seo";
-import { Query, SitePageContext } from "../graphql-types";
+import { MarkdownRemark, Site, SitePageContext } from "../graphql-types";
 import { rhythm, styledScale } from "../utils/typography";
 import Share from "../components/share";
 import CanonicalBox from "../components/CanonicalBox";
-import { JsonLd } from "../components/JsonLD";
 import moment from "moment";
+import "katex/dist/katex.min.css";
 
 interface Props extends PageRendererProps {
-  pageContext: SitePageContext;
-  data: Query;
+  site: Site;
+  markdownRemark: MarkdownRemark;
 }
 
-const BlogPostTemplate = (props: Props) => {
-  const data = props.data!;
-
-  const post = data.markdownRemark!;
-  const excerpt = post.excerpt!;
-  const slug = post.fields!.slug!;
-  const frontmatter = post.frontmatter!;
-  const html = post.html!;
-  const siteTitle = data.site!.siteMetadata!.title!;
-  const { previous, next } = props.pageContext;
-  const readingTime = post.fields!.readingTime.text!;
-
-  const {
-    canonical,
-    lang,
-    date: creationDate,
-    updated: dateModified,
-    tags,
-  } = frontmatter;
+const BlogPostTemplate: FC<PageProps<Props, SitePageContext>> = ({
+  data: {
+    site,
+    markdownRemark: {
+      tableOfContents,
+      excerpt,
+      frontmatter: {
+        title,
+        description,
+        lang,
+        canonical,
+        date: creationDate,
+        updated: dateModified,
+        tags,
+      },
+      html,
+      fields: {
+        slug,
+        readingTime: { text: readingTime },
+      },
+    },
+  },
+  pageContext: { previous, next },
+}) => {
+  const siteTitle = site?.siteMetadata?.title;
 
   return (
-    <Layout location={props.location} title={siteTitle}>
+    <Layout location={location} title={`${siteTitle}`}>
       <SEO
-        url={`https://lahteenlahti.com${slug}`}
+        url={`https://lahteenlahti.com(${lang}${slug}`}
         slug={slug}
-        canonical={frontmatter.canonical}
-        title={frontmatter.title!}
-        description={frontmatter.description || excerpt}
+        canonical={canonical}
+        title={title}
+        description={description || excerpt}
         published={creationDate}
         updated={dateModified}
         lang={lang}
       />
-      <h1>{post.frontmatter!.title}</h1>
-      <p>{JSON.stringify(tags)}</p>
+      <h1>{title}</h1>
+      {/* <p>{JSON.stringify(tags)}</p>
+      <div dangerouslySetInnerHTML={{ __html: `${tableOfContents}` }}></div> */}
       <Information>
         {dateModified && (
           <Date dateTime={dateModified}>
@@ -63,7 +69,7 @@ const BlogPostTemplate = (props: Props) => {
         <ReadingTime>{readingTime}</ReadingTime>
       </Information>
 
-      <CanonicalBox canonical={frontmatter.canonical} />
+      <CanonicalBox canonical={canonical} />
 
       <div dangerouslySetInnerHTML={{ __html: html }} />
       <Divider />
@@ -73,15 +79,15 @@ const BlogPostTemplate = (props: Props) => {
       <PostNavigator>
         <li>
           {previous && (
-            <Link to={previous.fields!.slug!} rel='prev'>
-              ← {previous.frontmatter!.title}
+            <Link to={previous?.fields?.slug} rel="prev">
+              ← {previous?.title}
             </Link>
           )}
         </li>
         <li>
           {next && (
-            <Link to={next.fields!.slug!} rel='next'>
-              {next.frontmatter!.title} →
+            <Link to={next?.fields?.slug} rel="next">
+              {next?.title} →
             </Link>
           )}
         </li>
@@ -107,7 +113,7 @@ export const pageQuery = graphql`
           text
         }
       }
-      id
+      tableOfContents
       excerpt(pruneLength: 160)
       html
       frontmatter {

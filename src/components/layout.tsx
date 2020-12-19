@@ -17,16 +17,8 @@ const menuItems = [
     link: "/"
   },
   {
-    name: "Weeklies",
-    link: "/weeklies"
-  },
-  {
     name: "About",
     link: "/about"
-  },
-  {
-    name: "Books",
-    link: "/books"
   },
   {
     name: "Tags",

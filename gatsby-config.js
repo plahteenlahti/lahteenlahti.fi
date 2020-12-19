@@ -16,67 +16,25 @@ module.exports = {
     `gatsby-plugin-dark-mode`,
     `gatsby-remark-embed-video`,
     `gatsby-plugin-twitter`,
-    `gatsby-plugin-mdx`,
     {
-      resolve: "gatsby-plugin-html2amp",
-      options: {
-        files: ["public/*.html"],
-        dist: "public/amp",
-      },
-    },
-    {
-      resolve: "gatsby-source-goodreads",
-      options: {
-        developerKey: "lJeTjb5OfssYdNfuW24qcA",
-        goodReadsUserId: "32613066",
-        userShelf: "read",
-      },
-    },
-    {
-      resolve: "gatsby-plugin-react-svg",
+      resolve: `gatsby-plugin-react-svg`,
       options: {
         rule: {
           include: /\.inline\.svg$/,
         },
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-amp`,
-    //   options: {
-    //     analytics: {
-    //       type: "gtag",
-    //       dataCredentials: "include",
-    //       config: {
-    //         vars: {
-    //           gtag_id: "UA-112021087-1",
-    //           config: {
-    //             "UA-112021087-1": {
-    //               page_location: "{{pathname}}"
-    //             }
-    //           }
-    //         }
-    //       }
-    //     },
-    //     canonicalBaseUrl: "https://www.lahteenlahti.com/",
-    //     components: ["amp-form"],
-    //     excludedPaths: ["/404*", "/"],
-    //     pathIdentifier: "/amp/",
-    //     relAmpHtmlPattern: "{{canonicalBaseUrl}}{{pathname}}{{pathIdentifier}}",
-    //     useAmpClientIdApi: true
-    //   }
-    // },
     {
-      resolve: "gatsby-plugin-mailchimp",
+      resolve: `gatsby-plugin-mailchimp`,
       options: {
-        endpoint:
-          "https://lahteenlahti.us4.list-manage.com/subscribe/post?u=e5fc085e3ff83b00d093a8c65&amp;id=6b47e4b337",
+        endpoint: `https://lahteenlahti.us4.list-manage.com/subscribe/post?u=e5fc085e3ff83b00d093a8c65&amp;id=6b47e4b337`,
       },
     },
     {
       resolve: `gatsby-plugin-chatwoot`,
       options: {
-        baseUrl: "https://app.chatwoot.com",
-        websiteToken: "LoDPm8AKvVDCtT9kxoWBCKPV",
+        baseUrl: `https://app.chatwoot.com`,
+        websiteToken: `LoDPm8AKvVDCtT9kxoWBCKPV`,
         includeInDevelopment: false,
         chatwootSettings: {},
       },
@@ -108,12 +66,13 @@ module.exports = {
         plugins: [
           `gatsby-remark-autolink-headers`,
           `gatsby-remark-check-links`,
+          `gatsby-remark-katex`,
           `gatsby-remark-smartypants`,
-          "gatsby-plugin-social-cards",
+          `gatsby-plugin-social-cards`,
           {
-            resolve: "gatsby-remark-audio",
+            resolve: `gatsby-remark-audio`,
             options: {
-              preload: "auto",
+              preload: `auto`,
               loop: false,
               controls: true,
               muted: false,
@@ -130,13 +89,11 @@ module.exports = {
           {
             resolve: `gatsby-remark-footnotes`,
             options: {
-              footnoteBackRefPreviousElementDisplay: "inline",
-              footnoteBackRefDisplay: "inline",
-              //use if you want the Wikipedia style ^ link without an underline beneath it
+              footnoteBackRefPreviousElementDisplay: `inline`,
+              footnoteBackRefDisplay: `inline`,
               footnoteBackRefAnchorStyle: `text-decoration: none;`,
-              //use "front" for Wikipedia style ^ links
-              footnoteBackRefInnerTextStartPosition: "front",
-              useFootnoteMarkerText: false, // Defaults to false
+              footnoteBackRefInnerTextStartPosition: `front`,
+              useFootnoteMarkerText: false,
             },
           },
           {
@@ -145,12 +102,6 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          {
-            resolve: `gatsby-remark-prismjs`,
-            showLineNumbers: false,
-            inlineCodeMarker: { typescript: "tsx" },
-          },
-          `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
       },
@@ -161,6 +112,22 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: `UA-112021087-1`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-react-i18next`,
+      options: {
+        path: `${__dirname}/locales`,
+        languages: [`en`, `fi`],
+        defaultLanguage: `en`,
+        redirect: false,
+        i18nextOptions: {
+          interpolation: {
+            escapeValue: false,
+          },
+          keySeparator: false,
+          nsSeparator: false,
+        },
       },
     },
     {
@@ -213,8 +180,8 @@ module.exports = {
                 }
               }
             `,
-            output: "/rss.xml",
-            title: "Rss from Lahteenlahti.com",
+            output: `/rss.xml`,
+            title: `Rss from Lahteenlahti.com`,
           },
         ],
       },
@@ -249,11 +216,11 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-transition-link`,
     {
-      resolve: "gatsby-plugin-google-tagmanager",
+      resolve: `gatsby-plugin-google-tagmanager`,
       options: {
-        id: "GTM-TJCVSJ7",
+        id: `GTM-TJCVSJ7`,
         includeInDevelopment: false,
-        defaultDataLayer: { platform: "gatsby" },
+        defaultDataLayer: { platform: `gatsby` },
       },
     },
   ],
