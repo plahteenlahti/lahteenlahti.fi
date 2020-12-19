@@ -1,5 +1,5 @@
 import { PageRendererProps } from "gatsby";
-import React, { ReactNode } from "react";
+import React, { FC, ReactNode } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme } from "../styles/themes";
 import { rhythm, styledScale } from "../utils/typography";
@@ -12,8 +12,7 @@ interface Props extends PageRendererProps {
   children: ReactNode;
 }
 
-export const Layout = (props: Props) => {
-  const { location, title, children } = props;
+export const Layout: FC<Props> = ({ location, title, children }) => {
   const rootPath = `/`;
 
   const HeaderTitle = location.pathname === rootPath ? StyledH1 : StyledH3;
