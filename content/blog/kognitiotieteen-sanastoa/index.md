@@ -1,6 +1,6 @@
 ---
-title: 'Kognitiotieteen sanastoa'
-date: '2019-10-20'
+title: "Kognitiotieteen sanastoa"
+date: "2019-10-20"
 draft: true
 ---
 

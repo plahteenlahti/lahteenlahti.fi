@@ -92,11 +92,12 @@ import styled from "styled-components/native";
 const App = () => {
   return (
     <>
-      <StatusBar barStyle='light-content' />
+      <StatusBar barStyle="light-content" />
       <SafeAreaView>
         <ScrollView
           centerContent={true}
-          contentInsetAdjustmentBehavior='automatic'>
+          contentInsetAdjustmentBehavior="automatic"
+        >
           <Clock />
         </ScrollView>
       </SafeAreaView>
@@ -191,9 +192,9 @@ const ClockMarkings = (props: Props) => {
     const end = polarToCartesian(center, center, radius, index * 5);
     return (
       <Line
-        stroke='white'
+        stroke="white"
         strokeWidth={2}
-        strokeLinecap='round'
+        strokeLinecap="round"
         key={index}
         x1={start.x}
         x2={end.x}
@@ -211,22 +212,23 @@ const ClockMarkings = (props: Props) => {
     return (
       <G key={index}>
         <Line
-          stroke='white'
+          stroke="white"
           strokeWidth={3}
-          strokeLinecap='round'
+          strokeLinecap="round"
           x1={start.x}
           x2={end.x}
           y1={start.y}
           y2={end.y}
         />
         <Text
-          textAnchor='middle'
-          fontSize='17'
-          fontWeight='bold'
-          fill='white'
-          alignmentBaseline='central'
+          textAnchor="middle"
+          fontSize="17"
+          fontWeight="bold"
+          fill="white"
+          alignmentBaseline="central"
           x={time.x}
-          y={time.y}>
+          y={time.y}
+        >
           {index === 0 ? 12 : index}
         </Text>
       </G>
@@ -279,7 +281,7 @@ const Hand = (props: Props) => {
       x2={x}
       y2={y}
       strokeWidth={strokeWidth}
-      strokeLinecap='round'
+      strokeLinecap="round"
       stroke={stroke}
     />
   );
@@ -325,22 +327,22 @@ const Clock = () => {
         angle={time.seconds}
         center={center}
         radius={radius}
-        stroke='red'
-        strokeWidth='1'
+        stroke="red"
+        strokeWidth="1"
       />
       <Hand
         angle={time.minutes}
         center={center}
         radius={radius}
-        stroke='white'
-        strokeWidth='5'
+        stroke="white"
+        strokeWidth="5"
       />
       <Hand
         angle={time.hours}
         center={center}
         radius={radius}
-        stroke='white'
-        strokeWidth='7'
+        stroke="white"
+        strokeWidth="7"
       />
     </Svg>
   );
@@ -443,22 +445,22 @@ const Clock = () => {
         angle={time.seconds}
         center={center}
         radius={radius}
-        stroke='red'
-        strokeWidth='1'
+        stroke="red"
+        strokeWidth="1"
       />
       <Hand
         angle={time.minutes}
         center={center}
         radius={radius}
-        stroke='white'
-        strokeWidth='5'
+        stroke="white"
+        strokeWidth="5"
       />
       <Hand
         angle={time.hours}
         center={center}
         radius={radius}
-        stroke='white'
-        strokeWidth='7'
+        stroke="white"
+        strokeWidth="7"
       />
     </Svg>
   );

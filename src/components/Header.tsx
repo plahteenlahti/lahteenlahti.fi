@@ -3,15 +3,15 @@ import { rhythm } from "../utils/typography";
 import styled from "styled-components";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import ToggleTheme from "./themeToggler";
-import Image from "gatsby-image";
+import Image, { GatsbyImageProps } from "gatsby-image";
 const menuItems = [
   {
     name: "Blog",
     link: "/",
   },
   {
-    name: "Weeklies",
-    link: "/weeklies",
+    name: "Work",
+    link: "/work",
   },
   {
     name: "About",
@@ -105,13 +105,13 @@ const Title = styled.h2`
 
 const AvatarContainer = styled.figure`
   display: block;
-  border: 1px solid var(--textLink);
+  border: 2px solid var(--textLink);
   border-radius: 30px;
   box-sizing: border-box;
   margin: 0rem 1rem 0rem 0rem;
 `;
 
-const Avatar = styled(Image)`
+const Avatar = styled(Image)<GatsbyImageProps>`
   height: 30px;
   width: 30px;
   margin: 5px;

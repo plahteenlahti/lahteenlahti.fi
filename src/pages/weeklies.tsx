@@ -66,8 +66,8 @@ const WeeklyIndex = (props: Props) => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
-        slug='weeklies'
-        title='All weeklies by Perttu Lähteenlahti'
+        slug="weeklies"
+        title="All weeklies by Perttu Lähteenlahti"
         keywords={[`weekly`, `react`, `react native`, `design`]}
       />
       <h1>Weeklies</h1>

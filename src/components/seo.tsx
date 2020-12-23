@@ -157,35 +157,36 @@ export const SEO = (props: Props) => {
                 }
               : []
           )
-          .concat(meta)}>
-        <link rel='canonical' href={canonical} />
-        <meta charset='utf-8' />
-        <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
-        <meta name='description' content={description} />
-        <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:site' content='Lahteenlahti.com' />
-        <meta name='twitter:title' content={`${title} – Perttu Lähteenlahti`} />
-        <meta name='twitter:description' content={description} />
-        <meta name='twitter:creator' content={"Perttu Lähteenlahti"} />
+          .concat(meta)}
+      >
+        <link rel="canonical" href={canonical} />
+        <meta charset="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content={description} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="Lahteenlahti.com" />
+        <meta name="twitter:title" content={`${title} – Perttu Lähteenlahti`} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:creator" content={"Perttu Lähteenlahti"} />
 
-        <meta name='twitter:image' content={socialCard} />
+        <meta name="twitter:image" content={socialCard} />
 
         {published && (
-          <meta name='article:published_time' content={published} />
+          <meta name="article:published_time" content={published} />
         )}
-        {updated && <meta name='article:modified_time' content={updated} />}
-        <meta property='og:title' content={`${title} – Nyxo`} />
-        <meta property='og:type' content={"website"} />
-        <meta property='og:url' content={canonical} />
-        <meta property='og:author' content={"Perttu Lähteenlahti"} />
-        <meta property='og:image' content={socialCard} />
-        <meta property='og:description' content={description} />
-        <meta property='og:site_name' content='Nyxo' />
+        {updated && <meta name="article:modified_time" content={updated} />}
+        <meta property="og:title" content={`${title} – Nyxo`} />
+        <meta property="og:type" content={"website"} />
+        <meta property="og:url" content={canonical} />
+        <meta property="og:author" content={"Perttu Lähteenlahti"} />
+        <meta property="og:image" content={socialCard} />
+        <meta property="og:description" content={description} />
+        <meta property="og:site_name" content="Nyxo" />
 
-        <meta itemProp='name' content={`${title} – Nyxo`} />
-        <meta itemProp='description' content={description} />
-        <meta itemProp='image' content={socialCard} />
-        <script type='application/ld+json'>
+        <meta itemProp="name" content={`${title} – Nyxo`} />
+        <meta itemProp="description" content={description} />
+        <meta itemProp="image" content={socialCard} />
+        <script type="application/ld+json">
           {`
       {
         "@context": "https://schema.org",
@@ -214,7 +215,7 @@ export const SEO = (props: Props) => {
       }
     `}
         </script>
-        <meta name='monetization' content='$ilp.uphold.com/nrDbfNBy4rEZ' />
+        <meta name="monetization" content="$ilp.uphold.com/nrDbfNBy4rEZ" />
       </Helmet>
     </>
   );

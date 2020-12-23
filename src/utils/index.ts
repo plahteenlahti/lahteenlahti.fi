@@ -46,7 +46,7 @@ export const range = (start: number, len: number, step: number = 1) =>
 export const debounce = (fn: () => any, time = 100) => {
   let timeout: ReturnType<typeof setTimeout>;
 
-  return function() {
+  return function () {
     const functionCall = () => fn.apply(this, arguments);
 
     clearTimeout(timeout);
@@ -68,13 +68,13 @@ export const getWindowDimensions = (): { height: number; width: number } => {
 
     return {
       height,
-      width
+      width,
     };
   }
 
   return {
     width: 0,
-    height: 0
+    height: 0,
   };
 };
 
@@ -234,14 +234,14 @@ export const getSelectionDimensions = () => {
   const isSelectedInPrism = Array.from(
     document.getElementsByClassName("prism-code")
   )
-    .map(el => elementContainsSelection(el))
-    .some(bool => bool);
+    .map((el) => elementContainsSelection(el))
+    .some((bool) => bool);
 
   const isSelectedInArticle = Array.from(
     document.getElementsByTagName("article")
   )
-    .map(el => elementContainsSelection(el))
-    .some(bool => bool);
+    .map((el) => elementContainsSelection(el))
+    .some((bool) => bool);
 
   /**
    * we don't want to show the ArticleShare option when it's outside of
@@ -250,7 +250,7 @@ export const getSelectionDimensions = () => {
   if (isSelectedInPrism || !isSelectedInArticle) {
     return {
       width: 0,
-      height: 0
+      height: 0,
     };
   }
 
@@ -300,7 +300,7 @@ export function getSelectionText() {
 export function toKebabCase(str: string): string {
   return str
     .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-    .map(x => x.toLowerCase())
+    .map((x) => x.toLowerCase())
     .join("-");
 }
 

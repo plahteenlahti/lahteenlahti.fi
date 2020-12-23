@@ -33,7 +33,7 @@ const Tags = ({ pageContext, data, location }: any) => {
                 <time dateTime={date}>{date}</time>
                 <p
                   dangerouslySetInnerHTML={{
-                    __html: excerpt || description
+                    __html: excerpt || description,
                   }}
                 />
               </Link>

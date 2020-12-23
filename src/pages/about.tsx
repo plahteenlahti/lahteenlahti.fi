@@ -1,11 +1,12 @@
-import { graphql, Link, PageProps, useStaticQuery } from "gatsby";
+import { Link, PageProps } from "gatsby";
 import React, { FC } from "react";
 import { Layout, Content } from "../components/layout";
 import { SEO } from "../components/seo";
 import styled from "styled-components";
-import { parse, format, isDate } from "date-fns";
+import { parse, format } from "date-fns";
 import { useMetaData } from "../hooks/useMetaData";
 import { device } from "../components/Primitives";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 
 const positions = [
   {
@@ -15,8 +16,7 @@ const positions = [
     },
     position: "CEO & Founder",
     company: "Nyxo",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur excepturi voluptatibus laborum omnis velit doloremque, rerum possimus molestias sed maxime amet accusantium eius ea rem incidunt error cumque alias vero!",
+    description: "",
   },
   {
     period: {
@@ -29,8 +29,8 @@ const positions = [
   },
   {
     period: {
-      start: "30-09-2017",
-      end: "30-10-2018",
+      start: "30-10-2017",
+      end: "31-12-2018",
     },
     position: "Project Lead",
     company: "University Of Helsinki",
@@ -51,12 +51,12 @@ const positions = [
 
 const getDateOrPresent = (date: string | undefined | null): string => {
   if (!date) return "Present";
-
   return format(parse(date, "dd-mm-yyyy", new Date()), "MMM yyyy");
 };
 
 const About: FC<PageProps> = ({ location }) => {
   const { title } = useMetaData();
+  const { t } = useTranslation;
 
   return (
     <Layout location={location} title={title}>

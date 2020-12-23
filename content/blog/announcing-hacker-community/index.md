@@ -1,6 +1,6 @@
 ---
-title: '🙀 Announcing Hacker Community'
-date: '2018-03-20'
+title: "🙀 Announcing Hacker Community"
+date: "2018-03-20"
 draft: true
 ---
 

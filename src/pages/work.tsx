@@ -1,43 +1,60 @@
-import { graphql, PageRendererProps, useStaticQuery, Link } from "gatsby";
-import React from "react";
+import { graphql, PageProps } from "gatsby";
+import React, { FC } from "react";
 import styled from "styled-components";
 import { Layout } from "../components/layout";
 import { SEO } from "../components/seo";
+import { SiteMetadata } from "../typings/site";
 import { rhythm } from "../utils/typography";
 
-const StyledLink = styled(Link)`
-  box-shadow: none;
-`;
+type Props = {
+  site: { siteMetadata: SiteMetadata };
+  markdownRemark: {
+    html: string;
+  };
+};
 
-const Title = styled.h3`
-  margin-bottom: ${rhythm(1 / 4)};
-`;
-
-type Props = PageRendererProps;
-
-const About = (props: Props) => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
-  const siteTitle = data.site.siteMetadata.title;
-
+const Work: FC<PageProps<Props>> = ({
+  location,
+  data: {
+    site: {
+      siteMetadata: { title },
+    },
+    markdownRemark: { html },
+  },
+}) => {
   return (
-    <Layout location={props.location} title={siteTitle}>
+    <Layout location={location} title={title}>
       <SEO
         slug="work"
         title="Work by Perttu Lähteenlahti"
         keywords={[`work`, `portfolio`, `javascript`, `react`]}
       />
-      <h1>What I've worked on</h1>
+      <Content>
+        <h1>What I've worked on</h1>
+        <div dangerouslySetInnerHTML={{ __html: html }}></div>
+      </Content>
     </Layout>
   );
 };
 
-export default About;
+export const PageQuery = graphql`
+  query WorkPageQuery {
+    markdownRemark(fileAbsolutePath: { regex: "/(pages/work)/" }) {
+      html
+    }
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`;
+
+export default Work;
+
+export const Content = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px;
+  padding: ${`${rhythm(1.5)} ${rhythm(3 / 4)}`};
+`;

@@ -5,6 +5,8 @@ draft: true
 description: ""
 ---
 
+I grow up relatively poor and always felt throughout my chilhood that having money meant following rules that my family didn't even know about. Now before continuing I want emphasise the word relative. It (relatively, because there's very few people in Finland who can be considered poor)
+
 How did you start off with investing? What motivated you to begin?
 What do you think is worth investing in? Ie: housing, stock, cryptocurrency, bonds...
 What do you look for when you're interested in buying a house/apartment? What tells you it's a good purchase?

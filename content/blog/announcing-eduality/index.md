@@ -1,6 +1,6 @@
 ---
-title: 'Announcing Eduality'
-date: '2017-08-24'
+title: "Announcing Eduality"
+date: "2017-08-24"
 draft: true
 ---
 

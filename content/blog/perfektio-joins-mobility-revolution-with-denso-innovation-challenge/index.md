@@ -1,6 +1,6 @@
 ---
-title: 'Perfektio Joins Mobility Revolution With Denso Innovation Challenge'
-date: '2018-06-25'
+title: "Perfektio Joins Mobility Revolution With Denso Innovation Challenge"
+date: "2018-06-25"
 draft: true
 ---
 

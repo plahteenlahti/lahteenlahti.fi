@@ -47,7 +47,7 @@ function calculateLinesToHighlight(meta: string) {
   if (RE.test(meta)) {
     const lineNumbers = RE.exec(meta)[1]
       .split(",")
-      .map(v => v.split("-").map(y => parseInt(y, 10)));
+      .map((v) => v.split("-").map((y) => parseInt(y, 10)));
 
     return (index: number) => {
       const lineNumber = index + 1;
@@ -99,7 +99,7 @@ const CodePrism: React.FC<CodePrismProps> = ({
                     key: index,
                     className: shouldHighlightLine(index)
                       ? "highlight-line"
-                      : ""
+                      : "",
                   });
 
                   return (
@@ -108,7 +108,7 @@ const CodePrism: React.FC<CodePrismProps> = ({
                       {line.map((token, key) => {
                         const { className, children } = getTokenProps({
                           token,
-                          key
+                          key,
                         });
 
                         return (
@@ -149,7 +149,7 @@ const CopyButton = styled.button`
     top: -2%;
     width: 104%;
     height: 104%;
-    border: 2px solid ${p => p.theme.colors.accent};
+    border: 2px solid ${(p) => p.theme.colors.accent};
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.01);
   }
@@ -166,11 +166,11 @@ const Container = styled.div`
   font-size: 13px;
   margin: 15px auto 50px;
   border-radius: 5px;
-  font-family: ${p => p.theme.fonts.monospace} !important;
+  font-family: ${(p) => p.theme.fonts.monospace} !important;
   textarea,
   pre {
     padding: 32px !important;
-    font-family: ${p => p.theme.fonts.monospace} !important;
+    font-family: ${(p) => p.theme.fonts.monospace} !important;
   }
   @media ${device.desktop} {
     left: -26px;

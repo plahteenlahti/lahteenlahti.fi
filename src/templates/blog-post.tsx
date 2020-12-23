@@ -1,8 +1,7 @@
 import { graphql, PageRendererProps, Link, PageProps } from "gatsby";
 import React, { FC } from "react";
 import styled from "styled-components";
-import { Bio } from "../components/bio";
-import { Layout, TextContent } from "../components/layout";
+import { Content, Layout } from "../components/layout";
 import { SEO } from "../components/seo";
 import { MarkdownRemark, Site, SitePageContext } from "../graphql-types";
 import { rhythm, styledScale } from "../utils/typography";
@@ -20,7 +19,6 @@ const BlogPostTemplate: FC<PageProps<Props, SitePageContext>> = ({
   data: {
     site,
     markdownRemark: {
-      tableOfContents,
       excerpt,
       frontmatter: {
         title,
@@ -54,45 +52,47 @@ const BlogPostTemplate: FC<PageProps<Props, SitePageContext>> = ({
         updated={dateModified}
         lang={lang}
       />
-      <h1>{title}</h1>
-      {/* <p>{JSON.stringify(tags)}</p>
+      <Content>
+        <h1>{title}</h1>
+        {/* <p>{JSON.stringify(tags)}</p>
       <div dangerouslySetInnerHTML={{ __html: `${tableOfContents}` }}></div> */}
-      <Information>
-        {dateModified && (
-          <Date dateTime={dateModified}>
-            Last updated: {moment(dateModified).format("DD.MM.YYYY")}
+        <Information>
+          {dateModified && (
+            <Date dateTime={dateModified}>
+              Last updated: {moment(dateModified).format("DD.MM.YYYY")}
+            </Date>
+          )}
+          <Date dateTime={creationDate}>
+            Published: {moment(creationDate).format("DD.MM.YYYY")}
           </Date>
-        )}
-        <Date dateTime={creationDate}>
-          Published: {moment(creationDate).format("DD.MM.YYYY")}
-        </Date>
 
-        <ReadingTime>{readingTime}</ReadingTime>
-      </Information>
+          <ReadingTime>{readingTime}</ReadingTime>
+        </Information>
 
-      <CanonicalBox canonical={canonical} />
+        <CanonicalBox canonical={canonical} />
 
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-      <Divider />
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <Divider />
 
-      <Share url={`https://lahteenlahti.com${slug}`} />
+        <Share url={`https://lahteenlahti.com${slug}`} />
 
-      <PostNavigator>
-        <li>
-          {previous && (
-            <Link to={previous?.fields?.slug} rel="prev">
-              ← {previous?.title}
-            </Link>
-          )}
-        </li>
-        <li>
-          {next && (
-            <Link to={next?.fields?.slug} rel="next">
-              {next?.title} →
-            </Link>
-          )}
-        </li>
-      </PostNavigator>
+        <PostNavigator>
+          <li>
+            {previous && (
+              <Link to={previous?.fields?.slug} rel="prev">
+                ← {previous?.title}
+              </Link>
+            )}
+          </li>
+          <li>
+            {next && (
+              <Link to={next?.fields?.slug} rel="next">
+                {next?.title} →
+              </Link>
+            )}
+          </li>
+        </PostNavigator>
+      </Content>
     </Layout>
   );
 };

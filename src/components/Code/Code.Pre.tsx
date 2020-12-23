@@ -22,12 +22,12 @@ function preToCodeBlock(preProps: any) {
         matches && matches.groups && matches.groups.lang
           ? matches.groups.lang
           : "",
-      ...props
+      ...props,
     };
   }
 }
 
-const CodePre: React.FC<{}> = preProps => {
+const CodePre: React.FC<{}> = (preProps) => {
   const props = preToCodeBlock(preProps);
 
   if (props) {

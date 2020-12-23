@@ -63,7 +63,7 @@ const P = styled.p`
 `;
 
 const Email = styled.input.attrs(() => ({
-  placeholder: "Your email"
+  placeholder: "Your email",
 }))`
   background-color: var(--bg);
   border: none;

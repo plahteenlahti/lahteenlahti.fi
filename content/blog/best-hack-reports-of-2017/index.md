@@ -1,6 +1,6 @@
 ---
-title: 'Best Hack Reports of 2017'
-date: '2017-12-24'
+title: "Best Hack Reports of 2017"
+date: "2017-12-24"
 draft: true
 ---
 

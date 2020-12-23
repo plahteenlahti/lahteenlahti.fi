@@ -1,7 +1,7 @@
 import { graphql, PageProps } from "gatsby";
 import { kebabCase } from "lodash";
 import React, { FC } from "react";
-import { Layout } from "../components/layout";
+import { Content, Layout } from "../components/layout";
 import { SEO } from "../components/seo";
 import { Link, useTranslation } from "gatsby-plugin-react-i18next";
 
@@ -35,17 +35,20 @@ const TagsPage: FC<PageProps<Props>> = ({
           title={t("TAGS.TITLE")}
           description={t("TAGS.DESCRIPTION")}
         />
-        <h1>{t("TAGS.TITLE")}</h1>
-        <p>{t("TAGS.DESCRIPTION")}</p>
-        <ul>
-          {tags.map((tag) => (
-            <li key={tag.fieldValue}>
-              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                {tag.fieldValue} ({tag.totalCount})
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <Content>
+          <h1>{t("TAGS.TITLE")}</h1>
+          <p>{t("TAGS.DESCRIPTION")}</p>
+          <p>{t("TEST")}</p>
+          <ul>
+            {tags.map((tag) => (
+              <li key={tag.fieldValue}>
+                <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                  {tag.fieldValue} ({tag.totalCount})
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Content>
       </div>
     </Layout>
   );

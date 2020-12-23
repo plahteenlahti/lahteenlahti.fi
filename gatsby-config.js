@@ -20,15 +20,7 @@ module.exports = {
       resolve: `gatsby-source-app-store`,
       options: {
         apps: ["fi.yle.ylefiapp", "app.sleepcircle.application"],
-        country: "fi",
-      },
-    },
-    {
-      resolve: "gatsby-source-goodreads",
-      options: {
-        developerKey: "lJeTjb5OfssYdNfuW24qcA",
-        goodReadsUserId: "32613066",
-        userShelf: "read",
+        country: "us",
       },
     },
     {
@@ -73,6 +65,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/weeklies`,
         name: `weeklies`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/pages`,
+        name: `pages`,
       },
     },
     {
@@ -140,10 +139,14 @@ module.exports = {
           interpolation: {
             escapeValue: false,
           },
-          keySeparator: false,
+          keySeparator: `.`,
           nsSeparator: false,
         },
       },
+    },
+    {
+      resolve: `gatsby-remark-prismjs`,
+      options: {},
     },
     {
       resolve: `gatsby-plugin-feed`,
@@ -230,6 +233,8 @@ module.exports = {
     `gatsby-plugin-typescript`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-transition-link`,
+    `@m5r/gatsby-transformer-blurhash`,
+
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {

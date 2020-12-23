@@ -12,7 +12,7 @@ interface Post {
 
 export const createPages: GatsbyCreatePages = async ({
   graphql,
-  boundActionCreators
+  boundActionCreators,
 }) => {
   const { createPage } = boundActionCreators;
 
@@ -86,8 +86,8 @@ export const createPages: GatsbyCreatePages = async ({
       context: {
         next,
         previous,
-        slug: post.node.fields.slug
-      }
+        slug: post.node.fields.slug,
+      },
     });
 
     // createPage({
@@ -108,8 +108,8 @@ export const createPages: GatsbyCreatePages = async ({
       path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
       component: path.resolve(`./src/templates/tag.tsx`),
       context: {
-        tag: tag.fieldValue
-      }
+        tag: tag.fieldValue,
+      },
     });
   });
 
@@ -124,8 +124,8 @@ export const createPages: GatsbyCreatePages = async ({
       context: {
         next,
         previous,
-        slug: weekly.node.fields.slug
-      }
+        slug: weekly.node.fields.slug,
+      },
     });
   });
 

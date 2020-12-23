@@ -8,6 +8,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "@m5r/gatsby-transformer-blurhash": "^1.0.1",
     "@raae/gatsby-remark-oembed": "^0.1.1",
     "@types/lodash": "^4.14.149",
     "@types/react-share": "^3.0.3",
@@ -57,13 +58,12 @@
     "gatsby-remark-images": "^3.1.44",
     "gatsby-remark-katex": "^3.7.0",
     "gatsby-remark-numbered-footnotes": "^1.0.1",
-    "gatsby-remark-prismjs": "^3.3.31",
+    "gatsby-remark-prismjs": "^3.10.0",
     "gatsby-remark-reading-time": "^1.1.0",
     "gatsby-remark-responsive-iframe": "^2.2.32",
     "gatsby-remark-smartypants": "^2.1.21",
     "gatsby-source-app-store": "^1.0.7",
     "gatsby-source-filesystem": "^2.1.48",
-    "gatsby-source-goodreads": "git+https://github.com/plahteenlahti/gatsby-source-goodreads.git",
     "gatsby-transformer-remark": "^2.13.0",
     "gatsby-transformer-sharp": "^2.3.16",
     "gsap": "^3.5.1",
@@ -74,7 +74,7 @@
     "moment": "^2.24.0",
     "prism-react-renderer": "^1.0.2",
     "prism-theme-night-owl": "^1.2.0",
-    "prismjs": "^1.19.0",
+    "prismjs": "^1.22.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
@@ -131,7 +131,9 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "tsc": "tsc --noEmit",
-    "lint": "tslint --project .",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}' && tsc --noEmit",
+    "lint:watch": "yarn esw 'src/**/*.{js,ts,tsx}' && tsc --noEmit",
+    "lint:fix": "yarn lint --fix",
     "gql-codegen": "graphql-codegen --config codegen.yml"
   }
 }

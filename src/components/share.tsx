@@ -3,7 +3,7 @@ import {
   FacebookShareButton,
   LinkedinShareButton,
   TwitterShareButton,
-  EmailShareButton
+  EmailShareButton,
 } from "react-share";
 import styled from "styled-components";
 import TwitterSvg from "../../content/assets/icons/twitter.inline.svg";
@@ -68,7 +68,7 @@ const FacebookButton = styled(FacebookShareButton)`
   color: var(--textLink);
 `;
 const Facebook = styled(FacebookSvg).attrs(() => ({
-  height: 25
+  height: 25,
 }))`
   stroke: currentColor;
 `;
@@ -84,7 +84,7 @@ const TwitterButton = styled(TwitterShareButton)`
 `;
 
 const Twitter = styled(TwitterSvg).attrs(() => ({
-  height: 25
+  height: 25,
 }))`
   stroke: currentColor;
 `;
@@ -100,7 +100,7 @@ const LinkedInButton = styled(LinkedinShareButton)`
 `;
 
 const LinkedIn = styled(LinkedInSvg).attrs(() => ({
-  height: 25
+  height: 25,
 }))`
   stroke: currentColor;
 `;
@@ -116,7 +116,7 @@ const EmailButton = styled(EmailShareButton)`
 `;
 
 const Email = styled(EmailSvg).attrs(() => ({
-  height: 25
+  height: 25,
 }))`
   stroke: currentColor;
 `;
