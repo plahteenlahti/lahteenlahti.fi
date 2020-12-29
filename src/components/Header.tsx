@@ -4,17 +4,18 @@ import styled from "styled-components";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import ToggleTheme from "./themeToggler";
 import Image, { GatsbyImageProps } from "gatsby-image";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 const menuItems = [
   {
-    name: "Blog",
+    name: "BLOG",
     link: "/",
   },
   {
-    name: "Work",
+    name: "WORK",
     link: "/work",
   },
   {
-    name: "About",
+    name: "ABOUT",
     link: "/about",
   },
 ];
@@ -35,6 +36,9 @@ export const Header: FC<Props> = ({ title }) => {
       }
     }
   `);
+
+  const { t } = useTranslation();
+
   return (
     <Container>
       <InnerContainer>
@@ -47,7 +51,7 @@ export const Header: FC<Props> = ({ title }) => {
         <Menu>
           {menuItems.map((item) => (
             <MenuItem key={item.name}>
-              <StyledLink to={item.link}>{item.name}</StyledLink>
+              <StyledLink to={item.link}>{t(`HEADER.${item.name}`)}</StyledLink>
             </MenuItem>
           ))}
         </Menu>

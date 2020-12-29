@@ -10,6 +10,7 @@ import { rhythm } from "../utils/typography";
 import moment from "moment";
 import { MarkdownRemark, SiteMetadata } from "../typings/site";
 import { BlogPostCard } from "../components/blog/BlogPostCard";
+import { useTranslation } from "gatsby-plugin-react-i18next";
 const keyMap = {
   OPEN_SEARCH: "z",
 };
@@ -32,6 +33,8 @@ const BlogIndex: FC<PageProps<Props>> = ({
   },
   location,
 }) => {
+  const { t } = useTranslation();
+
   return (
     <HotKeys keyMap={keyMap} root>
       <Search>
@@ -41,7 +44,7 @@ const BlogIndex: FC<PageProps<Props>> = ({
             updated={moment().format("DD.MM.YYYY")}
             url={`https://lahteenlahti.com`}
             title="Perttu Lähteenlahti"
-            description="Personal website of Perttu Lähteenlahti"
+            description={t("INDEX.DESCRIPTION")}
             keywords={[
               `blog`,
               `design`,
@@ -54,11 +57,10 @@ const BlogIndex: FC<PageProps<Props>> = ({
 
           <Banner>
             <Content>
-              <Mini>Developer / Designer / Cognitive Scientist</Mini>
+              <Mini>{t("INDEX.CREDENTIALS")}</Mini>
               <H1>Perttu Lähteenlahti</H1>
               <p>
-                Personal blog of Perttu Lähteenlahti. For more developer
-                oriented posts checkout{" "}
+                {t("INDEX.INTRO")} For more developer oriented posts checkout{" "}
                 <a href="https://perttu.dev">perttu.dev</a> and if you want to
                 sleep better check <a href="https://nyxo.app">nyxo.app</a>
               </p>
@@ -126,7 +128,7 @@ export const pageQuery = graphql`
           }
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+          date(formatString: "YYYY-MM-DD")
           title
         }
       }

@@ -1,5 +1,16 @@
 {
-  "TEST": "Testi",
+  "INDEX": {
+    "CREDENTIALS": "Developer / Designer / Cognitive Scientist",
+    "INTRO": "Personal blog of Perttu Lähteenlahti.",
+    "DESCRIPTION": "Personal website of Perttu Lähteenlahti"
+  },
+
+  "HEADER": {
+    "BLOG": "Blog",
+    "WORK": "Work",
+    "ABOUT": "About"
+  },
+
   "TAGS": {
     "TITLE": "Tags",
     "DESCRIPTION": "Browse blog posts by tags"

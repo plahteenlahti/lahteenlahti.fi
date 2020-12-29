@@ -1,6 +1,7 @@
 import { Link } from "gatsby-plugin-react-i18next";
 import React, { FC } from "react";
 import styled from "styled-components";
+import { useLocalizedRelative } from "../../hooks/useLocalizedTime";
 import { rhythm } from "../../utils/typography";
 import { device } from "../Primitives";
 
@@ -19,6 +20,8 @@ export const BlogPostCard: FC<Props> = ({
   readingTime,
   excerpt,
 }) => {
+  const { format } = useLocalizedRelative();
+
   return (
     <Column>
       <Card>
@@ -26,7 +29,7 @@ export const BlogPostCard: FC<Props> = ({
           <StyledLink to={slug}>{title}</StyledLink>
         </Title>
         <Details>
-          <Time>{published}</Time>
+          <Time>{format(new Date(published))}</Time>
           <ReadingTime>{readingTime}</ReadingTime>
         </Details>
 

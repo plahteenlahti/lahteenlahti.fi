@@ -1,5 +1,15 @@
 {
-  "TEST": "Testi",
+  "INDEX": {
+    "CREDENTIALS": "Ohjelmoija / Muotoilija / Kognitiotieteilijä",
+    "INTRO": "Perttu Lähteenlahden sivut.",
+    "DESCRIPTION": "Perttu Lähteenlahden sivut"
+  },
+
+  "HEADER": {
+    "BLOG": "Kirjoitukset",
+    "WORK": "Työ",
+    "ABOUT": "Tietoa"
+  },
   "TAGS": {
     "TITLE": "Aiheet",
     "DESCRIPTION": "Selaile kirjoituksia aiheittain"
