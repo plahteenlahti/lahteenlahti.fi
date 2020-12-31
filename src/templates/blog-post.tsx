@@ -16,6 +16,7 @@ interface Props extends PageRendererProps {
 }
 
 const BlogPostTemplate: FC<PageProps<Props, SitePageContext>> = ({
+  location,
   data: {
     site,
     markdownRemark: {
