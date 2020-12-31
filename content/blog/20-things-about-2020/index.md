@@ -21,7 +21,7 @@ Not really a fan of yearly reviews. I think there are easier ways to brag about 
 4. **Spending more time with my parents**  
    This year I've focused more time on spending time with my parents, which is weird because a few years ago, my only reason for visiting them was to checkup on the apartments I own in city they live. Not because we were on bad terms or anything, I was just in the wrong place and felt going there as a burden. But this year I've spent more time with them. They're getting older, and eventually, it will be too late to spend that time with them, so better do it now.
 
-5. **Loneliest year?**
+5. **Loneliest year?**  
    Maybe it's COVID, or maybe it's because I don't have many friends, I've felt very lonely this year. Depressingly so. It could also be an age-related thing; I'm turning 30 next year. Maybe it's just how it works. Maybe it's because I'm a miserable person to be around. Maybe it's my bad personality and the fact I'm not good with people. Maybe It's Maybelline.
 
 6. **Six years of 60 hours a week**  
@@ -47,14 +47,14 @@ Not really a fan of yearly reviews. I think there are easier ways to brag about 
 12. **Living those teenage dreams**  
     When I was a teenager and had just gotten my driver's license, I used to envy other people who were driving new cars (or even had their own vehicles). The only car I had access to was my father's truck. But this year my dad and I decided to buy a new car together (for him, I don't particularly appreciate driving)—an all-electric Volkswagen e-Golf. The teenage Perttu is very happy to finally have access to a car from this decade (my dad is also pleased, which is nice).
 
-13. **Pretty fucking good at React Native**
+13. **Pretty fucking good at React Native**  
     I've coded a lot this year. I've built new apps, large component libraries, refactored some of my old projects, and built some truly novel stuff as well (for example, a cross-platform renderer for mobile and web using React Native, as well as few App Clips by cramming React Native inside that tiny space). I applied for few jobs out of curiosity, and it turns out and pretty fucking good at what I do. For me, that kind of feedback is a big thing because three years ago, I still considered myself mainly a designer who does code, but now it's the other way around.
 
 14. **Eames lounge chair**  
     This is going to sound shallow and materialistic, but one of the highlights of this year for me was buying an Eames lounge chair. It the most beautiful thing I've ever owned, and I've found myself spending more time at home to sit in it. I've desired this chair for five years now and finally decided to get it after all this time. I can die (happy) now.
 
 15. **Losing all interest in moving to USA**  
-    A year ago if someone had asked were I want to be in 2 years, I would have said "living and working in USA". But this has definitely changed my mind on this matter. Reading about the all the stuff happening there, bad handling of COVID, racism, white supremacy, the healthcare clusterfuck, republicans (even from an outsider's perspective Mich McConnel seems like pawn of satan) has chipped away all my interest. I don't think Biden's election will change this in the short term either, so it could be that one of my biggest dreams just died this year.
+     A year ago, if someone had asked where I want to be in 2 years, I would have said, "living and working in the USA." But this has changed my mind on this matter. Reading about all the stuff happening there, lousy handling of COVID, racism, white supremacy, the healthcare clusterfuck, republicans (even from an outsider's perspective, Mitch McConnell seems like a pawn of satan) has chipped away all my interest. I don't think Biden's election will change this in the short term either, so it could be that one of my biggest dreams just died this year.
 
 16. **Helping others**  
      I've tried to spend more time helping others this year. I should probably do more in this area, but offering help doesn't come easily to someone who is afraid myself to ask for help. So I'm saying now, if you need help with anything, no matter if it's work related or not I want to help. Just ask, I will most likely say yes.
@@ -62,7 +62,7 @@ Not really a fan of yearly reviews. I think there are easier ways to brag about 
 17. **Lottery**  
     This year I noticed a very weird behavior which isn't like me at all: I've put around 30 euros in to taking part in weekly lottery. For those who don't know, one of my family members suffer's from gambling addiction, and it's also the reason I stay away from all forms of luck based games that have money. I've also studied a lot of statistics so I should have a pretty good understanding of the miniscule odss. Despite, this year there has been times I've though that winning a million euros from a lottery would certainly help. And what is so bad about a small lottery ticket? And even though one of my friends says that lottery is in essence about spending a few euros to dream, I don't think I should continue doing it. I'd rather lose my money the old fashioned way: paying taxes.
 
-18. **Year of inactive lifestyle**
+18. **Year of inactive lifestyle**  
     There's one word well descripes the change from previous year: sedentary. I've been so inactive this year that it's almost embarrassing. Although the situation is what it is, this isn't the way to go forward. I'm not much for new year's resolutions, but if I had to make one it would be to focus more on exercise and stuff. Maybe if I work less I can fit more exercise to my week?
 
 19. **What happened to summer?**  
