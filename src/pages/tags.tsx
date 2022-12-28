@@ -32,11 +32,11 @@ const TagsPage: FC<PageProps<Props>> = ({
       <div>
         <SEO
           slug="tags"
-          title={t("TAGS.TITLE")}
-          description={t("TAGS.DESCRIPTION")}
+          title="Tags"
+          description="Browse blog posts by tags"
         />
-        <h1>{t("TAGS.TITLE")}</h1>
-        <p>{t("TAGS.DESCRIPTION")}</p>
+        <h1>Tags</h1>
+        <p>Browse blog posts by tags</p>
         <ul>
           {tags.map((tag) => (
             <li key={tag.fieldValue}>
