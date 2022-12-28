@@ -29,13 +29,7 @@ const About = (props: Props) => {
       <div style={{ paddingBottom: 100 }}>
       I am a developer and designer who founded Nyxo, a startup that offers personalized sleep coaching through a mobile app. Prior to starting Nyxo, I worked as a product lead at the University of Helsinki and as an analyst at Nordea, a Nordic bank. Before that, I paid my way through university by fixing iPhones and working as a research assistant, while also studying cognitive science and computer science at the University of Helsinki.
         <br /> <br />
-        In addition to these three companies, I've worked in a variety of
-        different companies and projects. Before Nyxo I worked as a product lead
-        at the University of Helsinki, in commercializing sleep research. Before
-        that I was an analyst at Nordea, a big Nordic bank, building investment
-        solutions for SMEs.
-        <br /> <br />
-        In addition to my work as a developer, I have written for several publications, including Muzli, DailyJS, codeburst, and Hackernoon. My writings often cover topics related to my personal experiences. I like to talk and write about topics such as:
+        In addition to my work as a developer, I have written for several publications, including Muzli, DailyJS, codeburst, and Hackernoon. My writings often cover topics related to my personal experiences.
         <br /> <br />
         You can reach me through email, [first name]@lahteenlahti.fi and from{" "}
         <a href='https://www.linkedin.com/in/plahteenlahti/'>LinkedIn</a> and{" "}
